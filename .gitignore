@@ -1,0 +1,4 @@
+.firecrawl/
+
+dist/
+node_modules/

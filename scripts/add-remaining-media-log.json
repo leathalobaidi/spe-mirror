@@ -1,0 +1,164 @@
+{
+  "added": [
+    {
+      "label": "Nearshoring Webinar",
+      "slug": "past-events/12276-1",
+      "file": "events.json",
+      "type": "vimeo",
+      "id": "982625415"
+    },
+    {
+      "label": "Nearshoring Webinar",
+      "slug": "past-events/12276-1",
+      "file": "events.json",
+      "type": "youtube",
+      "id": "q-3HNdUVvcs"
+    },
+    {
+      "label": "Steven Millard YouTube",
+      "slug": "podcasts/12353",
+      "file": "podcasts.json",
+      "type": "youtube",
+      "id": "DSLleDYH21o"
+    },
+    {
+      "label": "Levelling Up Webinar",
+      "slug": "spe-webinar-levelling-up-is-hard-to-do",
+      "file": "evening-talks.json",
+      "type": "vimeo",
+      "id": "435055692"
+    },
+    {
+      "label": "Conference 2024 YouTube",
+      "slug": "2024-annual-conference-report",
+      "file": "conference-reports.json",
+      "type": "youtube",
+      "id": "rV_-EYOsja8"
+    },
+    {
+      "label": "Conference 2024 YouTube",
+      "slug": "2024-annual-conference-report",
+      "file": "conference-reports.json",
+      "type": "youtube",
+      "id": "X30jhZTjoao"
+    },
+    {
+      "label": "Conference 2024 YouTube (cross-sync)",
+      "slug": "conferences/2024-annual-conference-report",
+      "file": "podcasts.json",
+      "type": "youtube",
+      "id": "rV_-EYOsja8"
+    },
+    {
+      "label": "Conference 2024 YouTube (cross-sync)",
+      "slug": "conferences/2024-annual-conference-report",
+      "file": "podcasts.json",
+      "type": "youtube",
+      "id": "X30jhZTjoao"
+    },
+    {
+      "label": "Strategic Reviews of Monetary Policy",
+      "slug": "past-events/7359-1",
+      "file": "events.json",
+      "type": "vimeo",
+      "id": "396400939"
+    },
+    {
+      "label": "Economic case for gender equality",
+      "slug": "past-events/5508-1",
+      "file": "events.json",
+      "type": "vimeo",
+      "id": "379421248"
+    },
+    {
+      "label": "Strain Podcast SoundCloud",
+      "slug": "podcasts/12291",
+      "file": "podcasts.json",
+      "type": "soundcloud",
+      "id": "sbe-audio-feed/strain-podcast"
+    },
+    {
+      "label": "Outlook UK Economy Jan 2015",
+      "slug": "evening-talks/3075",
+      "file": "podcasts.json",
+      "type": "soundcloud",
+      "id": "sbe-audio-feed/sbe-meeting-13-january-2015"
+    },
+    {
+      "label": "Fiscal Outlook Feb 2015",
+      "slug": "evening-talks/3734",
+      "file": "podcasts.json",
+      "type": "soundcloud",
+      "id": "sbe-audio-feed/sbe-meeting-10-february-2015"
+    },
+    {
+      "label": "Lord Myners Mar 2015",
+      "slug": "evening-talks/3742",
+      "file": "podcasts.json",
+      "type": "soundcloud",
+      "id": "sbe-audio-feed/lord-paul-myners-sbe-3-march-2015"
+    },
+    {
+      "label": "Brexit Seminar (Trade after Brexit)",
+      "slug": "evening-talks/5290",
+      "file": "podcasts.json",
+      "type": "soundcloud",
+      "id": "sbe-audio-feed/brexit-seminar"
+    },
+    {
+      "label": "Brexit Seminar (cross-sync)",
+      "slug": "trade-after-brexit",
+      "file": "evening-talks.json",
+      "type": "soundcloud",
+      "id": "sbe-audio-feed/brexit-seminar"
+    }
+  ],
+  "skipped": [
+    {
+      "label": "Apr 2016",
+      "slug": "evening-talks/4329",
+      "file": "podcasts.json",
+      "reason": "Already has SC via API track ID 264582817"
+    },
+    {
+      "label": "Nov 2016",
+      "slug": "evening-talks/4566",
+      "file": "podcasts.json",
+      "reason": "Already has SC via API track ID 294261439"
+    },
+    {
+      "label": "Jul 2017",
+      "slug": "evening-talks/4725",
+      "file": "podcasts.json",
+      "reason": "Already has 2 SC via API tracks 333023838 + 334145724"
+    },
+    {
+      "label": "May 2017 Interview",
+      "reason": "No matching page found in any data file"
+    },
+    {
+      "label": "SPE AGM 2023",
+      "id": "889942491",
+      "reason": "No dedicated AGM page on site"
+    },
+    {
+      "label": "Eval Soc Jan 22",
+      "id": "671965439",
+      "reason": "External evaluation society content"
+    },
+    {
+      "label": "YouTube Live Stream",
+      "id": "tgadW16wq-g",
+      "reason": "Nov 2025 livestream, no matching page"
+    },
+    {
+      "label": "Rachel Griffiths SC",
+      "reason": "Already has SC via API track 713156086"
+    },
+    {
+      "label": "SBE Meeting 3 July 2017 Presentation SC",
+      "reason": "Already has SC via API track 334145724 (presentation part)"
+    }
+  ],
+  "errors": []
+}

@@ -1,0 +1,2289 @@
+{
+  "totalAdded": 218,
+  "crossSyncCount": 20,
+  "normalizedCount": 16,
+  "unmatchedVimeo": [
+    {
+      "id": "982625415",
+      "title": "SPE Webinar - Nearshoring - Jul 24"
+    },
+    {
+      "id": "889942491",
+      "title": "SPE AGM 2023"
+    },
+    {
+      "id": "671965439",
+      "title": "SPE Eval Soc - Jan 22.mp4"
+    },
+    {
+      "id": "642774096",
+      "title": "SPE Ryb Compilation 2021"
+    },
+    {
+      "id": "435055692",
+      "title": "Leveling Up Webinar - Jul 2020"
+    },
+    {
+      "id": "396400939",
+      "title": "SPE-Event-280220"
+    },
+    {
+      "id": "379421248",
+      "title": "SPE-Event-251119-MP4.mp4"
+    },
+    {
+      "id": "365554320",
+      "title": "Careers Evening for Society of Professional Economists"
+    }
+  ],
+  "unmatchedYoutube": [
+    {
+      "id": "tgadW16wq-g",
+      "title": "Society of Professional Economists  Live Stream"
+    },
+    {
+      "id": "X30jhZTjoao",
+      "title": "SPE Conference 2024 - Part 2"
+    },
+    {
+      "id": "rV_-EYOsja8",
+      "title": "SPE Conference 2024 - Part 1"
+    },
+    {
+      "id": "DSLleDYH21o",
+      "title": "SPE Interview Sep 24 - Steven Millard"
+    },
+    {
+      "id": "q-3HNdUVvcs",
+      "title": "SPE Webinar - Nearshoring - Jul 24"
+    }
+  ],
+  "unmatchedSoundcloud": [
+    {
+      "url": "https://soundcloud.com/sbe-audio-feed/strain-podcast",
+      "title": "Strain Podcast"
+    },
+    {
+      "url": "https://soundcloud.com/sbe-audio-feed/rachel-griffiths",
+      "title": "Rachel Griffiths"
+    },
+    {
+      "url": "https://soundcloud.com/sbe-audio-feed/brexit-seminar",
+      "title": "BREXIT Seminar"
+    },
+    {
+      "url": "https://soundcloud.com/sbe-audio-feed/sbe-meeting-3-july-2017-presentation",
+      "title": "SBE Meeting 3 July 2017 - Presentation"
+    },
+    {
+      "url": "https://soundcloud.com/sbe-audio-feed/sbe-meeting-3-july-2017",
+      "title": "SBE Meeting 3 July 2017"
+    },
+    {
+      "url": "https://soundcloud.com/sbe-audio-feed/sbe-meeting-9-may-2017",
+      "title": "Interview SBE Meeting 9 May 2017"
+    },
+    {
+      "url": "https://soundcloud.com/sbe-audio-feed/sbe-meeting-8-november-2016",
+      "title": "SBE Meeting 8 November 2016"
+    },
+    {
+      "url": "https://soundcloud.com/sbe-audio-feed/sbe-meeting-14-april-2016",
+      "title": "SBE Meeting 14 April 2016"
+    },
+    {
+      "url": "https://soundcloud.com/sbe-audio-feed/lord-paul-myners-sbe-3-march-2015",
+      "title": "Lord Paul Myners - SBE - 3 March 2015"
+    },
+    {
+      "url": "https://soundcloud.com/sbe-audio-feed/sbe-meeting-13-january-2015",
+      "title": "SBE Meeting 13 January 2015"
+    },
+    {
+      "url": "https://soundcloud.com/sbe-audio-feed/sbe-meeting-10-february-2015",
+      "title": "SBE Meeting 10 February 2015"
+    }
+  ],
+  "matches": [
+    {
+      "file": "podcasts",
+      "slug": "podcasts/interview-with-eric-leeper",
+      "jsonTitle": "Interview with Eric Leeper",
+      "csvTitle": "Eric Leeper Interview - Feb 26",
+      "mediaType": "vimeo",
+      "mediaId": "1167704711",
+      "score": 100,
+      "secondPass": false
+    },
+    {
+      "file": "podcasts",
+      "slug": "podcasts/interview-with-brad-setser",
+      "jsonTitle": "Interview with Brad Setser",
+      "csvTitle": "SPE Interview Brad Setser - Feb 26",
+      "mediaType": "vimeo",
+      "mediaId": "1162176114",
+      "score": 100,
+      "secondPass": false
+    },
+    {
+      "file": "podcasts",
+      "slug": "podcasts/interview-with-eamonn-butler",
+      "jsonTitle": "Interview with Eamonn Butler",
+      "csvTitle": "SPE Interview Eamonn Butler - Jan 26",
+      "mediaType": "vimeo",
+      "mediaId": "1163648199",
+      "score": 100,
+      "secondPass": false
+    },
+    {
+      "file": "podcasts",
+      "slug": "podcasts/interview-with-financial-times-economists-chris-giles-and-joel-suss",
+      "jsonTitle": "Interview with Financial Times economists Chris Giles and Joel Suss",
+      "csvTitle": "Chris Giles with Kevin Daly - June 2020",
+      "mediaType": "vimeo",
+      "mediaId": "430031627",
+      "score": 68,
+      "secondPass": false
+    },
+    {
+      "file": "podcasts",
+      "slug": "conferences/economic-crossroads-policy-choices-and-global-challenges",
+      "jsonTitle": "Economic Crossroads: Policy Choices and Global Challenges",
+      "csvTitle": "EDITED - Climate Change Policy and Developments SPE",
+      "mediaType": "vimeo",
+      "mediaId": "1067272670",
+      "score": 69,
+      "secondPass": false
+    },
+    {
+      "file": "podcasts",
+      "slug": "evening-talks/money-historical-and-contemporary-perspectives",
+      "jsonTitle": "Money: Historical and Contemporary Perspectives",
+      "csvTitle": "(from body HTML)",
+      "mediaType": "vimeo",
+      "mediaId": "1126226744",
+      "score": "body-html",
+      "secondPass": false
+    },
+    {
+      "file": "podcasts",
+      "slug": "evening-talks/a-new-world-order",
+      "jsonTitle": "A New World Order",
+      "csvTitle": "(from body HTML)",
+      "mediaType": "youtube",
+      "mediaId": "GZ4_4JXpZrI",
+      "score": "body-html",
+      "secondPass": false
+    },
+    {
+      "file": "podcasts",
+      "slug": "evening-talks/defence-economics-in-the-new-age-of-geopolitical-reality",
+      "jsonTitle": "Defence Economics in the new age of Geopolitical Reality",
+      "csvTitle": "(from body HTML)",
+      "mediaType": "vimeo",
+      "mediaId": "1090393014",
+      "score": "body-html",
+      "secondPass": false
+    },
+    {
+      "file": "podcasts",
+      "slug": "evening-talks/defence-economics-in-the-new-age-of-geopolitical-reality",
+      "jsonTitle": "Defence Economics in the new age of Geopolitical Reality",
+      "csvTitle": "Rethinking the economics of biodiversity",
+      "mediaType": "vimeo",
+      "mediaId": "536801249",
+      "score": 69,
+      "secondPass": false
+    },
+    {
+      "file": "podcasts",
+      "slug": "evening-talks/defence-economics-in-the-new-age-of-geopolitical-reality",
+      "jsonTitle": "Defence Economics in the new age of Geopolitical Reality",
+      "csvTitle": "Sarah Smith on improving diversity in economics during the Coronavirus",
+      "mediaType": "soundcloud",
+      "mediaId": "sbe-audio-feed/sarah-smith-on-improving-diversity-in-economics-during-the-coronavirus",
+      "score": 68,
+      "secondPass": false
+    },
+    {
+      "file": "podcasts",
+      "slug": "evening-talks/defence-economics-in-the-new-age-of-geopolitical-reality",
+      "jsonTitle": "Defence Economics in the new age of Geopolitical Reality",
+      "csvTitle": "Richard Hughes on the fiscal impact of the coronavirus",
+      "mediaType": "soundcloud",
+      "mediaId": "sbe-audio-feed/richard-hughes-on-the-fiscal-impact-of-the-coronavirus",
+      "score": 69,
+      "secondPass": false
+    },
+    {
+      "file": "podcasts",
+      "slug": "podcasts/interview-with-martin-wolf",
+      "jsonTitle": "Interview with Martin Wolf",
+      "csvTitle": "SPE Martin Wolf with Sunil Krishnan May 2020",
+      "mediaType": "vimeo",
+      "mediaId": "417218673",
+      "score": 80,
+      "secondPass": false
+    },
+    {
+      "file": "podcasts",
+      "slug": "podcasts/interview-with-martin-wolf",
+      "jsonTitle": "Interview with Martin Wolf",
+      "csvTitle": "Martin Wolf and Stephanie Flanders",
+      "mediaType": "soundcloud",
+      "mediaId": "sbe-audio-feed/martin-wolf-and-stephanie-flanders",
+      "score": 80,
+      "secondPass": false
+    },
+    {
+      "file": "podcasts",
+      "slug": "podcasts/interview-with-jon-moynihan",
+      "jsonTitle": "Interview with Jon Moynihan",
+      "csvTitle": "(from body HTML)",
+      "mediaType": "vimeo",
+      "mediaId": "1066361069",
+      "score": "body-html",
+      "secondPass": false
+    },
+    {
+      "file": "podcasts",
+      "slug": "evening-talks/obr-post-spring-statement-briefing",
+      "jsonTitle": "OBR Post‑Spring Statement Briefing",
+      "csvTitle": "(from body HTML)",
+      "mediaType": "vimeo",
+      "mediaId": "1070248278",
+      "score": "body-html",
+      "secondPass": false
+    },
+    {
+      "file": "podcasts",
+      "slug": "evening-talks/obr-post-spring-statement-briefing",
+      "jsonTitle": "OBR Post‑Spring Statement Briefing",
+      "csvTitle": "OBR Spring Statement 2026",
+      "mediaType": "vimeo",
+      "mediaId": "1170332229",
+      "score": 78,
+      "secondPass": false
+    },
+    {
+      "file": "podcasts",
+      "slug": "evening-talks/obr-post-spring-statement-briefing",
+      "jsonTitle": "OBR Post‑Spring Statement Briefing",
+      "csvTitle": "OBR Briefing of Spring Statement 2022",
+      "mediaType": "vimeo",
+      "mediaId": "693103628",
+      "score": 84,
+      "secondPass": false
+    },
+    {
+      "file": "podcasts",
+      "slug": "podcasts/interview-with-philippe-aghion",
+      "jsonTitle": "Interview with Philippe Aghion",
+      "csvTitle": "(from body HTML)",
+      "mediaType": "vimeo",
+      "mediaId": "1066363245",
+      "score": "body-html",
+      "secondPass": false
+    },
+    {
+      "file": "podcasts",
+      "slug": "podcasts/spe-book-review-podcast-interview",
+      "jsonTitle": "SPE Book Review Podcast Interview",
+      "csvTitle": "(from body HTML)",
+      "mediaType": "vimeo",
+      "mediaId": "1067719990",
+      "score": "body-html",
+      "secondPass": false
+    },
+    {
+      "file": "podcasts",
+      "slug": "podcasts/spe-book-review-podcast-interview",
+      "jsonTitle": "SPE Book Review Podcast Interview",
+      "csvTitle": "Book Review - Leveraged - May 23",
+      "mediaType": "vimeo",
+      "mediaId": "830237781",
+      "score": 80,
+      "secondPass": false
+    },
+    {
+      "file": "podcasts",
+      "slug": "podcasts/spe-book-review-podcast-interview",
+      "jsonTitle": "SPE Book Review Podcast Interview",
+      "csvTitle": "SPE Book Review Podcast - Dan Hicks",
+      "mediaType": "youtube",
+      "mediaId": "dxAVo1MH9LA",
+      "score": 72,
+      "secondPass": false
+    },
+    {
+      "file": "podcasts",
+      "slug": "podcasts/interview-with-russell-napier",
+      "jsonTitle": "Interview with Russell Napier",
+      "csvTitle": "(from body HTML)",
+      "mediaType": "vimeo",
+      "mediaId": "1067691164",
+      "score": "body-html",
+      "secondPass": false
+    },
+    {
+      "file": "podcasts",
+      "slug": "podcasts/interview-with-russell-napier",
+      "jsonTitle": "Interview with Russell Napier",
+      "csvTitle": "SPE Interview with Russell Napier - Mar 25",
+      "mediaType": "youtube",
+      "mediaId": "xGBu5vs5Kk0",
+      "score": 100,
+      "secondPass": false
+    },
+    {
+      "file": "podcasts",
+      "slug": "evening-talks/climate-change-economics-and-policy-developments",
+      "jsonTitle": "Climate Change: Economics and Policy Developments",
+      "csvTitle": "(from body HTML)",
+      "mediaType": "vimeo",
+      "mediaId": "1067272670",
+      "score": "body-html",
+      "secondPass": false
+    },
+    {
+      "file": "podcasts",
+      "slug": "evening-talks/climate-change-economics-and-policy-developments",
+      "jsonTitle": "Climate Change: Economics and Policy Developments",
+      "csvTitle": "SPE Webinar - Climate Change 15 Dec 2020",
+      "mediaType": "vimeo",
+      "mediaId": "492519719",
+      "score": 70,
+      "secondPass": false
+    },
+    {
+      "file": "podcasts",
+      "slug": "podcasts/interview-with-edward-chancellor",
+      "jsonTitle": "Interview with Edward Chancellor",
+      "csvTitle": "(from body HTML)",
+      "mediaType": "vimeo",
+      "mediaId": "1065209032",
+      "score": "body-html",
+      "secondPass": false
+    },
+    {
+      "file": "podcasts",
+      "slug": "podcasts/interview-with-sam-gregg",
+      "jsonTitle": "Interview with Samuel Gregg",
+      "csvTitle": "(from body HTML)",
+      "mediaType": "vimeo",
+      "mediaId": "1062348922",
+      "score": "body-html",
+      "secondPass": false
+    },
+    {
+      "file": "podcasts",
+      "slug": "podcasts/interview-with-greg-mankiw",
+      "jsonTitle": "Interview with Greg Mankiw",
+      "csvTitle": "(from body HTML)",
+      "mediaType": "vimeo",
+      "mediaId": "1061562891",
+      "score": "body-html",
+      "secondPass": false
+    },
+    {
+      "file": "podcasts",
+      "slug": "podcasts/interview-with-amity-shlaes",
+      "jsonTitle": "Interview with Amity Shlaes",
+      "csvTitle": "(from body HTML)",
+      "mediaType": "vimeo",
+      "mediaId": "1061340650",
+      "score": "body-html",
+      "secondPass": false
+    },
+    {
+      "file": "podcasts",
+      "slug": "podcasts/interview-with-lyman-stone-and-clara-piano",
+      "jsonTitle": "Interview with Lyman Stone and Clara Piano",
+      "csvTitle": "(from body HTML)",
+      "mediaType": "vimeo",
+      "mediaId": "1053344552",
+      "score": "body-html",
+      "secondPass": false
+    },
+    {
+      "file": "podcasts",
+      "slug": "podcasts/interview-with-agath-demarais",
+      "jsonTitle": "Interview with Agathe Demarais",
+      "csvTitle": "(from body HTML)",
+      "mediaType": "vimeo",
+      "mediaId": "1050765114",
+      "score": "body-html",
+      "secondPass": false
+    },
+    {
+      "file": "podcasts",
+      "slug": "podcasts/interview-with-gauti-eggertsson",
+      "jsonTitle": "Interview with Gauti Eggertsson",
+      "csvTitle": "(from body HTML)",
+      "mediaType": "vimeo",
+      "mediaId": "1048563127",
+      "score": "body-html",
+      "secondPass": false
+    },
+    {
+      "file": "podcasts",
+      "slug": "podcasts/interview-with-gauti-eggertsson",
+      "jsonTitle": "Interview with Gauti Eggertsson",
+      "csvTitle": "SPE Interview with Gauti Eggertsson - Jan 25",
+      "mediaType": "youtube",
+      "mediaId": "BYYtVHAD9N0",
+      "score": 100,
+      "secondPass": false
+    },
+    {
+      "file": "podcasts",
+      "slug": "podcasts/filippo-gaddo-interviews-adam-posen",
+      "jsonTitle": "Interview with Adam Posen",
+      "csvTitle": "(from body HTML)",
+      "mediaType": "vimeo",
+      "mediaId": "1038874339",
+      "score": "body-html",
+      "secondPass": false
+    },
+    {
+      "file": "podcasts",
+      "slug": "podcasts/filippo-gaddo-interviews-adam-posen",
+      "jsonTitle": "Interview with Adam Posen",
+      "csvTitle": "Adam Posen talks to Andrew Milligan - May 20",
+      "mediaType": "vimeo",
+      "mediaId": "422726329",
+      "score": 80,
+      "secondPass": false
+    },
+    {
+      "file": "podcasts",
+      "slug": "podcasts/filippo-gaddo-interviews-adam-posen",
+      "jsonTitle": "Interview with Adam Posen",
+      "csvTitle": "SPE Interview - Adam Posen - Dec 24",
+      "mediaType": "youtube",
+      "mediaId": "FnAhj7lCXJE",
+      "score": 100,
+      "secondPass": false
+    },
+    {
+      "file": "podcasts",
+      "slug": "podcasts/interview-with-tera-allas",
+      "jsonTitle": "Interview with Tera Allas",
+      "csvTitle": "(from body HTML)",
+      "mediaType": "vimeo",
+      "mediaId": "1035576922",
+      "score": "body-html",
+      "secondPass": false
+    },
+    {
+      "file": "podcasts",
+      "slug": "podcasts/interview-with-tera-allas",
+      "jsonTitle": "Interview with Tera Allas",
+      "csvTitle": "SPE Interview Tera Allas - Dec 24",
+      "mediaType": "youtube",
+      "mediaId": "pKUjwnFNGm8",
+      "score": 100,
+      "secondPass": false
+    },
+    {
+      "file": "podcasts",
+      "slug": "evening-talks/economic-growth-and-the-challenge-of-demographics",
+      "jsonTitle": "Economic Growth and the Challenge of Demographics",
+      "csvTitle": "Diane Coyle on the coronavirus and inequality",
+      "mediaType": "soundcloud",
+      "mediaId": "sbe-audio-feed/diane-coyle-on-the-coronavirus-and-inequality",
+      "score": 70,
+      "secondPass": false
+    },
+    {
+      "file": "podcasts",
+      "slug": "podcasts/interview-with-john-cochrane",
+      "jsonTitle": "Interview with John Cochrane",
+      "csvTitle": "(from body HTML)",
+      "mediaType": "vimeo",
+      "mediaId": "1032418228",
+      "score": "body-html",
+      "secondPass": false
+    },
+    {
+      "file": "podcasts",
+      "slug": "podcasts/interview-with-john-cochrane",
+      "jsonTitle": "Interview with John Cochrane",
+      "csvTitle": "SPE Interview John Cochrane - Nov 24",
+      "mediaType": "youtube",
+      "mediaId": "Fz5tKz-yicU",
+      "score": 100,
+      "secondPass": false
+    },
+    {
+      "file": "podcasts",
+      "slug": "dinners/spe-annual-dinner-2024",
+      "jsonTitle": "SPE Annual Dinner 2024",
+      "csvTitle": "SPE Annual Dinner 2025 - Christopher Waller",
+      "mediaType": "vimeo",
+      "mediaId": "1138574844",
+      "score": 80,
+      "secondPass": false
+    },
+    {
+      "file": "podcasts",
+      "slug": "dinners/spe-annual-dinner-2024",
+      "jsonTitle": "SPE Annual Dinner 2024",
+      "csvTitle": "SPE Annual Dinner 20 June 2022 - Philip Lane.mp4",
+      "mediaType": "vimeo",
+      "mediaId": "722351328",
+      "score": 80,
+      "secondPass": false
+    },
+    {
+      "file": "podcasts",
+      "slug": "dinners/spe-annual-dinner-2024",
+      "jsonTitle": "SPE Annual Dinner 2024",
+      "csvTitle": "SPE Annual Dinner 2025 - Christopher Waller",
+      "mediaType": "youtube",
+      "mediaId": "GxE70gIcUt4",
+      "score": 80,
+      "secondPass": false
+    },
+    {
+      "file": "podcasts",
+      "slug": "dinners/spe-annual-dinner-2024",
+      "jsonTitle": "SPE Annual Dinner 2024",
+      "csvTitle": "Yael Selfin at SPE Annual Conference 2019",
+      "mediaType": "soundcloud",
+      "mediaId": "sbe-audio-feed/yael-selfin-at-spe-annual-conference-2019",
+      "score": 72,
+      "secondPass": false
+    },
+    {
+      "file": "podcasts",
+      "slug": "dinners/spe-annual-dinner-2024",
+      "jsonTitle": "SPE Annual Dinner 2024",
+      "csvTitle": "Philip Lane, Governor of the Central Bank of Ireland",
+      "mediaType": "soundcloud",
+      "mediaId": "sbe-audio-feed/philip-lane-governor-of-the-central-bank-of-ireland",
+      "score": 73,
+      "secondPass": false
+    },
+    {
+      "file": "podcasts",
+      "slug": "podcasts/interview-with-dimitri-zenghelis",
+      "jsonTitle": "Interview with Dimitri Zenghelis",
+      "csvTitle": "(from body HTML)",
+      "mediaType": "vimeo",
+      "mediaId": "1031609538",
+      "score": "body-html",
+      "secondPass": false
+    },
+    {
+      "file": "podcasts",
+      "slug": "podcasts/12823-1",
+      "jsonTitle": "Interview with Spencer Dale",
+      "csvTitle": "(from body HTML)",
+      "mediaType": "vimeo",
+      "mediaId": "1029749297",
+      "score": "body-html",
+      "secondPass": false
+    },
+    {
+      "file": "podcasts",
+      "slug": "podcasts/12823-1",
+      "jsonTitle": "Interview with Spencer Dale",
+      "csvTitle": "Spencer Dale talks to Andrew Milligan - May 20",
+      "mediaType": "vimeo",
+      "mediaId": "423109086",
+      "score": 80,
+      "secondPass": false
+    },
+    {
+      "file": "podcasts",
+      "slug": "conferences/2024-annual-conference-report",
+      "jsonTitle": "Revitalising the Global Economy",
+      "csvTitle": "2020 Outlook for the UK Economy",
+      "mediaType": "vimeo",
+      "mediaId": "389688048",
+      "score": 75,
+      "secondPass": false
+    },
+    {
+      "file": "podcasts",
+      "slug": "conferences/2024-annual-conference-report",
+      "jsonTitle": "Revitalising the Global Economy",
+      "csvTitle": "Andrew Milligan on the Coronavirus Economy",
+      "mediaType": "soundcloud",
+      "mediaId": "sbe-audio-feed/andrew-milligan-on-the-coronavirus-economy",
+      "score": 72,
+      "secondPass": false
+    },
+    {
+      "file": "podcasts",
+      "slug": "podcasts/12808",
+      "jsonTitle": "Interview with Sam Bowman, Works in Progress",
+      "csvTitle": "(from body HTML)",
+      "mediaType": "vimeo",
+      "mediaId": "1024664004",
+      "score": "body-html",
+      "secondPass": false
+    },
+    {
+      "file": "podcasts",
+      "slug": "podcasts/12808",
+      "jsonTitle": "Interview with Sam Bowman, Works in Progress",
+      "csvTitle": "SPE Interview - Sam Bowman - Oct 24",
+      "mediaType": "youtube",
+      "mediaId": "0JvBi-5mMhc",
+      "score": 80,
+      "secondPass": false
+    },
+    {
+      "file": "podcasts",
+      "slug": "podcasts/12801",
+      "jsonTitle": "Interview with Nicholas Eberstadt",
+      "csvTitle": "(from body HTML)",
+      "mediaType": "vimeo",
+      "mediaId": "1021657589",
+      "score": "body-html",
+      "secondPass": false
+    },
+    {
+      "file": "podcasts",
+      "slug": "podcasts/12801",
+      "jsonTitle": "Interview with Nicholas Eberstadt",
+      "csvTitle": "SPE Interview - Nick Eberstadt - Oct 24",
+      "mediaType": "youtube",
+      "mediaId": "o2biKXaM1hY",
+      "score": 65,
+      "secondPass": false
+    },
+    {
+      "file": "podcasts",
+      "slug": "podcasts/12362",
+      "jsonTitle": "Interview with David Beckworth, Mercatus Center",
+      "csvTitle": "(from body HTML)",
+      "mediaType": "vimeo",
+      "mediaId": "1010653910",
+      "score": "body-html",
+      "secondPass": false
+    },
+    {
+      "file": "podcasts",
+      "slug": "podcasts/12362",
+      "jsonTitle": "Interview with David Beckworth, Mercatus Center",
+      "csvTitle": "SPE Interview David Beckworth - Sep 24",
+      "mediaType": "youtube",
+      "mediaId": "2Ux718GGqhE",
+      "score": 80,
+      "secondPass": false
+    },
+    {
+      "file": "podcasts",
+      "slug": "podcasts/12353",
+      "jsonTitle": "Interview with Stephen Millard, NIESR",
+      "csvTitle": "(from body HTML)",
+      "mediaType": "vimeo",
+      "mediaId": "1010662509",
+      "score": "body-html",
+      "secondPass": false
+    },
+    {
+      "file": "podcasts",
+      "slug": "podcasts/12332",
+      "jsonTitle": "Interview with Shannon O'Neil, Council on Foreign Relations",
+      "csvTitle": "(from body HTML)",
+      "mediaType": "vimeo",
+      "mediaId": "986327317",
+      "score": "body-html",
+      "secondPass": false
+    },
+    {
+      "file": "podcasts",
+      "slug": "podcasts/12324",
+      "jsonTitle": "Interview with Vicky Pryce",
+      "csvTitle": "(from body HTML)",
+      "mediaType": "vimeo",
+      "mediaId": "983067006",
+      "score": "body-html",
+      "secondPass": false
+    },
+    {
+      "file": "podcasts",
+      "slug": "podcasts/12324",
+      "jsonTitle": "Interview with Vicky Pryce",
+      "csvTitle": "Vicky Pryce talks to Andrew Milligan - Nov 21",
+      "mediaType": "vimeo",
+      "mediaId": "647334082",
+      "score": 80,
+      "secondPass": false
+    },
+    {
+      "file": "podcasts",
+      "slug": "podcasts/12324",
+      "jsonTitle": "Interview with Vicky Pryce",
+      "csvTitle": "SPE Interview Vicky Pryce Jul 24",
+      "mediaType": "youtube",
+      "mediaId": "BGiC3CHrCHI",
+      "score": 100,
+      "secondPass": false
+    },
+    {
+      "file": "podcasts",
+      "slug": "podcasts/12291",
+      "jsonTitle": "Interview with Mike Strain",
+      "csvTitle": "(from body HTML)",
+      "mediaType": "vimeo",
+      "mediaId": "969886673",
+      "score": "body-html",
+      "secondPass": false
+    },
+    {
+      "file": "podcasts",
+      "slug": "podcasts/12291",
+      "jsonTitle": "Interview with Mike Strain",
+      "csvTitle": "SPE Interview Mike Strain - Jun 24",
+      "mediaType": "youtube",
+      "mediaId": "EZd1oIIwUUc",
+      "score": 100,
+      "secondPass": false
+    },
+    {
+      "file": "podcasts",
+      "slug": "podcasts/12273",
+      "jsonTitle": "Interview with Marian Tupy",
+      "csvTitle": "(from body HTML)",
+      "mediaType": "vimeo",
+      "mediaId": "948232844",
+      "score": "body-html",
+      "secondPass": false
+    },
+    {
+      "file": "podcasts",
+      "slug": "podcasts/12273",
+      "jsonTitle": "Interview with Marian Tupy",
+      "csvTitle": "SPE Interview Marian Tupy May 24",
+      "mediaType": "youtube",
+      "mediaId": "WxhOnidnQGQ",
+      "score": 100,
+      "secondPass": false
+    },
+    {
+      "file": "podcasts",
+      "slug": "podcasts/12262",
+      "jsonTitle": "Interview with Jared Rubin, Chapman University",
+      "csvTitle": "(from body HTML)",
+      "mediaType": "vimeo",
+      "mediaId": "944391309",
+      "score": "body-html",
+      "secondPass": false
+    },
+    {
+      "file": "podcasts",
+      "slug": "podcasts/12262",
+      "jsonTitle": "Interview with Jared Rubin, Chapman University",
+      "csvTitle": "SPE Interview Jared Rubin May 24",
+      "mediaType": "youtube",
+      "mediaId": "n50aLNza1HQ",
+      "score": 80,
+      "secondPass": false
+    },
+    {
+      "file": "podcasts",
+      "slug": "podcasts/12254",
+      "jsonTitle": "Interview with Matt Dillon, Arup",
+      "csvTitle": "SPE Interview Matt Dillon Apr 24",
+      "mediaType": "youtube",
+      "mediaId": "9oE1Oxk6Jl4",
+      "score": 80,
+      "secondPass": false
+    },
+    {
+      "file": "podcasts",
+      "slug": "podcasts/12244",
+      "jsonTitle": "Interview with Jonathan Haskel",
+      "csvTitle": "(from body HTML)",
+      "mediaType": "vimeo",
+      "mediaId": "930658915",
+      "score": "body-html",
+      "secondPass": false
+    },
+    {
+      "file": "podcasts",
+      "slug": "podcasts/12244",
+      "jsonTitle": "Interview with Jonathan Haskel",
+      "csvTitle": "SPE Interview Jonathan Haskel - Apr 24",
+      "mediaType": "youtube",
+      "mediaId": "pw4Nxm-TjMk",
+      "score": 100,
+      "secondPass": false
+    },
+    {
+      "file": "podcasts",
+      "slug": "podcasts/12236",
+      "jsonTitle": "Interview with Dame Professor Diane Coyle, University of Cambridge",
+      "csvTitle": "(from body HTML)",
+      "mediaType": "vimeo",
+      "mediaId": "930663651",
+      "score": "body-html",
+      "secondPass": false
+    },
+    {
+      "file": "podcasts",
+      "slug": "podcasts/12236",
+      "jsonTitle": "Interview with Dame Professor Diane Coyle, University of Cambridge",
+      "csvTitle": "Diane Coyle talks to Andrew Milligan - Jun 21",
+      "mediaType": "vimeo",
+      "mediaId": "563191760",
+      "score": 72,
+      "secondPass": false
+    },
+    {
+      "file": "podcasts",
+      "slug": "podcasts/12236",
+      "jsonTitle": "Interview with Dame Professor Diane Coyle, University of Cambridge",
+      "csvTitle": "SPE Interview Diane Coyle Apr 24",
+      "mediaType": "youtube",
+      "mediaId": "km5lZp-gF5c",
+      "score": 80,
+      "secondPass": false
+    },
+    {
+      "file": "podcasts",
+      "slug": "podcasts/12229",
+      "jsonTitle": "Interview with Ricardo Reis, London School of Economics",
+      "csvTitle": "(from body HTML)",
+      "mediaType": "vimeo",
+      "mediaId": "927922437",
+      "score": "body-html",
+      "secondPass": false
+    },
+    {
+      "file": "podcasts",
+      "slug": "podcasts/12229",
+      "jsonTitle": "Interview with Ricardo Reis, London School of Economics",
+      "csvTitle": "SPE Interview - Ricardo Reis Mar 24",
+      "mediaType": "youtube",
+      "mediaId": "PITTzomWhMA",
+      "score": 80,
+      "secondPass": false
+    },
+    {
+      "file": "podcasts",
+      "slug": "podcasts/12229",
+      "jsonTitle": "Interview with Ricardo Reis, London School of Economics",
+      "csvTitle": "Jari Stehn, Senior Global Economist, Goldman Sachs; Tom Orlik, Chief Economist, Bloomberg Economics",
+      "mediaType": "soundcloud",
+      "mediaId": "sbe-audio-feed/jari-stehn-senior-global-economist-goldman-sachs-tom-orlik-chief-economist-bloomberg-economics",
+      "score": 65,
+      "secondPass": false
+    },
+    {
+      "file": "podcasts",
+      "slug": "evening-talks/12191",
+      "jsonTitle": "OBR Post‑Budget Briefing",
+      "csvTitle": "(from body HTML)",
+      "mediaType": "vimeo",
+      "mediaId": "920479925",
+      "score": "body-html",
+      "secondPass": false
+    },
+    {
+      "file": "podcasts",
+      "slug": "evening-talks/12191",
+      "jsonTitle": "OBR Post‑Budget Briefing",
+      "csvTitle": "SPE Budget Spr 24 - OBR",
+      "mediaType": "youtube",
+      "mediaId": "c_gEBcxG-Tg",
+      "score": 75,
+      "secondPass": false
+    },
+    {
+      "file": "podcasts",
+      "slug": "evening-talks/12200",
+      "jsonTitle": "Assessing Cycles and Structural Changes in Markets",
+      "csvTitle": "(from body HTML)",
+      "mediaType": "youtube",
+      "mediaId": "m5rI3dGytjA",
+      "score": "body-html",
+      "secondPass": false
+    },
+    {
+      "file": "podcasts",
+      "slug": "evening-talks/12132",
+      "jsonTitle": "Prospects for the Housing Market: a building storm?",
+      "csvTitle": "SPE - Has COVID changed the labour market forever - Nov 21.mp4",
+      "mediaType": "vimeo",
+      "mediaId": "651667653",
+      "score": 68,
+      "secondPass": false
+    },
+    {
+      "file": "podcasts",
+      "slug": "conferences/12111",
+      "jsonTitle": "Future‑Proofing the World Economy",
+      "csvTitle": "The Future of Infrastructure Appraisal - Nov 20",
+      "mediaType": "vimeo",
+      "mediaId": "477619126",
+      "score": 72,
+      "secondPass": false
+    },
+    {
+      "file": "podcasts",
+      "slug": "podcasts/11456",
+      "jsonTitle": "Interview with Simon Johnson, co‑author of Power and Progress",
+      "csvTitle": "(from body HTML)",
+      "mediaType": "vimeo",
+      "mediaId": "842490487",
+      "score": "body-html",
+      "secondPass": false
+    },
+    {
+      "file": "podcasts",
+      "slug": "evening-talks/11450",
+      "jsonTitle": "Masterclass: Transforming policy analysis through data linking",
+      "csvTitle": "(from body HTML)",
+      "mediaType": "vimeo",
+      "mediaId": "844909497",
+      "score": "body-html",
+      "secondPass": false
+    },
+    {
+      "file": "podcasts",
+      "slug": "evening-talks/11450",
+      "jsonTitle": "Masterclass: Transforming policy analysis through data linking",
+      "csvTitle": "Catherine Mann talks to Andrew Milligan of the SPE - Feb 22.mp4",
+      "mediaType": "vimeo",
+      "mediaId": "681403008",
+      "score": 73,
+      "secondPass": false
+    },
+    {
+      "file": "podcasts",
+      "slug": "evening-talks/11450",
+      "jsonTitle": "Masterclass: Transforming policy analysis through data linking",
+      "csvTitle": "Hugh Pill at the SPE Conference Feb 22.mp4",
+      "mediaType": "vimeo",
+      "mediaId": "675978619",
+      "score": 69,
+      "secondPass": false
+    },
+    {
+      "file": "podcasts",
+      "slug": "evening-talks/11450",
+      "jsonTitle": "Masterclass: Transforming policy analysis through data linking",
+      "csvTitle": "Message from the Chair",
+      "mediaType": "vimeo",
+      "mediaId": "628893749",
+      "score": 69,
+      "secondPass": false
+    },
+    {
+      "file": "podcasts",
+      "slug": "evening-talks/11450",
+      "jsonTitle": "Masterclass: Transforming policy analysis through data linking",
+      "csvTitle": "Tim Ng talks to Catherine Connolly - Mar 21",
+      "mediaType": "vimeo",
+      "mediaId": "524971185",
+      "score": 69,
+      "secondPass": false
+    },
+    {
+      "file": "podcasts",
+      "slug": "evening-talks/11450",
+      "jsonTitle": "Masterclass: Transforming policy analysis through data linking",
+      "csvTitle": "Isabell Koske with Catherine Connolly - June 2020",
+      "mediaType": "vimeo",
+      "mediaId": "429248641",
+      "score": 69,
+      "secondPass": false
+    },
+    {
+      "file": "podcasts",
+      "slug": "evening-talks/11450",
+      "jsonTitle": "Masterclass: Transforming policy analysis through data linking",
+      "csvTitle": "Anita Charlesworth talks to Catherine Connolly - June 2020",
+      "mediaType": "vimeo",
+      "mediaId": "426929926",
+      "score": 69,
+      "secondPass": false
+    },
+    {
+      "file": "podcasts",
+      "slug": "podcasts/interview-with-jon-danielsson-about-his-book-the-illusion-of-control",
+      "jsonTitle": "Interview with Jon Danielsson about his book 'The Illusion of Control'",
+      "csvTitle": "(from body HTML)",
+      "mediaType": "vimeo",
+      "mediaId": "834802669",
+      "score": "body-html",
+      "secondPass": false
+    },
+    {
+      "file": "podcasts",
+      "slug": "evening-talks/11409",
+      "jsonTitle": "Estimates of the effects of quantitative easing",
+      "csvTitle": "(from body HTML)",
+      "mediaType": "vimeo",
+      "mediaId": "835147940",
+      "score": "body-html",
+      "secondPass": false
+    },
+    {
+      "file": "podcasts",
+      "slug": "podcasts/11402",
+      "jsonTitle": "Podcast: William Allen's book review of 'Leveraged'",
+      "csvTitle": "(from body HTML)",
+      "mediaType": "vimeo",
+      "mediaId": "830237781",
+      "score": "body-html",
+      "secondPass": false
+    },
+    {
+      "file": "podcasts",
+      "slug": "podcasts/11405",
+      "jsonTitle": "Podcast: Listen to Ian Bright read his review of The Gender Capital",
+      "csvTitle": "Review - The Gender of Capital",
+      "mediaType": "soundcloud",
+      "mediaId": "sbe-audio-feed/review-the-gender-of-capital",
+      "score": 72,
+      "secondPass": false
+    },
+    {
+      "file": "podcasts",
+      "slug": "podcasts/11405",
+      "jsonTitle": "Podcast: Listen to Ian Bright read his review of The Gender Capital",
+      "csvTitle": "Ian McCafferty CBE discusses the Coronavirus recession",
+      "mediaType": "soundcloud",
+      "mediaId": "sbe-audio-feed/ian-mccafferty-cbe-discusses-the-coronavirus-recession",
+      "score": 66,
+      "secondPass": false
+    },
+    {
+      "file": "podcasts",
+      "slug": "evening-talks/11375",
+      "jsonTitle": "Interview with David Owen, Saltmarsh Economics",
+      "csvTitle": "David Owen talks to Andrew Milligan Apr 23",
+      "mediaType": "vimeo",
+      "mediaId": "819806074",
+      "score": 75,
+      "secondPass": false
+    },
+    {
+      "file": "podcasts",
+      "slug": "evening-talks/11372",
+      "jsonTitle": "We Need to Talk About Inflation",
+      "csvTitle": "(from body HTML)",
+      "mediaType": "vimeo",
+      "mediaId": "821595629",
+      "score": "body-html",
+      "secondPass": false
+    },
+    {
+      "file": "podcasts",
+      "slug": "evening-talks/11372",
+      "jsonTitle": "We Need to Talk About Inflation",
+      "csvTitle": "Stephen King talks to Andrew Milligan - Jul 21.mp4",
+      "mediaType": "vimeo",
+      "mediaId": "575366796",
+      "score": 72,
+      "secondPass": false
+    },
+    {
+      "file": "podcasts",
+      "slug": "evening-talks/11372",
+      "jsonTitle": "We Need to Talk About Inflation",
+      "csvTitle": "SPE Webinar May 2021 - Using Alternative Data for Nowcasts and Forecasts.mp4",
+      "mediaType": "vimeo",
+      "mediaId": "555185364",
+      "score": 67,
+      "secondPass": false
+    },
+    {
+      "file": "podcasts",
+      "slug": "evening-talks/11372",
+      "jsonTitle": "We Need to Talk About Inflation",
+      "csvTitle": "Measuring Inflation - Jonathan Athow and Jill Leyland - 2",
+      "mediaType": "soundcloud",
+      "mediaId": "sbe-audio-feed/measuring-inflation-jonathan-athow-and-jill-leyland-2",
+      "score": 69,
+      "secondPass": false
+    },
+    {
+      "file": "podcasts",
+      "slug": "evening-talks/11372",
+      "jsonTitle": "We Need to Talk About Inflation",
+      "csvTitle": "Measuring Inflation - Jonathan Athow and Jill Leyland - 1",
+      "mediaType": "soundcloud",
+      "mediaId": "sbe-audio-feed/measuring-inflation-jonathan-athow-and-jill-leyland-1",
+      "score": 69,
+      "secondPass": false
+    },
+    {
+      "file": "podcasts",
+      "slug": "evening-talks/11346",
+      "jsonTitle": "Achieving a Green Transition - the role of the financial sector",
+      "csvTitle": "(from body HTML)",
+      "mediaType": "vimeo",
+      "mediaId": "813466843",
+      "score": "body-html",
+      "secondPass": false
+    },
+    {
+      "file": "podcasts",
+      "slug": "evening-talks/11335",
+      "jsonTitle": "OBR Spring Budget Briefing",
+      "csvTitle": "(from body HTML)",
+      "mediaType": "vimeo",
+      "mediaId": "809714341",
+      "score": "body-html",
+      "secondPass": false
+    },
+    {
+      "file": "podcasts",
+      "slug": "evening-talks/11335",
+      "jsonTitle": "OBR Spring Budget Briefing",
+      "csvTitle": "SPE Spring Budget Meeting 2021",
+      "mediaType": "vimeo",
+      "mediaId": "519556543",
+      "score": 75,
+      "secondPass": false
+    },
+    {
+      "file": "podcasts",
+      "slug": "evening-talks/11306",
+      "jsonTitle": "How to be a Successful Economist",
+      "csvTitle": "(from body HTML)",
+      "mediaType": "vimeo",
+      "mediaId": "797330969",
+      "score": "body-html",
+      "secondPass": false
+    },
+    {
+      "file": "podcasts",
+      "slug": "evening-talks/11309",
+      "jsonTitle": "Interview with Andrew Smithers, author of 'The Economics of the Stock Market'",
+      "csvTitle": "Andrew Smithers talks to Andrew Milligan - Feb 23",
+      "mediaType": "vimeo",
+      "mediaId": "797062487",
+      "score": 71,
+      "secondPass": false
+    },
+    {
+      "file": "podcasts",
+      "slug": "evening-talks/11299",
+      "jsonTitle": "Watch interviews with shortlisted contenders for the 2021‑2 Essay Competition",
+      "csvTitle": "(from body HTML)",
+      "mediaType": "vimeo",
+      "mediaId": "791915398",
+      "score": "body-html",
+      "secondPass": false
+    },
+    {
+      "file": "podcasts",
+      "slug": "evening-talks/11299",
+      "jsonTitle": "Watch interviews with shortlisted contenders for the 2021‑2 Essay Competition",
+      "csvTitle": "SPE with the IFG February 2024",
+      "mediaType": "vimeo",
+      "mediaId": "917128448",
+      "score": 68,
+      "secondPass": false
+    },
+    {
+      "file": "podcasts",
+      "slug": "evening-talks/11299",
+      "jsonTitle": "Watch interviews with shortlisted contenders for the 2021‑2 Essay Competition",
+      "csvTitle": "SPE with the IFG February 2024",
+      "mediaType": "youtube",
+      "mediaId": "qGw7FRJo4Pk",
+      "score": 68,
+      "secondPass": false
+    },
+    {
+      "file": "podcasts",
+      "slug": "evening-talks/10775",
+      "jsonTitle": "Demographics Unravelled",
+      "csvTitle": "(from body HTML)",
+      "mediaType": "youtube",
+      "mediaId": "vb7ypOD54dQ",
+      "score": "body-html",
+      "secondPass": false
+    },
+    {
+      "file": "podcasts",
+      "slug": "evening-talks/10685",
+      "jsonTitle": "Interview with Jonathan Cribb",
+      "csvTitle": "Jonathan Cribb talks to Andrew Milligan - Jul 22.mp4",
+      "mediaType": "vimeo",
+      "mediaId": "728056515",
+      "score": 80,
+      "secondPass": false
+    },
+    {
+      "file": "podcasts",
+      "slug": "evening-talks/10641",
+      "jsonTitle": "Interview with Mark Cliffe",
+      "csvTitle": "(from body HTML)",
+      "mediaType": "vimeo",
+      "mediaId": "710784528",
+      "score": "body-html",
+      "secondPass": false
+    },
+    {
+      "file": "podcasts",
+      "slug": "evening-talks/10632",
+      "jsonTitle": "In conversation with Diane Coyle",
+      "csvTitle": "Robert Chote, Chairman, Office for Budget Responsibility",
+      "mediaType": "soundcloud",
+      "mediaId": "sbe-audio-feed/robert-chote-chairman-office-for-budget-responsibility",
+      "score": 69,
+      "secondPass": false
+    },
+    {
+      "file": "podcasts",
+      "slug": "evening-talks/10632",
+      "jsonTitle": "In conversation with Diane Coyle",
+      "csvTitle": "Ed Humpherson, Office of Statistics Regulation",
+      "mediaType": "soundcloud",
+      "mediaId": "sbe-audio-feed/ed-humpherson-office-of-statistics-regulation",
+      "score": 75,
+      "secondPass": false
+    },
+    {
+      "file": "podcasts",
+      "slug": "evening-talks/10588",
+      "jsonTitle": "Webinar: Post Spring Statement Briefing",
+      "csvTitle": "(from body HTML)",
+      "mediaType": "vimeo",
+      "mediaId": "693103628",
+      "score": "body-html",
+      "secondPass": false
+    },
+    {
+      "file": "podcasts",
+      "slug": "evening-talks/10588",
+      "jsonTitle": "Webinar: Post Spring Statement Briefing",
+      "csvTitle": "SPE World Post COVID Governance Webinar - Mar 21.mp4",
+      "mediaType": "vimeo",
+      "mediaId": "522315179",
+      "score": 70,
+      "secondPass": false
+    },
+    {
+      "file": "podcasts",
+      "slug": "evening-talks/10588",
+      "jsonTitle": "Webinar: Post Spring Statement Briefing",
+      "csvTitle": "SPE-WEN Webinar - Behaviour Post Covid - Oct 20",
+      "mediaType": "vimeo",
+      "mediaId": "472965774",
+      "score": 75,
+      "secondPass": false
+    },
+    {
+      "file": "podcasts",
+      "slug": "evening-talks/10527",
+      "jsonTitle": "Watch Kevin Daly in conversation with Andrew Milligan",
+      "csvTitle": "Jonathan Anderson talks to Andrew Milligan - Mar 22",
+      "mediaType": "vimeo",
+      "mediaId": "690990936",
+      "score": 75,
+      "secondPass": false
+    },
+    {
+      "file": "podcasts",
+      "slug": "evening-talks/10527",
+      "jsonTitle": "Watch Kevin Daly in conversation with Andrew Milligan",
+      "csvTitle": "Kevin Daly talks to Andrew Milligan - Jan 22.mp4",
+      "mediaType": "vimeo",
+      "mediaId": "669774696",
+      "score": 100,
+      "secondPass": false
+    },
+    {
+      "file": "podcasts",
+      "slug": "evening-talks/10527",
+      "jsonTitle": "Watch Kevin Daly in conversation with Andrew Milligan",
+      "csvTitle": "Fabio Natalucci talks to Andrew Milligan - Nov 21.mp4",
+      "mediaType": "vimeo",
+      "mediaId": "642007213",
+      "score": 72,
+      "secondPass": false
+    },
+    {
+      "file": "podcasts",
+      "slug": "evening-talks/10527",
+      "jsonTitle": "Watch Kevin Daly in conversation with Andrew Milligan",
+      "csvTitle": "Jonathan Athow talks to Andrew Milligan - Oct 21_1",
+      "mediaType": "vimeo",
+      "mediaId": "625390702",
+      "score": 72,
+      "secondPass": false
+    },
+    {
+      "file": "podcasts",
+      "slug": "evening-talks/10527",
+      "jsonTitle": "Watch Kevin Daly in conversation with Andrew Milligan",
+      "csvTitle": "Tim Jackson talks to Andrew Milligan",
+      "mediaType": "vimeo",
+      "mediaId": "606575305",
+      "score": 75,
+      "secondPass": false
+    },
+    {
+      "file": "podcasts",
+      "slug": "evening-talks/10527",
+      "jsonTitle": "Watch Kevin Daly in conversation with Andrew Milligan",
+      "csvTitle": "Jim O'Neill talks to Andrew Milligan - May 21.mp4",
+      "mediaType": "vimeo",
+      "mediaId": "552833098",
+      "score": 72,
+      "secondPass": false
+    },
+    {
+      "file": "podcasts",
+      "slug": "evening-talks/10527",
+      "jsonTitle": "Watch Kevin Daly in conversation with Andrew Milligan",
+      "csvTitle": "Elroy Dimson talks to Andrew Milligan - Apr 21",
+      "mediaType": "vimeo",
+      "mediaId": "533950514",
+      "score": 75,
+      "secondPass": false
+    },
+    {
+      "file": "podcasts",
+      "slug": "evening-talks/10527",
+      "jsonTitle": "Watch Kevin Daly in conversation with Andrew Milligan",
+      "csvTitle": "Richard Hughes talks to Andrew Milligan - Mar 21.mp4",
+      "mediaType": "vimeo",
+      "mediaId": "528368856",
+      "score": 72,
+      "secondPass": false
+    },
+    {
+      "file": "podcasts",
+      "slug": "evening-talks/10527",
+      "jsonTitle": "Watch Kevin Daly in conversation with Andrew Milligan",
+      "csvTitle": "Dalia Marin talks to Andrew Milligan - Mar 21",
+      "mediaType": "vimeo",
+      "mediaId": "521394012",
+      "score": 75,
+      "secondPass": false
+    },
+    {
+      "file": "podcasts",
+      "slug": "evening-talks/10527",
+      "jsonTitle": "Watch Kevin Daly in conversation with Andrew Milligan",
+      "csvTitle": "Jan-Emmanuel Deneve with Andrew Milligan - Feb 21",
+      "mediaType": "vimeo",
+      "mediaId": "514287910",
+      "score": 70,
+      "secondPass": false
+    },
+    {
+      "file": "podcasts",
+      "slug": "evening-talks/10527",
+      "jsonTitle": "Watch Kevin Daly in conversation with Andrew Milligan",
+      "csvTitle": "Lionel Barber with Kevin Daly - Feb 21",
+      "mediaType": "vimeo",
+      "mediaId": "510196886",
+      "score": 72,
+      "secondPass": false
+    },
+    {
+      "file": "podcasts",
+      "slug": "evening-talks/10527",
+      "jsonTitle": "Watch Kevin Daly in conversation with Andrew Milligan",
+      "csvTitle": "Fabio Natalucci with Andrew Milligan - Feb 21",
+      "mediaType": "vimeo",
+      "mediaId": "510169170",
+      "score": 72,
+      "secondPass": false
+    },
+    {
+      "file": "podcasts",
+      "slug": "evening-talks/10527",
+      "jsonTitle": "Watch Kevin Daly in conversation with Andrew Milligan",
+      "csvTitle": "Sarah Hewin talks to Andrew Milligan - Jan 2021",
+      "mediaType": "vimeo",
+      "mediaId": "503052373",
+      "score": 75,
+      "secondPass": false
+    },
+    {
+      "file": "podcasts",
+      "slug": "evening-talks/10527",
+      "jsonTitle": "Watch Kevin Daly in conversation with Andrew Milligan",
+      "csvTitle": "Jonathan Athow talks to Andrew Milligan - Nov 20",
+      "mediaType": "vimeo",
+      "mediaId": "481245107",
+      "score": 75,
+      "secondPass": false
+    },
+    {
+      "file": "podcasts",
+      "slug": "evening-talks/10527",
+      "jsonTitle": "Watch Kevin Daly in conversation with Andrew Milligan",
+      "csvTitle": "Willem Buiter talks to Andrew Milligan - Nov 20",
+      "mediaType": "vimeo",
+      "mediaId": "476385705",
+      "score": 75,
+      "secondPass": false
+    },
+    {
+      "file": "podcasts",
+      "slug": "evening-talks/10527",
+      "jsonTitle": "Watch Kevin Daly in conversation with Andrew Milligan",
+      "csvTitle": "Alan Winters talks to Andrew Milligan - Oct 20",
+      "mediaType": "vimeo",
+      "mediaId": "472575597",
+      "score": 75,
+      "secondPass": false
+    },
+    {
+      "file": "podcasts",
+      "slug": "evening-talks/10527",
+      "jsonTitle": "Watch Kevin Daly in conversation with Andrew Milligan",
+      "csvTitle": "Professor Sir Richard Blundell talks to Andrew Milligan - Oct 20",
+      "mediaType": "vimeo",
+      "mediaId": "464242505",
+      "score": 72,
+      "secondPass": false
+    },
+    {
+      "file": "podcasts",
+      "slug": "evening-talks/10527",
+      "jsonTitle": "Watch Kevin Daly in conversation with Andrew Milligan",
+      "csvTitle": "Dave Ramsden talks to Andrew Milligan - Sep 20",
+      "mediaType": "vimeo",
+      "mediaId": "462126944",
+      "score": 75,
+      "secondPass": false
+    },
+    {
+      "file": "podcasts",
+      "slug": "evening-talks/10527",
+      "jsonTitle": "Watch Kevin Daly in conversation with Andrew Milligan",
+      "csvTitle": "Diana Choyleva with Andrew Milligan - Sep 20",
+      "mediaType": "vimeo",
+      "mediaId": "454383898",
+      "score": 72,
+      "secondPass": false
+    },
+    {
+      "file": "podcasts",
+      "slug": "evening-talks/10527",
+      "jsonTitle": "Watch Kevin Daly in conversation with Andrew Milligan",
+      "csvTitle": "Dame Minouche Shafik with Kevin Daly - Aug 20",
+      "mediaType": "vimeo",
+      "mediaId": "452512924",
+      "score": 72,
+      "secondPass": false
+    },
+    {
+      "file": "podcasts",
+      "slug": "evening-talks/10527",
+      "jsonTitle": "Watch Kevin Daly in conversation with Andrew Milligan",
+      "csvTitle": "Andy Haldane with Andrew Milligan - Aug 2020",
+      "mediaType": "vimeo",
+      "mediaId": "445178545",
+      "score": 72,
+      "secondPass": false
+    },
+    {
+      "file": "podcasts",
+      "slug": "evening-talks/10527",
+      "jsonTitle": "Watch Kevin Daly in conversation with Andrew Milligan",
+      "csvTitle": "Brian Pearce talks to Andrew Milligan - July 2020",
+      "mediaType": "vimeo",
+      "mediaId": "441993873",
+      "score": 72,
+      "secondPass": false
+    },
+    {
+      "file": "podcasts",
+      "slug": "evening-talks/10527",
+      "jsonTitle": "Watch Kevin Daly in conversation with Andrew Milligan",
+      "csvTitle": "Fabio Natalucci with Andrew Milligan - Jul 2020",
+      "mediaType": "vimeo",
+      "mediaId": "440672970",
+      "score": 72,
+      "secondPass": false
+    },
+    {
+      "file": "podcasts",
+      "slug": "evening-talks/10527",
+      "jsonTitle": "Watch Kevin Daly in conversation with Andrew Milligan",
+      "csvTitle": "Dambisa Moyo with Andrew Milligan - July 2020",
+      "mediaType": "vimeo",
+      "mediaId": "437114057",
+      "score": 70,
+      "secondPass": false
+    },
+    {
+      "file": "podcasts",
+      "slug": "evening-talks/10527",
+      "jsonTitle": "Watch Kevin Daly in conversation with Andrew Milligan",
+      "csvTitle": "Matthew Swindells with Andrew Milligan - Jun 2020",
+      "mediaType": "vimeo",
+      "mediaId": "434295150",
+      "score": 72,
+      "secondPass": false
+    },
+    {
+      "file": "podcasts",
+      "slug": "evening-talks/10527",
+      "jsonTitle": "Watch Kevin Daly in conversation with Andrew Milligan",
+      "csvTitle": "Ed Balls with Kevin Daly - June 2020",
+      "mediaType": "vimeo",
+      "mediaId": "432760802",
+      "score": 72,
+      "secondPass": false
+    },
+    {
+      "file": "podcasts",
+      "slug": "evening-talks/10527",
+      "jsonTitle": "Watch Kevin Daly in conversation with Andrew Milligan",
+      "csvTitle": "Janet Henry with Andrew Milligan - June 2020",
+      "mediaType": "vimeo",
+      "mediaId": "428125926",
+      "score": 70,
+      "secondPass": false
+    },
+    {
+      "file": "podcasts",
+      "slug": "evening-talks/10527",
+      "jsonTitle": "Watch Kevin Daly in conversation with Andrew Milligan",
+      "csvTitle": "Sonja Gibbs talks to Andrew Milligan - Jun 20",
+      "mediaType": "vimeo",
+      "mediaId": "425815819",
+      "score": 75,
+      "secondPass": false
+    },
+    {
+      "file": "podcasts",
+      "slug": "evening-talks/10527",
+      "jsonTitle": "Watch Kevin Daly in conversation with Andrew Milligan",
+      "csvTitle": "Roman Frydman with Andrew Milligan - May 20",
+      "mediaType": "vimeo",
+      "mediaId": "420599556",
+      "score": 72,
+      "secondPass": false
+    },
+    {
+      "file": "podcasts",
+      "slug": "evening-talks/10527",
+      "jsonTitle": "Watch Kevin Daly in conversation with Andrew Milligan",
+      "csvTitle": "Paul Ormerod talks to Andrew Milligan - May 20",
+      "mediaType": "vimeo",
+      "mediaId": "418908517",
+      "score": 75,
+      "secondPass": false
+    },
+    {
+      "file": "podcasts",
+      "slug": "evening-talks/10527",
+      "jsonTitle": "Watch Kevin Daly in conversation with Andrew Milligan",
+      "csvTitle": "Lord Gus O'Donnell talks to Andrew Milligan - May 20",
+      "mediaType": "vimeo",
+      "mediaId": "418050557",
+      "score": 75,
+      "secondPass": false
+    },
+    {
+      "file": "podcasts",
+      "slug": "evening-talks/10527",
+      "jsonTitle": "Watch Kevin Daly in conversation with Andrew Milligan",
+      "csvTitle": "Lord Alistair Darling with Kevin Daly May 2020",
+      "mediaType": "vimeo",
+      "mediaId": "417575692",
+      "score": 72,
+      "secondPass": false
+    },
+    {
+      "file": "podcasts",
+      "slug": "evening-talks/10527",
+      "jsonTitle": "Watch Kevin Daly in conversation with Andrew Milligan",
+      "csvTitle": "SPE Kevin Daly",
+      "mediaType": "vimeo",
+      "mediaId": "253800563",
+      "score": 80,
+      "secondPass": false
+    },
+    {
+      "file": "podcasts",
+      "slug": "evening-talks/10527",
+      "jsonTitle": "Watch Kevin Daly in conversation with Andrew Milligan",
+      "csvTitle": "Kevin Daly, Chairman of the SBE",
+      "mediaType": "vimeo",
+      "mediaId": "185304009",
+      "score": 72,
+      "secondPass": false
+    },
+    {
+      "file": "podcasts",
+      "slug": "evening-talks/10523",
+      "jsonTitle": "Webinar: UK Outlook for 2022",
+      "csvTitle": "(from body HTML)",
+      "mediaType": "vimeo",
+      "mediaId": "667886548",
+      "score": "body-html",
+      "secondPass": false
+    },
+    {
+      "file": "podcasts",
+      "slug": "evening-talks/10523",
+      "jsonTitle": "Webinar: UK Outlook for 2022",
+      "csvTitle": "SPE Webinar Jan 21 - UK Macro Outlook 2021",
+      "mediaType": "vimeo",
+      "mediaId": "505211527",
+      "score": 75,
+      "secondPass": false
+    },
+    {
+      "file": "podcasts",
+      "slug": "evening-talks/10495",
+      "jsonTitle": "Watch Prof Amelia Fletcher in conversation with Ulrike Hotopp",
+      "csvTitle": "(from body HTML)",
+      "mediaType": "vimeo",
+      "mediaId": "650270673",
+      "score": "body-html",
+      "secondPass": false
+    },
+    {
+      "file": "podcasts",
+      "slug": "evening-talks/10495",
+      "jsonTitle": "Watch Prof Amelia Fletcher in conversation with Ulrike Hotopp",
+      "csvTitle": "Jens Ulbrich talks to Ulrike Hotopp - Apr 21",
+      "mediaType": "vimeo",
+      "mediaId": "538691301",
+      "score": 75,
+      "secondPass": false
+    },
+    {
+      "file": "podcasts",
+      "slug": "evening-talks/10495",
+      "jsonTitle": "Watch Prof Amelia Fletcher in conversation with Ulrike Hotopp",
+      "csvTitle": "Karen Horne talks to Ulrike Hotopp - Sep 20",
+      "mediaType": "vimeo",
+      "mediaId": "465018234",
+      "score": 75,
+      "secondPass": false
+    },
+    {
+      "file": "podcasts",
+      "slug": "evening-talks/10495",
+      "jsonTitle": "Watch Prof Amelia Fletcher in conversation with Ulrike Hotopp",
+      "csvTitle": "Ece Ozdemiroglu talks to Ulrike Hotopp - June 2020",
+      "mediaType": "vimeo",
+      "mediaId": "426961144",
+      "score": 72,
+      "secondPass": false
+    },
+    {
+      "file": "podcasts",
+      "slug": "evening-talks/10681",
+      "jsonTitle": "Webinar: Has Covid Changed the Labour Market Forever and How Should Policy Respond",
+      "csvTitle": "(from body HTML)",
+      "mediaType": "vimeo",
+      "mediaId": "651667653",
+      "score": "body-html",
+      "secondPass": false
+    },
+    {
+      "file": "podcasts",
+      "slug": "evening-talks/10188",
+      "jsonTitle": "Watch Fabio Natalucci from the IMF in conversation with Andrew Milligan",
+      "csvTitle": "(from body HTML)",
+      "mediaType": "vimeo",
+      "mediaId": "642007213",
+      "score": "body-html",
+      "secondPass": false
+    },
+    {
+      "file": "podcasts",
+      "slug": "evening-talks/8749",
+      "jsonTitle": "Watch Jonathan Athow in conversation with Andrew Milligan",
+      "csvTitle": "(from body HTML)",
+      "mediaType": "vimeo",
+      "mediaId": "625390702",
+      "score": "body-html",
+      "secondPass": false
+    },
+    {
+      "file": "podcasts",
+      "slug": "evening-talks/8720",
+      "jsonTitle": "Watch Tim Jackson in conversation with Andrew Milligan",
+      "csvTitle": "(from body HTML)",
+      "mediaType": "vimeo",
+      "mediaId": "606575305",
+      "score": "body-html",
+      "secondPass": false
+    },
+    {
+      "file": "podcasts",
+      "slug": "evening-talks/8714",
+      "jsonTitle": "Watch Tim Congdon in conversation with George Buckley",
+      "csvTitle": "Tim Congden talks to George Buckley - Aug 21.mp4",
+      "mediaType": "vimeo",
+      "mediaId": "582890659",
+      "score": 78,
+      "secondPass": false
+    },
+    {
+      "file": "podcasts",
+      "slug": "evening-talks/8714",
+      "jsonTitle": "Watch Tim Congdon in conversation with George Buckley",
+      "csvTitle": "Robert Stheeman talks to George Buckley - Dec 20",
+      "mediaType": "vimeo",
+      "mediaId": "486349020",
+      "score": 75,
+      "secondPass": false
+    },
+    {
+      "file": "podcasts",
+      "slug": "evening-talks/8714",
+      "jsonTitle": "Watch Tim Congdon in conversation with George Buckley",
+      "csvTitle": "Ashley Seager Speaks To George Buckley",
+      "mediaType": "soundcloud",
+      "mediaId": "sbe-audio-feed/ashley-seager-speaks-to-george-buckley",
+      "score": 75,
+      "secondPass": false
+    },
+    {
+      "file": "podcasts",
+      "slug": "evening-talks/8709",
+      "jsonTitle": "Webinar: Wellbeing in public policy decisions",
+      "csvTitle": "(from body HTML)",
+      "mediaType": "vimeo",
+      "mediaId": "581149605",
+      "score": "body-html",
+      "secondPass": false
+    },
+    {
+      "file": "podcasts",
+      "slug": "evening-talks/8694",
+      "jsonTitle": "Watch Stephen King in conversation with Andrew Milligan",
+      "csvTitle": "(from body HTML)",
+      "mediaType": "vimeo",
+      "mediaId": "575366796",
+      "score": "body-html",
+      "secondPass": false
+    },
+    {
+      "file": "podcasts",
+      "slug": "evening-talks/8667",
+      "jsonTitle": "Webinar: The impact of Brexit - what have we learned so far?",
+      "csvTitle": "SPE Brexit Webinar - Jun 21.mp4",
+      "mediaType": "vimeo",
+      "mediaId": "563659365",
+      "score": 80,
+      "secondPass": false
+    },
+    {
+      "file": "podcasts",
+      "slug": "evening-talks/8660",
+      "jsonTitle": "Watch George Magnus in conversation with Andrew Milligan",
+      "csvTitle": "(from body HTML)",
+      "mediaType": "vimeo",
+      "mediaId": "557971284",
+      "score": "body-html",
+      "secondPass": false
+    },
+    {
+      "file": "podcasts",
+      "slug": "evening-talks/8653",
+      "jsonTitle": "Webinar: Using alternative data for now‑casts and forecasts",
+      "csvTitle": "(from body HTML)",
+      "mediaType": "vimeo",
+      "mediaId": "555185364",
+      "score": "body-html",
+      "secondPass": false
+    },
+    {
+      "file": "podcasts",
+      "slug": "evening-talks/8630",
+      "jsonTitle": "Webinar: Rethinking the Economics of Biodiversity",
+      "csvTitle": "(from body HTML)",
+      "mediaType": "vimeo",
+      "mediaId": "536801249",
+      "score": "body-html",
+      "secondPass": false
+    },
+    {
+      "file": "podcasts",
+      "slug": "evening-talks/8574",
+      "jsonTitle": "Watch Richard Hughes in conversation with Andrew Milligan",
+      "csvTitle": "(from body HTML)",
+      "mediaType": "vimeo",
+      "mediaId": "528368856",
+      "score": "body-html",
+      "secondPass": false
+    },
+    {
+      "file": "podcasts",
+      "slug": "evening-talks/8566",
+      "jsonTitle": "Webinar: How Should Governments Deal With The Post‑COVID Debt",
+      "csvTitle": "(from body HTML)",
+      "mediaType": "vimeo",
+      "mediaId": "522315179",
+      "score": "body-html",
+      "secondPass": false
+    },
+    {
+      "file": "podcasts",
+      "slug": "evening-talks/8544",
+      "jsonTitle": "Watch Jan‑Emmanuel Neve in conversation with Andrew Milligan",
+      "csvTitle": "(from body HTML)",
+      "mediaType": "vimeo",
+      "mediaId": "514287910",
+      "score": "body-html",
+      "secondPass": false
+    },
+    {
+      "file": "podcasts",
+      "slug": "evening-talks/8541",
+      "jsonTitle": "Webinar: Origins and development of Modern Monetary Theory",
+      "csvTitle": "(from body HTML)",
+      "mediaType": "vimeo",
+      "mediaId": "514311681",
+      "score": "body-html",
+      "secondPass": false
+    },
+    {
+      "file": "podcasts",
+      "slug": "evening-talks/8509",
+      "jsonTitle": "Watch Sarah Hewin talk to Andrew Milligan",
+      "csvTitle": "(from body HTML)",
+      "mediaType": "vimeo",
+      "mediaId": "503052373",
+      "score": "body-html",
+      "secondPass": false
+    },
+    {
+      "file": "podcasts",
+      "slug": "evening-talks/7821",
+      "jsonTitle": "Watch Sir Robert Stheeman talk to George Buckley",
+      "csvTitle": "(from body HTML)",
+      "mediaType": "vimeo",
+      "mediaId": "486349020",
+      "score": "body-html",
+      "secondPass": false
+    },
+    {
+      "file": "podcasts",
+      "slug": "evening-talks/7801",
+      "jsonTitle": "Watch Jonathan Athow talk to Andrew Milligan",
+      "csvTitle": "(from body HTML)",
+      "mediaType": "vimeo",
+      "mediaId": "481245107",
+      "score": "body-html",
+      "secondPass": false
+    },
+    {
+      "file": "podcasts",
+      "slug": "evening-talks/7786",
+      "jsonTitle": "Watch Willem Buiter talk to Andrew Milligan",
+      "csvTitle": "(from body HTML)",
+      "mediaType": "vimeo",
+      "mediaId": "476385705",
+      "score": "body-html",
+      "secondPass": false
+    },
+    {
+      "file": "podcasts",
+      "slug": "evening-talks/7762",
+      "jsonTitle": "SPE Virtual Annual Conference 2020",
+      "csvTitle": "(from body HTML)",
+      "mediaType": "vimeo",
+      "mediaId": "470688954",
+      "score": "body-html",
+      "secondPass": false
+    },
+    {
+      "file": "podcasts",
+      "slug": "evening-talks/7762",
+      "jsonTitle": "SPE Virtual Annual Conference 2020",
+      "csvTitle": "(from body HTML)",
+      "mediaType": "vimeo",
+      "mediaId": "470892112",
+      "score": "body-html",
+      "secondPass": false
+    },
+    {
+      "file": "podcasts",
+      "slug": "evening-talks/7762",
+      "jsonTitle": "SPE Virtual Annual Conference 2020",
+      "csvTitle": "SPE Annual Conference 2023 - part 2",
+      "mediaType": "youtube",
+      "mediaId": "zkKlrl750ao",
+      "score": 80,
+      "secondPass": false
+    },
+    {
+      "file": "podcasts",
+      "slug": "evening-talks/7762",
+      "jsonTitle": "SPE Virtual Annual Conference 2020",
+      "csvTitle": "SPE Annual Conference 2023 - Part 1",
+      "mediaType": "youtube",
+      "mediaId": "tQ1ip5fUJPk",
+      "score": 80,
+      "secondPass": false
+    },
+    {
+      "file": "podcasts",
+      "slug": "evening-talks/7762",
+      "jsonTitle": "SPE Virtual Annual Conference 2020",
+      "csvTitle": "Sir Ivan Rogers at SPE Conference 2019",
+      "mediaType": "soundcloud",
+      "mediaId": "sbe-audio-feed/sir-ivan-rogers-at-spe-conference-2019",
+      "score": 65,
+      "secondPass": false
+    },
+    {
+      "file": "podcasts",
+      "slug": "evening-talks/7762",
+      "jsonTitle": "SPE Virtual Annual Conference 2020",
+      "csvTitle": "SBE Annual Conference, London, November 2016",
+      "mediaType": "soundcloud",
+      "mediaId": "sbe-audio-feed/sbe-annual-conference-london-november-2016",
+      "score": 75,
+      "secondPass": false
+    },
+    {
+      "file": "podcasts",
+      "slug": "evening-talks/7687",
+      "jsonTitle": "Watch Prof Sir Richard Blundell interview with Andrew Milligan",
+      "csvTitle": "(from body HTML)",
+      "mediaType": "vimeo",
+      "mediaId": "464242505",
+      "score": "body-html",
+      "secondPass": false
+    },
+    {
+      "file": "podcasts",
+      "slug": "evening-talks/7675",
+      "jsonTitle": "Watch Sir Dave Ramsden interview with Andrew Milligan",
+      "csvTitle": "(from body HTML)",
+      "mediaType": "vimeo",
+      "mediaId": "462126944",
+      "score": "body-html",
+      "secondPass": false
+    },
+    {
+      "file": "podcasts",
+      "slug": "evening-talks/7678",
+      "jsonTitle": "Webinar Event: The OBR at 10",
+      "csvTitle": "The OBR at 10 - Sep 20",
+      "mediaType": "vimeo",
+      "mediaId": "461817214",
+      "score": 80,
+      "secondPass": false
+    },
+    {
+      "file": "podcasts",
+      "slug": "evening-talks/7651",
+      "jsonTitle": "Watch Diana Choyleva interview with Andrew Milligan",
+      "csvTitle": "(from body HTML)",
+      "mediaType": "vimeo",
+      "mediaId": "454383898",
+      "score": "body-html",
+      "secondPass": false
+    },
+    {
+      "file": "podcasts",
+      "slug": "evening-talks/7628",
+      "jsonTitle": "Watch Brian Pearce interview with Andrew Milligan",
+      "csvTitle": "(from body HTML)",
+      "mediaType": "vimeo",
+      "mediaId": "441993873",
+      "score": "body-html",
+      "secondPass": false
+    },
+    {
+      "file": "podcasts",
+      "slug": "evening-talks/7595",
+      "jsonTitle": "Watch Fabio Natalucci interview with Andrew Milligan",
+      "csvTitle": "(from body HTML)",
+      "mediaType": "vimeo",
+      "mediaId": "440672970",
+      "score": "body-html",
+      "secondPass": false
+    },
+    {
+      "file": "podcasts",
+      "slug": "evening-talks/7579",
+      "jsonTitle": "Virtual Masterclass: Taxing Multinationals",
+      "csvTitle": "SPE Webinar - Taxing Multinationals",
+      "mediaType": "vimeo",
+      "mediaId": "438591440",
+      "score": 80,
+      "secondPass": false
+    },
+    {
+      "file": "podcasts",
+      "slug": "evening-talks/7579",
+      "jsonTitle": "Virtual Masterclass: Taxing Multinationals",
+      "csvTitle": "SPE Masterclass 25 Nov 2019",
+      "mediaType": "vimeo",
+      "mediaId": "379421255",
+      "score": 68,
+      "secondPass": false
+    },
+    {
+      "file": "podcasts",
+      "slug": "evening-talks/7575",
+      "jsonTitle": "Watch Dr Dambisa Moyo interview with Andrew Milligan",
+      "csvTitle": "(from body HTML)",
+      "mediaType": "vimeo",
+      "mediaId": "437114057",
+      "score": "body-html",
+      "secondPass": false
+    },
+    {
+      "file": "podcasts",
+      "slug": "evening-talks/7538",
+      "jsonTitle": "Watch Janet Henry interview with Andrew Milligan",
+      "csvTitle": "(from body HTML)",
+      "mediaType": "vimeo",
+      "mediaId": "428125926",
+      "score": "body-html",
+      "secondPass": false
+    },
+    {
+      "file": "podcasts",
+      "slug": "podcasts/7508",
+      "jsonTitle": "Podcast: Sarah Smith on improving diversity in economics during the Coronavirus",
+      "csvTitle": "William Keegan CBE on the Coronavirus",
+      "mediaType": "soundcloud",
+      "mediaId": "sbe-audio-feed/william-keegan-cbe-on-the-coronavirus",
+      "score": 67,
+      "secondPass": false
+    },
+    {
+      "file": "podcasts",
+      "slug": "evening-talks/7532",
+      "jsonTitle": "Watch Sonja Gibbs interview with Andrew Milligan",
+      "csvTitle": "(from body HTML)",
+      "mediaType": "vimeo",
+      "mediaId": "425815819",
+      "score": "body-html",
+      "secondPass": false
+    },
+    {
+      "file": "podcasts",
+      "slug": "evening-talks/7524",
+      "jsonTitle": "Watch Anita Charlesworth interview with Catherine Connolly",
+      "csvTitle": "(from body HTML)",
+      "mediaType": "vimeo",
+      "mediaId": "426929926",
+      "score": "body-html",
+      "secondPass": false
+    },
+    {
+      "file": "podcasts",
+      "slug": "evening-talks/7511",
+      "jsonTitle": "Watch Adam Posen interview with Andrew Milligan",
+      "csvTitle": "(from body HTML)",
+      "mediaType": "vimeo",
+      "mediaId": "422726329",
+      "score": "body-html",
+      "secondPass": false
+    },
+    {
+      "file": "podcasts",
+      "slug": "evening-talks/7493",
+      "jsonTitle": "Hear Paul Ormerod in conversation with Andrew Milligan",
+      "csvTitle": "(from body HTML)",
+      "mediaType": "vimeo",
+      "mediaId": "418908517",
+      "score": "body-html",
+      "secondPass": false
+    },
+    {
+      "file": "podcasts",
+      "slug": "evening-talks/7487",
+      "jsonTitle": "Watch Lord Gus O'Donnell interview with Andrew Milligan",
+      "csvTitle": "(from body HTML)",
+      "mediaType": "vimeo",
+      "mediaId": "418050557",
+      "score": "body-html",
+      "secondPass": false
+    },
+    {
+      "file": "podcasts",
+      "slug": "evening-talks/7453",
+      "jsonTitle": "Kevin Daly interviews Professor Lord Mervyn King",
+      "csvTitle": "SPE Interview with Lord Mervyn King 24 Apr 2020",
+      "mediaType": "vimeo",
+      "mediaId": "411374008",
+      "score": 70,
+      "secondPass": false
+    },
+    {
+      "file": "podcasts",
+      "slug": "podcasts/7434",
+      "jsonTitle": "Podcast: Bronwyn Curtis OBE on how this economic crisis differs",
+      "csvTitle": "Bronwyn Curtis",
+      "mediaType": "soundcloud",
+      "mediaId": "sbe-audio-feed/bronwyn-curtis",
+      "score": 80,
+      "secondPass": false
+    },
+    {
+      "file": "podcasts",
+      "slug": "podcasts/7437",
+      "jsonTitle": "Podcast: Ian Harwood on the economic impact of Covid‑19",
+      "csvTitle": "Ian Harwood",
+      "mediaType": "soundcloud",
+      "mediaId": "sbe-audio-feed/ian-harwood",
+      "score": 80,
+      "secondPass": false
+    },
+    {
+      "file": "podcasts",
+      "slug": "podcasts/7437",
+      "jsonTitle": "Podcast: Ian Harwood on the economic impact of Covid‑19",
+      "csvTitle": "SBE - 9 January 2017",
+      "mediaType": "soundcloud",
+      "mediaId": "sbe-audio-feed/sbe-9-january-2017",
+      "score": 80,
+      "secondPass": false
+    },
+    {
+      "file": "podcasts",
+      "slug": "podcasts/7440",
+      "jsonTitle": "Podcast: Dame Kate Barker on the Coronavirus crisis",
+      "csvTitle": "Kate Barker",
+      "mediaType": "soundcloud",
+      "mediaId": "sbe-audio-feed/kate-barker",
+      "score": 80,
+      "secondPass": false
+    },
+    {
+      "file": "podcasts",
+      "slug": "evening-talks/7386",
+      "jsonTitle": "2020 Outlook for the UK Economy - watch video now!",
+      "csvTitle": "(from body HTML)",
+      "mediaType": "vimeo",
+      "mediaId": "389688048",
+      "score": "body-html",
+      "secondPass": false
+    },
+    {
+      "file": "podcasts",
+      "slug": "podcasts/7383",
+      "jsonTitle": "Video: 2020 Outlook for the UK Economy",
+      "csvTitle": "(from body HTML)",
+      "mediaType": "vimeo",
+      "mediaId": "389688048",
+      "score": "body-html",
+      "secondPass": false
+    },
+    {
+      "file": "podcasts",
+      "slug": "evening-talks/7361",
+      "jsonTitle": "The Economic Case for Gender Equality: Watch video now!",
+      "csvTitle": "(from body HTML)",
+      "mediaType": "vimeo",
+      "mediaId": "379421255",
+      "score": "body-html",
+      "secondPass": false
+    },
+    {
+      "file": "podcasts",
+      "slug": "podcasts/7364",
+      "jsonTitle": "Video: The Economic Case for Gender Equality",
+      "csvTitle": "(from body HTML)",
+      "mediaType": "vimeo",
+      "mediaId": "379421255",
+      "score": "body-html",
+      "secondPass": false
+    },
+    {
+      "file": "podcasts",
+      "slug": "podcasts/7252",
+      "jsonTitle": "Speaker Series: Interview with Yael Selfin",
+      "csvTitle": "Speaker series: interview with Evan Davis",
+      "mediaType": "soundcloud",
+      "mediaId": "sbe-audio-feed/speaker-series-interview-with-evan-davis",
+      "score": 75,
+      "secondPass": false
+    },
+    {
+      "file": "podcasts",
+      "slug": "podcasts/7291",
+      "jsonTitle": "Speaker Series: Interview with Randall Kroszner",
+      "csvTitle": "Randall Kroszner",
+      "mediaType": "soundcloud",
+      "mediaId": "sbe-audio-feed/randall-kroszner",
+      "score": 80,
+      "secondPass": false
+    },
+    {
+      "file": "podcasts",
+      "slug": "podcasts/5454",
+      "jsonTitle": "Speaker Series: Interview with Martin Wolf and Stephanie Flanders",
+      "csvTitle": "Stephanie Flanders, September 2018",
+      "mediaType": "soundcloud",
+      "mediaId": "sbe-audio-feed/stephanie-flanders-september-2018",
+      "score": 80,
+      "secondPass": false
+    },
+    {
+      "file": "podcasts",
+      "slug": "podcasts/5200",
+      "jsonTitle": "Interview with Evan Davis, BBC broadcaster and journalist",
+      "csvTitle": "Evan Davis, September 2018",
+      "mediaType": "soundcloud",
+      "mediaId": "sbe-audio-feed/evan-davis-september-2018",
+      "score": 80,
+      "secondPass": false
+    },
+    {
+      "file": "podcasts",
+      "slug": "evening-talks/4725",
+      "jsonTitle": "Britain's long‑term growth",
+      "csvTitle": "Arup SPE 'Return to Growth, or is it?'",
+      "mediaType": "vimeo",
+      "mediaId": "1020636327",
+      "score": 75,
+      "secondPass": false
+    },
+    {
+      "file": "podcasts",
+      "slug": "podcasts/replay-adrian-majumdar-chairs-debate-on-algorithms",
+      "jsonTitle": "Replay: Adrian Majumdar Chairs Debate on Algorithms",
+      "csvTitle": "SPE Meeting - April 2018 Adrian Majumdar Chairs Debate on Algorithms",
+      "mediaType": "soundcloud",
+      "mediaId": "sbe-audio-feed/spe-meeting-april-2018-adrian-majumdar-chairs-debate-on-algorithms",
+      "score": 81,
+      "secondPass": false
+    },
+    {
+      "file": "evening-talks",
+      "slug": "evening-meeting-fiscal-policy-lessons-from-the-pandemic",
+      "jsonTitle": "Evening meeting: Fiscal policy lessons from the pandemic",
+      "csvTitle": "(from body HTML)",
+      "mediaType": "youtube",
+      "mediaId": "FuPfNopur4w",
+      "score": "body-html",
+      "secondPass": false
+    },
+    {
+      "file": "evening-talks",
+      "slug": "in-conversation-with-diane-coyle",
+      "jsonTitle": "In conversation with Diane Coyle",
+      "csvTitle": "(from body HTML)",
+      "mediaType": "youtube",
+      "mediaId": "qPryMNnm9UM",
+      "score": "body-html",
+      "secondPass": false
+    },
+    {
+      "file": "evening-talks",
+      "slug": "evening-meeting-the-chancellors-how-to-handle-an-economic-crisis",
+      "jsonTitle": "Evening meeting: The Chancellors: How to handle an economic crisis",
+      "csvTitle": "(from body HTML)",
+      "mediaType": "youtube",
+      "mediaId": "HwTij55O_Dk",
+      "score": "body-html",
+      "secondPass": false
+    }
+  ]
+}
