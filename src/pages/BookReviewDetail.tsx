@@ -10,11 +10,18 @@ import Breadcrumbs from '../components/Breadcrumbs'
 import PrevNextNav from '../components/PrevNextNav'
 import NotFound from './NotFound'
 
+/** Extract person name from "Name, Role, Org" format */
+function extractReviewerName(raw: string): string {
+  return raw.split(',')[0].trim()
+}
+
 export default function BookReviewDetail() {
   const { slug } = useParams()
   const review = bookReviewsData.find(b => b.slug === slug)
 
   if (!review) return <NotFound />
+
+  const reviewerName = review.reviewer ? extractReviewerName(review.reviewer) : undefined
 
   useSEO({
     title: review.title,
@@ -27,7 +34,7 @@ export default function BookReviewDetail() {
         '@type': 'Review',
         name: review.title,
         ...(review.author && { itemReviewed: { '@type': 'Book', name: review.title, author: { '@type': 'Person', name: review.author } } }),
-        ...(review.reviewer && { author: { '@type': 'Person', name: review.reviewer } }),
+        ...(reviewerName && { author: { '@type': 'Person', name: reviewerName } }),
         ...(review.date && { datePublished: review.date }),
         publisher: {
           '@type': 'Organization',
@@ -49,7 +56,7 @@ export default function BookReviewDetail() {
   })
 
   // Cross-link reviewer to speaker profile if they're in the directory
-  const reviewerSpeaker = review.reviewer ? getSpeakerByName(review.reviewer) : undefined
+  const reviewerSpeaker = reviewerName ? getSpeakerByName(reviewerName) : undefined
 
   // Related reviews: prefer same reviewer, then fall back to others with covers
   const sameReviewer = review.reviewer
