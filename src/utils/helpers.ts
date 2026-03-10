@@ -104,18 +104,14 @@ export function getUniqueYears(dates: string[]): number[] {
 }
 
 /**
- * Sanitise CMS body HTML for safe rendering via dangerouslySetInnerHTML.
+ * Sanitise CMS body HTML for safe rendering.
  *
- * The original Squarespace site wrapped Vimeo/YouTube iframes in a
- * responsive container (position:relative + padding-bottom:56.25%).
- * The scraper captured the iframe but NOT the wrapper, so the
- * position:absolute iframe escapes its container and covers the
- * viewport.  This function:
+ * Handles legacy CMS artefacts from the original Squarespace/ProcessWire site:
  *
- * 1. Wraps every <iframe> that has position:absolute in a 16:9
- *    responsive container so it renders correctly.
- * 2. Removes orphaned Vimeo thumbnail <img> tags (IE8 fallbacks).
- * 3. Removes "Sorry: IE8 cannot display" messages.
+ * 1. Wraps absolute-positioned iframes in 16:9 responsive containers.
+ * 2. Removes orphaned Vimeo thumbnail imgs (IE8 fallbacks).
+ * 3. Removes IE8 warning paragraphs.
+ * 4. Resolves old CMS image paths so inline imgs render from the live site.
  */
 export function sanitiseBodyHtml(html: string): string {
   if (!html) return ''
@@ -129,7 +125,6 @@ export function sanitiseBodyHtml(html: string): string {
     .replace(
       /<iframe([^>]*style=['"][^'"]*position:\s*absolute[^'"]*['"][^>]*)><\/iframe>/gi,
       (_match, attrs: string) => {
-        // Strip the inline position/size styles — the wrapper handles them
         const cleanAttrs = attrs
           .replace(/style=['"][^'"]*['"]/gi, '')
         return `<div style="position:relative;padding-bottom:56.25%;height:0;overflow:hidden;margin:1.5rem 0"><iframe${cleanAttrs} style="position:absolute;top:0;left:0;width:100%;height:100%" allowfullscreen></iframe></div>`
@@ -139,4 +134,14 @@ export function sanitiseBodyHtml(html: string): string {
     .replace(/<img[^>]*vimeocdn\.com[^>]*\/?>/gi, '')
     // Remove IE8 warning paragraphs
     .replace(/<p[^>]*>Sorry:\s*IE8 cannot display[^<]*<\/p>/gi, '')
+    // Resolve old CMS image paths: /images/NNNNN/… → live site asset URL
+    .replace(
+      /(<img[^>]*src=["'])\/images\//gi,
+      `$1${SPE_ASSET_BASE}/`
+    )
+    // Resolve relative /site/assets/files/… paths → absolute live URL
+    .replace(
+      /(<img[^>]*src=["'])\/site\/assets\/files\//gi,
+      `$1${SPE_ASSET_BASE}/`
+    )
 }
