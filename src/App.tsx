@@ -29,6 +29,8 @@ const ConferenceReports = lazy(() => import('./pages/ConferenceReports'))
 const ConferenceReportDetail = lazy(() => import('./pages/ConferenceReportDetail'))
 const DinnerReviews = lazy(() => import('./pages/DinnerReviews'))
 const DinnerReviewDetail = lazy(() => import('./pages/DinnerReviewDetail'))
+const SpeakerDirectory = lazy(() => import('./pages/SpeakerDirectory'))
+const SpeakerProfile = lazy(() => import('./pages/SpeakerProfile'))
 const Blogs = lazy(() => import('./pages/Blogs'))
 const BlogDetail = lazy(() => import('./pages/BlogDetail'))
 const SalarySurveys = lazy(() => import('./pages/SalarySurveys'))
@@ -79,6 +81,8 @@ export default function App() {
           <Route path="/speakers/conference-reports/:slug" element={<ConferenceReportDetail />} />
           <Route path="/speakers/dinner-reviews" element={<DinnerReviews />} />
           <Route path="/speakers/dinner-reviews/:slug" element={<DinnerReviewDetail />} />
+          <Route path="/speakers/directory" element={<SpeakerDirectory />} />
+          <Route path="/speakers/directory/:slug" element={<SpeakerProfile />} />
 
           {/* Reading Room */}
           <Route path="/reading-room" element={<ReadingRoom />} />

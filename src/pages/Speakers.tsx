@@ -4,6 +4,7 @@ import ContentCard from '../components/ContentCard'
 import eveningTalksData from '../data/evening-talks.json'
 import conferenceReportsData from '../data/conference-reports.json'
 import dinnerReviewsData from '../data/dinner-reviews.json'
+import { speakerDirectory } from '../utils/speakerDirectory'
 
 export default function Speakers() {
   useSEO({
@@ -18,9 +19,10 @@ export default function Speakers() {
   return (
     <div>
       {/* Page header */}
-      <div className="bg-gradient-to-br from-spe-deep2 via-spe-deep to-spe-blue text-white">
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-16 sm:py-20">
-          <p className="editorial-subheading text-spe-light mb-3">Events & Talks</p>
+      <div className="bg-gradient-to-br from-spe-ink via-spe-deep2 to-spe-deep text-white relative overflow-hidden grain-overlay">
+        <div className="absolute inset-0 opacity-[0.03] hero-pattern" />
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-16 sm:py-20 relative z-10">
+          <div className="inline-flex items-center gap-2 mb-3"><span className="w-6 h-[2px] bg-spe-gold rounded-full" /><span className="text-spe-gold text-[10px] font-semibold uppercase tracking-[0.15em]">Events & Talks</span></div>
           <h1 className="editorial-heading text-4xl sm:text-5xl mb-4">Speakers</h1>
           <p className="text-lg text-white/70 max-w-2xl font-light">
             Evening talks, conference reports, and dinner reviews from the Society's speaker programme.
@@ -30,92 +32,110 @@ export default function Speakers() {
 
       {/* Navigation cards */}
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
-        <div className="grid grid-cols-1 md:grid-cols-3 gap-6 mb-16">
+        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6 mb-16">
           {/* Evening Talks */}
           <Link
             to="/speakers/evening-talks"
-            className="group relative overflow-hidden rounded-2xl bg-gradient-to-br from-indigo-50 to-indigo-100/50 border border-indigo-200/30 p-8 hover:shadow-lg transition-all duration-300"
+            className="group rounded-2xl border border-spe-divider/30 bg-white p-8 hover:shadow-lg hover:border-spe-gold/30 transition-all duration-300"
           >
-            <div className="relative z-10">
-              <div className="w-12 h-12 rounded-xl bg-indigo-100 flex items-center justify-center mb-4">
-                <svg className="w-6 h-6 text-indigo-600" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M19 11a7 7 0 01-7 7m0 0a7 7 0 01-7-7m7 7v4m0 0H8m4 0h4m-4-8a3 3 0 01-3-3V5a3 3 0 116 0v6a3 3 0 01-3 3z" />
-                </svg>
-              </div>
-              <h2 className="text-xl font-serif font-bold text-spe-dark mb-2 group-hover:text-indigo-700 transition-colors">
-                Evening Talks
-              </h2>
-              <p className="text-sm text-spe-muted leading-relaxed">
-                {eveningTalksData.length} talks from the Society's evening speaker series.
-              </p>
-              <span className="inline-flex items-center gap-1 mt-4 text-sm font-medium text-indigo-600 group-hover:gap-2 transition-all">
-                Browse talks
-                <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 5l7 7-7 7" />
-                </svg>
-              </span>
+            <div className="w-11 h-11 rounded-xl bg-spe-cream flex items-center justify-center mb-5 group-hover:bg-spe-gold/10 transition-colors">
+              <svg className="w-5 h-5 text-spe-gold" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M19 11a7 7 0 01-7 7m0 0a7 7 0 01-7-7m7 7v4m0 0H8m4 0h4m-4-8a3 3 0 01-3-3V5a3 3 0 116 0v6a3 3 0 01-3 3z" />
+              </svg>
             </div>
+            <h2 className="text-xl font-serif font-bold text-spe-ink mb-2 group-hover:text-spe-blue transition-colors">
+              Evening Talks
+            </h2>
+            <p className="text-sm text-spe-muted leading-relaxed">
+              {eveningTalksData.length} talks from the Society's evening speaker series.
+            </p>
+            <span className="inline-flex items-center gap-1 mt-5 text-sm font-medium text-spe-blue group-hover:gap-2 transition-all">
+              Browse talks
+              <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M17 8l4 4m0 0l-4 4m4-4H3" />
+              </svg>
+            </span>
           </Link>
 
           {/* Conference Reports */}
           <Link
             to="/speakers/conference-reports"
-            className="group relative overflow-hidden rounded-2xl bg-gradient-to-br from-amber-50 to-amber-100/50 border border-amber-200/30 p-8 hover:shadow-lg transition-all duration-300"
+            className="group rounded-2xl border border-spe-divider/30 bg-white p-8 hover:shadow-lg hover:border-spe-gold/30 transition-all duration-300"
           >
-            <div className="relative z-10">
-              <div className="w-12 h-12 rounded-xl bg-amber-100 flex items-center justify-center mb-4">
-                <svg className="w-6 h-6 text-amber-600" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 12h6m-6 4h6m2 5H7a2 2 0 01-2-2V5a2 2 0 012-2h5.586a1 1 0 01.707.293l5.414 5.414a1 1 0 01.293.707V19a2 2 0 01-2 2z" />
-                </svg>
-              </div>
-              <h2 className="text-xl font-serif font-bold text-spe-dark mb-2 group-hover:text-amber-700 transition-colors">
-                Conference Reports
-              </h2>
-              <p className="text-sm text-spe-muted leading-relaxed">
-                {conferenceReportsData.length} reports from economics conferences and symposia.
-              </p>
-              <span className="inline-flex items-center gap-1 mt-4 text-sm font-medium text-amber-600 group-hover:gap-2 transition-all">
-                Browse reports
-                <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 5l7 7-7 7" />
-                </svg>
-              </span>
+            <div className="w-11 h-11 rounded-xl bg-spe-cream flex items-center justify-center mb-5 group-hover:bg-spe-gold/10 transition-colors">
+              <svg className="w-5 h-5 text-spe-gold" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 12h6m-6 4h6m2 5H7a2 2 0 01-2-2V5a2 2 0 012-2h5.586a1 1 0 01.707.293l5.414 5.414a1 1 0 01.293.707V19a2 2 0 01-2 2z" />
+              </svg>
             </div>
+            <h2 className="text-xl font-serif font-bold text-spe-ink mb-2 group-hover:text-spe-blue transition-colors">
+              Conference Reports
+            </h2>
+            <p className="text-sm text-spe-muted leading-relaxed">
+              {conferenceReportsData.length} reports from economics conferences and symposia.
+            </p>
+            <span className="inline-flex items-center gap-1 mt-5 text-sm font-medium text-spe-blue group-hover:gap-2 transition-all">
+              Browse reports
+              <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M17 8l4 4m0 0l-4 4m4-4H3" />
+              </svg>
+            </span>
           </Link>
 
           {/* Dinner Reviews */}
           <Link
             to="/speakers/dinner-reviews"
-            className="group relative overflow-hidden rounded-2xl bg-gradient-to-br from-emerald-50 to-emerald-100/50 border border-emerald-200/30 p-8 hover:shadow-lg transition-all duration-300"
+            className="group rounded-2xl border border-spe-divider/30 bg-white p-8 hover:shadow-lg hover:border-spe-gold/30 transition-all duration-300"
           >
-            <div className="relative z-10">
-              <div className="w-12 h-12 rounded-xl bg-emerald-100 flex items-center justify-center mb-4">
-                <svg className="w-6 h-6 text-emerald-600" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M3 3h2l.4 2M7 13h10l4-8H5.4M7 13L5.4 5M7 13l-2.293 2.293c-.63.63-.184 1.707.707 1.707H17m0 0a2 2 0 100 4 2 2 0 000-4zm-8 2a2 2 0 100 4 2 2 0 000-4z" />
-                </svg>
-              </div>
-              <h2 className="text-xl font-serif font-bold text-spe-dark mb-2 group-hover:text-emerald-700 transition-colors">
-                Dinner Reviews
-              </h2>
-              <p className="text-sm text-spe-muted leading-relaxed">
-                {dinnerReviewsData.length} reviews of the Society's annual and special dinners.
-              </p>
-              <span className="inline-flex items-center gap-1 mt-4 text-sm font-medium text-emerald-600 group-hover:gap-2 transition-all">
-                Browse reviews
-                <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 5l7 7-7 7" />
-                </svg>
-              </span>
+            <div className="w-11 h-11 rounded-xl bg-spe-cream flex items-center justify-center mb-5 group-hover:bg-spe-gold/10 transition-colors">
+              <svg className="w-5 h-5 text-spe-gold" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M3 3h2l.4 2M7 13h10l4-8H5.4M7 13L5.4 5M7 13l-2.293 2.293c-.63.63-.184 1.707.707 1.707H17m0 0a2 2 0 100 4 2 2 0 000-4zm-8 2a2 2 0 100 4 2 2 0 000-4z" />
+              </svg>
             </div>
+            <h2 className="text-xl font-serif font-bold text-spe-ink mb-2 group-hover:text-spe-blue transition-colors">
+              Dinner Reviews
+            </h2>
+            <p className="text-sm text-spe-muted leading-relaxed">
+              {dinnerReviewsData.length} reviews of the Society's annual and special dinners.
+            </p>
+            <span className="inline-flex items-center gap-1 mt-5 text-sm font-medium text-spe-blue group-hover:gap-2 transition-all">
+              Browse reviews
+              <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M17 8l4 4m0 0l-4 4m4-4H3" />
+              </svg>
+            </span>
+          </Link>
+
+          {/* People Directory */}
+          <Link
+            to="/speakers/directory"
+            className="group rounded-2xl border border-spe-divider/30 bg-white p-8 hover:shadow-lg hover:border-spe-gold/30 transition-all duration-300"
+          >
+            <div className="w-11 h-11 rounded-xl bg-spe-cream flex items-center justify-center mb-5 group-hover:bg-spe-gold/10 transition-colors">
+              <svg className="w-5 h-5 text-spe-gold" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M17 20h5v-2a3 3 0 00-5.356-1.857M17 20H7m10 0v-2c0-.656-.126-1.283-.356-1.857M7 20H2v-2a3 3 0 015.356-1.857M7 20v-2c0-.656.126-1.283.356-1.857m0 0a5.002 5.002 0 019.288 0M15 7a3 3 0 11-6 0 3 3 0 016 0zm6 3a2 2 0 11-4 0 2 2 0 014 0zM7 10a2 2 0 11-4 0 2 2 0 014 0z" />
+              </svg>
+            </div>
+            <h2 className="text-xl font-serif font-bold text-spe-ink mb-2 group-hover:text-spe-blue transition-colors">
+              People Directory
+            </h2>
+            <p className="text-sm text-spe-muted leading-relaxed">
+              {speakerDirectory.length} economists and commentators who contribute to SPE.
+            </p>
+            <span className="inline-flex items-center gap-1 mt-5 text-sm font-medium text-spe-blue group-hover:gap-2 transition-all">
+              Browse people
+              <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M17 8l4 4m0 0l-4 4m4-4H3" />
+              </svg>
+            </span>
           </Link>
         </div>
 
         {/* Recent evening talks preview */}
-        <div className="border-t border-spe-border/20 pt-12 mb-16">
+        <div className="border-t border-spe-divider/20 pt-12 mb-16">
           <div className="flex items-end justify-between mb-8">
             <div>
-              <p className="editorial-subheading text-spe-blue mb-2">Latest</p>
-              <h2 className="editorial-heading text-2xl sm:text-3xl text-spe-dark">Recent Evening Talks</h2>
+              <p className="section-label">Latest</p>
+              <h2 className="editorial-heading text-2xl sm:text-3xl text-spe-ink">Recent Evening Talks</h2>
             </div>
             <Link
               to="/speakers/evening-talks"
@@ -123,7 +143,7 @@ export default function Speakers() {
             >
               View all {eveningTalksData.length} talks
               <svg className="w-4 h-4 transition-transform group-hover:translate-x-0.5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 5l7 7-7 7" />
+                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M17 8l4 4m0 0l-4 4m4-4H3" />
               </svg>
             </Link>
           </div>
@@ -143,11 +163,11 @@ export default function Speakers() {
         </div>
 
         {/* Recent conference reports preview */}
-        <div className="border-t border-spe-border/20 pt-12 mb-16">
+        <div className="border-t border-spe-divider/20 pt-12 mb-16">
           <div className="flex items-end justify-between mb-8">
             <div>
-              <p className="editorial-subheading text-spe-blue mb-2">Latest</p>
-              <h2 className="editorial-heading text-2xl sm:text-3xl text-spe-dark">Recent Conference Reports</h2>
+              <p className="section-label">Latest</p>
+              <h2 className="editorial-heading text-2xl sm:text-3xl text-spe-ink">Recent Conference Reports</h2>
             </div>
             <Link
               to="/speakers/conference-reports"
@@ -155,7 +175,7 @@ export default function Speakers() {
             >
               View all {conferenceReportsData.length} reports
               <svg className="w-4 h-4 transition-transform group-hover:translate-x-0.5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 5l7 7-7 7" />
+                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M17 8l4 4m0 0l-4 4m4-4H3" />
               </svg>
             </Link>
           </div>
@@ -174,11 +194,11 @@ export default function Speakers() {
         </div>
 
         {/* Recent dinner reviews preview */}
-        <div className="border-t border-spe-border/20 pt-12">
+        <div className="border-t border-spe-divider/20 pt-12">
           <div className="flex items-end justify-between mb-8">
             <div>
-              <p className="editorial-subheading text-spe-blue mb-2">Latest</p>
-              <h2 className="editorial-heading text-2xl sm:text-3xl text-spe-dark">Recent Dinner Reviews</h2>
+              <p className="section-label">Latest</p>
+              <h2 className="editorial-heading text-2xl sm:text-3xl text-spe-ink">Recent Dinner Reviews</h2>
             </div>
             <Link
               to="/speakers/dinner-reviews"
@@ -186,7 +206,7 @@ export default function Speakers() {
             >
               View all {dinnerReviewsData.length} reviews
               <svg className="w-4 h-4 transition-transform group-hover:translate-x-0.5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 5l7 7-7 7" />
+                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M17 8l4 4m0 0l-4 4m4-4H3" />
               </svg>
             </Link>
           </div>
