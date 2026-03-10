@@ -61,7 +61,7 @@
   /* Typography – Scale */
   --font-size-xs: 0.75rem;      /* 12px */
   --font-size-sm: 0.875rem;     /* 14px */
-  --font-size-base: 0.9375rem;  /* 15px */
+  --font-size-base: 1rem;       /* 16px — mobile-safe minimum */
   --font-size-lg: 1.125rem;     /* 18px */
   --font-size-xl: 1.25rem;      /* 20px */
   --font-size-2xl: 1.5rem;      /* 24px */
@@ -160,6 +160,7 @@
 /* ─── Base Styles ─── */
 html {
   scroll-behavior: smooth;
+  overflow-x: hidden;
 }
 
 body {
@@ -168,11 +169,24 @@ body {
   background-color: var(--color-spe-surface);
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  overflow-wrap: break-word;
+  word-break: break-word;
+  overflow-x: hidden;
 }
 
 h1, h2, h3, h4 {
   font-family: var(--font-serif);
   color: var(--color-spe-dark);
+}
+
+/* ─── Responsive Media (prevent horizontal overflow) ─── */
+img, video, embed, object {
+  max-width: 100%;
+  height: auto;
+}
+
+iframe {
+  max-width: 100%;
 }
 
 /* ─── Editorial Typography ─── */
@@ -188,7 +202,7 @@ h1, h2, h3, h4 {
   font-weight: var(--font-weight-medium);
   text-transform: uppercase;
   letter-spacing: var(--letter-spacing-wide);
-  font-size: var(--font-size-xs);
+  font-size: clamp(0.6875rem, 0.6rem + 0.25vw, 0.75rem); /* 11–12px, visually small label */
 }
 
 /* ─── Glassmorphism Navbar ─── */
@@ -301,6 +315,14 @@ h1, h2, h3, h4 {
   color: var(--color-spe-muted);
   font-size: var(--font-size-base);
   line-height: var(--line-height-relaxed);
+}
+
+/* ─── Scrollable tables in scraped content ─── */
+.prose table {
+  display: block;
+  overflow-x: auto;
+  -webkit-overflow-scrolling: touch;
+  max-width: 100%;
 }
 
 /* ─── Scrollbar styling ─── */

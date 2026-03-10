@@ -42,7 +42,7 @@ export default function Footer() {
                   required
                   aria-label="Email address for newsletter"
                   autoComplete="email"
-                  className="flex-1 px-4 py-3 bg-white/10 border border-white/20 rounded-l-lg text-sm text-white placeholder:text-white/40 focus:outline-none focus:bg-white/15 focus:border-white/40 transition-colors"
+                  className="flex-1 px-4 py-3 bg-white/10 border border-white/20 rounded-l-lg text-base text-white placeholder:text-white/40 focus:outline-none focus:bg-white/15 focus:border-white/40 transition-colors"
                 />
                 <button
                   type="submit"
@@ -74,7 +74,7 @@ export default function Footer() {
 
       {/* Main footer */}
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-14">
-        <div className="grid grid-cols-2 md:grid-cols-5 gap-8 lg:gap-12">
+        <div className="grid grid-cols-1 min-[480px]:grid-cols-2 md:grid-cols-5 gap-8 lg:gap-12">
           {/* Brand */}
           <div className="col-span-2 md:col-span-1">
             <Link to="/" className="flex items-center gap-2 mb-4">
@@ -96,7 +96,7 @@ export default function Footer() {
                   href={s.href}
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="w-9 h-9 flex items-center justify-center rounded-lg bg-white/5 text-white/60 hover:bg-white/10 hover:text-white transition-all"
+                  className="w-11 h-11 flex items-center justify-center rounded-lg bg-white/5 text-white/60 hover:bg-white/10 hover:text-white transition-all"
                   aria-label={s.label}
                 >
                   <svg className="w-4 h-4" fill="currentColor" viewBox="0 0 24 24"><path d={s.icon}/></svg>
@@ -108,7 +108,7 @@ export default function Footer() {
           {/* Explore */}
           <div>
             <h4 className="font-sans text-xs font-semibold uppercase tracking-wider text-white/70 mb-4">Explore</h4>
-            <ul className="space-y-2.5">
+            <ul className="space-y-1">
               {[
                 { to: '/events', label: 'Events' },
                 { to: '/speakers', label: 'Speakers' },
@@ -117,7 +117,7 @@ export default function Footer() {
                 { to: '/news', label: 'News' },
                 { to: '/blogs', label: 'Blog' },
               ].map(l => (
-                <li key={l.to}><Link to={l.to} className="text-sm text-white/70 hover:text-white transition-colors">{l.label}</Link></li>
+                <li key={l.to}><Link to={l.to} className="text-sm text-white/70 hover:text-white transition-colors inline-flex items-center min-h-[44px]">{l.label}</Link></li>
               ))}
             </ul>
           </div>
@@ -125,7 +125,7 @@ export default function Footer() {
           {/* Reading Room */}
           <div>
             <h4 className="font-sans text-xs font-semibold uppercase tracking-wider text-white/70 mb-4">Reading Room</h4>
-            <ul className="space-y-2.5">
+            <ul className="space-y-1">
               {[
                 { to: '/reading-room/book-reviews', label: 'Book Reviews' },
                 { to: '/reading-room/articles', label: 'Articles' },
@@ -133,7 +133,7 @@ export default function Footer() {
                 { to: '/reading-room/salary-surveys', label: 'Salary Surveys' },
                 { to: '/reading-room/members-polls', label: 'Members\u2019 Polls' },
               ].map(l => (
-                <li key={l.to}><Link to={l.to} className="text-sm text-white/70 hover:text-white transition-colors">{l.label}</Link></li>
+                <li key={l.to}><Link to={l.to} className="text-sm text-white/70 hover:text-white transition-colors inline-flex items-center min-h-[44px]">{l.label}</Link></li>
               ))}
             </ul>
           </div>
@@ -141,7 +141,7 @@ export default function Footer() {
           {/* Society */}
           <div>
             <h4 className="font-sans text-xs font-semibold uppercase tracking-wider text-white/70 mb-4">Society</h4>
-            <ul className="space-y-2.5">
+            <ul className="space-y-1">
               {[
                 { to: '/about', label: 'About the SPE' },
                 { to: '/about/council', label: 'Council & Officers' },
@@ -150,7 +150,7 @@ export default function Footer() {
                 { to: '/faqs', label: 'FAQs' },
                 { to: '/site-policies', label: 'Policies' },
               ].map(l => (
-                <li key={l.to}><Link to={l.to} className="text-sm text-white/70 hover:text-white transition-colors">{l.label}</Link></li>
+                <li key={l.to}><Link to={l.to} className="text-sm text-white/70 hover:text-white transition-colors inline-flex items-center min-h-[44px]">{l.label}</Link></li>
               ))}
             </ul>
           </div>
@@ -158,19 +158,19 @@ export default function Footer() {
           {/* Contact */}
           <div>
             <h4 className="font-sans text-xs font-semibold uppercase tracking-wider text-white/70 mb-4">Contact</h4>
-            <ul className="space-y-2.5">
+            <ul className="space-y-1">
               <li>
-                <a href="mailto:info@spe.org.uk" className="text-sm text-white/70 hover:text-white transition-colors">
+                <a href="mailto:info@spe.org.uk" className="text-sm text-white/70 hover:text-white transition-colors inline-flex items-center min-h-[44px]">
                   info@spe.org.uk
                 </a>
               </li>
               <li>
-                <Link to="/contact" className="text-sm text-white/70 hover:text-white transition-colors">
+                <Link to="/contact" className="text-sm text-white/70 hover:text-white transition-colors inline-flex items-center min-h-[44px]">
                   Get in Touch
                 </Link>
               </li>
               <li>
-                <Link to="/advertise" className="text-sm text-white/70 hover:text-white transition-colors">
+                <Link to="/advertise" className="text-sm text-white/70 hover:text-white transition-colors inline-flex items-center min-h-[44px]">
                   Advertise with SPE
                 </Link>
               </li>

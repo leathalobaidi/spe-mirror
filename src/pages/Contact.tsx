@@ -45,7 +45,7 @@ export default function Contact() {
                     name="name"
                     required
                     autoComplete="name"
-                    className="w-full rounded-lg border border-spe-border/40 bg-white px-4 py-2.5 text-sm text-spe-dark placeholder:text-spe-muted/50 focus:outline-none focus:ring-2 focus:ring-spe-blue/30 focus:border-spe-blue transition-colors"
+                    className="w-full rounded-lg border border-spe-border/40 bg-white px-4 py-2.5 text-base text-spe-dark placeholder:text-spe-muted/50 focus:outline-none focus:ring-2 focus:ring-spe-blue/30 focus:border-spe-blue transition-colors"
                     placeholder="Jane Smith"
                   />
                 </div>
@@ -59,7 +59,7 @@ export default function Contact() {
                     id="company"
                     name="company"
                     autoComplete="organization"
-                    className="w-full rounded-lg border border-spe-border/40 bg-white px-4 py-2.5 text-sm text-spe-dark placeholder:text-spe-muted/50 focus:outline-none focus:ring-2 focus:ring-spe-blue/30 focus:border-spe-blue transition-colors"
+                    className="w-full rounded-lg border border-spe-border/40 bg-white px-4 py-2.5 text-base text-spe-dark placeholder:text-spe-muted/50 focus:outline-none focus:ring-2 focus:ring-spe-blue/30 focus:border-spe-blue transition-colors"
                     placeholder="Your organisation"
                   />
                 </div>
@@ -75,7 +75,7 @@ export default function Contact() {
                       name="email"
                       required
                       autoComplete="email"
-                      className="w-full rounded-lg border border-spe-border/40 bg-white px-4 py-2.5 text-sm text-spe-dark placeholder:text-spe-muted/50 focus:outline-none focus:ring-2 focus:ring-spe-blue/30 focus:border-spe-blue transition-colors"
+                      className="w-full rounded-lg border border-spe-border/40 bg-white px-4 py-2.5 text-base text-spe-dark placeholder:text-spe-muted/50 focus:outline-none focus:ring-2 focus:ring-spe-blue/30 focus:border-spe-blue transition-colors"
                       placeholder="jane@example.com"
                     />
                   </div>
@@ -88,7 +88,7 @@ export default function Contact() {
                       id="telephone"
                       name="telephone"
                       autoComplete="tel"
-                      className="w-full rounded-lg border border-spe-border/40 bg-white px-4 py-2.5 text-sm text-spe-dark placeholder:text-spe-muted/50 focus:outline-none focus:ring-2 focus:ring-spe-blue/30 focus:border-spe-blue transition-colors"
+                      className="w-full rounded-lg border border-spe-border/40 bg-white px-4 py-2.5 text-base text-spe-dark placeholder:text-spe-muted/50 focus:outline-none focus:ring-2 focus:ring-spe-blue/30 focus:border-spe-blue transition-colors"
                       placeholder="+44 20 1234 5678"
                     />
                   </div>
@@ -103,7 +103,7 @@ export default function Contact() {
                     name="message"
                     required
                     rows={5}
-                    className="w-full rounded-lg border border-spe-border/40 bg-white px-4 py-2.5 text-sm text-spe-dark placeholder:text-spe-muted/50 focus:outline-none focus:ring-2 focus:ring-spe-blue/30 focus:border-spe-blue transition-colors resize-y"
+                    className="w-full rounded-lg border border-spe-border/40 bg-white px-4 py-2.5 text-base text-spe-dark placeholder:text-spe-muted/50 focus:outline-none focus:ring-2 focus:ring-spe-blue/30 focus:border-spe-blue transition-colors resize-y"
                     placeholder="How can we help?"
                   />
                 </div>

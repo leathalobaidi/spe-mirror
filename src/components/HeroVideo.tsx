@@ -31,7 +31,7 @@ export default function HeroVideo({ videoId, title, subtitle }: Props) {
           {/* Left — text content */}
           <div className="flex-1 text-white z-10">
             {title && (
-              <h1 className="editorial-heading text-4xl sm:text-5xl lg:text-6xl mb-5 leading-[1.1]">
+              <h1 className="editorial-heading mb-5 leading-[1.1]" style={{ fontSize: 'clamp(2rem, 5vw + 0.5rem, 3.75rem)' }}>
                 {title}
               </h1>
             )}
@@ -85,7 +85,7 @@ export default function HeroVideo({ videoId, title, subtitle }: Props) {
               {/* Audio toggle */}
               <button
                 onClick={() => { const next = !isMuted; setIsMuted(next); toggleMute(next) }}
-                className="absolute bottom-4 left-4 flex items-center gap-1.5 bg-black/40 backdrop-blur-sm rounded-full px-3 py-1.5 hover:bg-black/60 transition-all duration-300 focus-ring"
+                className="absolute bottom-4 left-4 flex items-center gap-1.5 bg-black/40 backdrop-blur-sm rounded-full px-4 py-2.5 min-h-[44px] hover:bg-black/60 transition-all duration-300 focus-ring"
                 aria-label={isMuted ? 'Unmute video' : 'Mute video'}
               >
                 {!isMuted ? (

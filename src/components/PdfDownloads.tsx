@@ -21,7 +21,7 @@ export default function PdfDownloads({ pdfs, heading = 'Downloads' }: Props) {
               href={pdf.href}
               target="_blank"
               rel="noopener noreferrer"
-              className="inline-flex items-center gap-2 text-spe-blue hover:text-spe-deep transition-colors group"
+              className="inline-flex items-center gap-2 text-spe-blue hover:text-spe-deep transition-colors group min-h-[44px] py-1"
             >
               <svg
                 className="w-5 h-5 flex-shrink-0 text-spe-error-light/70"

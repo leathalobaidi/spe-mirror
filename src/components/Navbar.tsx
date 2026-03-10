@@ -57,6 +57,16 @@ export default function Navbar() {
     setActiveMega(null)
   }, [location])
 
+  // Close mobile menu on Escape key
+  useEffect(() => {
+    if (!mobileOpen) return
+    const onEscape = (e: KeyboardEvent) => {
+      if (e.key === 'Escape') setMobileOpen(false)
+    }
+    document.addEventListener('keydown', onEscape)
+    return () => document.removeEventListener('keydown', onEscape)
+  }, [mobileOpen])
+
   const showMega = (label: string) => {
     if (megaTimeout.current) clearTimeout(megaTimeout.current)
     setActiveMega(label)
@@ -155,7 +165,7 @@ export default function Navbar() {
               {/* Search trigger */}
               <button
                 onClick={() => document.dispatchEvent(new CustomEvent('toggle-search'))}
-                className={`p-2.5 rounded-lg transition-colors focus-ring ${textMuted} ${hoverBg}`}
+                className={`min-w-[44px] min-h-[44px] flex items-center justify-center rounded-lg transition-colors focus-ring ${textMuted} ${hoverBg}`}
                 aria-label="Search"
               >
                 <svg className="w-[18px] h-[18px]" fill="none" stroke="currentColor" viewBox="0 0 24 24">
@@ -198,7 +208,7 @@ export default function Navbar() {
               {/* Mobile hamburger */}
               <button
                 onClick={() => setMobileOpen(!mobileOpen)}
-                className={`lg:hidden p-2.5 rounded-lg transition-colors ${textMuted} ${hoverBg}`}
+                className={`lg:hidden min-w-[44px] min-h-[44px] flex items-center justify-center rounded-lg transition-colors ${textMuted} ${hoverBg}`}
                 aria-label={mobileOpen ? 'Close menu' : 'Open menu'}
                 aria-expanded={mobileOpen}
                 aria-controls="mobile-menu"
@@ -247,7 +257,7 @@ export default function Navbar() {
                           key={sub.to}
                           to={sub.to}
                           onClick={() => setMobileOpen(false)}
-                          className="block px-4 py-2 text-sm text-spe-muted hover:text-spe-blue hover:bg-spe-bg rounded-lg transition-colors"
+                          className="block px-4 py-2.5 text-sm text-spe-muted hover:text-spe-blue hover:bg-spe-bg rounded-lg transition-colors min-h-[44px] flex items-center"
                         >
                           {sub.label}
                         </Link>
@@ -268,7 +278,7 @@ export default function Navbar() {
                     key={link.to}
                     to={link.to}
                     onClick={() => setMobileOpen(false)}
-                    className="block px-4 py-2.5 text-sm text-spe-muted hover:text-spe-blue hover:bg-spe-bg rounded-lg transition-colors"
+                    className="block px-4 py-3 text-sm text-spe-muted hover:text-spe-blue hover:bg-spe-bg rounded-lg transition-colors min-h-[44px] flex items-center"
                   >
                     {link.label}
                   </Link>

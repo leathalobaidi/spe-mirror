@@ -13,7 +13,7 @@ export default function SectionHeading({ title, subtitle, linkTo, linkLabel = 'V
     <div className={`flex items-end justify-between mb-8 ${className}`}>
       <div>
         <p className="editorial-subheading text-spe-blue mb-2">{subtitle || ''}</p>
-        <h2 className="editorial-heading text-2xl sm:text-3xl text-spe-dark">{title}</h2>
+        <h2 className="editorial-heading text-spe-dark" style={{ fontSize: 'clamp(1.5rem, 3vw + 0.25rem, 1.875rem)' }}>{title}</h2>
       </div>
       {linkTo && (
         <Link
