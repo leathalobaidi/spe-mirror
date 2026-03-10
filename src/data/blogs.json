@@ -5,7 +5,11 @@
     "author": "Sunil Krishnan",
     "authorSlug": "sunil-krishnan",
     "body": "<div class='list-text'>\n<div class='item blocklink '>\n\n\t\t\t\t\t<div class='wrap'>\n\t\t\t\t\t\t\n\t\t\t\t\t\t<p class='small date'> Posted: 02 March 2020</p>\n\t\t\t\t\t\t<a href='/blogs/sunil-krishnan/what-role-for-monetary-policy/'>\n\t\t\t\t\t\t<p class='link_heading'>What role for monetary policy?</p>  \n\t\t\t\t\t\t</a>\n\t\t\t\t\t\t\n\t\t\t\t\t\t\n\t\t\t\t\t\t\n\t\t\t\t\t\t\n\t\t\t\t\t\t\n\t\t\t\t\t\t<div class='summary'><p>With the saving ratio at a 15-year high and the debt-income ratio back to 2004 levels, the consumer is well placed to keep spending.</p>\n</div>\n\n\t\t\t\t\t\t\n\t\t\t\t\t\t\n\t\t\t\t\t\t\n\t\t\t\t\t</div>\n\t\t\t\t\t\n\t\t\t\n</div><div class='item blocklink '>\n\n\t\t\t\t\t<div class='wrap'>\n\t\t\t\t\t\t\n\t\t\t\t\t\t<p class='small date'> Posted: 28 March 2013</p>\n\t\t\t\t\t\t<a href='/blogs/sunil-krishnan/blog2/'>\n\t\t\t\t\t\t<p class='link_heading'>Consumer spending (edit me)</p>  \n\t\t\t\t\t\t</a>\n\t\t\t\t\t\t\n\t\t\t\t\t\t\n\t\t\t\t\t\t\n\t\t\t\t\t\t\n\t\t\t\t\t\t\n\t\t\t\t\t\t<div class='summary'><p>Once again the Chancellor has put the onus on the MPC to do the heavy lifting that fiscal policy is unable to undertake. He is hoping that a remit that allows the MPC to give forward (conditional) guidance will somehow provide the reassurance that markets and borrowers require.</p>\n</div>\n\n\t\t\t\t\t\t\n\t\t\t\t\t\t\n\t\t\t\t\t\t\n\t\t\t\t\t</div>\n\t\t\t\t\t\n\t\t\t\n</div></div>",
-    "date": "2020-03-02"
+    "date": "2020-03-02",
+    "topics": [
+      "Monetary Policy",
+      "Fiscal Policy"
+    ]
   },
   {
     "slug": "vladimir-cacean",
@@ -13,7 +17,10 @@
     "author": "Vladimir Cacean",
     "authorSlug": "vladimir-cacean",
     "body": "<div class='list-text'>\n<div class='item blocklink '>\n\n\t\t\t\t\t<div class='wrap'>\n\t\t\t\t\t\t\n\t\t\t\t\t\t<p class='small date'> Posted: 02 March 2020</p>\n\t\t\t\t\t\t<a href='/blogs/vladimir-cacean/what-role-for-monetary-policy/'>\n\t\t\t\t\t\t<p class='link_heading'>What role for monetary policy?</p>  \n\t\t\t\t\t\t</a>\n\t\t\t\t\t\t\n\t\t\t\t\t\t\n\t\t\t\t\t\t\n\t\t\t\t\t\t\n\t\t\t\t\t\t\n\t\t\t\t\t\t<div class='summary'><p>With the saving ratio at a 15-year high and the debt-income ratio back to 2004 levels, the consumer is well placed to keep spending.</p>\n</div>\n\n\t\t\t\t\t\t\n\t\t\t\t\t\t\n\t\t\t\t\t\t\n\t\t\t\t\t</div>\n\t\t\t\t\t\n\t\t\t\n</div></div>",
-    "date": "2020-03-02"
+    "date": "2020-03-02",
+    "topics": [
+      "Monetary Policy"
+    ]
   },
   {
     "slug": "consumer-spending-edit-me",
@@ -26,7 +33,10 @@
       "https://spe.org.uk/site/assets/files/7777/gdp_output_components.1200x0.webp",
       "https://spe.org.uk/site/assets/files/7777/personal_sector_saving_ratio_and_net_lending.1200x0.webp"
     ],
-    "date": "2013-03-28"
+    "date": "2013-03-28",
+    "topics": [
+      "Macroeconomics"
+    ]
   },
   {
     "slug": "what-role-for-monetary-policy-2",
@@ -39,6 +49,10 @@
       "https://spe.org.uk/site/assets/files/10729/gdp_output_components.1200x0.webp",
       "https://spe.org.uk/site/assets/files/10729/personal_sector_saving_ratio_and_net_lending.1200x0.webp"
     ],
-    "date": "2004-01-01"
+    "date": "2004-01-01",
+    "topics": [
+      "Macroeconomics",
+      "Monetary Policy"
+    ]
   }
 ]

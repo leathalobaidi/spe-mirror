@@ -6,7 +6,10 @@
     "reviewer": "Joe Little",
     "author": "Dan Wang",
     "bookTitle": "",
-    "coverImage": "/images/14976/breakneck-_chinas_quest_to_engineer_the_future.500x0.jpg"
+    "coverImage": "/images/14976/breakneck-_chinas_quest_to_engineer_the_future.500x0.jpg",
+    "topics": [
+      "Geopolitics"
+    ]
   },
   {
     "slug": "can-europe-survive",
@@ -15,7 +18,10 @@
     "reviewer": "Ian Harwood",
     "author": "David Marsh",
     "bookTitle": "",
-    "coverImage": "/images/14984/can_europe_survive.500x0.jpg"
+    "coverImage": "/images/14984/can_europe_survive.500x0.jpg",
+    "topics": [
+      "Trade & Globalisation"
+    ]
   },
   {
     "slug": "capitalism-and-its-critics",
@@ -24,7 +30,10 @@
     "reviewer": "Filippo Gaddo",
     "author": "John Cassidy",
     "bookTitle": "",
-    "coverImage": "/images/14985/capitalism_and_its_critics.500x0.jpg"
+    "coverImage": "/images/14985/capitalism_and_its_critics.500x0.jpg",
+    "topics": [
+      "Economic History"
+    ]
   },
   {
     "slug": "central-banking-and-monetary-policy-implementation-volume-i",
@@ -33,7 +42,11 @@
     "reviewer": "",
     "author": "Sylvio Antonio Kappes, Louis-Philippe Rochon and Guillaume Vallet",
     "bookTitle": "",
-    "coverImage": "/images/14987/central_banking_and_monetary_policy_implementation-_volume_i.500x0.jpg"
+    "coverImage": "/images/14987/central_banking_and_monetary_policy_implementation-_volume_i.500x0.jpg",
+    "topics": [
+      "Monetary Policy",
+      "Financial Markets"
+    ]
   },
   {
     "slug": "crisis-cycle-challenges-evolution-and-future-of-the-euro",
@@ -42,7 +55,10 @@
     "reviewer": "Max Magnacca",
     "author": "John H Cochrane, Luis Garicano and Klaus Masuch",
     "bookTitle": "",
-    "coverImage": "/images/14979/crisis_cycle-_challenges-_evolution-_and_future_of_the_euro.500x0.jpg"
+    "coverImage": "/images/14979/crisis_cycle-_challenges-_evolution-_and_future_of_the_euro.500x0.jpg",
+    "topics": [
+      "Trade & Globalisation"
+    ]
   },
   {
     "slug": "how-countries-go-broke",
@@ -51,7 +67,8 @@
     "reviewer": "",
     "author": "Ray Dalio",
     "bookTitle": "",
-    "coverImage": "/images/14983/how_countries_go_broke.500x0.jpg"
+    "coverImage": "/images/14983/how_countries_go_broke.500x0.jpg",
+    "topics": []
   },
   {
     "slug": "how-progress-ends-technology-innovation-and-the-fate-of-nations",
@@ -60,7 +77,10 @@
     "reviewer": "Kevin Gardiner, Rothschild & Co/Cardiff Capital Region",
     "author": "Carl Benedikt Frey",
     "bookTitle": "",
-    "coverImage": "/images/14971/how_progress_ends.500x0.jpg"
+    "coverImage": "/images/14971/how_progress_ends.500x0.jpg",
+    "topics": [
+      "Technology"
+    ]
   },
   {
     "slug": "money-a-story-of-humanity",
@@ -69,7 +89,8 @@
     "reviewer": "Richard Urwin, Chair, Saranac Partners Investment Committee",
     "author": "David McWilliams",
     "bookTitle": "",
-    "coverImage": "/images/14978/money-_a_story_of_humanity.500x0.jpg"
+    "coverImage": "/images/14978/money-_a_story_of_humanity.500x0.jpg",
+    "topics": []
   },
   {
     "slug": "multicurrency-mercantilism",
@@ -78,7 +99,10 @@
     "reviewer": "Leath Al Obaidi",
     "author": "Kathleen Tyson",
     "bookTitle": "",
-    "coverImage": "/images/14986/multicurrency_mercantilism.500x0.jpeg"
+    "coverImage": "/images/14986/multicurrency_mercantilism.500x0.jpeg",
+    "topics": [
+      "Financial Markets"
+    ]
   },
   {
     "slug": "rethinking-income-and-money",
@@ -87,7 +111,10 @@
     "reviewer": "Gerry Holtham, Visiting Professor, Cardiff Metropolitan University",
     "author": "Geoff Crocker",
     "bookTitle": "",
-    "coverImage": "/images/14977/rethinking_income_and_money.500x0.jpg"
+    "coverImage": "/images/14977/rethinking_income_and_money.500x0.jpg",
+    "topics": [
+      "Technology"
+    ]
   },
   {
     "slug": "richer-and-more-equal",
@@ -96,7 +123,10 @@
     "reviewer": "Bridget Rosewell",
     "author": "Daniel Waldenstrom",
     "bookTitle": "",
-    "coverImage": "/images/14982/richer_and_more_equal.500x0.jpeg"
+    "coverImage": "/images/14982/richer_and_more_equal.500x0.jpeg",
+    "topics": [
+      "Inequality"
+    ]
   },
   {
     "slug": "the-economic-consequences-of-mr-trump",
@@ -105,7 +135,10 @@
     "reviewer": "",
     "author": "Philip Coggan",
     "bookTitle": "",
-    "coverImage": "/images/14970/economic_consequences.500x0.jpg"
+    "coverImage": "/images/14970/economic_consequences.500x0.jpg",
+    "topics": [
+      "Trade & Globalisation"
+    ]
   },
   {
     "slug": "the-economics-of-creative-destruction",
@@ -114,7 +147,10 @@
     "reviewer": "",
     "author": "Ufuk Akcigit and John Van Reenen",
     "bookTitle": "",
-    "coverImage": "/images/14974/the_economics_of_creative_destruction.500x0.jpg"
+    "coverImage": "/images/14974/the_economics_of_creative_destruction.500x0.jpg",
+    "topics": [
+      "Technology"
+    ]
   },
   {
     "slug": "the-fractured-age",
@@ -123,7 +159,10 @@
     "reviewer": "Rosie Cornelius, Independent Economist and former Chief Analyst, UK Research and Innovation (UKRI)",
     "author": "Neil Shearing",
     "bookTitle": "",
-    "coverImage": "/images/14981/the_fractured_age.500x0.jpg"
+    "coverImage": "/images/14981/the_fractured_age.500x0.jpg",
+    "topics": [
+      "Trade & Globalisation"
+    ]
   },
   {
     "slug": "the-little-book-of-hedge-funds",
@@ -132,7 +171,10 @@
     "reviewer": "Lavan Mahadeva",
     "author": "Anthony Scaramucci",
     "bookTitle": "",
-    "coverImage": "/images/14972/the_little_book_of_hedge_funds.500x0.jpg"
+    "coverImage": "/images/14972/the_little_book_of_hedge_funds.500x0.jpg",
+    "topics": [
+      "Financial Markets"
+    ]
   },
   {
     "slug": "the-world-at-economic-war",
@@ -141,7 +183,10 @@
     "reviewer": "Ian Bright",
     "author": "Rebecca Harding",
     "bookTitle": "",
-    "coverImage": "/images/14973/the_world_at_economic_war.500x0.jpg"
+    "coverImage": "/images/14973/the_world_at_economic_war.500x0.jpg",
+    "topics": [
+      "Trade & Globalisation"
+    ]
   },
   {
     "slug": "why-were-getting-poorer",
@@ -150,7 +195,10 @@
     "reviewer": "Kate Barker, Universities Superannuation Scheme",
     "author": "Cahal Moran",
     "bookTitle": "",
-    "coverImage": "/images/14980/why_were_getting_poorer.500x0.jpg"
+    "coverImage": "/images/14980/why_were_getting_poorer.500x0.jpg",
+    "topics": [
+      "Inequality"
+    ]
   },
   {
     "slug": "a-modern-economic-history-of-japan",
@@ -159,7 +207,10 @@
     "reviewer": "Ian Harwood",
     "author": "Russell Jones",
     "bookTitle": "",
-    "coverImage": ""
+    "coverImage": "",
+    "topics": [
+      "Economic History"
+    ]
   },
   {
     "slug": "atlas-of-finance-mapping-of-global-story-of-money",
@@ -168,7 +219,10 @@
     "reviewer": "Kevin Gardiner, Rothschild & Co / Cardiff Capital Region",
     "author": "Dariusz Wójcik, James Cheshire & Oliver Uberti",
     "bookTitle": "",
-    "coverImage": ""
+    "coverImage": "",
+    "topics": [
+      "Financial Markets"
+    ]
   },
   {
     "slug": "beyond-banks",
@@ -177,7 +231,11 @@
     "reviewer": "",
     "author": "Dan Awrey",
     "bookTitle": "",
-    "coverImage": ""
+    "coverImage": "",
+    "topics": [
+      "Financial Markets",
+      "Technology"
+    ]
   },
   {
     "slug": "equality",
@@ -186,7 +244,8 @@
     "reviewer": "Vicky Pryce",
     "author": "Thomas Picketty and Michael Sandel",
     "bookTitle": "",
-    "coverImage": ""
+    "coverImage": "",
+    "topics": []
   },
   {
     "slug": "one-dollar",
@@ -195,7 +254,10 @@
     "reviewer": "Maximilian Magnacca",
     "author": "Kenneth Rogoff",
     "bookTitle": "",
-    "coverImage": ""
+    "coverImage": "",
+    "topics": [
+      "Financial Markets"
+    ]
   },
   {
     "slug": "price-setting",
@@ -204,7 +266,10 @@
     "reviewer": "Arno Hantzsche",
     "author": "Truman F. Bewley",
     "bookTitle": "",
-    "coverImage": ""
+    "coverImage": "",
+    "topics": [
+      "Monetary Policy"
+    ]
   },
   {
     "slug": "return-to-growth",
@@ -213,7 +278,11 @@
     "reviewer": "Filippo Gaddo, Managing Director, A&M",
     "author": "Jon Moynihan",
     "bookTitle": "",
-    "coverImage": ""
+    "coverImage": "",
+    "topics": [
+      "Macroeconomics",
+      "Trade & Globalisation"
+    ]
   },
   {
     "slug": "status-states-and-moral-sentiments",
@@ -222,7 +291,10 @@
     "reviewer": "Bridget Rosewell",
     "author": "Reinhard Wolf",
     "bookTitle": "",
-    "coverImage": ""
+    "coverImage": "",
+    "topics": [
+      "Geopolitics"
+    ]
   },
   {
     "slug": "the-business-of-history",
@@ -231,7 +303,10 @@
     "reviewer": "William A. Allen, National Institute of Economic and Social Research",
     "author": "Tom Levitt",
     "bookTitle": "",
-    "coverImage": ""
+    "coverImage": "",
+    "topics": [
+      "Economic History"
+    ]
   },
   {
     "slug": "the-crisis-of-democratic-capitalism",
@@ -240,7 +315,10 @@
     "reviewer": "Leath Al Obaidi",
     "author": "Martin Wolf",
     "bookTitle": "",
-    "coverImage": ""
+    "coverImage": "",
+    "topics": [
+      "Economic History"
+    ]
   },
   {
     "slug": "the-real-economy",
@@ -249,7 +327,8 @@
     "reviewer": "Geoff Crocker, Author of “Rethinking Income and Money” (Palgrave, 2025)",
     "author": "Jonathan Levy",
     "bookTitle": "",
-    "coverImage": ""
+    "coverImage": "",
+    "topics": []
   },
   {
     "slug": "the-world-under-capitalism",
@@ -258,7 +337,12 @@
     "reviewer": "Ian Bright",
     "author": "Branko Milanovic",
     "bookTitle": "",
-    "coverImage": ""
+    "coverImage": "",
+    "topics": [
+      "Inequality",
+      "Climate & Energy",
+      "Economic History"
+    ]
   },
   {
     "slug": "environomics",
@@ -267,7 +351,10 @@
     "reviewer": "Neil Reeder",
     "author": "Dharshini David",
     "bookTitle": "",
-    "coverImage": "/images/14310/environomics.500x0.jpeg"
+    "coverImage": "/images/14310/environomics.500x0.jpeg",
+    "topics": [
+      "Climate & Energy"
+    ]
   },
   {
     "slug": "euroshock",
@@ -276,7 +363,10 @@
     "reviewer": "Max Magnacca",
     "author": "Charles H. Dallara",
     "bookTitle": "",
-    "coverImage": "/images/14304/euroshock_pic-1.500x0.jpeg"
+    "coverImage": "/images/14304/euroshock_pic-1.500x0.jpeg",
+    "topics": [
+      "Trade & Globalisation"
+    ]
   },
   {
     "slug": "kaput",
@@ -285,7 +375,8 @@
     "reviewer": "Kevin Gardiner, Rothschild & Co/Cardiff Capital Region",
     "author": "Wolfgang Münchau",
     "bookTitle": "",
-    "coverImage": "/images/14316/kaput.500x0.jpeg"
+    "coverImage": "/images/14316/kaput.500x0.jpeg",
+    "topics": []
   },
   {
     "slug": "king-dollar",
@@ -294,7 +385,10 @@
     "reviewer": "Ian Harwood",
     "author": "Paul Blustein",
     "bookTitle": "",
-    "coverImage": "/images/14302/king_dollar_pic.500x0.jpeg"
+    "coverImage": "/images/14302/king_dollar_pic.500x0.jpeg",
+    "topics": [
+      "Financial Markets"
+    ]
   },
   {
     "slug": "material-world",
@@ -303,7 +397,10 @@
     "reviewer": "Arno Hantzsche",
     "author": "Ed Conway",
     "bookTitle": "",
-    "coverImage": "/images/14307/material_world_pic.500x0.jpeg"
+    "coverImage": "/images/14307/material_world_pic.500x0.jpeg",
+    "topics": [
+      "Climate & Energy"
+    ]
   },
   {
     "slug": "no-one-left",
@@ -312,7 +409,10 @@
     "reviewer": "Vicky Pryce",
     "author": "Paul Morland",
     "bookTitle": "",
-    "coverImage": "/images/14314/no_one_left.500x0.jpeg"
+    "coverImage": "/images/14314/no_one_left.500x0.jpeg",
+    "topics": [
+      "Inequality"
+    ]
   },
   {
     "slug": "our-money",
@@ -321,7 +421,10 @@
     "reviewer": "Geoff Crocker, Author, Rethinking Income and Money",
     "author": "Leah Downey",
     "bookTitle": "",
-    "coverImage": "/images/14308/our_money_pic.500x0.jpeg"
+    "coverImage": "/images/14308/our_money_pic.500x0.jpeg",
+    "topics": [
+      "Monetary Policy"
+    ]
   },
   {
     "slug": "rich-world-poor-world",
@@ -330,7 +433,10 @@
     "reviewer": "Leath Al Obaidi",
     "author": "Ali A. Allawi",
     "bookTitle": "",
-    "coverImage": "/images/14309/rich_workd_poor_world_oic.500x0.jpeg"
+    "coverImage": "/images/14309/rich_workd_poor_world_oic.500x0.jpeg",
+    "topics": [
+      "Inequality"
+    ]
   },
   {
     "slug": "the-art-of-uncertainty",
@@ -339,7 +445,8 @@
     "reviewer": "Ian Bright",
     "author": "David Spiegelhalter",
     "bookTitle": "",
-    "coverImage": "/images/14315/uncertainty.500x0.jpeg"
+    "coverImage": "/images/14315/uncertainty.500x0.jpeg",
+    "topics": []
   },
   {
     "slug": "the-corporation-in-the-21st-century",
@@ -348,7 +455,8 @@
     "reviewer": "Bridget Rosewell",
     "author": "John Kay",
     "bookTitle": "",
-    "coverImage": "/images/14305/the_corporation_pic.500x0.jpeg"
+    "coverImage": "/images/14305/the_corporation_pic.500x0.jpeg",
+    "topics": []
   },
   {
     "slug": "the-data-economy",
@@ -357,7 +465,10 @@
     "reviewer": "Lavan Mahadeva",
     "author": "Isaac Baley and Laura L. Veldkamp",
     "bookTitle": "",
-    "coverImage": "/images/14306/the_data_economy_pic.500x0.jpeg"
+    "coverImage": "/images/14306/the_data_economy_pic.500x0.jpeg",
+    "topics": [
+      "Technology"
+    ]
   },
   {
     "slug": "the-laissez-faire-experiment",
@@ -366,7 +477,8 @@
     "reviewer": "",
     "author": "W. Walker Hanlon",
     "bookTitle": "",
-    "coverImage": "/images/14311/laissez_faire.500x0.jpeg"
+    "coverImage": "/images/14311/laissez_faire.500x0.jpeg",
+    "topics": []
   },
   {
     "slug": "the-measure-of-progress",
@@ -375,7 +487,10 @@
     "reviewer": "Kate Barker, Universities Superannuation Scheme",
     "author": "Diane Coyle",
     "bookTitle": "",
-    "coverImage": "/images/14313/the_measure_of_progress.500x0.jpeg"
+    "coverImage": "/images/14313/the_measure_of_progress.500x0.jpeg",
+    "topics": [
+      "Economic Measurement"
+    ]
   },
   {
     "slug": "the-paradox-of-debt",
@@ -384,7 +499,8 @@
     "reviewer": "Ollie Clark",
     "author": "Richard Vague",
     "bookTitle": "",
-    "coverImage": "/images/14303/the_paradox_of_debt_pic.500x0.jpeg"
+    "coverImage": "/images/14303/the_paradox_of_debt_pic.500x0.jpeg",
+    "topics": []
   },
   {
     "slug": "what",
@@ -393,7 +509,10 @@
     "reviewer": "Filippo Gaddo",
     "author": "Ruchir Sharma",
     "bookTitle": "",
-    "coverImage": "/images/14312/what_went_wrong_with_capitalism.500x0.jpeg"
+    "coverImage": "/images/14312/what_went_wrong_with_capitalism.500x0.jpeg",
+    "topics": [
+      "Economic History"
+    ]
   },
   {
     "slug": "edible-economics",
@@ -402,7 +521,8 @@
     "reviewer": "Richard Urwin, Chair, Saranac Partners Investment Committee",
     "author": "Ha-Joon-Chang",
     "bookTitle": "",
-    "coverImage": "/images/12839/the_world_in_17_dishes.500x0.jpeg"
+    "coverImage": "/images/12839/the_world_in_17_dishes.500x0.jpeg",
+    "topics": []
   },
   {
     "slug": "goodbye-globalisation",
@@ -411,7 +531,10 @@
     "reviewer": "Vicky Pryce",
     "author": "Elisabeth Braw",
     "bookTitle": "",
-    "coverImage": "/images/12847/goodbye.500x0.jpeg"
+    "coverImage": "/images/12847/goodbye.500x0.jpeg",
+    "topics": [
+      "Trade & Globalisation"
+    ]
   },
   {
     "slug": "how-the-world-ran-out-of-everything",
@@ -420,7 +543,11 @@
     "reviewer": "Max Magnacca",
     "author": "Peter S Goodman",
     "bookTitle": "",
-    "coverImage": "/images/12841/how_the_world_ran_out_of_everything.500x0.jpeg"
+    "coverImage": "/images/12841/how_the_world_ran_out_of_everything.500x0.jpeg",
+    "topics": [
+      "Trade & Globalisation",
+      "Health"
+    ]
   },
   {
     "slug": "how-to-think-like-and-economist",
@@ -429,7 +556,8 @@
     "reviewer": "Ian Bright",
     "author": "Robert Mochrie",
     "bookTitle": "",
-    "coverImage": "/images/12844/how_to_think_like_an_economist.500x0.jpeg"
+    "coverImage": "/images/12844/how_to_think_like_an_economist.500x0.jpeg",
+    "topics": []
   },
   {
     "slug": "industrial-policy-for-the-united-states",
@@ -438,7 +566,8 @@
     "reviewer": "",
     "author": "Marc Fasteau and Ian Fletcher",
     "bookTitle": "",
-    "coverImage": "/images/12845/industrial_policy_for_the_united_states.500x0.jpeg"
+    "coverImage": "/images/12845/industrial_policy_for_the_united_states.500x0.jpeg",
+    "topics": []
   },
   {
     "slug": "inside-thatcherss-monetarism-experiment",
@@ -447,7 +576,11 @@
     "reviewer": "Ian Harwood",
     "author": "Tim Lancaster",
     "bookTitle": "",
-    "coverImage": "/images/12846/inside_thatcher.500x0.jpeg"
+    "coverImage": "/images/12846/inside_thatcher.500x0.jpeg",
+    "topics": [
+      "Monetary Policy",
+      "Health"
+    ]
   },
   {
     "slug": "left-behind",
@@ -456,7 +589,11 @@
     "reviewer": "Anjalika Bardalai",
     "author": "Paul Collier",
     "bookTitle": "",
-    "coverImage": "/images/12838/left_behind.500x0.jpeg"
+    "coverImage": "/images/12838/left_behind.500x0.jpeg",
+    "topics": [
+      "Trade & Globalisation",
+      "Inequality"
+    ]
   },
   {
     "slug": "pursued-economy",
@@ -465,7 +602,12 @@
     "reviewer": "",
     "author": "Richard C Koo",
     "bookTitle": "",
-    "coverImage": "/images/12848/pursued_economy.500x0.jpeg"
+    "coverImage": "/images/12848/pursued_economy.500x0.jpeg",
+    "topics": [
+      "Macroeconomics",
+      "Monetary Policy",
+      "Fiscal Policy"
+    ]
   },
   {
     "slug": "the-bailout-state",
@@ -474,7 +616,10 @@
     "reviewer": "Christine Shields",
     "author": "Martijn Konings",
     "bookTitle": "",
-    "coverImage": "/images/12843/the_bailout.500x0.jpeg"
+    "coverImage": "/images/12843/the_bailout.500x0.jpeg",
+    "topics": [
+      "Financial Markets"
+    ]
   },
   {
     "slug": "the-coming-wave",
@@ -483,7 +628,10 @@
     "reviewer": "Kevin Gardiner, Rothschild & Co",
     "author": "Mustafa Suleyman and Michael Bhaskar",
     "bookTitle": "",
-    "coverImage": "/images/12842/the_coming_wave.500x0.jpeg"
+    "coverImage": "/images/12842/the_coming_wave.500x0.jpeg",
+    "topics": [
+      "Technology"
+    ]
   },
   {
     "slug": "the-tortuous-path-of-south-korean-economic-development",
@@ -492,7 +640,10 @@
     "reviewer": "Andrew Peaple",
     "author": "Jaymin Lee",
     "bookTitle": "",
-    "coverImage": "/images/12849/the_tortuous_path.500x0.jpeg"
+    "coverImage": "/images/12849/the_tortuous_path.500x0.jpeg",
+    "topics": [
+      "Geopolitics"
+    ]
   },
   {
     "slug": "visions-of-financial-order",
@@ -501,7 +652,10 @@
     "reviewer": "",
     "author": "Kim Pernell",
     "bookTitle": "",
-    "coverImage": "/images/12840/kim_pernell.500x0.jpeg"
+    "coverImage": "/images/12840/kim_pernell.500x0.jpeg",
+    "topics": [
+      "Financial Markets"
+    ]
   },
   {
     "slug": "adam-smiths-america",
@@ -510,7 +664,10 @@
     "reviewer": "Filippo Gaddo, Macro Advisory Partners",
     "author": "Glory Liu",
     "bookTitle": "",
-    "coverImage": "/images/12307/adam_smith.500x0.jpeg"
+    "coverImage": "/images/12307/adam_smith.500x0.jpeg",
+    "topics": [
+      "Economic History"
+    ]
   },
   {
     "slug": "an-economist-goes-to-the-game",
@@ -519,7 +676,8 @@
     "reviewer": "Leath Al Obaidi",
     "author": "Paul Oyer",
     "bookTitle": "",
-    "coverImage": "/images/12303/economist_goes_to_game.500x0.jpeg"
+    "coverImage": "/images/12303/economist_goes_to_game.500x0.jpeg",
+    "topics": []
   },
   {
     "slug": "breaking-the-mold",
@@ -528,7 +686,8 @@
     "reviewer": "William A Allen, National Institute for Economic & Social Research",
     "author": "Raghuram G.Rajan & Rohit Lamba",
     "bookTitle": "",
-    "coverImage": "/images/12299/breaking_the_mold.500x0.jpeg"
+    "coverImage": "/images/12299/breaking_the_mold.500x0.jpeg",
+    "topics": []
   },
   {
     "slug": "growth-a-reckoning",
@@ -537,7 +696,10 @@
     "reviewer": "Kate Barker, Universities Superannuation Scheme",
     "author": "Daniel Susskind",
     "bookTitle": "",
-    "coverImage": "/images/12304/growth.500x0.jpeg"
+    "coverImage": "/images/12304/growth.500x0.jpeg",
+    "topics": [
+      "Macroeconomics"
+    ]
   },
   {
     "slug": "pax-economica",
@@ -546,7 +708,10 @@
     "reviewer": "Maximilian Magnacca",
     "author": "Marc-William Palen",
     "bookTitle": "",
-    "coverImage": "/images/12302/pax_economica.500x0.jpeg"
+    "coverImage": "/images/12302/pax_economica.500x0.jpeg",
+    "topics": [
+      "Trade & Globalisation"
+    ]
   },
   {
     "slug": "the-market-mind-hypothesis",
@@ -555,7 +720,8 @@
     "reviewer": "Richard Urwin, Investment Committee Chairman, Saranac Partners",
     "author": "Patrick Schotanus",
     "bookTitle": "",
-    "coverImage": "/images/12301/the_market_mind.500x0.jpeg"
+    "coverImage": "/images/12301/the_market_mind.500x0.jpeg",
+    "topics": []
   },
   {
     "slug": "the-road-to-freedom",
@@ -564,7 +730,10 @@
     "reviewer": "Bridget Rosewell",
     "author": "Joseph E Stiglitz",
     "bookTitle": "",
-    "coverImage": "/images/12305/road_to_freedom.500x0.jpeg"
+    "coverImage": "/images/12305/road_to_freedom.500x0.jpeg",
+    "topics": [
+      "Public Policy"
+    ]
   },
   {
     "slug": "the-shortest-history-of-economics",
@@ -573,7 +742,10 @@
     "reviewer": "Ian Harwood",
     "author": "Andrew Leigh",
     "bookTitle": "",
-    "coverImage": "/images/12306/shortest_history_of_economics.500x0.jpeg"
+    "coverImage": "/images/12306/shortest_history_of_economics.500x0.jpeg",
+    "topics": [
+      "Economic History"
+    ]
   },
   {
     "slug": "this-time-no-mistakes",
@@ -582,7 +754,10 @@
     "reviewer": "Kevin Gardiner, Rothschild & Co / Cardiff Capital Region",
     "author": "Will Hutton",
     "bookTitle": "",
-    "coverImage": "/images/12298/this_time_no_mistakes.500x0.jpeg"
+    "coverImage": "/images/12298/this_time_no_mistakes.500x0.jpeg",
+    "topics": [
+      "Health"
+    ]
   },
   {
     "slug": "vassal-state",
@@ -591,7 +766,8 @@
     "reviewer": "Rosemary Connell",
     "author": "Angus Hanton",
     "bookTitle": "",
-    "coverImage": "/images/12300/vassal_state.500x0.jpeg"
+    "coverImage": "/images/12300/vassal_state.500x0.jpeg",
+    "topics": []
   },
   {
     "slug": "any-happy-returns",
@@ -600,7 +776,10 @@
     "reviewer": "",
     "author": "Peter Oppenheier",
     "bookTitle": "",
-    "coverImage": "/images/12221/happy_returns.500x0.jpg"
+    "coverImage": "/images/12221/happy_returns.500x0.jpg",
+    "topics": [
+      "Financial Markets"
+    ]
   },
   {
     "slug": "capitalism-and-crises",
@@ -609,7 +788,10 @@
     "reviewer": "Dame Kate Barker, USS",
     "author": "Colin Mayer",
     "bookTitle": "",
-    "coverImage": "/images/12215/capitalism.500x0.jpg"
+    "coverImage": "/images/12215/capitalism.500x0.jpg",
+    "topics": [
+      "Economic History"
+    ]
   },
   {
     "slug": "how-the-world-became-rich",
@@ -618,7 +800,10 @@
     "reviewer": "Filippo Gaddo, Macro Advisory Partners",
     "author": "Jared Rubin and Mark Koyama",
     "bookTitle": "",
-    "coverImage": "/images/12216/world_rich.500x0.jpg"
+    "coverImage": "/images/12216/world_rich.500x0.jpg",
+    "topics": [
+      "Macroeconomics"
+    ]
   },
   {
     "slug": "influence-empire",
@@ -627,7 +812,8 @@
     "reviewer": "Bridget Rosewell",
     "author": "Lulu Yilun Chen",
     "bookTitle": "",
-    "coverImage": "/images/12220/influence_empire.500x0.jpg"
+    "coverImage": "/images/12220/influence_empire.500x0.jpg",
+    "topics": []
   },
   {
     "slug": "legacy",
@@ -636,7 +822,11 @@
     "reviewer": "Kevin Gardiner, Rothschild & Co/Cardiff Cap Region",
     "author": "Dieter Helm",
     "bookTitle": "",
-    "coverImage": "/images/12223/legacy.500x0.jpg"
+    "coverImage": "/images/12223/legacy.500x0.jpg",
+    "topics": [
+      "Technology",
+      "Public Policy"
+    ]
   },
   {
     "slug": "meritocracy-growth-and-lessons-from-italys-economic-decline",
@@ -645,7 +835,10 @@
     "reviewer": "William A Allen, NIESR",
     "author": "Lorenzo Codogno and Giampalo Galli",
     "bookTitle": "",
-    "coverImage": "/images/12219/meritocracy.500x0.jpg"
+    "coverImage": "/images/12219/meritocracy.500x0.jpg",
+    "topics": [
+      "Macroeconomics"
+    ]
   },
   {
     "slug": "seven-crashes",
@@ -654,7 +847,12 @@
     "reviewer": "Ian Harwood",
     "author": "Harold James",
     "bookTitle": "",
-    "coverImage": "/images/12225/seven_crashes.500x0.jpg"
+    "coverImage": "/images/12225/seven_crashes.500x0.jpg",
+    "topics": [
+      "Financial Markets",
+      "Trade & Globalisation",
+      "Health"
+    ]
   },
   {
     "slug": "the-bankers-new-clothes",
@@ -663,7 +861,10 @@
     "reviewer": "Ian Bright",
     "author": "Anat Admati and Martin Hellwig",
     "bookTitle": "",
-    "coverImage": "/images/12218/bankers.500x0.jpeg"
+    "coverImage": "/images/12218/bankers.500x0.jpeg",
+    "topics": [
+      "Financial Markets"
+    ]
   },
   {
     "slug": "the-chile-project",
@@ -672,7 +873,10 @@
     "reviewer": "Maximilian Magnacca",
     "author": "Sebastian Edwards",
     "bookTitle": "",
-    "coverImage": "/images/12217/chile.500x0.jpeg"
+    "coverImage": "/images/12217/chile.500x0.jpeg",
+    "topics": [
+      "Geopolitics"
+    ]
   },
   {
     "slug": "the-machine-age",
@@ -681,7 +885,10 @@
     "reviewer": "Anjalika Bardalai",
     "author": "Robert Skidelsky",
     "bookTitle": "",
-    "coverImage": "/images/12224/machine_age.500x0.jpg"
+    "coverImage": "/images/12224/machine_age.500x0.jpg",
+    "topics": [
+      "Technology"
+    ]
   },
   {
     "slug": "the-women-who-made-modern-economics",
@@ -690,7 +897,8 @@
     "reviewer": "Vicky Pryce",
     "author": "Rachel Reeves",
     "bookTitle": "",
-    "coverImage": "/images/12222/womeneconomics.500x0.jpg"
+    "coverImage": "/images/12222/womeneconomics.500x0.jpg",
+    "topics": []
   },
   {
     "slug": "a-crash-course-on-crises",
@@ -699,7 +907,10 @@
     "reviewer": "Anjalika Badalai",
     "author": "Markus K. Brunnermeier and Ricardo Reis",
     "bookTitle": "",
-    "coverImage": "/images/12123/image_a_crash_course_on_crises_24112023.500x0.jpeg"
+    "coverImage": "/images/12123/image_a_crash_course_on_crises_24112023.500x0.jpeg",
+    "topics": [
+      "Careers & Profession"
+    ]
   },
   {
     "slug": "a-monetary-and-fiscal-history-of-the-united-states-1961-2021",
@@ -708,7 +919,11 @@
     "reviewer": "Maximilian Magnacca",
     "author": "Alan Blinder",
     "bookTitle": "",
-    "coverImage": "/images/12129/image_a_monetary_and_fiscal_history_of_the_united_states.500x0.jpeg"
+    "coverImage": "/images/12129/image_a_monetary_and_fiscal_history_of_the_united_states.500x0.jpeg",
+    "topics": [
+      "Fiscal Policy",
+      "Economic History"
+    ]
   },
   {
     "slug": "accidental-conflict",
@@ -717,7 +932,10 @@
     "reviewer": "Andrew Peaple",
     "author": "Stephen Roach",
     "bookTitle": "",
-    "coverImage": "/images/12124/image_accidental_conflict_stephen_roach.500x0.jpeg"
+    "coverImage": "/images/12124/image_accidental_conflict_stephen_roach.500x0.jpeg",
+    "topics": [
+      "Trade & Globalisation"
+    ]
   },
   {
     "slug": "economics-in-america",
@@ -726,7 +944,8 @@
     "reviewer": "Bridget Rosewell",
     "author": "Angus Deaton",
     "bookTitle": "",
-    "coverImage": "/images/12122/economics_in_america_image_24112023.500x0.jpeg"
+    "coverImage": "/images/12122/economics_in_america_image_24112023.500x0.jpeg",
+    "topics": []
   },
   {
     "slug": "the-economic-government-of-the-world-1933-2003",
@@ -735,7 +954,11 @@
     "reviewer": "Ian Harwood",
     "author": "Martin Daunton",
     "bookTitle": "",
-    "coverImage": "/images/12121/economic_government.500x0.jpg"
+    "coverImage": "/images/12121/economic_government.500x0.jpg",
+    "topics": [
+      "Fiscal Policy",
+      "Health"
+    ]
   },
   {
     "slug": "the-new-china-playbook",
@@ -744,7 +967,10 @@
     "reviewer": "Kevin Gardiner, Rothschild & Co/Cardiff Capital Region",
     "author": "Keyu Jin",
     "bookTitle": "",
-    "coverImage": "/images/12126/image_the_new_china_playbook.500x0.jpeg"
+    "coverImage": "/images/12126/image_the_new_china_playbook.500x0.jpeg",
+    "topics": [
+      "Geopolitics"
+    ]
   },
   {
     "slug": "the-rise-of-central-banks",
@@ -753,7 +979,10 @@
     "reviewer": "Ian Bright",
     "author": "Leon Wansleben",
     "bookTitle": "",
-    "coverImage": "/images/12125/image_the_rise_of_central_banks.500x0.jpeg"
+    "coverImage": "/images/12125/image_the_rise_of_central_banks.500x0.jpeg",
+    "topics": [
+      "Financial Markets"
+    ]
   },
   {
     "slug": "the-two-parent-privilege",
@@ -762,7 +991,10 @@
     "reviewer": "",
     "author": "Melissa S Kearney",
     "bookTitle": "",
-    "coverImage": "/images/12128/image_the_two_parent_privilege.500x0.jpeg"
+    "coverImage": "/images/12128/image_the_two_parent_privilege.500x0.jpeg",
+    "topics": [
+      "Inequality"
+    ]
   },
   {
     "slug": "understanding-economics-a-work-of-science-fiction",
@@ -771,7 +1003,8 @@
     "reviewer": "Leath Al Obaidi",
     "author": "Dan Hicks",
     "bookTitle": "",
-    "coverImage": "/images/12130/image_understanding_economics.500x0.jpeg"
+    "coverImage": "/images/12130/image_understanding_economics.500x0.jpeg",
+    "topics": []
   },
   {
     "slug": "zero-interest-policy-and-the-new-abnormal",
@@ -780,7 +1013,12 @@
     "reviewer": "Kate Barker, Universities Superannuation Scheme",
     "author": "Michael Beenstock",
     "bookTitle": "",
-    "coverImage": "/images/12127/image_zero_interest_policy_and_the_new_abormal.500x0.jpeg"
+    "coverImage": "/images/12127/image_zero_interest_policy_and_the_new_abormal.500x0.jpeg",
+    "topics": [
+      "Macroeconomics",
+      "Monetary Policy",
+      "Financial Markets"
+    ]
   },
   {
     "slug": "covid-brexit-and-the-anglosphere",
@@ -789,7 +1027,12 @@
     "reviewer": "Vicky Pryce",
     "author": "Richard D Simmons and Nigel Culkin",
     "bookTitle": "",
-    "coverImage": "/images/11466/covid.500x0.jpg"
+    "coverImage": "/images/11466/covid.500x0.jpg",
+    "topics": [
+      "Macroeconomics",
+      "Trade & Globalisation",
+      "Health"
+    ]
   },
   {
     "slug": "demographics-unravelled",
@@ -798,7 +1041,10 @@
     "reviewer": "William A Allen, NIESR",
     "author": "Amlan Roy",
     "bookTitle": "",
-    "coverImage": "/images/11470/demographics_unravelled.500x0.jpg"
+    "coverImage": "/images/11470/demographics_unravelled.500x0.jpg",
+    "topics": [
+      "Inequality"
+    ]
   },
   {
     "slug": "how-economics-can-save-the-world",
@@ -807,7 +1053,8 @@
     "reviewer": "Lavan Mahadeva",
     "author": "Erik Angner",
     "bookTitle": "",
-    "coverImage": "/images/11469/how_economics_can_save_us.500x0.jpg"
+    "coverImage": "/images/11469/how_economics_can_save_us.500x0.jpg",
+    "topics": []
   },
   {
     "slug": "power-and-progress",
@@ -816,7 +1063,10 @@
     "reviewer": "Leath Al Obaidi, British Business Bank",
     "author": "Daron Acemoglu and Simon Johnson",
     "bookTitle": "",
-    "coverImage": "/images/11471/power_struggle.500x0.jpg"
+    "coverImage": "/images/11471/power_struggle.500x0.jpg",
+    "topics": [
+      "Technology"
+    ]
   },
   {
     "slug": "scarcity-a-history-from-the-origins-of-capitalism-to-the-climate-crisis",
@@ -825,7 +1075,11 @@
     "reviewer": "Kevin Gardiner, Rothschild & Co/Cardiff Capital Region Econ Growth Partnership",
     "author": "Fredrik Albritton Jonsson and Carl Wennerlind",
     "bookTitle": "",
-    "coverImage": "/images/11468/scarcity.500x0.jpg"
+    "coverImage": "/images/11468/scarcity.500x0.jpg",
+    "topics": [
+      "Climate & Energy",
+      "Economic History"
+    ]
   },
   {
     "slug": "the-fiscal-theory-of-the-price-level",
@@ -834,7 +1088,11 @@
     "reviewer": "Melissa Davies, Redburn",
     "author": "John H Cochrane",
     "bookTitle": "",
-    "coverImage": "/images/11467/fiscal_theory.500x0.jpg"
+    "coverImage": "/images/11467/fiscal_theory.500x0.jpg",
+    "topics": [
+      "Macroeconomics",
+      "Fiscal Policy"
+    ]
   },
   {
     "slug": "the-great-crashes",
@@ -843,7 +1101,11 @@
     "reviewer": "Bridget Rosewell",
     "author": "Linda Yueh",
     "bookTitle": "",
-    "coverImage": "/images/11465/crashes.500x0.jpg"
+    "coverImage": "/images/11465/crashes.500x0.jpg",
+    "topics": [
+      "Financial Markets",
+      "Health"
+    ]
   },
   {
     "slug": "the-power-of-money",
@@ -852,7 +1114,10 @@
     "reviewer": "Ian Bright",
     "author": "Paul Sheard",
     "bookTitle": "",
-    "coverImage": "/images/11472/power_of_money.500x0.jpg"
+    "coverImage": "/images/11472/power_of_money.500x0.jpg",
+    "topics": [
+      "Fiscal Policy"
+    ]
   },
   {
     "slug": "empire-of-pain",
@@ -861,7 +1126,10 @@
     "reviewer": "Bridget Rosewell",
     "author": "Patrick Radden Keith, Pan Macmillan",
     "bookTitle": "",
-    "coverImage": "/images/11378/sackler.500x0.jpg"
+    "coverImage": "/images/11378/sackler.500x0.jpg",
+    "topics": [
+      "Health"
+    ]
   },
   {
     "slug": "the-tyranny-of-nostalgia",
@@ -870,7 +1138,8 @@
     "reviewer": "Ian Harwood",
     "author": "Russell Jones",
     "bookTitle": "",
-    "coverImage": "/images/11371/tyranny.500x0.jpg"
+    "coverImage": "/images/11371/tyranny.500x0.jpg",
+    "topics": []
   },
   {
     "slug": "follow-the-money",
@@ -879,7 +1148,11 @@
     "reviewer": "Rosemary Connell",
     "author": "Paul Johnson",
     "bookTitle": "",
-    "coverImage": "/images/11369/follow_the_money.500x0.jpg"
+    "coverImage": "/images/11369/follow_the_money.500x0.jpg",
+    "topics": [
+      "Fiscal Policy",
+      "Public Policy"
+    ]
   },
   {
     "slug": "how-to-be-a-successful-economist",
@@ -888,7 +1161,10 @@
     "reviewer": "Kate Barker, USS",
     "author": "Vicky Pryce, Andy Ross, Alvin Birdi and Ian Harwood",
     "bookTitle": "",
-    "coverImage": "/images/11368/successful.500x0.jpg"
+    "coverImage": "/images/11368/successful.500x0.jpg",
+    "topics": [
+      "Careers & Profession"
+    ]
   },
   {
     "slug": "leveraged",
@@ -897,7 +1173,10 @@
     "reviewer": "William A Allen, NIESR",
     "author": "Moritz Schularick",
     "bookTitle": "",
-    "coverImage": "/images/11367/leveraged.500x0.jpg"
+    "coverImage": "/images/11367/leveraged.500x0.jpg",
+    "topics": [
+      "Financial Markets"
+    ]
   },
   {
     "slug": "megathreats",
@@ -906,7 +1185,10 @@
     "reviewer": "Kevin Gardiner, Rothschild & Co/Cardiff Capital Region Econ Growth Partnership",
     "author": "Nouriel Roubini",
     "bookTitle": "",
-    "coverImage": "/images/11364/megathreats.500x0.jpg"
+    "coverImage": "/images/11364/megathreats.500x0.jpg",
+    "topics": [
+      "Trade & Globalisation"
+    ]
   },
   {
     "slug": "politicians-and-economic-experts",
@@ -915,7 +1197,10 @@
     "reviewer": "Neil Reeder, Director, Head and Heart Economics",
     "author": "Anna Killick",
     "bookTitle": "",
-    "coverImage": "/images/11362/experts.500x0.jpg"
+    "coverImage": "/images/11362/experts.500x0.jpg",
+    "topics": [
+      "Monetary Policy"
+    ]
   },
   {
     "slug": "power-and-influence-of-economists",
@@ -924,7 +1209,8 @@
     "reviewer": "Anjalika Bardalai",
     "author": "Edited by Jens Maesse, Stephan Pühringer, Thierry Rossier and Pierre Benz",
     "bookTitle": "",
-    "coverImage": "/images/11366/power_influence.500x0.jpg"
+    "coverImage": "/images/11366/power_influence.500x0.jpg",
+    "topics": []
   },
   {
     "slug": "the-gender-of-capital",
@@ -933,7 +1219,10 @@
     "reviewer": "Ian Bright",
     "author": "Céline Bessière and Sibylle Gollac",
     "bookTitle": "",
-    "coverImage": "/images/11363/gender_capital.500x0.jpg"
+    "coverImage": "/images/11363/gender_capital.500x0.jpg",
+    "topics": [
+      "Inequality"
+    ]
   },
   {
     "slug": "the-illusion-of-control",
@@ -942,7 +1231,10 @@
     "reviewer": "Leath Al Obaidi",
     "author": "Jon Danielsson",
     "bookTitle": "",
-    "coverImage": "/images/11370/illusion.500x0.jpg"
+    "coverImage": "/images/11370/illusion.500x0.jpg",
+    "topics": [
+      "Financial Markets"
+    ]
   },
   {
     "slug": "the-money-revolution",
@@ -951,7 +1243,10 @@
     "reviewer": "Maximilian Magnacca",
     "author": "Richard Duncan",
     "bookTitle": "",
-    "coverImage": "/images/11365/money_revolution.500x0.jpg"
+    "coverImage": "/images/11365/money_revolution.500x0.jpg",
+    "topics": [
+      "Monetary Policy"
+    ]
   },
   {
     "slug": "we-need-to-talk-about-inflation",
@@ -960,7 +1255,10 @@
     "reviewer": "Vicky Pryce",
     "author": "Stephen D King",
     "bookTitle": "",
-    "coverImage": "/images/11361/9780300270471.500x0.jpg"
+    "coverImage": "/images/11361/9780300270471.500x0.jpg",
+    "topics": [
+      "Monetary Policy"
+    ]
   },
   {
     "slug": "a-herstory-of-economics",
@@ -969,7 +1267,10 @@
     "reviewer": "Vicky Pryce",
     "author": "Edith Kuiper",
     "bookTitle": "",
-    "coverImage": "/images/11262/herstory.500x0.jpg"
+    "coverImage": "/images/11262/herstory.500x0.jpg",
+    "topics": [
+      "Inequality"
+    ]
   },
   {
     "slug": "a-world-of-insecurity",
@@ -978,7 +1279,10 @@
     "reviewer": "Christine Shields, Shields Economics",
     "author": "Pranab Bardhan",
     "bookTitle": "",
-    "coverImage": "/images/11259/insecurity.500x0.jpg"
+    "coverImage": "/images/11259/insecurity.500x0.jpg",
+    "topics": [
+      "Inequality"
+    ]
   },
   {
     "slug": "investing-amid-low-expected-returns",
@@ -987,7 +1291,10 @@
     "reviewer": "Kate Barker, British Coal Staff Superannuation Scheme",
     "author": "Antti Ilmanen",
     "bookTitle": "",
-    "coverImage": "/images/11261/amid_low.500x0.jpg"
+    "coverImage": "/images/11261/amid_low.500x0.jpg",
+    "topics": [
+      "Financial Markets"
+    ]
   },
   {
     "slug": "making-money-work-for-us",
@@ -996,7 +1303,10 @@
     "reviewer": "Melissa Davies, Redburn",
     "author": "Randall Wray",
     "bookTitle": "",
-    "coverImage": "/images/11260/making_money.500x0.jpg"
+    "coverImage": "/images/11260/making_money.500x0.jpg",
+    "topics": [
+      "Financial Markets"
+    ]
   },
   {
     "slug": "21st-century-monetary-policy",
@@ -1005,7 +1315,10 @@
     "reviewer": "Lavan Mahadeva",
     "author": "Ben Bernanke",
     "bookTitle": "",
-    "coverImage": "/images/11250/21st_century.500x0.jpg"
+    "coverImage": "/images/11250/21st_century.500x0.jpg",
+    "topics": [
+      "Monetary Policy"
+    ]
   },
   {
     "slug": "global-discord",
@@ -1014,7 +1327,12 @@
     "reviewer": "Kevin Gardiner, Rothschild & Co/Cardiff Capital Region Econ Growth Partnership",
     "author": "Paul Tucker",
     "bookTitle": "",
-    "coverImage": "/images/11247/global_discord.500x0.jpg"
+    "coverImage": "/images/11247/global_discord.500x0.jpg",
+    "topics": [
+      "Monetary Policy",
+      "Trade & Globalisation",
+      "Geopolitics"
+    ]
   },
   {
     "slug": "slouching-towards-utopia",
@@ -1023,7 +1341,10 @@
     "reviewer": "Bridget Rosewell",
     "author": "Bradford DeLong",
     "bookTitle": "",
-    "coverImage": "/images/11249/slouching.500x0.jpg"
+    "coverImage": "/images/11249/slouching.500x0.jpg",
+    "topics": [
+      "Trade & Globalisation"
+    ]
   },
   {
     "slug": "the-new-monetary-policy-revolution",
@@ -1032,7 +1353,10 @@
     "reviewer": "William A Allen, National Institute of Economic & Social Research",
     "author": "Philip Turner",
     "bookTitle": "",
-    "coverImage": "/images/11246/new-monetary-policy-revolution_0-4_1.500x0.jpg"
+    "coverImage": "/images/11246/new-monetary-policy-revolution_0-4_1.500x0.jpg",
+    "topics": [
+      "Monetary Policy"
+    ]
   },
   {
     "slug": "the-price-of-time",
@@ -1041,7 +1365,11 @@
     "reviewer": "John Shepperd, Butler Toll",
     "author": "Edward Chancellor",
     "bookTitle": "",
-    "coverImage": "/images/11248/the_price_of_time.500x0.jpg"
+    "coverImage": "/images/11248/the_price_of_time.500x0.jpg",
+    "topics": [
+      "Monetary Policy",
+      "Health"
+    ]
   },
   {
     "slug": "why-the-west-is-failing",
@@ -1050,7 +1378,8 @@
     "reviewer": "Ian Bright",
     "author": "John Mills",
     "bookTitle": "",
-    "coverImage": "/images/11251/why_the_west.500x0.jpg"
+    "coverImage": "/images/11251/why_the_west.500x0.jpg",
+    "topics": []
   },
   {
     "slug": "a-brief-history-of-equality",
@@ -1059,7 +1388,11 @@
     "reviewer": "Kevin Gardiner, Rothschild & Co/Cardiff Capital Region Econ Growth Partnership",
     "author": "Thomas Piketty",
     "bookTitle": "",
-    "coverImage": "/images/10698/equality.500x0.jpg"
+    "coverImage": "/images/10698/equality.500x0.jpg",
+    "topics": [
+      "Fiscal Policy",
+      "Economic History"
+    ]
   },
   {
     "slug": "cant-we-just-print-more-money",
@@ -1068,7 +1401,10 @@
     "reviewer": "Rosemary Connell",
     "author": "Rupal Patel and Jack Meaning",
     "bookTitle": "",
-    "coverImage": "/images/10700/print_money.500x0.jpg"
+    "coverImage": "/images/10700/print_money.500x0.jpg",
+    "topics": [
+      "Monetary Policy"
+    ]
   },
   {
     "slug": "career-and-family",
@@ -1077,7 +1413,10 @@
     "reviewer": "Melissa Davies, Chief Economist, Redburn",
     "author": "Claudia Goldin",
     "bookTitle": "",
-    "coverImage": "/images/10701/career_family.500x0.jpg"
+    "coverImage": "/images/10701/career_family.500x0.jpg",
+    "topics": [
+      "Careers & Profession"
+    ]
   },
   {
     "slug": "growthgood",
@@ -1086,7 +1425,8 @@
     "reviewer": "Ian Bright",
     "author": "Alessio Terzi",
     "bookTitle": "",
-    "coverImage": "/images/10697/good_for_growth.500x0.jpg"
+    "coverImage": "/images/10697/good_for_growth.500x0.jpg",
+    "topics": []
   },
   {
     "slug": "raising-keynes",
@@ -1095,7 +1435,10 @@
     "reviewer": "Bridget Rosewell",
     "author": "Stephen A. Marglin",
     "bookTitle": "",
-    "coverImage": "/images/10702/raising_keynes.500x0.jpg"
+    "coverImage": "/images/10702/raising_keynes.500x0.jpg",
+    "topics": [
+      "Economic History"
+    ]
   },
   {
     "slug": "restarting-the-future",
@@ -1104,7 +1447,10 @@
     "reviewer": "Vicky Pryce",
     "author": "Jonathan Haskel and Stian Westlake",
     "bookTitle": "",
-    "coverImage": "/images/10695/restarting_the_future.500x0.jpg"
+    "coverImage": "/images/10695/restarting_the_future.500x0.jpg",
+    "topics": [
+      "Macroeconomics"
+    ]
   },
   {
     "slug": "share-power",
@@ -1113,7 +1459,10 @@
     "reviewer": "Ian Bright",
     "author": "Merryn Somerset Webb",
     "bookTitle": "",
-    "coverImage": "/images/10696/share_power.500x0.jpg"
+    "coverImage": "/images/10696/share_power.500x0.jpg",
+    "topics": [
+      "Inequality"
+    ]
   },
   {
     "slug": "the-chancellors",
@@ -1122,7 +1471,12 @@
     "reviewer": "William A. Allen, NIESR",
     "author": "Howard Davies",
     "bookTitle": "",
-    "coverImage": "/images/10699/chancellors_sm.500x0.jpeg"
+    "coverImage": "/images/10699/chancellors_sm.500x0.jpeg",
+    "topics": [
+      "Monetary Policy",
+      "Fiscal Policy",
+      "Economic History"
+    ]
   },
   {
     "slug": "the-money-minders",
@@ -1131,7 +1485,10 @@
     "reviewer": "Dame Kate Barker, British Coal Staff Superannuation Scheme",
     "author": "Jagjit S Chadha",
     "bookTitle": "",
-    "coverImage": "/images/10692/moneyminders.500x0.jpg"
+    "coverImage": "/images/10692/moneyminders.500x0.jpg",
+    "topics": [
+      "Monetary Policy"
+    ]
   },
   {
     "slug": "the-united-states-vs-china",
@@ -1140,7 +1497,10 @@
     "reviewer": "Andrew Peaple",
     "author": "C. Fred Bergsten",
     "bookTitle": "",
-    "coverImage": "/images/10693/us_vs_china.500x0.jpg"
+    "coverImage": "/images/10693/us_vs_china.500x0.jpg",
+    "topics": [
+      "Geopolitics"
+    ]
   },
   {
     "slug": "the-world-in-2050",
@@ -1149,7 +1509,10 @@
     "reviewer": "Ian Harwood",
     "author": "Hamish McRae",
     "bookTitle": "",
-    "coverImage": "/images/10694/the_world_in_2050.500x0.jpg"
+    "coverImage": "/images/10694/the_world_in_2050.500x0.jpg",
+    "topics": [
+      "Inequality"
+    ]
   },
   {
     "slug": "remembering-and-learning-from-financial-crises",
@@ -1158,7 +1521,8 @@
     "reviewer": "Rosemary Connell",
     "author": "Edited Youssef Cassis and Catherine Schenk",
     "bookTitle": "",
-    "coverImage": "/images/10581/remembering.500x0.jpg"
+    "coverImage": "/images/10581/remembering.500x0.jpg",
+    "topics": []
   },
   {
     "slug": "six-faces-of-globalization",
@@ -1167,7 +1531,11 @@
     "reviewer": "William A Allen, NIESR",
     "author": "Anthea Roberts and Nicolas Lamp",
     "bookTitle": "",
-    "coverImage": "/images/10584/six_faces.500x0.jpg"
+    "coverImage": "/images/10584/six_faces.500x0.jpg",
+    "topics": [
+      "Financial Markets",
+      "Trade & Globalisation"
+    ]
   },
   {
     "slug": "strategic-risk-management",
@@ -1176,7 +1544,11 @@
     "reviewer": "",
     "author": "Campbell R Harvey, Sandy Rattray and Otto van Hemert",
     "bookTitle": "",
-    "coverImage": "/images/10583/strategic.500x0.jpg"
+    "coverImage": "/images/10583/strategic.500x0.jpg",
+    "topics": [
+      "Monetary Policy",
+      "Financial Markets"
+    ]
   },
   {
     "slug": "supercharge-me",
@@ -1185,7 +1557,10 @@
     "reviewer": "Gregory Smith",
     "author": "Eric Lonergan and Corinne Sawers",
     "bookTitle": "",
-    "coverImage": "/images/10582/supercharge.500x0.jpg"
+    "coverImage": "/images/10582/supercharge.500x0.jpg",
+    "topics": [
+      "Climate & Energy"
+    ]
   },
   {
     "slug": "the-asian-financial-crisis",
@@ -1194,7 +1569,10 @@
     "reviewer": "Ian Harwood",
     "author": "Russell Napier",
     "bookTitle": "",
-    "coverImage": "/images/10586/asian.500x0.jpg"
+    "coverImage": "/images/10586/asian.500x0.jpg",
+    "topics": [
+      "Financial Markets"
+    ]
   },
   {
     "slug": "the-economic-integration-of-europe",
@@ -1203,7 +1581,10 @@
     "reviewer": "Vicky Pryce",
     "author": "Richard Pomfret",
     "bookTitle": "",
-    "coverImage": "/images/10587/europe.500x0.jpg"
+    "coverImage": "/images/10587/europe.500x0.jpg",
+    "topics": [
+      "Trade & Globalisation"
+    ]
   },
   {
     "slug": "the-economics-of-the-stock-market",
@@ -1212,7 +1593,10 @@
     "reviewer": "Sunil Krishnan, Aviva Investors",
     "author": "Andrew Smithers",
     "bookTitle": "",
-    "coverImage": "/images/10591/stock.500x0.jpg"
+    "coverImage": "/images/10591/stock.500x0.jpg",
+    "topics": [
+      "Financial Markets"
+    ]
   },
   {
     "slug": "the-new-economics",
@@ -1221,7 +1605,8 @@
     "reviewer": "Kevin Gardiner, Rothschild & Co/Cardiff Capital Region Econ Growth Partnership",
     "author": "Steve Keen",
     "bookTitle": "",
-    "coverImage": "/images/10579/manifesto.500x0.jpg"
+    "coverImage": "/images/10579/manifesto.500x0.jpg",
+    "topics": []
   },
   {
     "slug": "the-resilient-society",
@@ -1230,7 +1615,8 @@
     "reviewer": "Dame Kate Barker, British Coal Staff Superannuation Scheme",
     "author": "Markus K Brunnermeier",
     "bookTitle": "",
-    "coverImage": "/images/10580/resilient.500x0.jpg"
+    "coverImage": "/images/10580/resilient.500x0.jpg",
+    "topics": []
   },
   {
     "slug": "the-voltage-effect",
@@ -1239,7 +1625,10 @@
     "reviewer": "Ian Bright",
     "author": "John A List",
     "bookTitle": "",
-    "coverImage": "/images/10578/votage_effect.500x0.jpg"
+    "coverImage": "/images/10578/votage_effect.500x0.jpg",
+    "topics": [
+      "Public Policy"
+    ]
   },
   {
     "slug": "time-for-socialism",
@@ -1248,7 +1637,10 @@
     "reviewer": "Bridget Rosewell",
     "author": "Thomas Piketty",
     "bookTitle": "",
-    "coverImage": "/images/10585/socialism.500x0.jpg"
+    "coverImage": "/images/10585/socialism.500x0.jpg",
+    "topics": [
+      "Fiscal Policy"
+    ]
   },
   {
     "slug": "adapting-to-climate-change",
@@ -1257,7 +1649,10 @@
     "reviewer": "Kevin Gardiner, Rothschild & Co/Cardiff Region Econ Growth Partnership",
     "author": "Matthew E Kahn",
     "bookTitle": "",
-    "coverImage": "/images/10484/adapting_climate.500x0.jpg"
+    "coverImage": "/images/10484/adapting_climate.500x0.jpg",
+    "topics": [
+      "Climate & Energy"
+    ]
   },
   {
     "slug": "cogs-and-monsters",
@@ -1266,7 +1661,8 @@
     "reviewer": "Matt Whittaker, CEO, Pro Bono Economics",
     "author": "Diane Coyle",
     "bookTitle": "",
-    "coverImage": "/images/10482/cogs_and_monsters.500x0.jpg"
+    "coverImage": "/images/10482/cogs_and_monsters.500x0.jpg",
+    "topics": []
   },
   {
     "slug": "if-then-how-one-data-company-invented-the-future",
@@ -1275,7 +1671,10 @@
     "reviewer": "Robert Baker",
     "author": "Jill Lepore",
     "bookTitle": "",
-    "coverImage": "/images/10479/if_then.500x0.jpg"
+    "coverImage": "/images/10479/if_then.500x0.jpg",
+    "topics": [
+      "Technology"
+    ]
   },
   {
     "slug": "kochland",
@@ -1284,7 +1683,8 @@
     "reviewer": "Robert Baker",
     "author": "Christopher Leonard",
     "bookTitle": "",
-    "coverImage": "/images/10480/kochland.500x0.jpg"
+    "coverImage": "/images/10480/kochland.500x0.jpg",
+    "topics": []
   },
   {
     "slug": "nudge-the-final-edition",
@@ -1293,7 +1693,10 @@
     "reviewer": "Vicky Pryce, Chief Economic Adviser & Board Member, CEBR",
     "author": "Richard H. Thaler and Cass R. Sunstein",
     "bookTitle": "",
-    "coverImage": "/images/10478/9780300262285.500x0.jpg"
+    "coverImage": "/images/10478/9780300262285.500x0.jpg",
+    "topics": [
+      "Public Policy"
+    ]
   },
   {
     "slug": "the-future-of-money",
@@ -1302,7 +1705,8 @@
     "reviewer": "",
     "author": "Eswar Prasad",
     "bookTitle": "",
-    "coverImage": "/images/10481/future_of_money.500x0.jpg"
+    "coverImage": "/images/10481/future_of_money.500x0.jpg",
+    "topics": []
   },
   {
     "slug": "the-magic-money-tree",
@@ -1311,7 +1715,10 @@
     "reviewer": "Bridget Rosewell",
     "author": "Lorenzo Forni",
     "bookTitle": "",
-    "coverImage": "/images/10485/mmt.500x0.jpg"
+    "coverImage": "/images/10485/mmt.500x0.jpg",
+    "topics": [
+      "Monetary Policy"
+    ]
   },
   {
     "slug": "the-spirit-of-green",
@@ -1320,7 +1727,11 @@
     "reviewer": "",
     "author": "William D Nordhaus",
     "bookTitle": "",
-    "coverImage": "/images/10483/spirit.500x0.jpg"
+    "coverImage": "/images/10483/spirit.500x0.jpg",
+    "topics": [
+      "Climate & Energy",
+      "Health"
+    ]
   },
   {
     "slug": "tumultuous-times",
@@ -1329,7 +1740,10 @@
     "reviewer": "Melissa Davies, Chief Economist, Redburn",
     "author": "Masaaki Shirakawa",
     "bookTitle": "",
-    "coverImage": "/images/10488/tumultous.500x0.jpg"
+    "coverImage": "/images/10488/tumultous.500x0.jpg",
+    "topics": [
+      "Financial Markets"
+    ]
   },
   {
     "slug": "two-hundred-years-of-muddling-through",
@@ -1338,7 +1752,10 @@
     "reviewer": "Rosemary Connell",
     "author": "Duncan Weldon",
     "bookTitle": "",
-    "coverImage": "/images/10487/muddling.500x0.jpg"
+    "coverImage": "/images/10487/muddling.500x0.jpg",
+    "topics": [
+      "Economic History"
+    ]
   },
   {
     "slug": "where-credit-is-due",
@@ -1347,7 +1764,12 @@
     "reviewer": "Lavan Mahadeva",
     "author": "Gregory Smith",
     "bookTitle": "",
-    "coverImage": "/images/10486/where_credit_due.500x0.jpg"
+    "coverImage": "/images/10486/where_credit_due.500x0.jpg",
+    "topics": [
+      "Macroeconomics",
+      "Financial Markets",
+      "Health"
+    ]
   },
   {
     "slug": "austerity-when-is-it-a-mistake",
@@ -1356,7 +1778,11 @@
     "reviewer": "William Allen, NIESR",
     "author": "John Fender",
     "bookTitle": "",
-    "coverImage": "/images/8700/austerity2.500x0.jpg"
+    "coverImage": "/images/8700/austerity2.500x0.jpg",
+    "topics": [
+      "Macroeconomics",
+      "Fiscal Policy"
+    ]
   },
   {
     "slug": "combating-inequality",
@@ -1365,7 +1791,10 @@
     "reviewer": "Christine Shields",
     "author": "Olivier Blanchard and Dani Rodrik",
     "bookTitle": "",
-    "coverImage": "/images/8701/combating_inequality.500x0.jpg"
+    "coverImage": "/images/8701/combating_inequality.500x0.jpg",
+    "topics": [
+      "Inequality"
+    ]
   },
   {
     "slug": "how-boards-work",
@@ -1374,7 +1803,8 @@
     "reviewer": "Dame Kate Barker, NED, Man Group plc",
     "author": "Dambiso Moyo",
     "bookTitle": "",
-    "coverImage": "/images/8699/how_boards_work.500x0.jpg"
+    "coverImage": "/images/8699/how_boards_work.500x0.jpg",
+    "topics": []
   },
   {
     "slug": "profit-and-prejudice",
@@ -1383,7 +1813,8 @@
     "reviewer": "Vicky Pryce",
     "author": "Paul Donovan",
     "bookTitle": "",
-    "coverImage": "/images/8702/profit_and_prejudice.500x0.jpg"
+    "coverImage": "/images/8702/profit_and_prejudice.500x0.jpg",
+    "topics": []
   },
   {
     "slug": "prosperity",
@@ -1392,7 +1823,8 @@
     "reviewer": "Richard Bronk, https://imaginationineconomics.com/",
     "author": "Colin Mayer",
     "bookTitle": "",
-    "coverImage": "/images/8703/prosperity.500x0.jpg"
+    "coverImage": "/images/8703/prosperity.500x0.jpg",
+    "topics": []
   },
   {
     "slug": "stolen-heritage",
@@ -1401,7 +1833,10 @@
     "reviewer": "Kevin Gardiner, Rothschild & Co/Cardiff Capital Region Economicn Growth Partnership",
     "author": "Anthony Warwick-Ching",
     "bookTitle": "",
-    "coverImage": "/images/8706/stolen_heritage.500x0.jpg"
+    "coverImage": "/images/8706/stolen_heritage.500x0.jpg",
+    "topics": [
+      "Economic History"
+    ]
   },
   {
     "slug": "the-myth-of-chinese-capitalism",
@@ -1410,7 +1845,12 @@
     "reviewer": "Andrew Peaple",
     "author": "Dexter Roberts",
     "bookTitle": "",
-    "coverImage": "/images/8705/myth_of_chinese.500x0.jpg"
+    "coverImage": "/images/8705/myth_of_chinese.500x0.jpg",
+    "topics": [
+      "Economic History",
+      "Health",
+      "Geopolitics"
+    ]
   },
   {
     "slug": "the-power-of-creative-destruction",
@@ -1419,7 +1859,10 @@
     "reviewer": "Bridget Rosewell",
     "author": "Philippe Aghion, Celine Antonin and Simon Bunel",
     "bookTitle": "",
-    "coverImage": "/images/8697/power_of_creative.500x0.jpg"
+    "coverImage": "/images/8697/power_of_creative.500x0.jpg",
+    "topics": [
+      "Technology"
+    ]
   },
   {
     "slug": "trade-wars-are-class-wars",
@@ -1428,7 +1871,10 @@
     "reviewer": "Ian Bright",
     "author": "Matthew Klein and Michael Pettis",
     "bookTitle": "",
-    "coverImage": "/images/8704/tradewars.500x0.jpg"
+    "coverImage": "/images/8704/tradewars.500x0.jpg",
+    "topics": [
+      "Trade & Globalisation"
+    ]
   },
   {
     "slug": "angrynomics",
@@ -1437,7 +1883,8 @@
     "reviewer": "Ian Bright",
     "author": "Eric Lonergan and Mark Blyth",
     "bookTitle": "",
-    "coverImage": "/images/8560/angry.500x0.jpg"
+    "coverImage": "/images/8560/angry.500x0.jpg",
+    "topics": []
   },
   {
     "slug": "capital-wars",
@@ -1446,7 +1893,11 @@
     "reviewer": "Melissa Davies, Redburn",
     "author": "Michael J Howell",
     "bookTitle": "",
-    "coverImage": "/images/8559/capital_wars.500x0.jpg"
+    "coverImage": "/images/8559/capital_wars.500x0.jpg",
+    "topics": [
+      "Monetary Policy",
+      "Health"
+    ]
   },
   {
     "slug": "mission-economy",
@@ -1455,7 +1906,10 @@
     "reviewer": "Bridget Rosewell",
     "author": "Mariana Mazzucato",
     "bookTitle": "",
-    "coverImage": "/images/8556/mission.500x0.jpg"
+    "coverImage": "/images/8556/mission.500x0.jpg",
+    "topics": [
+      "Public Policy"
+    ]
   },
   {
     "slug": "outside-the-box",
@@ -1464,7 +1918,11 @@
     "reviewer": "Ian Harwood",
     "author": "Mark Levinson",
     "bookTitle": "",
-    "coverImage": "/images/8561/outside_box.500x0.jpg"
+    "coverImage": "/images/8561/outside_box.500x0.jpg",
+    "topics": [
+      "Financial Markets",
+      "Trade & Globalisation"
+    ]
   },
   {
     "slug": "superpower-showdown",
@@ -1473,7 +1931,11 @@
     "reviewer": "William Allen, National Institute of Economic and Social Research",
     "author": "Lance Davis and Lingling Wei",
     "bookTitle": "",
-    "coverImage": "/images/8555/superpower.500x0.jpg"
+    "coverImage": "/images/8555/superpower.500x0.jpg",
+    "topics": [
+      "Macroeconomics",
+      "Trade & Globalisation"
+    ]
   },
   {
     "slug": "the-cost-of-free-money",
@@ -1482,7 +1944,11 @@
     "reviewer": "Vicky Pryce",
     "author": "Paola Subacchi",
     "bookTitle": "",
-    "coverImage": "/images/8553/free_money.500x0.jpg"
+    "coverImage": "/images/8553/free_money.500x0.jpg",
+    "topics": [
+      "Macroeconomics",
+      "Health"
+    ]
   },
   {
     "slug": "the-great-british-reboot",
@@ -1491,7 +1957,12 @@
     "reviewer": "Christine Shields",
     "author": "Alex Brummer",
     "bookTitle": "",
-    "coverImage": "/images/8558/reboot.500x0.jpg"
+    "coverImage": "/images/8558/reboot.500x0.jpg",
+    "topics": [
+      "Financial Markets",
+      "Trade & Globalisation",
+      "Public Policy"
+    ]
   },
   {
     "slug": "the-great-demographic-reversal",
@@ -1500,7 +1971,10 @@
     "reviewer": "Dame Kate Barker, British Coal Staff Superannuation Scheme",
     "author": "Charles Goodhart and Manoj Pradhan",
     "bookTitle": "",
-    "coverImage": "/images/8552/great_debate.500x0.jpg"
+    "coverImage": "/images/8552/great_debate.500x0.jpg",
+    "topics": [
+      "Inequality"
+    ]
   },
   {
     "slug": "this-sovereign-isle",
@@ -1509,7 +1983,11 @@
     "reviewer": "Kevin Gardiner, Rothschild & Co/Cardiff Capital Region Economic Growth Partners",
     "author": "Robert Tombs",
     "bookTitle": "",
-    "coverImage": "/images/8557/sovereign.500x0.jpg"
+    "coverImage": "/images/8557/sovereign.500x0.jpg",
+    "topics": [
+      "Macroeconomics",
+      "Trade & Globalisation"
+    ]
   },
   {
     "slug": "youre-paid-what-youre-worth",
@@ -1518,7 +1996,10 @@
     "reviewer": "Rosemary Connell",
     "author": "Jake Rosenfeld",
     "bookTitle": "",
-    "coverImage": "/images/8554/your_worth_it.500x0.jpg"
+    "coverImage": "/images/8554/your_worth_it.500x0.jpg",
+    "topics": [
+      "Labour Markets"
+    ]
   },
   {
     "slug": "austerity",
@@ -1527,7 +2008,10 @@
     "reviewer": "James Smith, Resolution Foundation",
     "author": "Alberto Alesina, Carlo Favero and Francesco Giavazzi",
     "bookTitle": "",
-    "coverImage": "/images/7817/austerity.500x0.jpg"
+    "coverImage": "/images/7817/austerity.500x0.jpg",
+    "topics": [
+      "Health"
+    ]
   },
   {
     "slug": "boom-and-bust",
@@ -1536,7 +2020,10 @@
     "reviewer": "Keith Wade, Schroders",
     "author": "William Quinn and John D Turner",
     "bookTitle": "",
-    "coverImage": "/images/7814/boom_bust.500x0.jpg"
+    "coverImage": "/images/7814/boom_bust.500x0.jpg",
+    "topics": [
+      "Financial Markets"
+    ]
   },
   {
     "slug": "central-banking-before-1800",
@@ -1545,7 +2032,11 @@
     "reviewer": "William A Allen",
     "author": "Ulrich Bindseil",
     "bookTitle": "",
-    "coverImage": "/images/7815/central_bkg_1800.500x0.jpg"
+    "coverImage": "/images/7815/central_bkg_1800.500x0.jpg",
+    "topics": [
+      "Monetary Policy",
+      "Financial Markets"
+    ]
   },
   {
     "slug": "china",
@@ -1554,7 +2045,10 @@
     "reviewer": "Andrew Peaple",
     "author": "Tom Orlik",
     "bookTitle": "",
-    "coverImage": "/images/7811/china_pop.500x0.jpg"
+    "coverImage": "/images/7811/china_pop.500x0.jpg",
+    "topics": [
+      "Geopolitics"
+    ]
   },
   {
     "slug": "dynamism",
@@ -1563,7 +2057,10 @@
     "reviewer": "",
     "author": "Edmund Phelps, Raicho Bojilov, Hian Teck Hoon, Gylfi Zoega",
     "bookTitle": "",
-    "coverImage": "/images/7813/dynamism.500x0.jpg"
+    "coverImage": "/images/7813/dynamism.500x0.jpg",
+    "topics": [
+      "Macroeconomics"
+    ]
   },
   {
     "slug": "greed-is-dead",
@@ -1572,7 +2069,8 @@
     "reviewer": "Bridget Rosewell, Volterra Partners",
     "author": "Paul Collier and John Kay",
     "bookTitle": "",
-    "coverImage": "/images/7819/greed.500x0.jpg"
+    "coverImage": "/images/7819/greed.500x0.jpg",
+    "topics": []
   },
   {
     "slug": "how-to-make-the-world-add-up",
@@ -1581,7 +2079,12 @@
     "reviewer": "Mario Pisani, HM Treasury",
     "author": "Tim Harford",
     "bookTitle": "",
-    "coverImage": "/images/7820/tim_harford_book.500x0.jpg"
+    "coverImage": "/images/7820/tim_harford_book.500x0.jpg",
+    "topics": [
+      "Monetary Policy",
+      "Fiscal Policy",
+      "Inequality"
+    ]
   },
   {
     "slug": "quantitative-easing",
@@ -1590,7 +2093,10 @@
     "reviewer": "Dean Turner",
     "author": "Jonathan Ashworth",
     "bookTitle": "",
-    "coverImage": "/images/7812/qe.500x0.jpg"
+    "coverImage": "/images/7812/qe.500x0.jpg",
+    "topics": [
+      "Monetary Policy"
+    ]
   },
   {
     "slug": "the-classical-school",
@@ -1599,7 +2105,10 @@
     "reviewer": "Rosemary Connell",
     "author": "Callum Williams",
     "bookTitle": "",
-    "coverImage": "/images/7816/classical_school.500x0.jpg"
+    "coverImage": "/images/7816/classical_school.500x0.jpg",
+    "topics": [
+      "Economic History"
+    ]
   },
   {
     "slug": "understanding-affordability",
@@ -1608,7 +2117,10 @@
     "reviewer": "Dame Kate Barker, British Coal Staff Superannuation Scheme",
     "author": "Geoffrey Meen and Christine Whitehead",
     "bookTitle": "",
-    "coverImage": "/images/7818/understanding_affordability.500x0.jpg"
+    "coverImage": "/images/7818/understanding_affordability.500x0.jpg",
+    "topics": [
+      "Housing"
+    ]
   },
   {
     "slug": "an-economic-history-of-the-english-garden-2",
@@ -1617,7 +2129,10 @@
     "reviewer": "Bridget Rosewell, Senior Advisor, Volterra Partners",
     "author": "Roderick Floud",
     "bookTitle": "",
-    "coverImage": "/images/7607/garden.500x0.jpg"
+    "coverImage": "/images/7607/garden.500x0.jpg",
+    "topics": [
+      "Economic History"
+    ]
   },
   {
     "slug": "bit-by-bit",
@@ -1626,7 +2141,10 @@
     "reviewer": "Ian Bright",
     "author": "Matthew Salganik",
     "bookTitle": "",
-    "coverImage": "/images/7602/bit_by_bit.500x0.jpg"
+    "coverImage": "/images/7602/bit_by_bit.500x0.jpg",
+    "topics": [
+      "Technology"
+    ]
   },
   {
     "slug": "chinas-change",
@@ -1635,7 +2153,11 @@
     "reviewer": "Ian Harwood",
     "author": "Hugh Peyman",
     "bookTitle": "",
-    "coverImage": "/images/7609/china.500x0.jpg"
+    "coverImage": "/images/7609/china.500x0.jpg",
+    "topics": [
+      "Macroeconomics",
+      "Geopolitics"
+    ]
   },
   {
     "slug": "money-in-the-great-recession",
@@ -1644,7 +2166,10 @@
     "reviewer": "Christine Shields",
     "author": "Edited by Tim Congdon",
     "bookTitle": "",
-    "coverImage": "/images/7604/money_in_great_recession.500x0.jpg"
+    "coverImage": "/images/7604/money_in_great_recession.500x0.jpg",
+    "topics": [
+      "Macroeconomics"
+    ]
   },
   {
     "slug": "productivity-perspectives",
@@ -1653,7 +2178,10 @@
     "reviewer": "Dame Kate Barker, British Coal Staff Superannuation Scheme",
     "author": "Philip McCann and Tim Vorley",
     "bookTitle": "",
-    "coverImage": "/images/7598/productivity.500x0.jpg"
+    "coverImage": "/images/7598/productivity.500x0.jpg",
+    "topics": [
+      "Macroeconomics"
+    ]
   },
   {
     "slug": "schism",
@@ -1662,7 +2190,10 @@
     "reviewer": "Rebecca Harding",
     "author": "Paul Blustein",
     "bookTitle": "",
-    "coverImage": "/images/7601/schism.500x0.jpg"
+    "coverImage": "/images/7601/schism.500x0.jpg",
+    "topics": [
+      "Trade & Globalisation"
+    ]
   },
   {
     "slug": "slowdown",
@@ -1671,7 +2202,8 @@
     "reviewer": "",
     "author": "Danny Dorling",
     "bookTitle": "",
-    "coverImage": "/images/7610/slowdown.500x0.jpg"
+    "coverImage": "/images/7610/slowdown.500x0.jpg",
+    "topics": []
   },
   {
     "slug": "the-deficit-myth",
@@ -1680,7 +2212,11 @@
     "reviewer": "Melissa Davies",
     "author": "Stephanie Kelton",
     "bookTitle": "",
-    "coverImage": "/images/7599/deficit_myth.500x0.jpg"
+    "coverImage": "/images/7599/deficit_myth.500x0.jpg",
+    "topics": [
+      "Fiscal Policy",
+      "Health"
+    ]
   },
   {
     "slug": "the-economics-of-belonging",
@@ -1689,7 +2225,10 @@
     "reviewer": "Matt Whittaker",
     "author": "Martin Sandbu",
     "bookTitle": "",
-    "coverImage": "/images/7600/economics_belonging.500x0.jpg"
+    "coverImage": "/images/7600/economics_belonging.500x0.jpg",
+    "topics": [
+      "Inequality"
+    ]
   },
   {
     "slug": "the-long-good-buy",
@@ -1698,7 +2237,10 @@
     "reviewer": "Lavan Mahadeva",
     "author": "Peter C Oppenheimer",
     "bookTitle": "",
-    "coverImage": "/images/7611/long.500x0.jpg"
+    "coverImage": "/images/7611/long.500x0.jpg",
+    "topics": [
+      "Financial Markets"
+    ]
   },
   {
     "slug": "whats-wrong-with-economis",
@@ -1707,7 +2249,10 @@
     "reviewer": "",
     "author": "Robert Skidelsky",
     "bookTitle": "",
-    "coverImage": "/images/7603/what.500x0.jpg"
+    "coverImage": "/images/7603/what.500x0.jpg",
+    "topics": [
+      "Careers & Profession"
+    ]
   },
   {
     "slug": "bloomberg-by-bloomberg",
@@ -1716,7 +2261,8 @@
     "reviewer": "Ian Harwood",
     "author": "Michael R Bloomberg",
     "bookTitle": "",
-    "coverImage": "/images/7452/bloomberg.500x0.jpg"
+    "coverImage": "/images/7452/bloomberg.500x0.jpg",
+    "topics": []
   },
   {
     "slug": "central-banking-in-turbulent-times",
@@ -1725,7 +2271,11 @@
     "reviewer": "Mario Pisani",
     "author": "Francesco Papadia with Tuomas Välimäki",
     "bookTitle": "",
-    "coverImage": "/images/7451/central_banking.500x0.jpg"
+    "coverImage": "/images/7451/central_banking.500x0.jpg",
+    "topics": [
+      "Monetary Policy",
+      "Financial Markets"
+    ]
   },
   {
     "slug": "extreme-economies",
@@ -1734,7 +2284,8 @@
     "reviewer": "Dame Kate Barker",
     "author": "Richard Davies",
     "bookTitle": "",
-    "coverImage": "/images/7447/extreme_economies.500x0.jpg"
+    "coverImage": "/images/7447/extreme_economies.500x0.jpg",
+    "topics": []
   },
   {
     "slug": "gaming-trade",
@@ -1743,7 +2294,10 @@
     "reviewer": "Ian Bright",
     "author": "Rebecca Harding and Jack Harding",
     "bookTitle": "",
-    "coverImage": "/images/7444/gaming_trade.500x0.jpg"
+    "coverImage": "/images/7444/gaming_trade.500x0.jpg",
+    "topics": [
+      "Trade & Globalisation"
+    ]
   },
   {
     "slug": "more-the-10-000-year-rise-of-the-world-economy",
@@ -1752,7 +2306,10 @@
     "reviewer": "Rosemary Connell",
     "author": "Philip Coggan",
     "bookTitle": "",
-    "coverImage": "/images/7445/more.500x0.jpg"
+    "coverImage": "/images/7445/more.500x0.jpg",
+    "topics": [
+      "Health"
+    ]
   },
   {
     "slug": "narrative-economics",
@@ -1761,7 +2318,10 @@
     "reviewer": "Bridget Rosewell",
     "author": "Robert J Shiller",
     "bookTitle": "",
-    "coverImage": "/images/7443/narrative.500x0.jpg"
+    "coverImage": "/images/7443/narrative.500x0.jpg",
+    "topics": [
+      "Economic Measurement"
+    ]
   },
   {
     "slug": "not-working",
@@ -1770,7 +2330,10 @@
     "reviewer": "Kevin Gardiner",
     "author": "David G Blanchflower",
     "bookTitle": "",
-    "coverImage": "/images/7446/not_working.500x0.jpg"
+    "coverImage": "/images/7446/not_working.500x0.jpg",
+    "topics": [
+      "Labour Markets"
+    ]
   },
   {
     "slug": "radical-uncertainty",
@@ -1779,7 +2342,12 @@
     "reviewer": "Vicky Pryce",
     "author": "John Kay and Mervyn King",
     "bookTitle": "",
-    "coverImage": "/images/7450/radical_uncertainty.500x0.jpg"
+    "coverImage": "/images/7450/radical_uncertainty.500x0.jpg",
+    "topics": [
+      "Monetary Policy",
+      "Financial Markets",
+      "Health"
+    ]
   },
   {
     "slug": "the-wealth-effect",
@@ -1788,7 +2356,10 @@
     "reviewer": "William Allen",
     "author": "Jeffrey M Chwieroth and Andrew Walter",
     "bookTitle": "",
-    "coverImage": "/images/7449/wealth_effect.500x0.jpg"
+    "coverImage": "/images/7449/wealth_effect.500x0.jpg",
+    "topics": [
+      "Inequality"
+    ]
   },
   {
     "slug": "women-vs-capitalism",
@@ -1797,7 +2368,11 @@
     "reviewer": "Ian Bright",
     "author": "Vicky Pryce",
     "bookTitle": "",
-    "coverImage": "/images/7448/women_vs_capitalism.500x0.jpg"
+    "coverImage": "/images/7448/women_vs_capitalism.500x0.jpg",
+    "topics": [
+      "Labour Markets",
+      "Economic History"
+    ]
   },
   {
     "slug": "beyond-brexit-a-programme-for-uk-reform",
@@ -1806,7 +2381,11 @@
     "reviewer": "Neville R Norman, University of Melbourne",
     "author": "By the Policy Reform Group",
     "bookTitle": "",
-    "coverImage": ""
+    "coverImage": "",
+    "topics": [
+      "Trade & Globalisation",
+      "Public Policy"
+    ]
   },
   {
     "slug": "a-good-time-to-be-a-girl",
@@ -1815,7 +2394,10 @@
     "reviewer": "Ian Bright, ING",
     "author": "Dame Helena Morrissey",
     "bookTitle": "",
-    "coverImage": "/images/7329/girl.500x0.jpg"
+    "coverImage": "/images/7329/girl.500x0.jpg",
+    "topics": [
+      "Labour Markets"
+    ]
   },
   {
     "slug": "capitalism-in-america",
@@ -1824,7 +2406,11 @@
     "reviewer": "Christine Shields",
     "author": "Alan Greenspan and Adrian Wooldridge",
     "bookTitle": "",
-    "coverImage": "/images/7323/capitalism.500x0.jpg"
+    "coverImage": "/images/7323/capitalism.500x0.jpg",
+    "topics": [
+      "Financial Markets",
+      "Economic History"
+    ]
   },
   {
     "slug": "diary-of-the-euro-crisis-in-cyprus",
@@ -1833,7 +2419,10 @@
     "reviewer": "William Allen, NIESR",
     "author": "Panicos Demetriades",
     "bookTitle": "",
-    "coverImage": "/images/7320/diary.500x0.jpg"
+    "coverImage": "/images/7320/diary.500x0.jpg",
+    "topics": [
+      "Monetary Policy"
+    ]
   },
   {
     "slug": "evolution-or-revolution",
@@ -1842,7 +2431,11 @@
     "reviewer": "",
     "author": "Speaker:",
     "bookTitle": "",
-    "coverImage": "/images/7316/evolution.500x0.jpg"
+    "coverImage": "/images/7316/evolution.500x0.jpg",
+    "topics": [
+      "Macroeconomics",
+      "Financial Markets"
+    ]
   },
   {
     "slug": "financial-models-and-society",
@@ -1851,7 +2444,8 @@
     "reviewer": "Lavan Mahadeva, Research Director, CRU International Ltd",
     "author": "Ekaterina Svetlova",
     "bookTitle": "",
-    "coverImage": "/images/7318/financial_models.500x0.jpg"
+    "coverImage": "/images/7318/financial_models.500x0.jpg",
+    "topics": []
   },
   {
     "slug": "forecasting-an-essential-introduction",
@@ -1860,7 +2454,11 @@
     "reviewer": "Kevin Gardiner, Rothschild & Co",
     "author": "Jennifer L Castle, Michael P Clements, David F Hendry",
     "bookTitle": "",
-    "coverImage": "/images/7322/forecasting.500x0.jpg"
+    "coverImage": "/images/7322/forecasting.500x0.jpg",
+    "topics": [
+      "Macroeconomics",
+      "Economic Measurement"
+    ]
   },
   {
     "slug": "heroes-or-villains",
@@ -1869,7 +2467,8 @@
     "reviewer": "Mario Pisani",
     "author": "Jon Davis and John Rentoul",
     "bookTitle": "",
-    "coverImage": "/images/7317/61q1agmtxxl.500x0.jpg"
+    "coverImage": "/images/7317/61q1agmtxxl.500x0.jpg",
+    "topics": []
   },
   {
     "slug": "nine-crises",
@@ -1878,7 +2477,10 @@
     "reviewer": "",
     "author": "William Keegan",
     "bookTitle": "",
-    "coverImage": "/images/7328/nine_crises.500x0.jpg"
+    "coverImage": "/images/7328/nine_crises.500x0.jpg",
+    "topics": [
+      "Trade & Globalisation"
+    ]
   },
   {
     "slug": "productivity-and-bonus-culture",
@@ -1887,7 +2489,12 @@
     "reviewer": "Dame Kate Barker",
     "author": "Andrew Smithers",
     "bookTitle": "",
-    "coverImage": "/images/7321/productivity.500x0.jpg"
+    "coverImage": "/images/7321/productivity.500x0.jpg",
+    "topics": [
+      "Macroeconomics",
+      "Financial Markets",
+      "Inequality"
+    ]
   },
   {
     "slug": "the-ai-economy",
@@ -1896,7 +2503,10 @@
     "reviewer": "Vicky Pryce, CEBR",
     "author": "Roger Bootle",
     "bookTitle": "",
-    "coverImage": "/images/7327/ai.500x0.jpg"
+    "coverImage": "/images/7327/ai.500x0.jpg",
+    "topics": [
+      "Technology"
+    ]
   },
   {
     "slug": "the-technology-trap",
@@ -1905,7 +2515,10 @@
     "reviewer": "Rosemary Connell",
     "author": "Carl Benedikt Frey",
     "bookTitle": "",
-    "coverImage": "/images/7319/technology.500x0.jpg"
+    "coverImage": "/images/7319/technology.500x0.jpg",
+    "topics": [
+      "Technology"
+    ]
   },
   {
     "slug": "are-chief-executives-overpaid",
@@ -1914,7 +2527,10 @@
     "reviewer": "Dame Kate Barker, Chairman, British Coal Staff Superannuation Scheme",
     "author": "Deborah Hargreaves",
     "bookTitle": "",
-    "coverImage": "/images/5466/ceos.500x0.jpg"
+    "coverImage": "/images/5466/ceos.500x0.jpg",
+    "topics": [
+      "Labour Markets"
+    ]
   },
   {
     "slug": "crashed-how-a-decade-of-financial-crisis-changed-the-world",
@@ -1923,7 +2539,11 @@
     "reviewer": "Ian Harwood",
     "author": "Adam Tooze",
     "bookTitle": "",
-    "coverImage": "/images/5461/crashed.500x0.jpg"
+    "coverImage": "/images/5461/crashed.500x0.jpg",
+    "topics": [
+      "Macroeconomics",
+      "Financial Markets"
+    ]
   },
   {
     "slug": "currency-credit-and-crisis",
@@ -1932,7 +2552,11 @@
     "reviewer": "William A Allen, NIESR",
     "author": "",
     "bookTitle": "",
-    "coverImage": "/images/5465/currency.500x0.jpg"
+    "coverImage": "/images/5465/currency.500x0.jpg",
+    "topics": [
+      "Monetary Policy",
+      "Financial Markets"
+    ]
   },
   {
     "slug": "inequalities-in-the-uk",
@@ -1941,7 +2565,10 @@
     "reviewer": "",
     "author": "David Fée and Anémone Kober-Smith",
     "bookTitle": "",
-    "coverImage": "/images/5463/inequalities.500x0.jpg"
+    "coverImage": "/images/5463/inequalities.500x0.jpg",
+    "topics": [
+      "Inequality"
+    ]
   },
   {
     "slug": "peoople-power-and-profits",
@@ -1950,7 +2577,11 @@
     "reviewer": "Rosemary Connell",
     "author": "Joseph Stiglitz",
     "bookTitle": "",
-    "coverImage": "/images/5462/people_power.500x0.jpg"
+    "coverImage": "/images/5462/people_power.500x0.jpg",
+    "topics": [
+      "Financial Markets",
+      "Inequality"
+    ]
   },
   {
     "slug": "the-art-of-statistics",
@@ -1959,7 +2590,10 @@
     "reviewer": "Bridget Rosewell, Volterra Partners",
     "author": "David Spiegelhalter",
     "bookTitle": "",
-    "coverImage": "/images/5467/art.500x0.jpg"
+    "coverImage": "/images/5467/art.500x0.jpg",
+    "topics": [
+      "Economic Measurement"
+    ]
   },
   {
     "slug": "the-bank-of-england-and-the-government-debt",
@@ -1968,7 +2602,11 @@
     "reviewer": "",
     "author": "William A Allen",
     "bookTitle": "",
-    "coverImage": "/images/5464/boe.500x0.jpg"
+    "coverImage": "/images/5464/boe.500x0.jpg",
+    "topics": [
+      "Monetary Policy",
+      "Fiscal Policy"
+    ]
   },
   {
     "slug": "belt-and-road",
@@ -1977,7 +2615,10 @@
     "reviewer": "Rosemary Connell",
     "author": "Bruno Macaes",
     "bookTitle": "",
-    "coverImage": "/images/5379/belt.500x0.jpg"
+    "coverImage": "/images/5379/belt.500x0.jpg",
+    "topics": [
+      "Trade & Globalisation"
+    ]
   },
   {
     "slug": "cost-benefit-revolution",
@@ -1986,7 +2627,10 @@
     "reviewer": "Jonah P Adaun",
     "author": "Cass R Sunstein",
     "bookTitle": "",
-    "coverImage": "/images/5384/cost.500x0.jpg"
+    "coverImage": "/images/5384/cost.500x0.jpg",
+    "topics": [
+      "Public Policy"
+    ]
   },
   {
     "slug": "federal-central-banks",
@@ -1995,7 +2639,11 @@
     "reviewer": "",
     "author": "The Global Policy Institute",
     "bookTitle": "",
-    "coverImage": "/images/5385/federal.500x0.jpg"
+    "coverImage": "/images/5385/federal.500x0.jpg",
+    "topics": [
+      "Monetary Policy",
+      "Financial Markets"
+    ]
   },
   {
     "slug": "money-and-government",
@@ -2004,7 +2652,10 @@
     "reviewer": "Kevin Gardiner",
     "author": "Robert Skidelsky",
     "bookTitle": "",
-    "coverImage": "/images/5376/money.500x0.jpg"
+    "coverImage": "/images/5376/money.500x0.jpg",
+    "topics": [
+      "Financial Markets"
+    ]
   },
   {
     "slug": "prosperity-and-justice",
@@ -2013,7 +2664,11 @@
     "reviewer": "",
     "author": "IPPR",
     "bookTitle": "",
-    "coverImage": "/images/5374/prosperity.500x0.jpg"
+    "coverImage": "/images/5374/prosperity.500x0.jpg",
+    "topics": [
+      "Trade & Globalisation",
+      "Inequality"
+    ]
   },
   {
     "slug": "the-chinese-economy",
@@ -2022,7 +2677,10 @@
     "reviewer": "Lavan Mahadeva, Research Director, CRU",
     "author": "Barry Naughton",
     "bookTitle": "",
-    "coverImage": "/images/5381/chinese.500x0.jpg"
+    "coverImage": "/images/5381/chinese.500x0.jpg",
+    "topics": [
+      "Geopolitics"
+    ]
   },
   {
     "slug": "the-great-economists",
@@ -2031,7 +2689,10 @@
     "reviewer": "Christine Shields",
     "author": "Linda Yueh",
     "bookTitle": "",
-    "coverImage": "/images/5378/great.500x0.jpg"
+    "coverImage": "/images/5378/great.500x0.jpg",
+    "topics": [
+      "Economic History"
+    ]
   },
   {
     "slug": "the-power-of-capitalism",
@@ -2040,7 +2701,11 @@
     "reviewer": "Vicky Pryce, Chief Economic Adviser, CEBR",
     "author": "Rainer Zitelmann",
     "bookTitle": "",
-    "coverImage": "/images/5386/power.500x0.jpg"
+    "coverImage": "/images/5386/power.500x0.jpg",
+    "topics": [
+      "Trade & Globalisation",
+      "Economic History"
+    ]
   },
   {
     "slug": "the-regulation-of-the-london-clearing-banks-1946-1971",
@@ -2049,7 +2714,11 @@
     "reviewer": "",
     "author": "Linda Arch",
     "bookTitle": "",
-    "coverImage": "/images/5380/clearing.500x0.jpg"
+    "coverImage": "/images/5380/clearing.500x0.jpg",
+    "topics": [
+      "Financial Markets",
+      "Public Policy"
+    ]
   },
   {
     "slug": "uncertain-futures",
@@ -2058,7 +2727,8 @@
     "reviewer": "",
     "author": "Edited by Jens Beckert and Richard Bronk",
     "bookTitle": "",
-    "coverImage": "/images/5373/uncertain.500x0.jpg"
+    "coverImage": "/images/5373/uncertain.500x0.jpg",
+    "topics": []
   },
   {
     "slug": "unelected-power",
@@ -2067,7 +2737,10 @@
     "reviewer": "Ian Bright",
     "author": "Paul Tucker",
     "bookTitle": "",
-    "coverImage": "/images/5377/unelected.500x0.webp"
+    "coverImage": "/images/5377/unelected.500x0.webp",
+    "topics": [
+      "Public Policy"
+    ]
   },
   {
     "slug": "will-china-save-the-planet",
@@ -2076,7 +2749,10 @@
     "reviewer": "Bridget Rosewell",
     "author": "Barbara Finamore",
     "bookTitle": "",
-    "coverImage": "/images/5375/china.500x0.jpg"
+    "coverImage": "/images/5375/china.500x0.jpg",
+    "topics": [
+      "Geopolitics"
+    ]
   },
   {
     "slug": "adam-smith-what-he-thought-and-why-it-matters",
@@ -2085,7 +2761,10 @@
     "reviewer": "Bridget Rosewell",
     "author": "Jesse Norman",
     "bookTitle": "",
-    "coverImage": "/images/5260/adam_smith.500x0.jpg"
+    "coverImage": "/images/5260/adam_smith.500x0.jpg",
+    "topics": [
+      "Economic History"
+    ]
   },
   {
     "slug": "fifty-things-that-made-the-modern-economy",
@@ -2094,7 +2773,10 @@
     "reviewer": "Sunil Krishnan",
     "author": "Tim Harford",
     "bookTitle": "",
-    "coverImage": "/images/5265/fifty.500x0.jpg"
+    "coverImage": "/images/5265/fifty.500x0.jpg",
+    "topics": [
+      "Economic History"
+    ]
   },
   {
     "slug": "how-economic-professors-can-stop-failing-us",
@@ -2103,7 +2785,8 @@
     "reviewer": "Kevin Gardiner",
     "author": "Steven Payson",
     "bookTitle": "",
-    "coverImage": "/images/5268/econ_profs.500x0.jpg"
+    "coverImage": "/images/5268/econ_profs.500x0.jpg",
+    "topics": []
   },
   {
     "slug": "populism-and-economics",
@@ -2112,7 +2795,12 @@
     "reviewer": "Dame Kate Barker, Chairman of Trustees, British Coal Staff Superannuation Scheme",
     "author": "Charles Dumas",
     "bookTitle": "",
-    "coverImage": "/images/5262/pop.500x0.jpg"
+    "coverImage": "/images/5262/pop.500x0.jpg",
+    "topics": [
+      "Labour Markets",
+      "Inequality",
+      "Geopolitics"
+    ]
   },
   {
     "slug": "red-flags",
@@ -2121,7 +2809,12 @@
     "reviewer": "Keith Wade, Chief Economist, Schroders",
     "author": "George Magnus",
     "bookTitle": "",
-    "coverImage": "/images/5261/red_flags.500x0.jpg"
+    "coverImage": "/images/5261/red_flags.500x0.jpg",
+    "topics": [
+      "Financial Markets",
+      "Trade & Globalisation",
+      "Geopolitics"
+    ]
   },
   {
     "slug": "reputation-what-it-is-and-why-it-matters",
@@ -2130,7 +2823,8 @@
     "reviewer": "Kevin Gardiner",
     "author": "Gloria Origgi",
     "bookTitle": "",
-    "coverImage": "/images/5267/reputation.500x0.jpg"
+    "coverImage": "/images/5267/reputation.500x0.jpg",
+    "topics": []
   },
   {
     "slug": "the-growth-delusion",
@@ -2139,7 +2833,10 @@
     "reviewer": "Dr Rebecca Harding, CEO, Coriolis Technologies",
     "author": "David Pilling",
     "bookTitle": "",
-    "coverImage": "/images/5264/growth.500x0.jpg"
+    "coverImage": "/images/5264/growth.500x0.jpg",
+    "topics": [
+      "Macroeconomics"
+    ]
   },
   {
     "slug": "the-national-debt-a-short-history",
@@ -2148,7 +2845,10 @@
     "reviewer": "William Allen",
     "author": "Martin Slater",
     "bookTitle": "",
-    "coverImage": "/images/5266/debt.500x0.jpg"
+    "coverImage": "/images/5266/debt.500x0.jpg",
+    "topics": [
+      "Fiscal Policy"
+    ]
   },
   {
     "slug": "the-value-of-everything",
@@ -2157,7 +2857,8 @@
     "reviewer": "Rosemary Connell",
     "author": "Mariana Mazzucato",
     "bookTitle": "",
-    "coverImage": "/images/5263/9780141980768.500x0.jpg"
+    "coverImage": "/images/5263/9780141980768.500x0.jpg",
+    "topics": []
   },
   {
     "slug": "after-the-flood",
@@ -2166,7 +2867,10 @@
     "reviewer": "Bridget Rosewell, Volterra Partners & Atom Bank",
     "author": "Edited by E Glaser, T Santos and E G Weyl",
     "bookTitle": "",
-    "coverImage": "/images/5071/the_flood.500x0.jpg"
+    "coverImage": "/images/5071/the_flood.500x0.jpg",
+    "topics": [
+      "Macroeconomics"
+    ]
   },
   {
     "slug": "big-mind",
@@ -2175,7 +2879,10 @@
     "reviewer": "Catherine Connolly",
     "author": "Geoff Mulgan",
     "bookTitle": "",
-    "coverImage": "/images/5072/big_mind.500x0.jpg"
+    "coverImage": "/images/5072/big_mind.500x0.jpg",
+    "topics": [
+      "Technology"
+    ]
   },
   {
     "slug": "capitalism-without-capital",
@@ -2184,7 +2891,10 @@
     "reviewer": "Matthew Whittaker",
     "author": "Jonathan Haskel & Stian Westlake",
     "bookTitle": "",
-    "coverImage": "/images/5070/capitalism_without_capital.500x0.jpg"
+    "coverImage": "/images/5070/capitalism_without_capital.500x0.jpg",
+    "topics": [
+      "Economic History"
+    ]
   },
   {
     "slug": "edge-of-chaos",
@@ -2193,7 +2903,10 @@
     "reviewer": "Rosemary Connell",
     "author": "Dambisa Moyo",
     "bookTitle": "",
-    "coverImage": "/images/5077/chaos.500x0.jpg"
+    "coverImage": "/images/5077/chaos.500x0.jpg",
+    "topics": [
+      "Macroeconomics"
+    ]
   },
   {
     "slug": "how-global-currencies-work-past-present-and-future",
@@ -2202,7 +2915,8 @@
     "reviewer": "William A Allen, National Institute of Economic & Social Research",
     "author": "Barry Eichengreen, Arnaud Mehl and Livia Chitu",
     "bookTitle": "",
-    "coverImage": "/images/5079/global_currencies.500x0.jpg"
+    "coverImage": "/images/5079/global_currencies.500x0.jpg",
+    "topics": []
   },
   {
     "slug": "the-myth-of-independence",
@@ -2211,7 +2925,11 @@
     "reviewer": "William Allen",
     "author": "Sarah Binder and Mark Spindel",
     "bookTitle": "",
-    "coverImage": "/images/5073/the_myth.500x0.jpg"
+    "coverImage": "/images/5073/the_myth.500x0.jpg",
+    "topics": [
+      "Monetary Policy",
+      "Financial Markets"
+    ]
   },
   {
     "slug": "the-polical-power-of-global-corporations",
@@ -2220,7 +2938,8 @@
     "reviewer": "Christine Shields",
     "author": "John Mikler",
     "bookTitle": "",
-    "coverImage": "/images/5078/pp.500x0.jpg"
+    "coverImage": "/images/5078/pp.500x0.jpg",
+    "topics": []
   },
   {
     "slug": "the-weaponization-of-trade",
@@ -2229,7 +2948,11 @@
     "reviewer": "Ian Bright",
     "author": "Rebecca Harding and Jack Harding",
     "bookTitle": "",
-    "coverImage": "/images/5074/weaponization.500x0.jpg"
+    "coverImage": "/images/5074/weaponization.500x0.jpg",
+    "topics": [
+      "Trade & Globalisation",
+      "Geopolitics"
+    ]
   },
   {
     "slug": "till-times-last-stand",
@@ -2238,7 +2961,10 @@
     "reviewer": "Kevin Gardner, Economics & Intl Divisions, Bank of England (1982-86)",
     "author": "David Kynaston",
     "bookTitle": "",
-    "coverImage": "/images/5075/till_time.500x0.jpg"
+    "coverImage": "/images/5075/till_time.500x0.jpg",
+    "topics": [
+      "Monetary Policy"
+    ]
   },
   {
     "slug": "central-banks-into-the-breach",
@@ -2247,7 +2973,11 @@
     "reviewer": "Dame Kate Barker",
     "author": "Pierre L Siklos",
     "bookTitle": "",
-    "coverImage": "/images/4976/central_banks.500x0.jpg"
+    "coverImage": "/images/4976/central_banks.500x0.jpg",
+    "topics": [
+      "Monetary Policy",
+      "Financial Markets"
+    ]
   },
   {
     "slug": "doughnut-economics-seven-ways-to-think-like-a-21st-century",
@@ -2256,7 +2986,11 @@
     "reviewer": "Ian Bright",
     "author": "Kate Raworth",
     "bookTitle": "",
-    "coverImage": "/images/4979/doughnuts.500x0.jpg"
+    "coverImage": "/images/4979/doughnuts.500x0.jpg",
+    "topics": [
+      "Inequality",
+      "Climate & Energy"
+    ]
   },
   {
     "slug": "rebuilding-macroeconomic-theory",
@@ -2265,7 +2999,10 @@
     "reviewer": "Kevin Gardiner",
     "author": "David Vines, Samuel Willis",
     "bookTitle": "",
-    "coverImage": "/images/4977/m_cover.500x0.webp"
+    "coverImage": "/images/4977/m_cover.500x0.webp",
+    "topics": [
+      "Macroeconomics"
+    ]
   },
   {
     "slug": "wtf",
@@ -2274,7 +3011,11 @@
     "reviewer": "Rosemary Connell",
     "author": "Robert Peston",
     "bookTitle": "",
-    "coverImage": "/images/4978/wtf.500x0.jpg"
+    "coverImage": "/images/4978/wtf.500x0.jpg",
+    "topics": [
+      "Monetary Policy",
+      "Trade & Globalisation"
+    ]
   },
   {
     "slug": "british-imperialism-and-the-making-of-colonial-currency-systems",
@@ -2283,7 +3024,10 @@
     "reviewer": "William A Allen, NIESR",
     "author": "Wadan Narsey",
     "bookTitle": "",
-    "coverImage": "/images/4845/imperialism.500x0.jpg"
+    "coverImage": "/images/4845/imperialism.500x0.jpg",
+    "topics": [
+      "Economic History"
+    ]
   },
   {
     "slug": "cents-and-sensibility",
@@ -2292,7 +3036,8 @@
     "reviewer": "",
     "author": "Gary Saul Morson and Morton Schapiro",
     "bookTitle": "",
-    "coverImage": "/images/4846/cents.500x0.jpg"
+    "coverImage": "/images/4846/cents.500x0.jpg",
+    "topics": []
   },
   {
     "slug": "inside-job",
@@ -2301,7 +3046,10 @@
     "reviewer": "Rosemary Connell",
     "author": "Mark A Zupan",
     "bookTitle": "",
-    "coverImage": "/images/4843/inside_job.500x0.jpg"
+    "coverImage": "/images/4843/inside_job.500x0.jpg",
+    "topics": [
+      "Macroeconomics"
+    ]
   },
   {
     "slug": "machine-platform-crowd",
@@ -2310,7 +3058,10 @@
     "reviewer": "Ian Bright",
     "author": "Andrew McAfee and Erik Brynjolfsson",
     "bookTitle": "",
-    "coverImage": "/images/4842/machines.500x0.jpg"
+    "coverImage": "/images/4842/machines.500x0.jpg",
+    "topics": [
+      "Technology"
+    ]
   },
   {
     "slug": "president-trump-inc",
@@ -2319,7 +3070,10 @@
     "reviewer": "",
     "author": "T J Coles",
     "bookTitle": "",
-    "coverImage": "/images/4847/trump.500x0.jpg"
+    "coverImage": "/images/4847/trump.500x0.jpg",
+    "topics": [
+      "Trade & Globalisation"
+    ]
   },
   {
     "slug": "the-contradictions-of-capital-in-the-21st-century",
@@ -2328,7 +3082,8 @@
     "reviewer": "Bridget Rosewell, Senior Partner, Volterra",
     "author": "Pat Hudson and Keith Tribe",
     "bookTitle": "",
-    "coverImage": "/images/4841/contradictions.500x0.jpg"
+    "coverImage": "/images/4841/contradictions.500x0.jpg",
+    "topics": []
   },
   {
     "slug": "the-wisdom-of-finance",
@@ -2337,7 +3092,8 @@
     "reviewer": "Vicky Pryce, SBE fellow and Author",
     "author": "Mihir A Desai",
     "bookTitle": "",
-    "coverImage": "/images/4840/wisdom.500x0.jpg"
+    "coverImage": "/images/4840/wisdom.500x0.jpg",
+    "topics": []
   },
   {
     "slug": "virtual-competition",
@@ -2346,7 +3102,10 @@
     "reviewer": "Leath Al Obaidi",
     "author": "Ariel Ezrachi and Maurice Strucke",
     "bookTitle": "",
-    "coverImage": "/images/4844/virtual.500x0.jpg"
+    "coverImage": "/images/4844/virtual.500x0.jpg",
+    "topics": [
+      "Technology"
+    ]
   },
   {
     "slug": "the-money-formula",
@@ -2355,7 +3114,10 @@
     "reviewer": "Bridget Rosewell, Volterra Partners",
     "author": "Paul Wilmott and David Orrell",
     "bookTitle": "",
-    "coverImage": "/images/4757/the_money_formula.500x0.jpg"
+    "coverImage": "/images/4757/the_money_formula.500x0.jpg",
+    "topics": [
+      "Financial Markets"
+    ]
   },
   {
     "slug": "adaptive-markets",
@@ -2364,7 +3126,10 @@
     "reviewer": "Bridge Rosewell, Volterra Partners Ltd",
     "author": "Andrew Lo",
     "bookTitle": "",
-    "coverImage": "/images/4758/adaptive_markets.500x0.jpg"
+    "coverImage": "/images/4758/adaptive_markets.500x0.jpg",
+    "topics": [
+      "Financial Markets"
+    ]
   },
   {
     "slug": "basic-income-a-radical-proposal",
@@ -2373,7 +3138,10 @@
     "reviewer": "Simon Briscoe",
     "author": "Philippe van Parijs and Yannick Vanderborght",
     "bookTitle": "",
-    "coverImage": "/images/4755/basic_income_radical_proposal.500x0.jpg"
+    "coverImage": "/images/4755/basic_income_radical_proposal.500x0.jpg",
+    "topics": [
+      "Inequality"
+    ]
   },
   {
     "slug": "basic-income-and-how-to-make-happen",
@@ -2382,7 +3150,10 @@
     "reviewer": "Simon Briscoe",
     "author": "Guy Standing",
     "bookTitle": "",
-    "coverImage": "/images/4754/basic_income.500x0.jpg"
+    "coverImage": "/images/4754/basic_income.500x0.jpg",
+    "topics": [
+      "Inequality"
+    ]
   },
   {
     "slug": "hapiness-for-all",
@@ -2391,7 +3162,10 @@
     "reviewer": "Sunil Krishnan, Santander Asset Management",
     "author": "Carol Graham",
     "bookTitle": "",
-    "coverImage": "/images/4747/happiness-for-all.500x0.jpg"
+    "coverImage": "/images/4747/happiness-for-all.500x0.jpg",
+    "topics": [
+      "Inequality"
+    ]
   },
   {
     "slug": "the-financial-diaries",
@@ -2400,7 +3174,10 @@
     "reviewer": "",
     "author": "Jonathan Morduch and Rachel Schneider",
     "bookTitle": "",
-    "coverImage": "/images/4746/cover.500x0.jpg"
+    "coverImage": "/images/4746/cover.500x0.jpg",
+    "topics": [
+      "Financial Markets"
+    ]
   },
   {
     "slug": "brexit-why-britain-voted-to-leave-the-eu",
@@ -2409,7 +3186,10 @@
     "reviewer": "Vicky Pryce, former joint Head, Government Economic Service",
     "author": "Harold D Clarke, Matthew Goodwin and Paul Whiteley",
     "bookTitle": "",
-    "coverImage": "/images/4735/brexit.500x0.jpg"
+    "coverImage": "/images/4735/brexit.500x0.jpg",
+    "topics": [
+      "Trade & Globalisation"
+    ]
   },
   {
     "slug": "globalisation-a-mooc-from-futurelearn",
@@ -2418,7 +3198,11 @@
     "reviewer": "Ian Bright",
     "author": "",
     "bookTitle": "",
-    "coverImage": ""
+    "coverImage": "",
+    "topics": [
+      "Trade & Globalisation",
+      "Technology"
+    ]
   },
   {
     "slug": "grave-new-world",
@@ -2427,7 +3211,10 @@
     "reviewer": "Andrew Sentance, Senior Economic Adviser, PwC",
     "author": "Stephen D King",
     "bookTitle": "",
-    "coverImage": "/images/4732/grave_new_world.500x0.jpg"
+    "coverImage": "/images/4732/grave_new_world.500x0.jpg",
+    "topics": [
+      "Trade & Globalisation"
+    ]
   },
   {
     "slug": "stuff-and-money-in-the-time-of-the-french-revolution",
@@ -2436,7 +3223,11 @@
     "reviewer": "William A Allen",
     "author": "Rebecca L Spang",
     "bookTitle": "",
-    "coverImage": "/images/4731/stuff_and_money.500x0.jpg"
+    "coverImage": "/images/4731/stuff_and_money.500x0.jpg",
+    "topics": [
+      "Monetary Policy",
+      "Economic History"
+    ]
   },
   {
     "slug": "the-limits-of-the-market",
@@ -2445,7 +3236,10 @@
     "reviewer": "Rosemary Connell",
     "author": "Paul de Grauwe",
     "bookTitle": "",
-    "coverImage": "/images/4733/limits_of_market.500x0.jpg"
+    "coverImage": "/images/4733/limits_of_market.500x0.jpg",
+    "topics": [
+      "Macroeconomics"
+    ]
   },
   {
     "slug": "too-much-stuff-capitalism-in-crisis",
@@ -2454,7 +3248,11 @@
     "reviewer": "Rebecca Harding, Delta Economics",
     "author": "Kozo Yamamura",
     "bookTitle": "",
-    "coverImage": "/images/4736/too_much_stuff.500x0.jpg"
+    "coverImage": "/images/4736/too_much_stuff.500x0.jpg",
+    "topics": [
+      "Macroeconomics",
+      "Economic History"
+    ]
   },
   {
     "slug": "connectedness-and-contagion",
@@ -2463,7 +3261,10 @@
     "reviewer": "William Allen, NIESR",
     "author": "Hal S Scott",
     "bookTitle": "",
-    "coverImage": "/images/4628/connectedness.500x0.jpg"
+    "coverImage": "/images/4628/connectedness.500x0.jpg",
+    "topics": [
+      "Financial Markets"
+    ]
   },
   {
     "slug": "dynamic-economic-decision-making",
@@ -2472,7 +3273,10 @@
     "reviewer": "Dame Kate Barker",
     "author": "John E Silvia",
     "bookTitle": "",
-    "coverImage": "/images/4627/dynamic_economic.500x0.jpg"
+    "coverImage": "/images/4627/dynamic_economic.500x0.jpg",
+    "topics": [
+      "Monetary Policy"
+    ]
   },
   {
     "slug": "how-change-happens",
@@ -2481,7 +3285,10 @@
     "reviewer": "Vicky Pryce",
     "author": "Duncan Green",
     "bookTitle": "",
-    "coverImage": "/images/4629/how_change_happens.500x0.jpg"
+    "coverImage": "/images/4629/how_change_happens.500x0.jpg",
+    "topics": [
+      "Macroeconomics"
+    ]
   },
   {
     "slug": "the-99-essential-business-questions",
@@ -2490,7 +3297,8 @@
     "reviewer": "Vicky Pryce",
     "author": "Gia Campari, David Glassman, Michael Jeans, Patrick McHugh, David Peregrine-Jones, David Shannon, Benjamin Taylor",
     "bookTitle": "",
-    "coverImage": "/images/4630/99_essential.500x0.jpg"
+    "coverImage": "/images/4630/99_essential.500x0.jpg",
+    "topics": []
   },
   {
     "slug": "the-curse-of-cash",
@@ -2499,7 +3307,10 @@
     "reviewer": "Ian Bright",
     "author": "Kenneth S Rogoff",
     "bookTitle": "",
-    "coverImage": "/images/4625/the_curse_of_cash.500x0.jpg"
+    "coverImage": "/images/4625/the_curse_of_cash.500x0.jpg",
+    "topics": [
+      "Monetary Policy"
+    ]
   },
   {
     "slug": "the-euro-and-the-battle-of-ideas",
@@ -2508,7 +3319,10 @@
     "reviewer": "Rebecca Harding",
     "author": "Markus Brunnermeier, Harold James and Jean-Pierre Landau",
     "bookTitle": "",
-    "coverImage": "/images/4631/the_euro_and_battle_of_ideas.500x0.jpg"
+    "coverImage": "/images/4631/the_euro_and_battle_of_ideas.500x0.jpg",
+    "topics": [
+      "Financial Markets"
+    ]
   },
   {
     "slug": "the-great-convergence",
@@ -2517,7 +3331,11 @@
     "reviewer": "Bridget Rosewell, Volterra Partners",
     "author": "Richard Baldwin",
     "bookTitle": "",
-    "coverImage": "/images/4626/the_great_convergence.500x0.jpg"
+    "coverImage": "/images/4626/the_great_convergence.500x0.jpg",
+    "topics": [
+      "Trade & Globalisation",
+      "Technology"
+    ]
   },
   {
     "slug": "the-power-of-networks",
@@ -2526,7 +3344,10 @@
     "reviewer": "Mark Cleary, Kinetic Economics",
     "author": "Christopher Brinton and Mung Chiang",
     "bookTitle": "",
-    "coverImage": "/images/4624/the_power_of_networks.500x0.jpg"
+    "coverImage": "/images/4624/the_power_of_networks.500x0.jpg",
+    "topics": [
+      "Technology"
+    ]
   },
   {
     "slug": "unequal-democracy",
@@ -2535,7 +3356,10 @@
     "reviewer": "Dame Kate Barker",
     "author": "Larry M Bartels",
     "bookTitle": "",
-    "coverImage": "/images/4622/unequal_democracy.500x0.jpg"
+    "coverImage": "/images/4622/unequal_democracy.500x0.jpg",
+    "topics": [
+      "Geopolitics"
+    ]
   },
   {
     "slug": "unlikely-partners",
@@ -2544,7 +3368,10 @@
     "reviewer": "Christine Shields, Independent Consultant",
     "author": "Julian Gerwitz",
     "bookTitle": "",
-    "coverImage": "/images/4623/unlikely_partners.500x0.jpg"
+    "coverImage": "/images/4623/unlikely_partners.500x0.jpg",
+    "topics": [
+      "Geopolitics"
+    ]
   },
   {
     "slug": "capital-without-borders",
@@ -2553,7 +3380,8 @@
     "reviewer": "Ian Bright",
     "author": "Brooke Harrington",
     "bookTitle": "",
-    "coverImage": "/images/4533/capital_without_borders.500x0.jpg"
+    "coverImage": "/images/4533/capital_without_borders.500x0.jpg",
+    "topics": []
   },
   {
     "slug": "legislating-instability",
@@ -2562,7 +3390,10 @@
     "reviewer": "William A Allen, Economic & Financial Consultant",
     "author": "Tyler Beck Goodspeed",
     "bookTitle": "",
-    "coverImage": "/images/4532/legislating_instability.500x0.jpg"
+    "coverImage": "/images/4532/legislating_instability.500x0.jpg",
+    "topics": [
+      "Financial Markets"
+    ]
   },
   {
     "slug": "platform-revolution",
@@ -2571,7 +3402,10 @@
     "reviewer": "Mark Cleary, Kinetic Economics",
     "author": "Geoffrey Parker, Marshall Van Alstyne. Sangeet Paul Choudary",
     "bookTitle": "",
-    "coverImage": "/images/4540/platform_revolution.500x0.jpg"
+    "coverImage": "/images/4540/platform_revolution.500x0.jpg",
+    "topics": [
+      "Technology"
+    ]
   },
   {
     "slug": "progress-ten-reasons-to-look-forward-to-the-future",
@@ -2580,7 +3414,8 @@
     "reviewer": "Ian Stewart, Chief Economist, Deloitte",
     "author": "Johan Norberg",
     "bookTitle": "",
-    "coverImage": "/images/4539/progress_10_reasons.500x0.jpg"
+    "coverImage": "/images/4539/progress_10_reasons.500x0.jpg",
+    "topics": []
   },
   {
     "slug": "strained-relations",
@@ -2589,7 +3424,10 @@
     "reviewer": "",
     "author": "Michael D Bordo, Owen F Humpage and Anna J Schwartz, National Bureau of Economic",
     "bookTitle": "",
-    "coverImage": "/images/4536/strained_relations.500x0.jpg"
+    "coverImage": "/images/4536/strained_relations.500x0.jpg",
+    "topics": [
+      "Monetary Policy"
+    ]
   },
   {
     "slug": "the-disruption-dilemma",
@@ -2598,7 +3436,10 @@
     "reviewer": "David Lancefield, Partner, PwC",
     "author": "Joshua Gans",
     "bookTitle": "",
-    "coverImage": "/images/4531/disruption_dilemma.500x0.jpg"
+    "coverImage": "/images/4531/disruption_dilemma.500x0.jpg",
+    "topics": [
+      "Technology"
+    ]
   },
   {
     "slug": "the-evolution-of-money",
@@ -2607,7 +3448,10 @@
     "reviewer": "Bridget Rosewell, Volterra Partners",
     "author": "David Orrell and Roman Chlupatý",
     "bookTitle": "",
-    "coverImage": "/images/4535/the_evolution_of_money.500x0.jpg"
+    "coverImage": "/images/4535/the_evolution_of_money.500x0.jpg",
+    "topics": [
+      "Economic History"
+    ]
   },
   {
     "slug": "the-man-who-knew",
@@ -2616,7 +3460,10 @@
     "reviewer": "Ian Harwood, Independent Economic & Investment Consultant",
     "author": "Sebastian Mallaby",
     "bookTitle": "",
-    "coverImage": "/images/4530/alan_greenspan.500x0.jpg"
+    "coverImage": "/images/4530/alan_greenspan.500x0.jpg",
+    "topics": [
+      "Financial Markets"
+    ]
   },
   {
     "slug": "the-market-as-god",
@@ -2625,7 +3472,8 @@
     "reviewer": "Rosemary Connell",
     "author": "Harvey Cox",
     "bookTitle": "",
-    "coverImage": "/images/4534/market_as_god.500x0.jpg"
+    "coverImage": "/images/4534/market_as_god.500x0.jpg",
+    "topics": []
   },
   {
     "slug": "the-political-origins-of-inequality",
@@ -2634,7 +3482,10 @@
     "reviewer": "Christine Shields, Shields Economics",
     "author": "Simon Reid-Henry",
     "bookTitle": "",
-    "coverImage": "/images/4529/political_origins_of_inequality.500x0.jpg"
+    "coverImage": "/images/4529/political_origins_of_inequality.500x0.jpg",
+    "topics": [
+      "Inequality"
+    ]
   },
   {
     "slug": "the-price-of-prosperity",
@@ -2643,7 +3494,8 @@
     "reviewer": "",
     "author": "Todd G Buchholz",
     "bookTitle": "",
-    "coverImage": "/images/4538/the_price_of_prosperity.500x0.jpg"
+    "coverImage": "/images/4538/the_price_of_prosperity.500x0.jpg",
+    "topics": []
   },
   {
     "slug": "the-wealth-of-humans",
@@ -2652,7 +3504,8 @@
     "reviewer": "",
     "author": "Ryan Avent",
     "bookTitle": "",
-    "coverImage": "/images/4541/the_wealth_of_humans.500x0.jpg"
+    "coverImage": "/images/4541/the_wealth_of_humans.500x0.jpg",
+    "topics": []
   },
   {
     "slug": "welcome-to-the-poisoned-chalice",
@@ -2661,7 +3514,8 @@
     "reviewer": "Vicky Pryce, CEBR Board Member",
     "author": "James K Galbraith",
     "bookTitle": "",
-    "coverImage": "/images/4537/poisoned_chalice.500x0.jpg"
+    "coverImage": "/images/4537/poisoned_chalice.500x0.jpg",
+    "topics": []
   },
   {
     "slug": "what-they-do-with-your-money",
@@ -2670,7 +3524,8 @@
     "reviewer": "",
     "author": "Stephen Davis, Jon Lukomnik and David Pitt-Watson",
     "bookTitle": "",
-    "coverImage": "/images/4542/what_they_do_with_your_money.500x0.jpg"
+    "coverImage": "/images/4542/what_they_do_with_your_money.500x0.jpg",
+    "topics": []
   },
   {
     "slug": "chinas-next-strategic-advantage",
@@ -2679,7 +3534,12 @@
     "reviewer": "Sunil Krishnan, Head of Global Asset Allocation, Hermes Investment Management",
     "author": "George S Yip and Bruce McKern",
     "bookTitle": "",
-    "coverImage": "/images/4385/chinas_next_strategic_advantage.500x0.jpg"
+    "coverImage": "/images/4385/chinas_next_strategic_advantage.500x0.jpg",
+    "topics": [
+      "Financial Markets",
+      "Technology",
+      "Geopolitics"
+    ]
   },
   {
     "slug": "finding-time-the-economics-of-work-life-conflict",
@@ -2688,7 +3548,10 @@
     "reviewer": "David Lancefield, Global Leader of Economics and Policy, PwC",
     "author": "Heather Boushey",
     "bookTitle": "",
-    "coverImage": "/images/4386/finding_time.500x0.jpg"
+    "coverImage": "/images/4386/finding_time.500x0.jpg",
+    "topics": [
+      "Labour Markets"
+    ]
   },
   {
     "slug": "lehman-brothers-a-crisis-of-value",
@@ -2697,7 +3560,8 @@
     "reviewer": "Rosemary Connell, Consultant",
     "author": "Oonagh McDonald",
     "bookTitle": "",
-    "coverImage": "/images/4382/lehman_brothers.500x0.jpg"
+    "coverImage": "/images/4382/lehman_brothers.500x0.jpg",
+    "topics": []
   },
   {
     "slug": "policy-stability-and-economic-growth",
@@ -2706,7 +3570,11 @@
     "reviewer": "Vicky Pryce, Former Joint Head of the Government Economic Service",
     "author": "John Taylor",
     "bookTitle": "",
-    "coverImage": "/images/4388/policy_stablity_economic_growth.500x0.jpg"
+    "coverImage": "/images/4388/policy_stablity_economic_growth.500x0.jpg",
+    "topics": [
+      "Macroeconomics",
+      "Financial Markets"
+    ]
   },
   {
     "slug": "progress-and-confusion",
@@ -2715,7 +3583,10 @@
     "reviewer": "Vicky Pryce, Former Joint Head of the Government Economic Service",
     "author": "Edited by Oliver J Blanchard",
     "bookTitle": "",
-    "coverImage": "/images/4389/progress_and_confusion.500x0.jpg"
+    "coverImage": "/images/4389/progress_and_confusion.500x0.jpg",
+    "topics": [
+      "Macroeconomics"
+    ]
   },
   {
     "slug": "rewriting-the-rules-of-the-american-economy",
@@ -2724,7 +3595,10 @@
     "reviewer": "Matthew Whittaker, Chief Economist, Resolution Foundation",
     "author": "Joseph Stiglitz",
     "bookTitle": "",
-    "coverImage": "/images/4383/rewriting_rules_of_us_economy.500x0.jpg"
+    "coverImage": "/images/4383/rewriting_rules_of_us_economy.500x0.jpg",
+    "topics": [
+      "Inequality"
+    ]
   },
   {
     "slug": "success-and-luck",
@@ -2733,7 +3607,10 @@
     "reviewer": "Matthew Whittaker, Chief Economist, Resolution Foundation",
     "author": "Robert H Frank",
     "bookTitle": "",
-    "coverImage": "/images/4384/success_and_luck.500x0.jpg"
+    "coverImage": "/images/4384/success_and_luck.500x0.jpg",
+    "topics": [
+      "Inequality"
+    ]
   },
   {
     "slug": "the-end-of-alchemy",
@@ -2742,7 +3619,10 @@
     "reviewer": "Andrew Sentance, Senior Economic Adviser, PwC",
     "author": "Mervyn King",
     "bookTitle": "",
-    "coverImage": "/images/4377/end_of_alchemy.500x0.jpg"
+    "coverImage": "/images/4377/end_of_alchemy.500x0.jpg",
+    "topics": [
+      "Monetary Policy"
+    ]
   },
   {
     "slug": "the-new-case-for-gold",
@@ -2751,7 +3631,10 @@
     "reviewer": "Jill Leyland, Formerly Economic Adviser, World Gold Council",
     "author": "James Rickards",
     "bookTitle": "",
-    "coverImage": "/images/4387/the_new_case_for_gold.500x0.jpg"
+    "coverImage": "/images/4387/the_new_case_for_gold.500x0.jpg",
+    "topics": [
+      "Monetary Policy"
+    ]
   },
   {
     "slug": "the-power-and-independence-of-the-federal-reserve",
@@ -2760,7 +3643,10 @@
     "reviewer": "Bill Allen, Economic Consultant",
     "author": "Peter Conti-Brown",
     "bookTitle": "",
-    "coverImage": "/images/4381/the_power_independence_of_fed.500x0.jpg"
+    "coverImage": "/images/4381/the_power_independence_of_fed.500x0.jpg",
+    "topics": [
+      "Monetary Policy"
+    ]
   },
   {
     "slug": "the-rise-and-fall-of-american-growth",
@@ -2769,7 +3655,10 @@
     "reviewer": "Ian Stewart, Chief Economist, Deloitte",
     "author": "Prof Robert Gordon",
     "bookTitle": "",
-    "coverImage": "/images/4378/rise_fall_of_american_growth.500x0.jpg"
+    "coverImage": "/images/4378/rise_fall_of_american_growth.500x0.jpg",
+    "topics": [
+      "Macroeconomics"
+    ]
   },
   {
     "slug": "why-minsky-matters",
@@ -2778,7 +3667,10 @@
     "reviewer": "Ian Harwood, Independent Consultant",
     "author": "L Randall Wray",
     "bookTitle": "",
-    "coverImage": "/images/4380/why_minsky_matters.500x0.jpg"
+    "coverImage": "/images/4380/why_minsky_matters.500x0.jpg",
+    "topics": [
+      "Financial Markets"
+    ]
   },
   {
     "slug": "between-debt-and-the-devil-money-credit-and-fixing-global-finance",
@@ -2787,7 +3679,10 @@
     "reviewer": "Ian Mulheirn, Director of Consulting, Oxford Economics",
     "author": "Adair Turner",
     "bookTitle": "",
-    "coverImage": "/images/4166/between_the_debt_and_the_devil.500x0.jpg"
+    "coverImage": "/images/4166/between_the_debt_and_the_devil.500x0.jpg",
+    "topics": [
+      "Financial Markets"
+    ]
   },
   {
     "slug": "guide-to-country-risk-how-to-identify-manage-and-mitigate-the-risks-of-doing-b",
@@ -2796,7 +3691,10 @@
     "reviewer": "Mary Davies, Director, EEconomic Policy Associates",
     "author": "Mina Toksoz",
     "bookTitle": "",
-    "coverImage": "/images/4171/guide_to_country_risk.500x0.jpg"
+    "coverImage": "/images/4171/guide_to_country_risk.500x0.jpg",
+    "topics": [
+      "Financial Markets"
+    ]
   },
   {
     "slug": "how-the-internet-became-commercial",
@@ -2805,7 +3703,10 @@
     "reviewer": "Mark Cleary, Kinetic Economics",
     "author": "Shane Greenstein",
     "bookTitle": "",
-    "coverImage": "/images/4170/how_the_internet_became_commercial.500x0.jpg"
+    "coverImage": "/images/4170/how_the_internet_became_commercial.500x0.jpg",
+    "topics": [
+      "Technology"
+    ]
   },
   {
     "slug": "phishing-for-phools-the-economics-of-manipulation-and-deception",
@@ -2814,7 +3715,10 @@
     "reviewer": "",
     "author": "George A Akerlof and Robert J Shiller",
     "bookTitle": "",
-    "coverImage": "/images/4164/phishing_for_phools.500x0.jpg"
+    "coverImage": "/images/4164/phishing_for_phools.500x0.jpg",
+    "topics": [
+      "Public Policy"
+    ]
   },
   {
     "slug": "the-courage-to-act",
@@ -2823,7 +3727,10 @@
     "reviewer": "Ian Harwood, Independent Consultant",
     "author": "Ben Bernanke",
     "bookTitle": "",
-    "coverImage": "/images/4165/the_courage_to_act.500x0.jpg"
+    "coverImage": "/images/4165/the_courage_to_act.500x0.jpg",
+    "topics": [
+      "Financial Markets"
+    ]
   },
   {
     "slug": "the-evolution-of-everything",
@@ -2832,7 +3739,10 @@
     "reviewer": "Bridget Rosewell, Volterra Partners",
     "author": "Matt Ridley",
     "bookTitle": "",
-    "coverImage": "/images/4168/the_evolution_of_everything.500x0.jpg"
+    "coverImage": "/images/4168/the_evolution_of_everything.500x0.jpg",
+    "topics": [
+      "Economic History"
+    ]
   },
   {
     "slug": "the-price-of-oil",
@@ -2841,7 +3751,10 @@
     "reviewer": "David Humphreys, Principal, Daiecon Advisors",
     "author": "Roberto F Aguilera and Marian Radetzki",
     "bookTitle": "",
-    "coverImage": "/images/4169/the_price_of_oil.500x0.jpg"
+    "coverImage": "/images/4169/the_price_of_oil.500x0.jpg",
+    "topics": [
+      "Climate & Energy"
+    ]
   },
   {
     "slug": "the-remaking-of-the-mining-industry",
@@ -2850,7 +3763,10 @@
     "reviewer": "Dr Diane Coyle OBE, Director, Enlightenment Economics",
     "author": "David Humphreys",
     "bookTitle": "",
-    "coverImage": "/images/4172/the_remaking_of_the_mining_industry.500x0.jpg"
+    "coverImage": "/images/4172/the_remaking_of_the_mining_industry.500x0.jpg",
+    "topics": [
+      "Economic History"
+    ]
   },
   {
     "slug": "the-silo-effect",
@@ -2859,7 +3775,8 @@
     "reviewer": "Bronwyn Curtis OBE",
     "author": "Gillian Tett",
     "bookTitle": "",
-    "coverImage": "/images/4167/the_silo_effect.500x0.jpg"
+    "coverImage": "/images/4167/the_silo_effect.500x0.jpg",
+    "topics": []
   },
   {
     "slug": "classical-liberalism-a-primer",
@@ -2868,7 +3785,10 @@
     "reviewer": "Diane Coyle, Enlightenment Economics & University of Manchester",
     "author": "Eamonn Butler",
     "bookTitle": "",
-    "coverImage": "/images/4025/capital_liberalism.500x0.jpg"
+    "coverImage": "/images/4025/capital_liberalism.500x0.jpg",
+    "topics": [
+      "Economic History"
+    ]
   },
   {
     "slug": "government-paternalism",
@@ -2877,7 +3797,10 @@
     "reviewer": "Neil Reeder, Head and Heart Economics",
     "author": "Julian Le Grand and Bill New",
     "bookTitle": "",
-    "coverImage": "/images/4023/government_paternalism.500x0.jpg"
+    "coverImage": "/images/4023/government_paternalism.500x0.jpg",
+    "topics": [
+      "Public Policy"
+    ]
   },
   {
     "slug": "hubris-why-economists-failed-to-predict-the-crisis-and-how-to-avoid-the-next-on",
@@ -2886,7 +3809,10 @@
     "reviewer": "Christine Shields, Shields Economics",
     "author": "Meghnad Desai",
     "bookTitle": "",
-    "coverImage": "/images/4020/hubris.500x0.jpg"
+    "coverImage": "/images/4020/hubris.500x0.jpg",
+    "topics": [
+      "Financial Markets"
+    ]
   },
   {
     "slug": "making-sense-of-markets",
@@ -2895,7 +3821,10 @@
     "reviewer": "Ian Harwood, Independent Consultant",
     "author": "Kevin Gardiner",
     "bookTitle": "",
-    "coverImage": "/images/4021/making_sense_of_markets.500x0.jpg"
+    "coverImage": "/images/4021/making_sense_of_markets.500x0.jpg",
+    "topics": [
+      "Financial Markets"
+    ]
   },
   {
     "slug": "post-capitalism-a-guide-to-our-future",
@@ -2904,7 +3833,10 @@
     "reviewer": "Dr Rebecca Harding, Independent Consultant",
     "author": "Paul Mason",
     "bookTitle": "",
-    "coverImage": "/images/4024/post_capitalism.500x0.jpg"
+    "coverImage": "/images/4024/post_capitalism.500x0.jpg",
+    "topics": [
+      "Economic History"
+    ]
   },
   {
     "slug": "remembering-inflation",
@@ -2913,7 +3845,10 @@
     "reviewer": "Duncan Brown, UK Commission for Employment & Skills",
     "author": "Brigitte Granville",
     "bookTitle": "",
-    "coverImage": "/images/4022/remembering_inflation.500x0.jpg"
+    "coverImage": "/images/4022/remembering_inflation.500x0.jpg",
+    "topics": [
+      "Monetary Policy"
+    ]
   },
   {
     "slug": "something-will-turn-up",
@@ -2922,7 +3857,8 @@
     "reviewer": "Andrew Sentance, Senior Economic Adviser, PwC",
     "author": "David Smith",
     "bookTitle": "",
-    "coverImage": "/images/4017/something_will_turn_up.500x0.jpg"
+    "coverImage": "/images/4017/something_will_turn_up.500x0.jpg",
+    "topics": []
   },
   {
     "slug": "the-lion-wakes",
@@ -2931,7 +3867,11 @@
     "reviewer": "Bill Allen, Economic Consultant",
     "author": "David Kynaston and Richard Roberts",
     "bookTitle": "",
-    "coverImage": "/images/4018/the_lion_wakes.500x0.jpg"
+    "coverImage": "/images/4018/the_lion_wakes.500x0.jpg",
+    "topics": [
+      "Financial Markets",
+      "Economic History"
+    ]
   },
   {
     "slug": "urban-economics-and-urban-policy",
@@ -2940,7 +3880,11 @@
     "reviewer": "Neil Reeder, Director, Head and Heart Economics",
     "author": "Paul Cheshire, Max Nathan and Henry Overman",
     "bookTitle": "",
-    "coverImage": "/images/4019/urban_policy.500x0.jpg"
+    "coverImage": "/images/4019/urban_policy.500x0.jpg",
+    "topics": [
+      "Housing",
+      "Geopolitics"
+    ]
   },
   {
     "slug": "breadline-britain-the-rise-of-mass-poverty",
@@ -2949,7 +3893,10 @@
     "reviewer": "Rosemary Connell",
     "author": "Stewart Lansley and Joanna Mack",
     "bookTitle": "",
-    "coverImage": "/images/3893/breadline_britain.500x0.jpg"
+    "coverImage": "/images/3893/breadline_britain.500x0.jpg",
+    "topics": [
+      "Inequality"
+    ]
   },
   {
     "slug": "forging-capitalism",
@@ -2958,7 +3905,11 @@
     "reviewer": "Bill Allen",
     "author": "Ian Klaus",
     "bookTitle": "",
-    "coverImage": "/images/3898/forging_capitalism.500x0.jpg"
+    "coverImage": "/images/3898/forging_capitalism.500x0.jpg",
+    "topics": [
+      "Macroeconomics",
+      "Economic History"
+    ]
   },
   {
     "slug": "inequality-what-can-be-done",
@@ -2967,7 +3918,10 @@
     "reviewer": "Dame Kate Barker, Chairman, Society of Business Economists",
     "author": "Anthony B Atkinson",
     "bookTitle": "",
-    "coverImage": "/images/3890/inequality_what_can_be_done.500x0.jpg"
+    "coverImage": "/images/3890/inequality_what_can_be_done.500x0.jpg",
+    "topics": [
+      "Inequality"
+    ]
   },
   {
     "slug": "measuring-happiness-the-economics-of-well-being",
@@ -2976,7 +3930,11 @@
     "reviewer": "Tony Dolphin, Senior Economist, IPPR",
     "author": "Joachim Weimann, Andreas Knabe and Ronnie Schöb",
     "bookTitle": "",
-    "coverImage": "/images/3899/measuring_happiness.500x0.jpg"
+    "coverImage": "/images/3899/measuring_happiness.500x0.jpg",
+    "topics": [
+      "Inequality",
+      "Economic Measurement"
+    ]
   },
   {
     "slug": "misbehaving-how-economics-became-behavioural",
@@ -2985,7 +3943,11 @@
     "reviewer": "Ian Bright",
     "author": "Richard Thaler",
     "bookTitle": "",
-    "coverImage": "/images/3894/misbehaving_the_making_of_behavioural_economics.500x0.jpg"
+    "coverImage": "/images/3894/misbehaving_the_making_of_behavioural_economics.500x0.jpg",
+    "topics": [
+      "Public Policy",
+      "Economic History"
+    ]
   },
   {
     "slug": "the-business-of-sharing-making-it-in-the-new-sharing-economy",
@@ -2994,7 +3956,10 @@
     "reviewer": "Helen Solomon, Lecturer in Economics, De Montfort University",
     "author": "Alex Stephany",
     "bookTitle": "",
-    "coverImage": "/images/3897/the_business_of_sharing.500x0.jpg"
+    "coverImage": "/images/3897/the_business_of_sharing.500x0.jpg",
+    "topics": [
+      "Public Policy"
+    ]
   },
   {
     "slug": "the-trouble-with-europe",
@@ -3003,7 +3968,10 @@
     "reviewer": "Donald Anderson",
     "author": "Roger Bootle",
     "bookTitle": "",
-    "coverImage": "/images/3891/the_trouble_with_europe.500x0.jpg"
+    "coverImage": "/images/3891/the_trouble_with_europe.500x0.jpg",
+    "topics": [
+      "Trade & Globalisation"
+    ]
   },
   {
     "slug": "why-are-we-waiting-the-logic-urgency-and-promise-of-climate-change-1",
@@ -3012,7 +3980,10 @@
     "reviewer": "Ian Roderick, Director, The Schumacher Institute",
     "author": "Nicholas Stern",
     "bookTitle": "",
-    "coverImage": "/images/3896/why_are_we_waiting.500x0.jpg"
+    "coverImage": "/images/3896/why_are_we_waiting.500x0.jpg",
+    "topics": [
+      "Climate & Energy"
+    ]
   },
   {
     "slug": "wildcat-currency-how-the-virtual-money-revolution-is-transforming-the-economy",
@@ -3021,7 +3992,11 @@
     "reviewer": "Nigel Dodd, Professor of Sociology, London School of Economics",
     "author": "Edward Castronova",
     "bookTitle": "",
-    "coverImage": "/images/3892/wildcat_currency.500x0.jpg"
+    "coverImage": "/images/3892/wildcat_currency.500x0.jpg",
+    "topics": [
+      "Monetary Policy",
+      "Technology"
+    ]
   },
   {
     "slug": "the-forgotten-depression-1921-the-crash-that-cured-itself",
@@ -3030,7 +4005,11 @@
     "reviewer": "Bill Allen",
     "author": "James Grant",
     "bookTitle": "",
-    "coverImage": "/images/3786/the_forgotten_depression.500x0.jpg"
+    "coverImage": "/images/3786/the_forgotten_depression.500x0.jpg",
+    "topics": [
+      "Financial Markets",
+      "Economic History"
+    ]
   },
   {
     "slug": "british-financial-crises-since-1825",
@@ -3039,7 +4018,10 @@
     "reviewer": "Bridget Rosewell",
     "author": "Edited by Nicholas Dimsdale and Anthony Hotson",
     "bookTitle": "",
-    "coverImage": "/images/3777/britishfinancialcrisessince1825.500x0.jpg"
+    "coverImage": "/images/3777/britishfinancialcrisessince1825.500x0.jpg",
+    "topics": [
+      "Monetary Policy"
+    ]
   },
   {
     "slug": "can-financial-markets-be-controlled",
@@ -3048,7 +4030,10 @@
     "reviewer": "Kitty Ussher, Managing Director, Tooley Street Research",
     "author": "Howard Davies",
     "bookTitle": "",
-    "coverImage": "/images/3773/canfinancialmarketsbe_controlled.500x0.jpg"
+    "coverImage": "/images/3773/canfinancialmarketsbe_controlled.500x0.jpg",
+    "topics": [
+      "Financial Markets"
+    ]
   },
   {
     "slug": "climate-shock-the-economic-consequences-of-a-hotter-planet",
@@ -3057,7 +4042,10 @@
     "reviewer": "David Fell, Director, Brook Lyndhurst",
     "author": "Gernot Wagner and Martin Weitzman",
     "bookTitle": "",
-    "coverImage": "/images/3778/climateshock.500x0.jpg"
+    "coverImage": "/images/3778/climateshock.500x0.jpg",
+    "topics": [
+      "Climate & Energy"
+    ]
   },
   {
     "slug": "fortune-tellers-the-story-of-americas-first-economic-forecasters",
@@ -3066,7 +4054,10 @@
     "reviewer": "Ian Harwood, Independent Consultant",
     "author": "Walter A. Friedman",
     "bookTitle": "",
-    "coverImage": "/images/3774/fortunetellers.500x0.jpg"
+    "coverImage": "/images/3774/fortunetellers.500x0.jpg",
+    "topics": [
+      "Economic Measurement"
+    ]
   },
   {
     "slug": "how-good-can-we-be",
@@ -3075,7 +4066,10 @@
     "reviewer": "Christine Shields, Shields Economics",
     "author": "Will Hutton",
     "bookTitle": "",
-    "coverImage": "/images/3776/howgoodwecanbe.500x0.jpg"
+    "coverImage": "/images/3776/howgoodwecanbe.500x0.jpg",
+    "topics": [
+      "Financial Markets"
+    ]
   },
   {
     "slug": "how-to-speak-money",
@@ -3084,7 +4078,8 @@
     "reviewer": "Anna Leach, Head of Economic Analysis, CBI",
     "author": "John Lanchester",
     "bookTitle": "",
-    "coverImage": "/images/3772/how_to_speak_money.500x0.jpg"
+    "coverImage": "/images/3772/how_to_speak_money.500x0.jpg",
+    "topics": []
   },
   {
     "slug": "money-blood-and-revolution",
@@ -3093,7 +4088,10 @@
     "reviewer": "Keith, Wade, Chief Economist, Schroders",
     "author": "George Cooper",
     "bookTitle": "",
-    "coverImage": "/images/3779/moneyblood_revolution.500x0.jpg"
+    "coverImage": "/images/3779/moneyblood_revolution.500x0.jpg",
+    "topics": [
+      "Financial Markets"
+    ]
   },
   {
     "slug": "the-shifts-and-the-shocks",
@@ -3102,7 +4100,11 @@
     "reviewer": "Mark Cleary, Kinetic Economics",
     "author": "Martin Wolf",
     "bookTitle": "",
-    "coverImage": "/images/3775/theshiftandtheshock.500x0.jpg"
+    "coverImage": "/images/3775/theshiftandtheshock.500x0.jpg",
+    "topics": [
+      "Monetary Policy",
+      "Financial Markets"
+    ]
   },
   {
     "slug": "unbalanced-the-co-dependency-of-america-and-china",
@@ -3111,7 +4113,10 @@
     "reviewer": "Christine Shields, Shields Economics",
     "author": "Stephen Roach",
     "bookTitle": "",
-    "coverImage": "/images/3780/unbalanced.500x0.jpg"
+    "coverImage": "/images/3780/unbalanced.500x0.jpg",
+    "topics": [
+      "Geopolitics"
+    ]
   },
   {
     "slug": "globalisation-and-development",
@@ -3120,7 +4125,10 @@
     "reviewer": "Mina Toksoz, Emerging Market and Country Risk Consultant",
     "author": "Anthony Elson",
     "bookTitle": "",
-    "coverImage": "/images/3123/globilization_development.500x0.jpg"
+    "coverImage": "/images/3123/globilization_development.500x0.jpg",
+    "topics": [
+      "Trade & Globalisation"
+    ]
   },
   {
     "slug": "the-great-depression-of-the-1930s",
@@ -3129,7 +4137,10 @@
     "reviewer": "Bill Allen",
     "author": "Nicholas Crafts and Peter Fearon (eds)",
     "bookTitle": "",
-    "coverImage": "/images/3121/the_great_depression_of_1930s.500x0.jpg"
+    "coverImage": "/images/3121/the_great_depression_of_1930s.500x0.jpg",
+    "topics": [
+      "Financial Markets"
+    ]
   },
   {
     "slug": "the-locust-and-the-bee",
@@ -3138,7 +4149,10 @@
     "reviewer": "Rebecca Harding, Delta Economics",
     "author": "Geoff Mulgan",
     "bookTitle": "",
-    "coverImage": "/images/3122/the_locust_and_the_bee.500x0.jpg"
+    "coverImage": "/images/3122/the_locust_and_the_bee.500x0.jpg",
+    "topics": [
+      "Financial Markets"
+    ]
   },
   {
     "slug": "the-rise-of-the-reluctant-innovator",
@@ -3147,7 +4161,11 @@
     "reviewer": "Adrian Woods, Eurekazone",
     "author": "Ken Banks (ed)",
     "bookTitle": "",
-    "coverImage": "/images/3120/the_rise_of_reluctant_innovator.500x0.jpg"
+    "coverImage": "/images/3120/the_rise_of_reluctant_innovator.500x0.jpg",
+    "topics": [
+      "Inequality",
+      "Technology"
+    ]
   },
   {
     "slug": "wrong-nine-economic-policy-disasters-and-what-we-can-learn-from-them",
@@ -3156,7 +4174,8 @@
     "reviewer": "James Howatt, Capital Economics",
     "author": "Richard S. Grossman",
     "bookTitle": "",
-    "coverImage": "/images/3119/wrong.500x0.jpg"
+    "coverImage": "/images/3119/wrong.500x0.jpg",
+    "topics": []
   },
   {
     "slug": "double-entry",
@@ -3165,7 +4184,10 @@
     "reviewer": "Rosemary Connell",
     "author": "Jane Gleeson-White",
     "bookTitle": "",
-    "coverImage": "/images/3026/double-entry.500x0.jpg"
+    "coverImage": "/images/3026/double-entry.500x0.jpg",
+    "topics": [
+      "Economic History"
+    ]
   },
   {
     "slug": "gdp",
@@ -3174,7 +4196,11 @@
     "reviewer": "Bill Allen",
     "author": "Diane Coyle",
     "bookTitle": "",
-    "coverImage": "/images/3028/gdp.500x0.jpg"
+    "coverImage": "/images/3028/gdp.500x0.jpg",
+    "topics": [
+      "Macroeconomics",
+      "Economic History"
+    ]
   },
   {
     "slug": "investing-for-prosperity",
@@ -3183,7 +4209,10 @@
     "reviewer": "Vicky Pryce",
     "author": "Tim Besley and John van Reenen (editors)",
     "bookTitle": "",
-    "coverImage": "/images/3027/investing-in-prosperity.500x0.jpg"
+    "coverImage": "/images/3027/investing-in-prosperity.500x0.jpg",
+    "topics": [
+      "Financial Markets"
+    ]
   },
   {
     "slug": "rediscovering-growth",
@@ -3192,7 +4221,10 @@
     "reviewer": "David Smith, Economics Editor, Sunday Times",
     "author": "Andrew Sentance",
     "bookTitle": "",
-    "coverImage": "/images/3025/rediscovering_growth.500x0.jpg"
+    "coverImage": "/images/3025/rediscovering_growth.500x0.jpg",
+    "topics": [
+      "Monetary Policy"
+    ]
   },
   {
     "slug": "road-to-recovery",
@@ -3201,7 +4233,10 @@
     "reviewer": "Mark Cleary, Kinetic Economics",
     "author": "Andrew Smithers",
     "bookTitle": "",
-    "coverImage": "/images/3024/road-to-recovery.500x0.jpg"
+    "coverImage": "/images/3024/road-to-recovery.500x0.jpg",
+    "topics": [
+      "Economic History"
+    ]
   },
   {
     "slug": "the-dollar-trap",
@@ -3210,7 +4245,8 @@
     "reviewer": "Ian Harwood, Redburn",
     "author": "Eswar S. Prasad",
     "bookTitle": "",
-    "coverImage": "/images/3023/dollar-trap.500x0.jpg"
+    "coverImage": "/images/3023/dollar-trap.500x0.jpg",
+    "topics": []
   },
   {
     "slug": "affluence-influence",
@@ -3219,7 +4255,8 @@
     "reviewer": "David Fell, Director, Brook Lyndhurst",
     "author": "Martin Gilens",
     "bookTitle": "",
-    "coverImage": "/images/2247/affluence_and_influence.500x0.jpg"
+    "coverImage": "/images/2247/affluence_and_influence.500x0.jpg",
+    "topics": []
   },
   {
     "slug": "first-principles-five-keys-to-restoring",
@@ -3228,7 +4265,10 @@
     "reviewer": "",
     "author": "John B Taylor",
     "bookTitle": "",
-    "coverImage": "/images/2514/first_principles.500x0.jpg"
+    "coverImage": "/images/2514/first_principles.500x0.jpg",
+    "topics": [
+      "Economic History"
+    ]
   },
   {
     "slug": "the-new-tycoons",
@@ -3237,7 +4277,10 @@
     "reviewer": "Nooman Haque",
     "author": "Jason Kelly",
     "bookTitle": "",
-    "coverImage": "/images/2233/new_tycoons.500x0.jpg"
+    "coverImage": "/images/2233/new_tycoons.500x0.jpg",
+    "topics": [
+      "Labour Markets"
+    ]
   },
   {
     "slug": "the-price-of-inequality",
@@ -3246,7 +4289,10 @@
     "reviewer": "Mark Cleary, Consultant Economist, Kinetic Economics",
     "author": "Joseph Stiglitz",
     "bookTitle": "",
-    "coverImage": "/images/2245/price_of_inequality.500x0.jpg"
+    "coverImage": "/images/2245/price_of_inequality.500x0.jpg",
+    "topics": [
+      "Inequality"
+    ]
   },
   {
     "slug": "the-new-tycoons-1",
@@ -3255,7 +4301,10 @@
     "reviewer": "Dame Kate Barker",
     "author": "Deepak Lal",
     "bookTitle": "",
-    "coverImage": "/images/3148/lostcauses.500x0.jpg"
+    "coverImage": "/images/3148/lostcauses.500x0.jpg",
+    "topics": [
+      "Financial Markets"
+    ]
   },
   {
     "slug": "good-strategy",
@@ -3264,7 +4313,8 @@
     "reviewer": "Rebecca Harding",
     "author": "Richard R Rumelt",
     "bookTitle": "",
-    "coverImage": "/images/3149/goodstrategybadstrategy.500x0.jpg"
+    "coverImage": "/images/3149/goodstrategybadstrategy.500x0.jpg",
+    "topics": []
   },
   {
     "slug": "how-do-we-fix-this-mess",
@@ -3273,7 +4323,10 @@
     "reviewer": "",
     "author": "Robert Preston and Laurence Knight",
     "bookTitle": "",
-    "coverImage": "/images/3150/howdowefixthismess.500x0.jpg"
+    "coverImage": "/images/3150/howdowefixthismess.500x0.jpg",
+    "topics": [
+      "Financial Markets"
+    ]
   },
   {
     "slug": "new-ideas",
@@ -3282,7 +4335,10 @@
     "reviewer": "Mark Henstridge, Chief Economist, Oxford Policy Management",
     "author": "Nancy Birdsall and Francis Fukuyama (eds)",
     "bookTitle": "",
-    "coverImage": "/images/3151/newideas.500x0.jpg"
+    "coverImage": "/images/3151/newideas.500x0.jpg",
+    "topics": [
+      "Financial Markets"
+    ]
   },
   {
     "slug": "whats-the-use-of-economics",
@@ -3291,7 +4347,10 @@
     "reviewer": "Peter Sinclair, Emeritus Professor of Economics, University of Birmingham",
     "author": "Diane Coyle (ed)",
     "bookTitle": "",
-    "coverImage": "/images/3152/whatistheuseofeconomics.500x0.jpg"
+    "coverImage": "/images/3152/whatistheuseofeconomics.500x0.jpg",
+    "topics": [
+      "Financial Markets"
+    ]
   },
   {
     "slug": "and-the-purusit-of-happiness",
@@ -3300,7 +4359,11 @@
     "reviewer": "Henry Stuart, Happy Computers",
     "author": "Philip Booth (ed)",
     "bookTitle": "",
-    "coverImage": "/images/3153/happiness_economics.500x0.jpg"
+    "coverImage": "/images/3153/happiness_economics.500x0.jpg",
+    "topics": [
+      "Inequality",
+      "Public Policy"
+    ]
   },
   {
     "slug": "economics-after-the-crisis",
@@ -3309,7 +4372,11 @@
     "reviewer": "Bill Allen, Formerly Deputy Director, Bank of England",
     "author": "Adair Turner",
     "bookTitle": "",
-    "coverImage": "/images/3154/economicsafterthecrisis.500x0.jpg"
+    "coverImage": "/images/3154/economicsafterthecrisis.500x0.jpg",
+    "topics": [
+      "Macroeconomics",
+      "Monetary Policy"
+    ]
   },
   {
     "slug": "paper-money-collapse",
@@ -3318,7 +4385,10 @@
     "reviewer": "Dave Birch, Consult Hyperion",
     "author": "Detlev Schlichter",
     "bookTitle": "",
-    "coverImage": "/images/3155/papermoneycollapse.500x0.jpg"
+    "coverImage": "/images/3155/papermoneycollapse.500x0.jpg",
+    "topics": [
+      "Monetary Policy"
+    ]
   },
   {
     "slug": "exceptional-people",
@@ -3327,7 +4397,10 @@
     "reviewer": "Chola Mukanga, The Zambian Economist",
     "author": "Ian Goldin, Geoffrey Cameron and Meera Balarajan",
     "bookTitle": "",
-    "coverImage": "/images/3156/exceptionalpeople.500x0.jpg"
+    "coverImage": "/images/3156/exceptionalpeople.500x0.jpg",
+    "topics": [
+      "Labour Markets"
+    ]
   },
   {
     "slug": "the-evolution-of-great-world-cities",
@@ -3336,7 +4409,10 @@
     "reviewer": "Professor Henry Overman, London School of Economics",
     "author": "Christopher Kennedy",
     "bookTitle": "",
-    "coverImage": "/images/3157/theevolutionofgreatworldcities.500x0.jpg"
+    "coverImage": "/images/3157/theevolutionofgreatworldcities.500x0.jpg",
+    "topics": [
+      "Macroeconomics"
+    ]
   },
   {
     "slug": "environmental-economics",
@@ -3345,7 +4421,10 @@
     "reviewer": "Benedikt Koehler",
     "author": "Stephen Smith",
     "bookTitle": "",
-    "coverImage": "/images/3158/environmentaleconomics.500x0.jpg"
+    "coverImage": "/images/3158/environmentaleconomics.500x0.jpg",
+    "topics": [
+      "Climate & Energy"
+    ]
   },
   {
     "slug": "beyond-our-means",
@@ -3354,7 +4433,10 @@
     "reviewer": "",
     "author": "Sheldon Garon",
     "bookTitle": "",
-    "coverImage": "/images/3159/beyond_our_means.500x0.jpg"
+    "coverImage": "/images/3159/beyond_our_means.500x0.jpg",
+    "topics": [
+      "Fiscal Policy"
+    ]
   },
   {
     "slug": "paper-promises",
@@ -3363,7 +4445,8 @@
     "reviewer": "John Whitley, Senior Global Economist, Unilever",
     "author": "Philip Coggan",
     "bookTitle": "",
-    "coverImage": "/images/3160/paper_promises.500x0.jpg"
+    "coverImage": "/images/3160/paper_promises.500x0.jpg",
+    "topics": []
   },
   {
     "slug": "keynes-hayek",
@@ -3372,7 +4455,10 @@
     "reviewer": "Diane Coyle, Enlightenment Economics",
     "author": "Nicholas Wapshott",
     "bookTitle": "",
-    "coverImage": "/images/3161/keyneshayek.500x0.jpg"
+    "coverImage": "/images/3161/keyneshayek.500x0.jpg",
+    "topics": [
+      "Economic History"
+    ]
   },
   {
     "slug": "safe-as-houses",
@@ -3381,7 +4467,10 @@
     "reviewer": "Ian Harwood, Global Economist, Redburn",
     "author": "Neil Monnery",
     "bookTitle": "",
-    "coverImage": "/images/3162/safe_as_houses.500x0.jpg"
+    "coverImage": "/images/3162/safe_as_houses.500x0.jpg",
+    "topics": [
+      "Housing"
+    ]
   },
   {
     "slug": "expectations-employment-and-prices",
@@ -3390,7 +4479,10 @@
     "reviewer": "Diane Coyle, Enlightenment Economics",
     "author": "Roger Farmer",
     "bookTitle": "",
-    "coverImage": "/images/3163/expectations_employment_prices.500x0.jpg"
+    "coverImage": "/images/3163/expectations_employment_prices.500x0.jpg",
+    "topics": [
+      "Labour Markets"
+    ]
   },
   {
     "slug": "the-heart-of-teaching-economics",
@@ -3399,7 +4491,10 @@
     "reviewer": "Wayne Geerling, La Trobe University",
     "author": "Simon W Bowmaker",
     "bookTitle": "",
-    "coverImage": "/images/3164/the_heart_of_teaching_economics.500x0.jpg"
+    "coverImage": "/images/3164/the_heart_of_teaching_economics.500x0.jpg",
+    "topics": [
+      "Careers & Profession"
+    ]
   },
   {
     "slug": "the-fish-rots-from-the-head",
@@ -3408,7 +4503,8 @@
     "reviewer": "Vicky Pryce",
     "author": "Bob Garratt",
     "bookTitle": "",
-    "coverImage": "/images/3165/the_fish_rots.500x0.jpg"
+    "coverImage": "/images/3165/the_fish_rots.500x0.jpg",
+    "topics": []
   },
   {
     "slug": "the-bank-of-england-1950s-to-1979",
@@ -3417,7 +4513,11 @@
     "reviewer": "Bill Allen, Formerly Deputy Director, Bank of England",
     "author": "Forrest Capie",
     "bookTitle": "",
-    "coverImage": "/images/3167/the_bank_of_england.500x0.jpg"
+    "coverImage": "/images/3167/the_bank_of_england.500x0.jpg",
+    "topics": [
+      "Monetary Policy",
+      "Financial Markets"
+    ]
   },
   {
     "slug": "a-call-for-judgement",
@@ -3426,7 +4526,8 @@
     "reviewer": "Ian Harwood, Global Chief Economist, Redburn",
     "author": "Amar Bhidé",
     "bookTitle": "",
-    "coverImage": "/images/3168/a_call_for_judgement.500x0.jpg"
+    "coverImage": "/images/3168/a_call_for_judgement.500x0.jpg",
+    "topics": []
   },
   {
     "slug": "global-challenges",
@@ -3435,7 +4536,11 @@
     "reviewer": "Benedikt Koehler",
     "author": "Ed Joost Pauwelyn",
     "bookTitle": "",
-    "coverImage": "/images/3166/global_challenges.500x0.jpg"
+    "coverImage": "/images/3166/global_challenges.500x0.jpg",
+    "topics": [
+      "Trade & Globalisation",
+      "Climate & Energy"
+    ]
   },
   {
     "slug": "the-future-of-finance",
@@ -3444,7 +4549,11 @@
     "reviewer": "Charles Dumas, Chairman, Lombard Street Research",
     "author": "Various authors",
     "bookTitle": "",
-    "coverImage": "/images/3169/the_future_of_finance.500x0.jpg"
+    "coverImage": "/images/3169/the_future_of_finance.500x0.jpg",
+    "topics": [
+      "Monetary Policy",
+      "Financial Markets"
+    ]
   },
   {
     "slug": "the-new-lombard-street",
@@ -3453,7 +4562,11 @@
     "reviewer": "Larry Hatheway, Chief Economist, UBS Investment Bank",
     "author": "Perry Mehrling",
     "bookTitle": "",
-    "coverImage": "/images/3173/the_new_lombard_street.500x0.jpg"
+    "coverImage": "/images/3173/the_new_lombard_street.500x0.jpg",
+    "topics": [
+      "Monetary Policy",
+      "Financial Markets"
+    ]
   },
   {
     "slug": "how-big-banks-fail",
@@ -3462,7 +4575,11 @@
     "reviewer": "Saxon Brettell, Head of Research, City of London",
     "author": "Darrell Duffie",
     "bookTitle": "",
-    "coverImage": "/images/3174/how_big_banks_fail.500x0.jpg"
+    "coverImage": "/images/3174/how_big_banks_fail.500x0.jpg",
+    "topics": [
+      "Monetary Policy",
+      "Financial Markets"
+    ]
   },
   {
     "slug": "the-fearful-rise-of-markets",
@@ -3471,6 +4588,9 @@
     "reviewer": "Ian Harwood, Chief Economist, Evolution Securities",
     "author": "John Authers",
     "bookTitle": "",
-    "coverImage": "/images/3175/the_fearful_rise_of_markets.500x0.jpg"
+    "coverImage": "/images/3175/the_fearful_rise_of_markets.500x0.jpg",
+    "topics": [
+      "Financial Markets"
+    ]
   }
 ]

@@ -14,6 +14,9 @@
         "id": "1138574844",
         "url": "https://player.vimeo.com/video/1138574844"
       }
+    ],
+    "topics": [
+      "Monetary Policy"
     ]
   },
   {
@@ -24,7 +27,8 @@
     "images": [
       "https://spe.org.uk/site/assets/files/14344/239338_051.0x420.jpg",
       "https://spe.org.uk/site/assets/files/14344/239338_042.1200x0.jpg"
-    ]
+    ],
+    "topics": []
   },
   {
     "slug": "annual-dinner-2022",
@@ -43,6 +47,10 @@
         "id": "722452109",
         "url": "https://player.vimeo.com/video/722452109"
       }
+    ],
+    "topics": [
+      "Monetary Policy",
+      "Technology"
     ]
   },
   {
@@ -55,7 +63,8 @@
       "https://spe.org.uk/site/assets/files/5436/199292_186.1200x720.jpg",
       "https://spe.org.uk/site/assets/files/5436/199292_236.1200x720.jpg",
       "https://spe.org.uk/site/assets/files/5436/199292_351.1200x720.jpg"
-    ]
+    ],
+    "topics": []
   },
   {
     "slug": "annual-dinner-2018",
@@ -66,6 +75,9 @@
       "https://spe.org.uk/site/assets/files/5045/189274_164.1200x720.jpg",
       "https://spe.org.uk/site/assets/files/5045/189274_177.1200x720.webp",
       "https://spe.org.uk/site/assets/files/5045/189274_218.1200x720.jpg"
+    ],
+    "topics": [
+      "Monetary Policy"
     ]
   },
   {
@@ -79,6 +91,9 @@
       "https://spe.org.uk/site/assets/files/4837/179261_145.1200x720.jpg",
       "https://spe.org.uk/site/assets/files/4837/179261_191.1200x720.jpg",
       "https://spe.org.uk/site/assets/files/4837/179261_272.1200x720.jpg"
+    ],
+    "topics": [
+      "Trade & Globalisation"
     ]
   },
   {
@@ -97,7 +112,8 @@
         "href": "/images/4084/2016_registration_annual_dinner.pdf",
         "text": "2016 Dinner booking form"
       }
-    ]
+    ],
+    "topics": []
   },
   {
     "slug": "the-sbe-annual-dinner-2015",
@@ -108,12 +124,16 @@
       "https://spe.org.uk/site/assets/files/4192/159193_178.500x666.jpg",
       "https://spe.org.uk/site/assets/files/4192/159193_102.1200x720.webp",
       "https://spe.org.uk/site/assets/files/4192/159193_157.1200x720.jpg"
-    ]
+    ],
+    "topics": []
   },
   {
     "slug": "the-sbe-annual-dinner-2014",
     "title": "The SBE Annual Dinner 2014",
     "date": "2014-03-27",
-    "body": "<div class='heading'>\n<h5 >27 March 2014</h5>\n<h1>The SBE Annual Dinner 2014</h1>\n<h4 ><strong>Speaker: </strong>Christian Noyer, <span class='nobreak'>Governor</span>, <span class='nobreak'>Banque de France</span></h4 >\n</div>\n<p>Around 150 members and guests gathered on 27 March for the Society&#8217;s Annual Dinner in Plaisterers&#8217; Hall at One London Wall. Our guest speaker this year was Christian Noyer, Governor of the Banque de France who spoke about monetary policy in the current context of low inflation.</p>\n\n<p>The Chairman, Kate Barker thanked on behalf of the Society both Standard Life Investments for, once again generously sponsoring the dinner and KPMG for their continuing sponsorship of the <a href=\"/about/society-activities/rybczynski-prize/\">Rybczynski Prize</a>. Dave Ramsden, as SBE President, welcomed the guest speaker after presenting this year&#8217;s Rybczynski Prize for the best piece of business economics writing in 2013.</p>\n\n<p>Congratulations go to Ian Mulheirn, whose prize-winning essay, &#8216;Just Deserts? Risk, Reward and Incentives in Criminal Justice&#8217; will appear in the next online edition of The Business Economist.</p></div>\n<div id='right' class='quarter'>\n<div class='side-block-small'>\n\n\t\t\t<h4 class='overline swatch3'>Kindly sponsored by</h4>\n<p class=''>Standard Life Investments</p>\n\n\t\t\t</div></div>\n</div>\n<div class='row'>\n<div class='threequarter'>\n<a class=\"login btn\" href=\"/user/login/?id=4198\"><strong>Login to comment</strong></a>"
+    "body": "<div class='heading'>\n<h5 >27 March 2014</h5>\n<h1>The SBE Annual Dinner 2014</h1>\n<h4 ><strong>Speaker: </strong>Christian Noyer, <span class='nobreak'>Governor</span>, <span class='nobreak'>Banque de France</span></h4 >\n</div>\n<p>Around 150 members and guests gathered on 27 March for the Society&#8217;s Annual Dinner in Plaisterers&#8217; Hall at One London Wall. Our guest speaker this year was Christian Noyer, Governor of the Banque de France who spoke about monetary policy in the current context of low inflation.</p>\n\n<p>The Chairman, Kate Barker thanked on behalf of the Society both Standard Life Investments for, once again generously sponsoring the dinner and KPMG for their continuing sponsorship of the <a href=\"/about/society-activities/rybczynski-prize/\">Rybczynski Prize</a>. Dave Ramsden, as SBE President, welcomed the guest speaker after presenting this year&#8217;s Rybczynski Prize for the best piece of business economics writing in 2013.</p>\n\n<p>Congratulations go to Ian Mulheirn, whose prize-winning essay, &#8216;Just Deserts? Risk, Reward and Incentives in Criminal Justice&#8217; will appear in the next online edition of The Business Economist.</p></div>\n<div id='right' class='quarter'>\n<div class='side-block-small'>\n\n\t\t\t<h4 class='overline swatch3'>Kindly sponsored by</h4>\n<p class=''>Standard Life Investments</p>\n\n\t\t\t</div></div>\n</div>\n<div class='row'>\n<div class='threequarter'>\n<a class=\"login btn\" href=\"/user/login/?id=4198\"><strong>Login to comment</strong></a>",
+    "topics": [
+      "Monetary Policy"
+    ]
   }
 ]

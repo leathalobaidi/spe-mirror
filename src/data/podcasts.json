@@ -17,6 +17,9 @@
     ],
     "speakers": [
       "Speaker: Eric Leeper"
+    ],
+    "topics": [
+      "Monetary Policy"
     ]
   },
   {
@@ -37,6 +40,10 @@
     ],
     "speakers": [
       "Speaker: Brad Setser"
+    ],
+    "topics": [
+      "Fiscal Policy",
+      "Geopolitics"
     ]
   },
   {
@@ -57,6 +64,10 @@
     ],
     "speakers": [
       "Speaker: Eamonn Butler"
+    ],
+    "topics": [
+      "Fiscal Policy",
+      "Trade & Globalisation"
     ]
   },
   {
@@ -77,6 +88,10 @@
     ],
     "speakers": [
       "Speaker: Mark Blyth"
+    ],
+    "topics": [
+      "Trade & Globalisation",
+      "Health"
     ]
   },
   {
@@ -97,6 +112,11 @@
     ],
     "speakers": [
       "Speaker: Financial Times economists Chris Giles and Joel Suss"
+    ],
+    "topics": [
+      "Macroeconomics",
+      "Financial Markets",
+      "Technology"
     ]
   },
   {
@@ -117,6 +137,9 @@
     ],
     "speakers": [
       "Speaker: Anne Bradley"
+    ],
+    "topics": [
+      "Macroeconomics"
     ]
   },
   {
@@ -137,6 +160,10 @@
     ],
     "speakers": [
       "Speaker: Joe Mayes"
+    ],
+    "topics": [
+      "Fiscal Policy",
+      "Trade & Globalisation"
     ]
   },
   {
@@ -157,7 +184,8 @@
     ],
     "speakers": [
       "Speaker: César Hidalgo"
-    ]
+    ],
+    "topics": []
   },
   {
     "slug": "podcasts/interview-with-tyler-cowen",
@@ -177,6 +205,10 @@
     ],
     "speakers": [
       "Speaker: Tyler Cowen"
+    ],
+    "topics": [
+      "Trade & Globalisation",
+      "Technology"
     ]
   },
   {
@@ -197,6 +229,9 @@
       "/images/14552/bloomberg_spe_annual_conference_503.1200x0.jpg",
       "/images/14552/bloomberg_spe_annual_conference_504.1200x0.jpg",
       "/images/14552/bloomberg_spe_annual_conference_479.1200x0.jpg"
+    ],
+    "topics": [
+      "Monetary Policy"
     ]
   },
   {
@@ -215,6 +250,10 @@
         "id": "1126226744",
         "url": "https://player.vimeo.com/video/1126226744"
       }
+    ],
+    "topics": [
+      "Monetary Policy",
+      "Economic History"
     ]
   },
   {
@@ -235,6 +274,11 @@
     ],
     "speakers": [
       "Speaker: Federico Sturzenegger"
+    ],
+    "topics": [
+      "Macroeconomics",
+      "Monetary Policy",
+      "Labour Markets"
     ]
   },
   {
@@ -249,6 +293,10 @@
         "id": "1121242127",
         "url": "https://player.vimeo.com/video/1121242127"
       }
+    ],
+    "topics": [
+      "Macroeconomics",
+      "Inequality"
     ]
   },
   {
@@ -269,6 +317,9 @@
     ],
     "speakers": [
       "Speaker: Ricardo Hausmann"
+    ],
+    "topics": [
+      "Climate & Energy"
     ]
   },
   {
@@ -289,6 +340,9 @@
     ],
     "speakers": [
       "Speaker: David McWilliams"
+    ],
+    "topics": [
+      "Technology"
     ]
   },
   {
@@ -303,6 +357,10 @@
         "id": "GZ4_4JXpZrI",
         "url": "https://www.youtube.com/watch?v=GZ4_4JXpZrI"
       }
+    ],
+    "topics": [
+      "Trade & Globalisation",
+      "Geopolitics"
     ]
   },
   {
@@ -323,6 +381,10 @@
     ],
     "speakers": [
       "Speaker: Johan Norberg"
+    ],
+    "topics": [
+      "Trade & Globalisation",
+      "Inequality"
     ]
   },
   {
@@ -337,6 +399,9 @@
         "id": "1090393014",
         "url": "https://player.vimeo.com/video/1090393014"
       }
+    ],
+    "topics": [
+      "Geopolitics"
     ]
   },
   {
@@ -358,6 +423,9 @@
     ],
     "speakers": [
       "Speaker: Scott Lincicome"
+    ],
+    "topics": [
+      "Trade & Globalisation"
     ]
   },
   {
@@ -378,6 +446,10 @@
     ],
     "speakers": [
       "Speaker: Martin Wolf"
+    ],
+    "topics": [
+      "Financial Markets",
+      "Trade & Globalisation"
     ]
   },
   {
@@ -395,6 +467,11 @@
     ],
     "speakers": [
       "Speaker: Jon Moynihan"
+    ],
+    "topics": [
+      "Macroeconomics",
+      "Fiscal Policy",
+      "Trade & Globalisation"
     ]
   },
   {
@@ -409,6 +486,9 @@
         "id": "1070248278",
         "url": "https://player.vimeo.com/video/1070248278"
       }
+    ],
+    "topics": [
+      "Fiscal Policy"
     ]
   },
   {
@@ -426,6 +506,10 @@
     ],
     "speakers": [
       "Speaker: Philippe Aghion"
+    ],
+    "topics": [
+      "Macroeconomics",
+      "Trade & Globalisation"
     ]
   },
   {
@@ -440,6 +524,11 @@
         "id": "1067719990",
         "url": "https://player.vimeo.com/video/1067719990"
       }
+    ],
+    "topics": [
+      "Financial Markets",
+      "Trade & Globalisation",
+      "Climate & Energy"
     ]
   },
   {
@@ -457,6 +546,9 @@
     ],
     "speakers": [
       "Speaker: Russell Napier"
+    ],
+    "topics": [
+      "Financial Markets"
     ]
   },
   {
@@ -474,6 +566,10 @@
     ],
     "speakers": [
       "Speaker: Mark Jeavons"
+    ],
+    "topics": [
+      "Climate & Energy",
+      "Technology"
     ]
   },
   {
@@ -491,6 +587,9 @@
     ],
     "speakers": [
       "Speaker: Edward Chancellor"
+    ],
+    "topics": [
+      "Financial Markets"
     ]
   },
   {
@@ -508,6 +607,11 @@
     ],
     "speakers": [
       "Speaker: Samuel Gregg"
+    ],
+    "topics": [
+      "Fiscal Policy",
+      "Financial Markets",
+      "Trade & Globalisation"
     ]
   },
   {
@@ -525,6 +629,11 @@
     ],
     "speakers": [
       "Speaker: Greg Mankiw"
+    ],
+    "topics": [
+      "Macroeconomics",
+      "Monetary Policy",
+      "Fiscal Policy"
     ]
   },
   {
@@ -542,7 +651,8 @@
     ],
     "speakers": [
       "Speaker: Amity Shlaes"
-    ]
+    ],
+    "topics": []
   },
   {
     "slug": "evening-talks/why-britain-has-stagnated-and-what-can-we-do-about-it",
@@ -555,6 +665,9 @@
       "Speaker: Sam Bowman",
       "Speaker: Emily Fry",
       "Speaker: James Meadway"
+    ],
+    "topics": [
+      "Macroeconomics"
     ]
   },
   {
@@ -578,6 +691,10 @@
     ],
     "speakers": [
       "Speaker: Lyman Stone and Clara Piano"
+    ],
+    "topics": [
+      "Macroeconomics",
+      "Inequality"
     ]
   },
   {
@@ -595,6 +712,9 @@
     ],
     "speakers": [
       "Speaker: Agathe Demarais"
+    ],
+    "topics": [
+      "Geopolitics"
     ]
   },
   {
@@ -618,6 +738,9 @@
     ],
     "speakers": [
       "Speaker: Gauti Eggertsson"
+    ],
+    "topics": [
+      "Labour Markets"
     ]
   },
   {
@@ -635,6 +758,11 @@
     ],
     "speakers": [
       "Speaker: Adam Posen"
+    ],
+    "topics": [
+      "Monetary Policy",
+      "Trade & Globalisation",
+      "Geopolitics"
     ]
   },
   {
@@ -652,6 +780,10 @@
     ],
     "speakers": [
       "Speaker: Tera Allas"
+    ],
+    "topics": [
+      "Macroeconomics",
+      "Public Policy"
     ]
   },
   {
@@ -665,6 +797,10 @@
       "Speaker: Prof Brian Bell",
       "Speaker: Dr Norma Cohen",
       "Speaker: Prof Jane Falkingham"
+    ],
+    "topics": [
+      "Macroeconomics",
+      "Inequality"
     ]
   },
   {
@@ -682,6 +818,11 @@
     ],
     "speakers": [
       "Speaker: John Cochrane"
+    ],
+    "topics": [
+      "Monetary Policy",
+      "Fiscal Policy",
+      "Health"
     ]
   },
   {
@@ -703,6 +844,9 @@
     "images": [
       "/images/14347/249346_082.0x420.jpg",
       "/images/14347/249346_099.1200x0.jpg"
+    ],
+    "topics": [
+      "Monetary Policy"
     ]
   },
   {
@@ -720,6 +864,9 @@
     ],
     "speakers": [
       "Speaker: Dimitri Zenghelis"
+    ],
+    "topics": [
+      "Climate & Energy"
     ]
   },
   {
@@ -737,6 +884,11 @@
     ],
     "speakers": [
       "Speaker: Spencer Dale"
+    ],
+    "topics": [
+      "Macroeconomics",
+      "Monetary Policy",
+      "Technology"
     ]
   },
   {
@@ -744,7 +896,8 @@
     "title": "Joint panel with Chatham House",
     "date": "2024-11-19",
     "category": "speaker-series",
-    "body": "<div class=\"clearfix\"></div>\n<div class=\"body_image_container image format_landscape \">\n\n<img class=\"body_image\" src=\"/site/assets/files/12883/us_panel_1.1200x0.jpg\" alt=\"\">\n\n\n<!-- Type: image  Size: nocrop  Sizeclass format_landscape -->\n\n\n</div>\n\n<p>On 19 November the SPE held a joint panel with Chatham House, discussing the outlook for US economic policy and implications for the global economy in a Trump 2.0 presidency.</p>\n\n<p><a href=\"https://www.chathamhouse.org/events/all/research-event/what-are-top-economic-priorities-new-us-president\">Click here</a> to watch recording.</p>\n\n<p>Thank you Chatham House for hosting this lively debate.</p>"
+    "body": "<div class=\"clearfix\"></div>\n<div class=\"body_image_container image format_landscape \">\n\n<img class=\"body_image\" src=\"/site/assets/files/12883/us_panel_1.1200x0.jpg\" alt=\"\">\n\n\n<!-- Type: image  Size: nocrop  Sizeclass format_landscape -->\n\n\n</div>\n\n<p>On 19 November the SPE held a joint panel with Chatham House, discussing the outlook for US economic policy and implications for the global economy in a Trump 2.0 presidency.</p>\n\n<p><a href=\"https://www.chathamhouse.org/events/all/research-event/what-are-top-economic-priorities-new-us-president\">Click here</a> to watch recording.</p>\n\n<p>Thank you Chatham House for hosting this lively debate.</p>",
+    "topics": []
   },
   {
     "slug": "conferences/2024-annual-conference-report",
@@ -762,6 +915,10 @@
     "images": [
       "/images/12820/photo-2024-11-14-14-10-43.0x420.jpg",
       "/images/12820/networking.1200x0.jpg"
+    ],
+    "topics": [
+      "Monetary Policy",
+      "Geopolitics"
     ]
   },
   {
@@ -779,6 +936,10 @@
     ],
     "speakers": [
       "Speaker: Sam Bowman, Works in Progress"
+    ],
+    "topics": [
+      "Financial Markets",
+      "Public Policy"
     ]
   },
   {
@@ -796,6 +957,10 @@
     ],
     "speakers": [
       "Speaker: Nicholas Eberstadt"
+    ],
+    "topics": [
+      "Labour Markets",
+      "Health"
     ]
   },
   {
@@ -813,6 +978,11 @@
     ],
     "speakers": [
       "Speaker: David Beckworth, Mercatus Center"
+    ],
+    "topics": [
+      "Macroeconomics",
+      "Monetary Policy",
+      "Health"
     ]
   },
   {
@@ -830,6 +1000,11 @@
     ],
     "speakers": [
       "Speaker: Stephen Millard, NIESR"
+    ],
+    "topics": [
+      "Monetary Policy",
+      "Financial Markets",
+      "Climate & Energy"
     ]
   },
   {
@@ -847,6 +1022,9 @@
     ],
     "speakers": [
       "Speaker: Shannon O'Neil, Council on Foreign Relations"
+    ],
+    "topics": [
+      "Trade & Globalisation"
     ]
   },
   {
@@ -864,6 +1042,11 @@
     ],
     "speakers": [
       "Speaker: Vicky Pryce"
+    ],
+    "topics": [
+      "Macroeconomics",
+      "Monetary Policy",
+      "Trade & Globalisation"
     ]
   },
   {
@@ -881,6 +1064,11 @@
     ],
     "speakers": [
       "Speaker: Mike Strain"
+    ],
+    "topics": [
+      "Macroeconomics",
+      "Inequality",
+      "Technology"
     ]
   },
   {
@@ -898,6 +1086,9 @@
     ],
     "speakers": [
       "Speaker: Marian Tupy"
+    ],
+    "topics": [
+      "Geopolitics"
     ]
   },
   {
@@ -915,6 +1106,9 @@
     ],
     "speakers": [
       "Speaker: Jared Rubin, Chapman University"
+    ],
+    "topics": [
+      "Macroeconomics"
     ]
   },
   {
@@ -935,7 +1129,8 @@
     ],
     "speakers": [
       "Speaker: Matt Dillon, Arup"
-    ]
+    ],
+    "topics": []
   },
   {
     "slug": "podcasts/12244",
@@ -952,6 +1147,11 @@
     ],
     "speakers": [
       "Speaker: Jonathan Haskel"
+    ],
+    "topics": [
+      "Monetary Policy",
+      "Trade & Globalisation",
+      "Technology"
     ]
   },
   {
@@ -969,6 +1169,11 @@
     ],
     "speakers": [
       "Speaker: Professor Diane Coyle, University of Cambridge"
+    ],
+    "topics": [
+      "Macroeconomics",
+      "Climate & Energy",
+      "Public Policy"
     ]
   },
   {
@@ -986,6 +1191,11 @@
     ],
     "speakers": [
       "Speaker: Ricardo Reis, London School of Economics"
+    ],
+    "topics": [
+      "Monetary Policy",
+      "Fiscal Policy",
+      "Health"
     ]
   },
   {
@@ -1000,6 +1210,9 @@
         "id": "920479925",
         "url": "https://player.vimeo.com/video/920479925"
       }
+    ],
+    "topics": [
+      "Fiscal Policy"
     ]
   },
   {
@@ -1014,6 +1227,9 @@
         "id": "m5rI3dGytjA",
         "url": "https://www.youtube.com/watch?v=m5rI3dGytjA"
       }
+    ],
+    "topics": [
+      "Financial Markets"
     ]
   },
   {
@@ -1026,6 +1242,10 @@
       "Speaker: Stephen Aldridge",
       "Speaker: Gemma Tetlow",
       "Chair: Amanda Rowlatt"
+    ],
+    "topics": [
+      "Macroeconomics",
+      "Public Policy"
     ]
   },
   {
@@ -1038,6 +1258,9 @@
       "Speaker: Rebecca Shafran",
       "Speaker: Professor Paul Cheshire",
       "Chair: Stephen Meredith"
+    ],
+    "topics": [
+      "Housing"
     ]
   },
   {
@@ -1052,7 +1275,8 @@
     "images": [
       "/images/14344/239338_051.0x420.jpg",
       "/images/14344/239338_042.1200x0.jpg"
-    ]
+    ],
+    "topics": []
   },
   {
     "slug": "conferences/12111",
@@ -1093,6 +1317,9 @@
         "href": "/images/12111/2023-11_spe.pdf",
         "text": "Joseph Briggs slides"
       }
+    ],
+    "topics": [
+      "Monetary Policy"
     ]
   },
   {
@@ -1100,7 +1327,10 @@
     "title": "Enlightened economics",
     "date": "2023-09-13",
     "category": "speaker-series",
-    "body": "<div class=\"clearfix\"></div>\n<div class=\"body_image_container image format_landscape \">\n\n<img class=\"body_image\" src=\"/site/assets/files/11494/rf_video.1200x0.webp\" alt=\"\">\n\n\n<!-- Type: image  Size: nocrop  Sizeclass format_landscape -->\n\n\n</div>\n\n<p>To mark the 300th anniversary of the birth of Adam Smith, the Society of Professional Economists co-hosted an event with the Resolution Foundation on 13 September. If you missed the event, then you can catch up with the recording.</p>\n\n<p><a href=\"https://youtube.com/live/eyhMB0NSobE?feature=share\">Click here </a>to view.</p>"
+    "body": "<div class=\"clearfix\"></div>\n<div class=\"body_image_container image format_landscape \">\n\n<img class=\"body_image\" src=\"/site/assets/files/11494/rf_video.1200x0.webp\" alt=\"\">\n\n\n<!-- Type: image  Size: nocrop  Sizeclass format_landscape -->\n\n\n</div>\n\n<p>To mark the 300th anniversary of the birth of Adam Smith, the Society of Professional Economists co-hosted an event with the Resolution Foundation on 13 September. If you missed the event, then you can catch up with the recording.</p>\n\n<p><a href=\"https://youtube.com/live/eyhMB0NSobE?feature=share\">Click here </a>to view.</p>",
+    "topics": [
+      "Economic History"
+    ]
   },
   {
     "slug": "podcasts/11456",
@@ -1117,6 +1347,9 @@
     ],
     "speakers": [
       "Speaker: Simon Johnson, co‑author of Power and Progress"
+    ],
+    "topics": [
+      "Technology"
     ]
   },
   {
@@ -1135,6 +1368,9 @@
         "id": "844909497",
         "url": "https://player.vimeo.com/video/844909497"
       }
+    ],
+    "topics": [
+      "Careers & Profession"
     ]
   },
   {
@@ -1152,7 +1388,8 @@
     ],
     "speakers": [
       "Speaker: Jon Danielsson about his book 'The Illusion of Control'"
-    ]
+    ],
+    "topics": []
   },
   {
     "slug": "evening-talks/11409",
@@ -1170,6 +1407,9 @@
         "id": "835147940",
         "url": "https://player.vimeo.com/video/835147940"
       }
+    ],
+    "topics": [
+      "Monetary Policy"
     ]
   },
   {
@@ -1184,6 +1424,9 @@
         "id": "830237781",
         "url": "https://player.vimeo.com/video/830237781"
       }
+    ],
+    "topics": [
+      "Financial Markets"
     ]
   },
   {
@@ -1198,6 +1441,9 @@
         "id": "sbe-audio-feed/review-the-gender-of-capital",
         "url": "https://soundcloud.com/sbe-audio-feed/review-the-gender-of-capital"
       }
+    ],
+    "topics": [
+      "Inequality"
     ]
   },
   {
@@ -1215,7 +1461,8 @@
     ],
     "speakers": [
       "Speaker: David Owen, Saltmarsh Economics"
-    ]
+    ],
+    "topics": []
   },
   {
     "slug": "evening-talks/11372",
@@ -1233,6 +1480,9 @@
         "id": "821595629",
         "url": "https://player.vimeo.com/video/821595629"
       }
+    ],
+    "topics": [
+      "Monetary Policy"
     ]
   },
   {
@@ -1247,6 +1497,10 @@
         "id": "813466843",
         "url": "https://player.vimeo.com/video/813466843"
       }
+    ],
+    "topics": [
+      "Financial Markets",
+      "Climate & Energy"
     ]
   },
   {
@@ -1261,6 +1515,9 @@
         "id": "809714341",
         "url": "https://player.vimeo.com/video/809714341"
       }
+    ],
+    "topics": [
+      "Fiscal Policy"
     ]
   },
   {
@@ -1275,6 +1532,10 @@
         "id": "797330969",
         "url": "https://player.vimeo.com/video/797330969"
       }
+    ],
+    "topics": [
+      "Fiscal Policy",
+      "Careers & Profession"
     ]
   },
   {
@@ -1292,6 +1553,9 @@
     ],
     "speakers": [
       "Speaker: Andrew Smithers, author of 'The Economics of the Stock Market'"
+    ],
+    "topics": [
+      "Financial Markets"
     ]
   },
   {
@@ -1306,7 +1570,8 @@
         "id": "791915398",
         "url": "https://player.vimeo.com/video/791915398"
       }
-    ]
+    ],
+    "topics": []
   },
   {
     "slug": "conferences/11240",
@@ -1324,6 +1589,10 @@
     "images": [
       "/images/11240/20221111_135326_resized.0x420.jpg",
       "/images/11240/20221111_163412_resized.1200x0.jpg"
+    ],
+    "topics": [
+      "Macroeconomics",
+      "Monetary Policy"
     ]
   },
   {
@@ -1338,6 +1607,9 @@
         "id": "vb7ypOD54dQ",
         "url": "https://www.youtube.com/watch?v=vb7ypOD54dQ"
       }
+    ],
+    "topics": [
+      "Inequality"
     ]
   },
   {
@@ -1355,7 +1627,8 @@
     ],
     "speakers": [
       "Speaker: Jonathan Cribb"
-    ]
+    ],
+    "topics": []
   },
   {
     "slug": "dinners/10678",
@@ -1377,6 +1650,10 @@
       "/images/10678/229323_109.1200x0.jpg",
       "/images/10678/229323_147.1200x0.jpg",
       "/images/10678/229323_153.1200x0.jpg"
+    ],
+    "topics": [
+      "Monetary Policy",
+      "Technology"
     ]
   },
   {
@@ -1391,6 +1668,9 @@
         "id": "HwTij55O_Dk",
         "url": "https://www.youtube.com/watch?v=HwTij55O_Dk"
       }
+    ],
+    "topics": [
+      "Economic History"
     ]
   },
   {
@@ -1408,7 +1688,8 @@
     ],
     "speakers": [
       "Speaker: Mark Cliffe"
-    ]
+    ],
+    "topics": []
   },
   {
     "slug": "evening-talks/10632",
@@ -1427,7 +1708,8 @@
         "id": "qPryMNnm9UM",
         "url": "https://www.youtube.com/watch?v=qPryMNnm9UM"
       }
-    ]
+    ],
+    "topics": []
   },
   {
     "slug": "evening-talks/10593",
@@ -1441,6 +1723,10 @@
         "id": "FuPfNopur4w",
         "url": "https://www.youtube.com/watch?v=FuPfNopur4w"
       }
+    ],
+    "topics": [
+      "Fiscal Policy",
+      "Health"
     ]
   },
   {
@@ -1459,6 +1745,10 @@
         "id": "693103628",
         "url": "https://player.vimeo.com/video/693103628"
       }
+    ],
+    "topics": [
+      "Monetary Policy",
+      "Fiscal Policy"
     ]
   },
   {
@@ -1473,6 +1763,10 @@
         "id": "675875758",
         "url": "https://player.vimeo.com/video/675875758"
       }
+    ],
+    "topics": [
+      "Monetary Policy",
+      "Health"
     ]
   },
   {
@@ -1485,6 +1779,9 @@
       "Speaker: Lizzy Whitehead",
       "Speaker: Dr Ricky Lawton",
       "Chair: Dr Ulrike Hotopp"
+    ],
+    "topics": [
+      "Public Policy"
     ]
   },
   {
@@ -1503,7 +1800,8 @@
     "speakers": [
       "Speaker: Kevin Daly",
       "Interviewer: Andrew Milligan"
-    ]
+    ],
+    "topics": []
   },
   {
     "slug": "evening-talks/10523",
@@ -1520,6 +1818,9 @@
     ],
     "speakers": [
       "Speaker: Fabrice Montagné"
+    ],
+    "topics": [
+      "Macroeconomics"
     ]
   },
   {
@@ -1527,7 +1828,8 @@
     "title": "Watch interview with some of the shortlisted contenders of our Essay Competition",
     "date": "2022-01-07",
     "category": "speaker-series",
-    "body": "<p>Interview with some of the shortlisted contenders of our Essay Competition.</p>\n<p><em>The original video content for this event is no longer available online.</em></p>"
+    "body": "<p>Interview with some of the shortlisted contenders of our Essay Competition.</p>\n<p><em>The original video content for this event is no longer available online.</em></p>",
+    "topics": []
   },
   {
     "slug": "evening-talks/10495",
@@ -1545,7 +1847,8 @@
     "speakers": [
       "Speaker: Amelia Fletcher",
       "Interviewer: Ulrike Hotopp"
-    ]
+    ],
+    "topics": []
   },
   {
     "slug": "evening-talks/10681",
@@ -1559,6 +1862,10 @@
         "id": "651667653",
         "url": "https://player.vimeo.com/video/651667653"
       }
+    ],
+    "topics": [
+      "Labour Markets",
+      "Health"
     ]
   },
   {
@@ -1570,7 +1877,8 @@
     "speakers": [
       "Speaker: Vicky Pryce",
       "Interviewer: Andrew Milligan"
-    ]
+    ],
+    "topics": []
   },
   {
     "slug": "evening-talks/10188",
@@ -1588,6 +1896,11 @@
     "speakers": [
       "Speaker: Fabio Natalucci from the IMF",
       "Interviewer: Andrew Milligan"
+    ],
+    "topics": [
+      "Macroeconomics",
+      "Monetary Policy",
+      "Fiscal Policy"
     ]
   },
   {
@@ -1606,6 +1919,11 @@
     "speakers": [
       "Speaker: Jonathan Athow",
       "Interviewer: Andrew Milligan"
+    ],
+    "topics": [
+      "Macroeconomics",
+      "Monetary Policy",
+      "Labour Markets"
     ]
   },
   {
@@ -1624,6 +1942,11 @@
     "speakers": [
       "Speaker: Tim Jackson",
       "Interviewer: Andrew Milligan"
+    ],
+    "topics": [
+      "Macroeconomics",
+      "Climate & Energy",
+      "Economic Measurement"
     ]
   },
   {
@@ -1642,7 +1965,8 @@
     "speakers": [
       "Speaker: Tim Congdon",
       "Interviewer: George Buckley"
-    ]
+    ],
+    "topics": []
   },
   {
     "slug": "evening-talks/8709",
@@ -1656,6 +1980,10 @@
         "id": "581149605",
         "url": "https://player.vimeo.com/video/581149605"
       }
+    ],
+    "topics": [
+      "Fiscal Policy",
+      "Public Policy"
     ]
   },
   {
@@ -1674,6 +2002,11 @@
     "speakers": [
       "Speaker: Stephen King",
       "Interviewer: Andrew Milligan"
+    ],
+    "topics": [
+      "Macroeconomics",
+      "Fiscal Policy",
+      "Trade & Globalisation"
     ]
   },
   {
@@ -1685,7 +2018,8 @@
     "speakers": [
       "Speaker: Diane Coyle",
       "Interviewer: Andrew Milligan"
-    ]
+    ],
+    "topics": []
   },
   {
     "slug": "evening-talks/8667",
@@ -1704,6 +2038,9 @@
       "Speaker: Dr Swati Dhingra",
       "Speaker: Charlotte Dendy",
       "Speaker: Prof Nick Crafts CBE"
+    ],
+    "topics": [
+      "Trade & Globalisation"
     ]
   },
   {
@@ -1722,6 +2059,9 @@
     "speakers": [
       "Speaker: George Magnus",
       "Interviewer: Andrew Milligan"
+    ],
+    "topics": [
+      "Trade & Globalisation"
     ]
   },
   {
@@ -1736,6 +2076,10 @@
         "id": "555185364",
         "url": "https://player.vimeo.com/video/555185364"
       }
+    ],
+    "topics": [
+      "Monetary Policy",
+      "Economic Measurement"
     ]
   },
   {
@@ -1747,7 +2091,8 @@
     "speakers": [
       "Speaker: Jim O'Neill",
       "Interviewer: Andrew Milligan"
-    ]
+    ],
+    "topics": []
   },
   {
     "slug": "evening-talks/8639",
@@ -1758,7 +2103,8 @@
     "speakers": [
       "Speaker: Jens Ulbrich",
       "Interviewer: Ulrike Hotopp"
-    ]
+    ],
+    "topics": []
   },
   {
     "slug": "evening-talks/8630",
@@ -1775,6 +2121,9 @@
         "id": "536801249",
         "url": "https://player.vimeo.com/video/536801249"
       }
+    ],
+    "topics": [
+      "Climate & Energy"
     ]
   },
   {
@@ -1786,7 +2135,8 @@
     "speakers": [
       "Speaker: Elroy Dimson",
       "Interviewer: Andrew Milligan"
-    ]
+    ],
+    "topics": []
   },
   {
     "slug": "evening-talks/8574",
@@ -1804,6 +2154,11 @@
     "speakers": [
       "Speaker: Richard Hughes",
       "Interviewer: Andrew Milligan"
+    ],
+    "topics": [
+      "Fiscal Policy",
+      "Labour Markets",
+      "Climate & Energy"
     ]
   },
   {
@@ -1815,7 +2170,8 @@
     "speakers": [
       "Speaker: Tim Ng",
       "Interviewer: Catherine Connolly"
-    ]
+    ],
+    "topics": []
   },
   {
     "slug": "evening-talks/8563",
@@ -1826,7 +2182,8 @@
     "speakers": [
       "Speaker: Dalia Marin",
       "Interviewer: Andrew Milligan"
-    ]
+    ],
+    "topics": []
   },
   {
     "slug": "evening-talks/8566",
@@ -1840,6 +2197,9 @@
         "id": "522315179",
         "url": "https://player.vimeo.com/video/522315179"
       }
+    ],
+    "topics": [
+      "Health"
     ]
   },
   {
@@ -1858,6 +2218,11 @@
     "speakers": [
       "Speaker: Jan‑Emmanuel Neve",
       "Interviewer: Andrew Milligan"
+    ],
+    "topics": [
+      "Macroeconomics",
+      "Inequality",
+      "Climate & Energy"
     ]
   },
   {
@@ -1875,6 +2240,9 @@
         "id": "514311681",
         "url": "https://player.vimeo.com/video/514311681"
       }
+    ],
+    "topics": [
+      "Monetary Policy"
     ]
   },
   {
@@ -1886,7 +2254,8 @@
     "speakers": [
       "Speaker: Lionel Barber",
       "Interviewer: Kevin Daly"
-    ]
+    ],
+    "topics": []
   },
   {
     "slug": "evening-talks/8527",
@@ -1897,7 +2266,8 @@
     "speakers": [
       "Speaker: Fabio Natalucci",
       "Interviewer: Andrew Milligan"
-    ]
+    ],
+    "topics": []
   },
   {
     "slug": "evening-talks/8509",
@@ -1915,6 +2285,10 @@
     "speakers": [
       "Speaker: Sarah Hewin",
       "Interviewer: Andrew Milligan"
+    ],
+    "topics": [
+      "Trade & Globalisation",
+      "Health"
     ]
   },
   {
@@ -1929,6 +2303,9 @@
         "id": "492519719",
         "url": "https://player.vimeo.com/video/492519719"
       }
+    ],
+    "topics": [
+      "Climate & Energy"
     ]
   },
   {
@@ -1947,6 +2324,10 @@
     "speakers": [
       "Speaker: Robert Stheeman",
       "Interviewer: George Buckley"
+    ],
+    "topics": [
+      "Monetary Policy",
+      "Fiscal Policy"
     ]
   },
   {
@@ -1965,6 +2346,11 @@
     "speakers": [
       "Speaker: Jonathan Athow",
       "Interviewer: Andrew Milligan"
+    ],
+    "topics": [
+      "Fiscal Policy",
+      "Inequality",
+      "Climate & Energy"
     ]
   },
   {
@@ -1983,6 +2369,11 @@
     "speakers": [
       "Speaker: Willem Buiter",
       "Interviewer: Andrew Milligan"
+    ],
+    "topics": [
+      "Macroeconomics",
+      "Monetary Policy",
+      "Fiscal Policy"
     ]
   },
   {
@@ -1995,6 +2386,9 @@
       "Chair: Catherine Connolly",
       "Speaker: James Richardson",
       "Speaker: Amanda Rowlatt"
+    ],
+    "topics": [
+      "Public Policy"
     ]
   },
   {
@@ -2006,7 +2400,8 @@
     "speakers": [
       "Speaker: Alan Winters",
       "Interviewer: Andrew Milligan"
-    ]
+    ],
+    "topics": []
   },
   {
     "slug": "evening-talks/7773",
@@ -2017,7 +2412,10 @@
       "Speaker: Laura Petschnig, Frontier Economics"
     ],
     "category": "speaker-series",
-    "body": "<div class='heading'>\n<h5 >27 October 2020</h5>\n<h1>Joint SPE and WEN Webinar: Behaviour post Covid</h1>\n<h4 ><strong>Speaker: </strong><a href='../../../search/index.html%3Fq=Giulia+Tagliaferri.tmp.html'>Giulia Tagliaferri</a>, <span class='nobreak'>The Behavioural Insights Team</span><br /><strong>Speaker: </strong><a href='../../../search/index.html%3Fq=Laura+Petschnig.tmp.html'>Laura Petschnig</a>, <span class='nobreak'>Frontier Economics</span></h4 >\n</div>"
+    "body": "<div class='heading'>\n<h5 >27 October 2020</h5>\n<h1>Joint SPE and WEN Webinar: Behaviour post Covid</h1>\n<h4 ><strong>Speaker: </strong><a href='../../../search/index.html%3Fq=Giulia+Tagliaferri.tmp.html'>Giulia Tagliaferri</a>, <span class='nobreak'>The Behavioural Insights Team</span><br /><strong>Speaker: </strong><a href='../../../search/index.html%3Fq=Laura+Petschnig.tmp.html'>Laura Petschnig</a>, <span class='nobreak'>Frontier Economics</span></h4 >\n</div>",
+    "topics": [
+      "Health"
+    ]
   },
   {
     "slug": "conferences/7808",
@@ -2034,6 +2432,11 @@
     ],
     "speakers": [
       "Speaker: Session 1"
+    ],
+    "topics": [
+      "Monetary Policy",
+      "Trade & Globalisation",
+      "Health"
     ]
   },
   {
@@ -2051,6 +2454,11 @@
     ],
     "speakers": [
       "Speaker: Session 1"
+    ],
+    "topics": [
+      "Monetary Policy",
+      "Trade & Globalisation",
+      "Health"
     ]
   },
   {
@@ -2062,7 +2470,8 @@
     "speakers": [
       "Speaker: Karen Horn",
       "Interviewer: Ulrike Hotopp"
-    ]
+    ],
+    "topics": []
   },
   {
     "slug": "evening-talks/7687",
@@ -2080,6 +2489,11 @@
     "speakers": [
       "Speaker: Sir Richard Blundell",
       "Interviewer: Andrew Milligan"
+    ],
+    "topics": [
+      "Fiscal Policy",
+      "Labour Markets",
+      "Inequality"
     ]
   },
   {
@@ -2098,6 +2512,11 @@
     "speakers": [
       "Speaker: Dave Ramsden",
       "Interviewer: Andrew Milligan"
+    ],
+    "topics": [
+      "Macroeconomics",
+      "Monetary Policy",
+      "Fiscal Policy"
     ]
   },
   {
@@ -2120,6 +2539,9 @@
       "Speaker: Clare Lombardelli",
       "Speaker: Gemma Tetlow",
       "Speaker: Richard Hughes"
+    ],
+    "topics": [
+      "Fiscal Policy"
     ]
   },
   {
@@ -2138,6 +2560,10 @@
     "speakers": [
       "Speaker: Diana Choyleva",
       "Interviewer: Andrew Milligan"
+    ],
+    "topics": [
+      "Inequality",
+      "Technology"
     ]
   },
   {
@@ -2149,7 +2575,8 @@
     "speakers": [
       "Speaker: Minouche Shafik",
       "Interviewer: Kevin Daly"
-    ]
+    ],
+    "topics": []
   },
   {
     "slug": "evening-talks/7639",
@@ -2160,7 +2587,8 @@
     "speakers": [
       "Speaker: Andy Haldane",
       "Interviewer: Andrew Milligan"
-    ]
+    ],
+    "topics": []
   },
   {
     "slug": "evening-talks/7628",
@@ -2178,6 +2606,10 @@
     "speakers": [
       "Speaker: Brian Pearce",
       "Interviewer: Andrew Milligan"
+    ],
+    "topics": [
+      "Financial Markets",
+      "Health"
     ]
   },
   {
@@ -2196,6 +2628,11 @@
     "speakers": [
       "Speaker: Fabio Natalucci",
       "Interviewer: Andrew Milligan"
+    ],
+    "topics": [
+      "Monetary Policy",
+      "Fiscal Policy",
+      "Financial Markets"
     ]
   },
   {
@@ -2210,6 +2647,10 @@
         "id": "438591440",
         "url": "https://player.vimeo.com/video/438591440"
       }
+    ],
+    "topics": [
+      "Fiscal Policy",
+      "Careers & Profession"
     ]
   },
   {
@@ -2228,6 +2669,11 @@
     "speakers": [
       "Speaker: Dambisa Moyo",
       "Interviewer: Andrew Milligan"
+    ],
+    "topics": [
+      "Macroeconomics",
+      "Trade & Globalisation",
+      "Technology"
     ]
   },
   {
@@ -2239,7 +2685,8 @@
     "speakers": [
       "Speaker: Matthew Swindells",
       "Interviewer: Andrew Milligan"
-    ]
+    ],
+    "topics": []
   },
   {
     "slug": "evening-talks/7566",
@@ -2251,6 +2698,9 @@
       "Chair: Dame Kate Barker",
       "Speaker: Chris Giles",
       "Speaker: Prof Philip McCann"
+    ],
+    "topics": [
+      "Macroeconomics"
     ]
   },
   {
@@ -2262,21 +2712,26 @@
     "speakers": [
       "Speaker: Ed Balls",
       "Interviewer: Kevin Daly"
-    ]
+    ],
+    "topics": []
   },
   {
     "slug": "evening-talks/7552",
     "title": "Watch interview with Isabell Koske",
     "date": "2020-06-24",
     "category": "speaker-series",
-    "body": "<p>Interview with Isabell Koske.</p>\n<p><em>The original video content for this event is no longer available online.</em></p>"
+    "body": "<p>Interview with Isabell Koske.</p>\n<p><em>The original video content for this event is no longer available online.</em></p>",
+    "topics": []
   },
   {
     "slug": "evening-talks/7549",
     "title": "Watch interview with Chris Giles discussing Cross‑Country COVID Data",
     "date": "2020-06-22",
     "category": "speaker-series",
-    "body": "<p>Interview with Chris Giles discussing Cross‑Country COVID Data.</p>\n<p><em>The original video content for this event is no longer available online.</em></p>"
+    "body": "<p>Interview with Chris Giles discussing Cross‑Country COVID Data.</p>\n<p><em>The original video content for this event is no longer available online.</em></p>",
+    "topics": [
+      "Health"
+    ]
   },
   {
     "slug": "evening-talks/7538",
@@ -2294,6 +2749,10 @@
     "speakers": [
       "Speaker: Janet Henry",
       "Interviewer: Andrew Milligan"
+    ],
+    "topics": [
+      "Monetary Policy",
+      "Fiscal Policy"
     ]
   },
   {
@@ -2304,6 +2763,10 @@
     "body": "<p>In this podcast Sarah Smith discusses how the Discover Economics campaign, designed to increase diversity in economics students, is adapting to the crisis.&nbsp;&nbsp; Sarah also discusses how trust in government during the Coronavirus crisis may affect economic outcomes for some time to come.</p>\n\n<p>Sarah is Head of Economics at Bristol University and co-Chair of the Discover Economics campaign, targeted at 15-17 year olds, which aims to increase diversity in economics students.</p>\n\n<div class=\"full\" style=\"margin:2em 0;\">\n\t\n\t</div>",
     "speakers": [
       "Speaker: Sarah Smith"
+    ],
+    "topics": [
+      "Labour Markets",
+      "Health"
     ]
   },
   {
@@ -2315,7 +2778,8 @@
     "speakers": [
       "Speaker: Ece Özdemiroğlu",
       "Interviewer: Ulrike Hotopp"
-    ]
+    ],
+    "topics": []
   },
   {
     "slug": "evening-talks/7532",
@@ -2333,6 +2797,9 @@
     "speakers": [
       "Speaker: Sonja Gibbs",
       "Interviewer: Andrew Milligan"
+    ],
+    "topics": [
+      "Financial Markets"
     ]
   },
   {
@@ -2351,6 +2818,11 @@
     "speakers": [
       "Speaker: Anita Charlesworth",
       "Interviewer: Catherine Connolly"
+    ],
+    "topics": [
+      "Fiscal Policy",
+      "Labour Markets",
+      "Health"
     ]
   },
   {
@@ -2362,7 +2834,8 @@
     "speakers": [
       "Speaker: Spencer Dale",
       "Interviewer: Andrew Milligan"
-    ]
+    ],
+    "topics": []
   },
   {
     "slug": "evening-talks/7511",
@@ -2380,6 +2853,10 @@
     "speakers": [
       "Speaker: Adam Posen",
       "Interviewer: Andrew Milligan"
+    ],
+    "topics": [
+      "Macroeconomics",
+      "Monetary Policy"
     ]
   },
   {
@@ -2391,7 +2868,8 @@
     "speakers": [
       "Speaker: Roman Frydman",
       "Interviewer: Andrew Milligan"
-    ]
+    ],
+    "topics": []
   },
   {
     "slug": "evening-talks/7493",
@@ -2405,6 +2883,9 @@
         "id": "418908517",
         "url": "https://player.vimeo.com/video/418908517"
       }
+    ],
+    "topics": [
+      "Public Policy"
     ]
   },
   {
@@ -2423,6 +2904,9 @@
     "speakers": [
       "Speaker: Gus O'Donnell",
       "Interviewer: Andrew Milligan"
+    ],
+    "topics": [
+      "Fiscal Policy"
     ]
   },
   {
@@ -2434,14 +2918,16 @@
     "speakers": [
       "Speaker: Alistair Darling",
       "Interviewer: SPE Chairman, Kevin Daly"
-    ]
+    ],
+    "topics": []
   },
   {
     "slug": "evening-talks/7475",
     "title": "Sunil Krishnan interviews Martin Wolf",
     "date": "2020-05-08",
     "category": "speaker-series",
-    "body": "<p>Martin Wolf in conversation with Sunil Krishnan.</p>\n<p><em>The original video content for this event is no longer available online.</em></p>"
+    "body": "<p>Martin Wolf in conversation with Sunil Krishnan.</p>\n<p><em>The original video content for this event is no longer available online.</em></p>",
+    "topics": []
   },
   {
     "slug": "podcasts/7465",
@@ -2451,6 +2937,10 @@
     "body": "<p>In this podcast Diane Coyle CBE discusses how the coronavirus might create and exacerbate inequalities and long-term growth challenges.&nbsp; Diane also discusses how economics might change as a result of the pandemic, particularly the study of trade-offs between individual choice and collective action.</p>\n\n<div class=\"full\" style=\"margin:2em 0;\">\n\t\n\t</div>",
     "speakers": [
       "Speaker: Diane Coyle"
+    ],
+    "topics": [
+      "Inequality",
+      "Health"
     ]
   },
   {
@@ -2461,6 +2951,10 @@
     "body": "<p>In this podcast Richard Hughes talks about the impact of the coronavirus on government borrowing and the implications for fiscal sustainability. Richard also talks about the impact of lockdown on different employment groups and what this might mean for fairness coming out of the crisis.</p>\n\n<div class=\"full\" style=\"margin:2em 0;\">\n\t\n\t</div>",
     "speakers": [
       "Speaker: Richard Hughes"
+    ],
+    "topics": [
+      "Fiscal Policy",
+      "Health"
     ]
   },
   {
@@ -2472,6 +2966,9 @@
     "category": "podcast",
     "speakers": [
       "Speaker: William Keegan"
+    ],
+    "topics": [
+      "Health"
     ]
   },
   {
@@ -2483,6 +2980,10 @@
     "category": "podcast",
     "speakers": [
       "Speaker: Ian McCafferty"
+    ],
+    "topics": [
+      "Macroeconomics",
+      "Health"
     ]
   },
   {
@@ -2497,6 +2998,9 @@
         "id": "411374008",
         "url": "https://player.vimeo.com/video/411374008"
       }
+    ],
+    "topics": [
+      "Monetary Policy"
     ]
   },
   {
@@ -2514,7 +3018,8 @@
     ],
     "speakers": [
       "Speaker: Bronwyn Curtis"
-    ]
+    ],
+    "topics": []
   },
   {
     "slug": "podcasts/7437",
@@ -2531,6 +3036,10 @@
     ],
     "speakers": [
       "Speaker: Ian Harwood"
+    ],
+    "topics": [
+      "Monetary Policy",
+      "Health"
     ]
   },
   {
@@ -2548,6 +3057,11 @@
     ],
     "speakers": [
       "Speaker: Kate Barker"
+    ],
+    "topics": [
+      "Financial Markets",
+      "Trade & Globalisation",
+      "Health"
     ]
   },
   {
@@ -2558,6 +3072,9 @@
     "body": "<p>In this podcast Andrew Milligan OBE from Aberdeen Standard Investments discusses the economic impact of coronavirus, the appropriateness of the policy response and how this crisis might change the analysis which economists need to provide.</p>\n\n<div class=\"full\" style=\"margin:2em 0;\">\n\t\n\t</div>",
     "speakers": [
       "Speaker: Andrew Milligan"
+    ],
+    "topics": [
+      "Health"
     ]
   },
   {
@@ -2568,7 +3085,10 @@
       "Speaker: Richard Barwell, Head of Macro Research, BNP Paribas Asset Management"
     ],
     "category": "speaker-series",
-    "body": "<div class='heading'>\n<h5 >28 February 2020 </h5>\n<h1>Strategic Reviews of Monetary Policy</h1>\n<h4 ><strong>Speaker: </strong><a href='../../../search/index.html%3Fq=Richard+Barwell.tmp.html'>Richard Barwell</a>, <span class='nobreak'>Head of Macro Research</span>, <span class='nobreak'>BNP Paribas Asset Management</span></h4 >\n</div>"
+    "body": "<div class='heading'>\n<h5 >28 February 2020 </h5>\n<h1>Strategic Reviews of Monetary Policy</h1>\n<h4 ><strong>Speaker: </strong><a href='../../../search/index.html%3Fq=Richard+Barwell.tmp.html'>Richard Barwell</a>, <span class='nobreak'>Head of Macro Research</span>, <span class='nobreak'>BNP Paribas Asset Management</span></h4 >\n</div>",
+    "topics": [
+      "Monetary Policy"
+    ]
   },
   {
     "slug": "evening-talks/7386",
@@ -2586,6 +3106,9 @@
         "id": "389688048",
         "url": "https://player.vimeo.com/video/389688048"
       }
+    ],
+    "topics": [
+      "Macroeconomics"
     ]
   },
   {
@@ -2600,6 +3123,9 @@
         "id": "389688048",
         "url": "https://player.vimeo.com/video/389688048"
       }
+    ],
+    "topics": [
+      "Macroeconomics"
     ]
   },
   {
@@ -2617,6 +3143,10 @@
         "id": "379421255",
         "url": "https://player.vimeo.com/video/379421255"
       }
+    ],
+    "topics": [
+      "Labour Markets",
+      "Inequality"
     ]
   },
   {
@@ -2631,6 +3161,10 @@
         "id": "379421255",
         "url": "https://player.vimeo.com/video/379421255"
       }
+    ],
+    "topics": [
+      "Labour Markets",
+      "Inequality"
     ]
   },
   {
@@ -2643,6 +3177,10 @@
       "/images/7262/20191014_133939_resized.500x666.webp",
       "/images/7262/20191014_160304_resized.1200x720.jpg",
       "/images/7262/20191014_164843_resized.500x666.webp"
+    ],
+    "topics": [
+      "Monetary Policy",
+      "Financial Markets"
     ]
   },
   {
@@ -2653,7 +3191,8 @@
     "body": "<p>Yael Selfin, KPMG’s Chief Economist, talks to Sunil Krishnan on the sidelines of the Society’s Annual Conference about why UK investment is struggling, and how economists can help businesses adapt and thrive.</p>\n\n<div class=\"full\" style=\"margin:2em 0;\">\n\t\n\t</div>",
     "speakers": [
       "Speaker: Yael Selfin"
-    ]
+    ],
+    "topics": []
   },
   {
     "slug": "podcasts/7280",
@@ -2663,7 +3202,8 @@
     "body": "<div class=\"clearfix\"></div>\n<div class=\"body_image_container image format_portrait \">\n\n<img class=\"body_image\" src=\"/site/assets/files/7280/sir-ivan-rogers.0x420.jpg\" alt=\"\">\n\n\n<!-- Type: image  Size: nocrop  Sizeclass format_portrait -->\n\n\n</div>\n\n<p>Sir Ivan Rogers, former UK Permanent Representative to the EU, talks to Sunil Krishnan at the Annual Conference. &nbsp;They discuss how the immediate aftermath of the 2016 referendum cast a long shadow over the UK’s subsequent negotiation struggles, and how economists should approach the task of adding insight to the political debate.</p>\n\n<div class=\"full\" style=\"margin:2em 0;\">\n\t\n\t</div>",
     "speakers": [
       "Speaker: Ivan Rogers"
-    ]
+    ],
+    "topics": []
   },
   {
     "slug": "podcasts/7287",
@@ -2680,7 +3220,8 @@
     ],
     "speakers": [
       "Speaker: Rachel Griffith"
-    ]
+    ],
+    "topics": []
   },
   {
     "slug": "podcasts/7291",
@@ -2695,14 +3236,18 @@
         "id": "sbe-audio-feed/randall-kroszner",
         "url": "https://soundcloud.com/sbe-audio-feed/randall-kroszner"
       }
-    ]
+    ],
+    "topics": []
   },
   {
     "slug": "evening-talks/7240",
     "title": "Careers in Economics",
     "date": "2019-10-07",
     "category": "speaker-series",
-    "body": "<div class='page_links'>\n <h4>Related pages</h4><p><a href='../../podcasts/7249/index.html'>Speaker Series: Interview with Janet Henry and Osama Rahman</a></p>\n\n </div>"
+    "body": "<div class='page_links'>\n <h4>Related pages</h4><p><a href='../../podcasts/7249/index.html'>Speaker Series: Interview with Janet Henry and Osama Rahman</a></p>\n\n </div>",
+    "topics": [
+      "Careers & Profession"
+    ]
   },
   {
     "slug": "podcasts/7249",
@@ -2712,7 +3257,8 @@
     "body": "<p>Janet Henry, Global Chief Economist at HSBC, and Osama Rahman, Chief Scientific Advisor and Director of Analysis at the Department for Education, talk to Sunil Krishnan about their careers in economics and the outlook for the profession, on the sidelines of the Society’s Careers for Economists event held at Aviva.</p>\n\n<div class=\"full\" style=\"margin:2em 0;\">\n\t\n\t</div>",
     "speakers": [
       "Speaker: Janet Henry and Osama Rahman"
-    ]
+    ],
+    "topics": []
   },
   {
     "slug": "podcasts/5514",
@@ -2722,6 +3268,9 @@
     "body": "<p></p><div class=\"full\" style=\"margin:2em 0;\">\n\t\n\t</div>&nbsp; <div class=\"full\" style=\"margin:2em 0;\">\n\t\n\t</div><p></p>\n\n<p>Jonathan Athow, Interim National Statistician at the Office for National Statistics, and Jill Leyland, Member of the Advisory Panel on Consumer Prices, talk to&nbsp;Sunil Krishnan about the measurement of inflation in the UK. &nbsp;They discuss the challenges posed by modern consumption and price-setting behaviour, the development of new Household Cost Indices, and how modern “big data” techniques are starting to improve our collection of data.</p>",
     "speakers": [
       "Speaker: Jonathan Athow and Jill Leyland"
+    ],
+    "topics": [
+      "Economic Measurement"
     ]
   },
   {
@@ -2729,7 +3278,10 @@
     "title": "Populism - end or salvation of liberal democracy",
     "date": "2019-07-03",
     "category": "speaker-series",
-    "body": "<p>Bloomberg’s Head of Economics Stephanie Flanders interviewed the FT’s Chief Economics Commentator Martin Wolf at a well-attended SPE event on populism, kindly hosted by the Resolution Foundation on 1 July. Stephanie’s first question - how do you even define populism?</p>\n\n<p>Both left- and right-wing populism share common traits, Mr Wolf argued - it is the mobilisation of people politically against existing elites to force social change. In America this has often been seen to be a force for good, versus the darker view of populism that has been witnessed in European history. The latter involves hostility to: the important and valuable institutions run by elites; foreigners; minorities (typical right-wing elitism), and has often been associated with a charismatic leader who believes themselves to be the answer to the problem (think Mussolini, Hitler).</p>\n\n<p>Stephanie pointed out that there has been a sizeable rise in countries (as measured by share of world GDP) run by populists or non-democratic regimes over the past decade since the financial crisis, and that populist governments have generally been re-elected. Martin responded by noting that right-wing populists have generally done better than left-wingers in that respect (aside from in those countries having experienced true economic collapse). He argued that right-wing populism tends to think along class lines and the promotion of egalitarianism, whereas the right-wing version of populism thinks about ethnic groupings and nationality, often being comfortable with extreme inequality. Whatever the case, the political middle ground has been hollowed out everywhere - from both sides of the political spectrum.</p>\n\n<p>But is populism changing political systems for the better or fundamentally undermining them, Stephanie went on to ask? Martin used the examples of both Roosevelts in the US - Theodore’s anti-trust policies and FDR’s New Deal. Both recognised that the political consequences could be much worse were they not to respond to populism in these ways. This is where populism can be especially helpful - in encouraging establishment politicians to engage by delivering sensible responses. The Europeans have handled populism badly, however, Mr Wolf argues - which is why we have Mr Salvini and not Mr Monti as the (effective) head of government in Italy right now.</p>\n\n<p>Can populists do good things? It is rare, argues Wolf. Radical reformers are typically more self-disciplined than populists. Some sort of “disciplined social radicalism” would be the ideal response, he believes.</p>\n\n<p>The debate then turned to central banking and government policy. Martin reiterated his view that following the financial crisis countries that had the means - such as the UK - should have done all they could to return to full employment more speedily. He argues that the inhibition of direct monetary financing is inappropriate in a severe recession. Governments also need to be more aggressive in addressing the decline in competition in market economies that has resulted from increased monopoly power and the concentration of asset ownership. Extreme concentrations of wealth are not consistent with democracies, Wolf argues.</p>\n\n<p>Stephanie suggested that despite austerity (which admittedly was more limited than set out by the Conservative coalition government in 2010) the UK saw an impressive period of jobs growth and declining inequality (on some measures at least). QE, however, has prompted a populist backlash to some degree because of the perception of the impact it has had on boosting asset prices and therefore favouring the elites. In the event of another economic downturn could there thus be further backlash against more quantitative easing (QE)?</p>\n\n<p>Martin agreed that central banks are indeed frightened about what they are able do to counter another recession, their tool boxes being very constrained. The Fed, for example, would normally cut rates by 5 percentage points which is simply not available with rates where they are right now. An amount of QE equivalent to rate cuts could be undertaken but with bond yields so low and with the US likely to see such a move by another country as an act of economic war, there are limits to what central banks globally can do. Wolf expects some version of helicopter money should another downturn arise. This might be a simpler solution than introducing significantly negative short rates which would probably require a restructuring of the banking sector. Lowering central bank lending rates into negative territory but maintaining positive (or zero) deposit rates could be an answer but that would be tantamount to a fiscal operation with central banks effectively supporting bank profitability).</p>\n\n<p>The conversation then turned to fiscal policy and the Italian situation. Martin remarked that Italian fiscal policy had been reasonably disciplined over the past decade and that we were now talking about a relatively modest extra easing - just a few percentage points of GDP. While Europe and the UK were in respectable fiscal territory there has been a sizeable fiscal expansion in the US and the President has succeeded in encouraging the Fed to stop tightening during a period of very high employment. There is a question whether the US is thereby taking big risks with inflation.</p>\n\n<p>As for US tariffs, Wolf was unsurprisingly critical noting that if the President were to put tariffs on the remainder of Chinese imports it would become more protectionist than India and close to Brazil in terms of average tariff rates. US citizens were likely to lose more from tariffs than tax cuts would provide. The US, it was argued, thinks it should be self-sufficient when it comes to trade which, historically, has been marginal to the US. This is, of course, not true of the UK and Germany. The US either thinks it can break open China leading to a trade “feast”, or cut off China and improve the lot for home workers as a China weakens. Wolf argues that whichever strategy the US takes it is unlikely to be successful.</p>\n\n<div class=\"clearfix\"></div>\n<div class=\"body_image_container image format_landscape \">\n\n<img class=\"body_image\" src=\"/site/assets/files/5443/20190701_180741_resized.1200x0.webp\" alt=\"\">\n\n\n<!-- Type: image  Size: nocrop  Sizeclass format_landscape -->\n\n\n</div>"
+    "body": "<p>Bloomberg’s Head of Economics Stephanie Flanders interviewed the FT’s Chief Economics Commentator Martin Wolf at a well-attended SPE event on populism, kindly hosted by the Resolution Foundation on 1 July. Stephanie’s first question - how do you even define populism?</p>\n\n<p>Both left- and right-wing populism share common traits, Mr Wolf argued - it is the mobilisation of people politically against existing elites to force social change. In America this has often been seen to be a force for good, versus the darker view of populism that has been witnessed in European history. The latter involves hostility to: the important and valuable institutions run by elites; foreigners; minorities (typical right-wing elitism), and has often been associated with a charismatic leader who believes themselves to be the answer to the problem (think Mussolini, Hitler).</p>\n\n<p>Stephanie pointed out that there has been a sizeable rise in countries (as measured by share of world GDP) run by populists or non-democratic regimes over the past decade since the financial crisis, and that populist governments have generally been re-elected. Martin responded by noting that right-wing populists have generally done better than left-wingers in that respect (aside from in those countries having experienced true economic collapse). He argued that right-wing populism tends to think along class lines and the promotion of egalitarianism, whereas the right-wing version of populism thinks about ethnic groupings and nationality, often being comfortable with extreme inequality. Whatever the case, the political middle ground has been hollowed out everywhere - from both sides of the political spectrum.</p>\n\n<p>But is populism changing political systems for the better or fundamentally undermining them, Stephanie went on to ask? Martin used the examples of both Roosevelts in the US - Theodore’s anti-trust policies and FDR’s New Deal. Both recognised that the political consequences could be much worse were they not to respond to populism in these ways. This is where populism can be especially helpful - in encouraging establishment politicians to engage by delivering sensible responses. The Europeans have handled populism badly, however, Mr Wolf argues - which is why we have Mr Salvini and not Mr Monti as the (effective) head of government in Italy right now.</p>\n\n<p>Can populists do good things? It is rare, argues Wolf. Radical reformers are typically more self-disciplined than populists. Some sort of “disciplined social radicalism” would be the ideal response, he believes.</p>\n\n<p>The debate then turned to central banking and government policy. Martin reiterated his view that following the financial crisis countries that had the means - such as the UK - should have done all they could to return to full employment more speedily. He argues that the inhibition of direct monetary financing is inappropriate in a severe recession. Governments also need to be more aggressive in addressing the decline in competition in market economies that has resulted from increased monopoly power and the concentration of asset ownership. Extreme concentrations of wealth are not consistent with democracies, Wolf argues.</p>\n\n<p>Stephanie suggested that despite austerity (which admittedly was more limited than set out by the Conservative coalition government in 2010) the UK saw an impressive period of jobs growth and declining inequality (on some measures at least). QE, however, has prompted a populist backlash to some degree because of the perception of the impact it has had on boosting asset prices and therefore favouring the elites. In the event of another economic downturn could there thus be further backlash against more quantitative easing (QE)?</p>\n\n<p>Martin agreed that central banks are indeed frightened about what they are able do to counter another recession, their tool boxes being very constrained. The Fed, for example, would normally cut rates by 5 percentage points which is simply not available with rates where they are right now. An amount of QE equivalent to rate cuts could be undertaken but with bond yields so low and with the US likely to see such a move by another country as an act of economic war, there are limits to what central banks globally can do. Wolf expects some version of helicopter money should another downturn arise. This might be a simpler solution than introducing significantly negative short rates which would probably require a restructuring of the banking sector. Lowering central bank lending rates into negative territory but maintaining positive (or zero) deposit rates could be an answer but that would be tantamount to a fiscal operation with central banks effectively supporting bank profitability).</p>\n\n<p>The conversation then turned to fiscal policy and the Italian situation. Martin remarked that Italian fiscal policy had been reasonably disciplined over the past decade and that we were now talking about a relatively modest extra easing - just a few percentage points of GDP. While Europe and the UK were in respectable fiscal territory there has been a sizeable fiscal expansion in the US and the President has succeeded in encouraging the Fed to stop tightening during a period of very high employment. There is a question whether the US is thereby taking big risks with inflation.</p>\n\n<p>As for US tariffs, Wolf was unsurprisingly critical noting that if the President were to put tariffs on the remainder of Chinese imports it would become more protectionist than India and close to Brazil in terms of average tariff rates. US citizens were likely to lose more from tariffs than tax cuts would provide. The US, it was argued, thinks it should be self-sufficient when it comes to trade which, historically, has been marginal to the US. This is, of course, not true of the UK and Germany. The US either thinks it can break open China leading to a trade “feast”, or cut off China and improve the lot for home workers as a China weakens. Wolf argues that whichever strategy the US takes it is unlikely to be successful.</p>\n\n<div class=\"clearfix\"></div>\n<div class=\"body_image_container image format_landscape \">\n\n<img class=\"body_image\" src=\"/site/assets/files/5443/20190701_180741_resized.1200x0.webp\" alt=\"\">\n\n\n<!-- Type: image  Size: nocrop  Sizeclass format_landscape -->\n\n\n</div>",
+    "topics": [
+      "Geopolitics"
+    ]
   },
   {
     "slug": "podcasts/5454",
@@ -2744,7 +3296,8 @@
         "id": "652513310",
         "url": "https://api.soundcloud.com/tracks/652513310?secret_token=s-DWIJJ"
       }
-    ]
+    ],
+    "topics": []
   },
   {
     "slug": "dinners/5436",
@@ -2760,7 +3313,8 @@
       "/images/5436/199292_186.1200x720.jpg",
       "/images/5436/199292_236.1200x720.jpg",
       "/images/5436/199292_351.1200x720.jpg"
-    ]
+    ],
+    "topics": []
   },
   {
     "slug": "evening-talks/5352",
@@ -2773,6 +3327,9 @@
       "Speaker: Prof Jagjit Chadha",
       "Speaker: Prof Thomas Sampson",
       "Speaker: Gemma Tetlow"
+    ],
+    "topics": [
+      "Trade & Globalisation"
     ]
   },
   {
@@ -2787,6 +3344,10 @@
       "Speaker: Andy Haldane",
       "Speaker: Sarah Smith",
       "Speaker: Gemma Tetlow"
+    ],
+    "topics": [
+      "Monetary Policy",
+      "Labour Markets"
     ]
   },
   {
@@ -2798,7 +3359,10 @@
       "Speaker: Andrew Goodwin, Senior UK Economist, Oxford Economics"
     ],
     "category": "speaker-series",
-    "body": "<div class='heading'>\n<h5 >22 January 2019</h5>\n<h1>2019 Outlook for the UK Economy</h1>\n<h4 ><strong>Speaker: </strong><a href='../../../search/index.html%3Fq=Doug+McWilliams.tmp.html'>Doug McWilliams</a>, <span class='nobreak'>Deputy Chairman</span>, <span class='nobreak'>CEBR</span><br /><strong>Speaker: </strong><a href='../../../search/index.html%3Fq=Andrew+Goodwin.tmp.html'>Andrew Goodwin</a>, <span class='nobreak'>Senior UK Economist</span>, <span class='nobreak'>Oxford Economics</span></h4 >\n</div>"
+    "body": "<div class='heading'>\n<h5 >22 January 2019</h5>\n<h1>2019 Outlook for the UK Economy</h1>\n<h4 ><strong>Speaker: </strong><a href='../../../search/index.html%3Fq=Doug+McWilliams.tmp.html'>Doug McWilliams</a>, <span class='nobreak'>Deputy Chairman</span>, <span class='nobreak'>CEBR</span><br /><strong>Speaker: </strong><a href='../../../search/index.html%3Fq=Andrew+Goodwin.tmp.html'>Andrew Goodwin</a>, <span class='nobreak'>Senior UK Economist</span>, <span class='nobreak'>Oxford Economics</span></h4 >\n</div>",
+    "topics": [
+      "Macroeconomics"
+    ]
   },
   {
     "slug": "evening-talks/5290",
@@ -2816,6 +3380,9 @@
         "id": "sbe-audio-feed/brexit-seminar",
         "url": "https://soundcloud.com/sbe-audio-feed/brexit-seminar"
       }
+    ],
+    "topics": [
+      "Trade & Globalisation"
     ]
   },
   {
@@ -2829,7 +3396,8 @@
       "Speaker: Prof Wendy Carlin",
       "Speaker: Prof David Vines",
       "Speaker: Prof Simon Wren-Lewis"
-    ]
+    ],
+    "topics": []
   },
   {
     "slug": "evening-talks/5204",
@@ -2839,7 +3407,10 @@
       "Speaker: Adam Giles, Financial Conduct Authority"
     ],
     "category": "speaker-series",
-    "body": "<div class='heading'>\n<h5 >01 October 2018 12.00pm&nbsp;-&nbsp;2.00pm</h5>\n<h1>Machine Learning and Economics</h1>\n<h4 ><strong>Speaker: </strong><a href='../../../search/index.html%3Fq=Adam+Giles.tmp.html'>Adam Giles</a>, <span class='nobreak'>Financial Conduct Authority</span></h4 ><h4><strong>Venue: </strong>Ashurst, Broadwalk&nbsp;House, 5&nbsp;Appold&nbsp;Street, London, EC2A&nbsp;2AG\n</h4 >\n</div>"
+    "body": "<div class='heading'>\n<h5 >01 October 2018 12.00pm&nbsp;-&nbsp;2.00pm</h5>\n<h1>Machine Learning and Economics</h1>\n<h4 ><strong>Speaker: </strong><a href='../../../search/index.html%3Fq=Adam+Giles.tmp.html'>Adam Giles</a>, <span class='nobreak'>Financial Conduct Authority</span></h4 ><h4><strong>Venue: </strong>Ashurst, Broadwalk&nbsp;House, 5&nbsp;Appold&nbsp;Street, London, EC2A&nbsp;2AG\n</h4 >\n</div>",
+    "topics": [
+      "Technology"
+    ]
   },
   {
     "slug": "conferences/5157",
@@ -2856,6 +3427,9 @@
     ],
     "speakers": [
       "Speaker: Stephanie Flanders"
+    ],
+    "topics": [
+      "Monetary Policy"
     ]
   },
   {
@@ -2863,21 +3437,30 @@
     "title": "George Matlock talks to Robert Chote at the SPE Annual Conference 2018",
     "date": "2018-09-28",
     "category": "podcast",
-    "body": "<p></p><div class=\"clearfix\"></div>\n<div class=\"body_image_container image format_landscape \">\n\n<img class=\"body_image\" src=\"/site/assets/files/5160/robert_chote-_obr.1200x0.jpg\" alt=\"Robert Chote\">\n<figcaption>Robert Chote</figcaption>\n\n<!-- Type: image  Size: nocrop  Sizeclass format_landscape -->\n\n\n</div> On the sidelines of the Society’s Annual Conference, Robert discusses the changing environment for forecasting with fewer public sector staff having advanced sight of official data and countered by the challenges facing short-term forecasts against risks such as Brexit, trade and disruptive politics.<p></p>\n\n<div class=\"full\" style=\"margin:2em 0;\">\n\t\n\t</div>"
+    "body": "<p></p><div class=\"clearfix\"></div>\n<div class=\"body_image_container image format_landscape \">\n\n<img class=\"body_image\" src=\"/site/assets/files/5160/robert_chote-_obr.1200x0.jpg\" alt=\"Robert Chote\">\n<figcaption>Robert Chote</figcaption>\n\n<!-- Type: image  Size: nocrop  Sizeclass format_landscape -->\n\n\n</div> On the sidelines of the Society’s Annual Conference, Robert discusses the changing environment for forecasting with fewer public sector staff having advanced sight of official data and countered by the challenges facing short-term forecasts against risks such as Brexit, trade and disruptive politics.<p></p>\n\n<div class=\"full\" style=\"margin:2em 0;\">\n\t\n\t</div>",
+    "topics": [
+      "Trade & Globalisation"
+    ]
   },
   {
     "slug": "podcasts/5163",
     "title": "Sunil Krishnan talks to Philip Lane at the SPE Annual Conference 2018",
     "date": "2018-09-28",
     "category": "podcast",
-    "body": "<p></p><div class=\"clearfix\"></div>\n<div class=\"body_image_container image format_landscape \">\n\n<img class=\"body_image\" src=\"/site/assets/files/5163/philip-r-lane.1200x0.webp\" alt=\"Philip Lane\">\n<figcaption>Philip Lane</figcaption>\n\n<!-- Type: image  Size: nocrop  Sizeclass format_landscape -->\n\n\n</div> On the sidelines of the Society’s Annual Conference, Sunil Krishnan talks to Philip Lane about how the European Central Bank has developed its policy strategy to govern the range of unconventional tools it has employed in recent years.&nbsp; They also discuss ways of gauging the effectiveness of different tools, and how multi-national policy can co-exist with localised labour markets.<p></p>\n\n<div class=\"full\" style=\"margin:2em 0;\">\n\t\n\t</div>"
+    "body": "<p></p><div class=\"clearfix\"></div>\n<div class=\"body_image_container image format_landscape \">\n\n<img class=\"body_image\" src=\"/site/assets/files/5163/philip-r-lane.1200x0.webp\" alt=\"Philip Lane\">\n<figcaption>Philip Lane</figcaption>\n\n<!-- Type: image  Size: nocrop  Sizeclass format_landscape -->\n\n\n</div> On the sidelines of the Society’s Annual Conference, Sunil Krishnan talks to Philip Lane about how the European Central Bank has developed its policy strategy to govern the range of unconventional tools it has employed in recent years.&nbsp; They also discuss ways of gauging the effectiveness of different tools, and how multi-national policy can co-exist with localised labour markets.<p></p>\n\n<div class=\"full\" style=\"margin:2em 0;\">\n\t\n\t</div>",
+    "topics": [
+      "Monetary Policy"
+    ]
   },
   {
     "slug": "podcasts/5187",
     "title": "George Matlock talks to Jari Stehn, Senior Global Economist, Goldman Sachs & Tom Orlik, Chief Economist, Bloomberg Economics at the SPE Annual Conference 2018",
     "date": "2018-09-28",
     "category": "podcast",
-    "body": "<div class=\"clearfix\"></div>\n<div class=\"body_image_container image format_landscape \">\n\n<img class=\"body_image\" src=\"/site/assets/files/5187/jari_stehn-_goldman_sachs-_tom_orlik-_bloomberg.1200x720.jpg\" alt=\"Jari Stehn and Tom Orlik\">\n<figcaption>Jari Stehn and Tom Orlik</figcaption>\n\n<!-- Type: image  Size: landscape  Sizeclass format_landscape -->\n\n\n</div>\n\n<p>Jari and Tom discuss the prospects for the US dollar and global supply chains in the fallout from the US-China trade war, and Tom explains the growth of thought leadership and economic thinking inside media groups.</p>\n\n<div class=\"full\" style=\"margin:2em 0;\">\n\t\n\t</div>"
+    "body": "<div class=\"clearfix\"></div>\n<div class=\"body_image_container image format_landscape \">\n\n<img class=\"body_image\" src=\"/site/assets/files/5187/jari_stehn-_goldman_sachs-_tom_orlik-_bloomberg.1200x720.jpg\" alt=\"Jari Stehn and Tom Orlik\">\n<figcaption>Jari Stehn and Tom Orlik</figcaption>\n\n<!-- Type: image  Size: landscape  Sizeclass format_landscape -->\n\n\n</div>\n\n<p>Jari and Tom discuss the prospects for the US dollar and global supply chains in the fallout from the US-China trade war, and Tom explains the growth of thought leadership and economic thinking inside media groups.</p>\n\n<div class=\"full\" style=\"margin:2em 0;\">\n\t\n\t</div>",
+    "topics": [
+      "Trade & Globalisation"
+    ]
   },
   {
     "slug": "podcasts/5200",
@@ -2894,6 +3477,9 @@
     ],
     "speakers": [
       "Speaker: Evan Davis, BBC broadcaster and journalist"
+    ],
+    "topics": [
+      "Trade & Globalisation"
     ]
   },
   {
@@ -2904,14 +3490,18 @@
     "body": "<div class=\"clearfix\"></div>\n<div class=\"body_image_container image format_portrait \">\n\n<img class=\"body_image\" src=\"/site/assets/files/5252/stephanie_flanders.500x666.jpg\" alt=\"\">\n\n\n<!-- Type: image  Size: portrait  Sizeclass format_portrait -->\n\n\n</div>\n\n<p style=\"margin-left:0cm;margin-right:0cm;\">On the sidelines of the Society’s Annual Conference, Sunil Krishnan talks to the event’s host about how the day’s discussions reflect on the mood of the economics profession, the way forward for practitioners, and life at the intersection of journalism and financial markets.</p>\n\n<div class=\"full\" style=\"margin:2em 0;\">\n\t\n\t</div>",
     "speakers": [
       "Speaker: Stephanie Flanders, Head of Bloomberg Economics"
-    ]
+    ],
+    "topics": []
   },
   {
     "slug": "podcasts/5146",
     "title": "Rebecca Harding talks to Rain Newton‑Smith",
     "date": "2018-08-16",
     "category": "podcast",
-    "body": "<div class=\"full\" style=\"margin:2em 0;\">\n\t\n\t</div>\n\n<p>Rebecca Harding interviews the Chief Economist and SPE Council Member, Rain Newton-Smith on the UK economy, Brexit, and the challenges for businesses in uncertain times.</p>"
+    "body": "<div class=\"full\" style=\"margin:2em 0;\">\n\t\n\t</div>\n\n<p>Rebecca Harding interviews the Chief Economist and SPE Council Member, Rain Newton-Smith on the UK economy, Brexit, and the challenges for businesses in uncertain times.</p>",
+    "topics": [
+      "Trade & Globalisation"
+    ]
   },
   {
     "slug": "evening-talks/5090",
@@ -2921,7 +3511,11 @@
       "Speaker: Dr Ben Broadbent, Deputy Governor, Monetary Policy, Bank of England"
     ],
     "category": "speaker-series",
-    "body": "<p>Ben Broadbent, the Bank of England’s Deputy Governor for Monetary Policy, addressed the Society on the history of the UK’s experience of quantitative easing in a special - and particularly well attended - evening meeting held at Ashurst on 23 July. SPE Chairman Kevin Daly hosted.</p>\n\n<div class=\"clearfix\"></div>\n<div class=\"body_image_container image format_landscape \">\n\n<img class=\"body_image\" src=\"/site/assets/files/5090/broadbent_daly.1200x720.webp\" alt=\"\">\n\n\n<!-- Type: image  Size: landscape  Sizeclass format_landscape -->\n\n\n</div>\n\n<p>The idea of quantitative easing (QE) was not new, Dr Broadbent began, noting the discussion of large scale asset purchases in Friedman and Schwartz’s influential 1960s book on the history of US monetary policy - a book which radically changed perceptions of what such policy could and could not do. And that in turn followed on from Keynes’ 1930 Treatise on Money which even back then suggested lower long term rates could be generated by central bank purchases.</p>\n\n<p>Judging the impact of recent QE programmes, however, is difficult Dr Broadbent argues. Experimentation is not possible in macroeconomics and such policies have been a reaction to - rather than a cause of - events. But it was observed that unlike the Great Depression, bank deposits did not collapse this time, industrial production didn’t halve and unemployment didn’t rise to 30%. While it is not possible to isolate QE as the cause of this less pernicious outturn, it was better than risking the alternative of doing nothing.</p>\n\n<p>There are various ways to test the impact of central bank asset purchases, with the negative announcement effect on government bond yields being easier to discern than any positive impact on equity prices. The impact of QE, it was argued, will change over both time and economic conditions. Dr Broadbent quotes a recent study by Weale and Weiladek that suggests asset purchases worth 1% of GDP add between a fifth to a third of a percent to GDP in the UK and US. As for asset prices, Broadbent suggests that QE prevented house prices from falling further rather than sparking a boom.</p>\n\n<p>Given the downside impact of QE on yields one might have expected a sharp upward response to yields in the US as the Fed announced quantitative tightening (QT) from early 2017. Event studies (based on bond market reactions half an hour after announcements) show otherwise, however. Why the difference on the way in to QE versus on the way out? Dr Broadbent suggests the “novelty value” of QE was important in reducing rates initially and that purchases matter more when markets seize up than when they are operating normally.</p>\n\n<p>Moreover, the Fed - he notes - has gone out of its way to stress that balance sheet shrinkage implies lower short rates than would otherwise have been the case. This sent a different message to the markets than during the 2013 taper tantrum, thereby dampening the effect of the QE roll-off on bond yields. Dr Broadbent said that the Bank of England would eventually do the same - decisions on Bank Rate, the BoE’s primary tool for altering policy at the margin, would take into consideration QE unwind when eventually that came to pass.</p>\n\n<p>With thanks to Ashurst for hosting the event.</p>\n\n<p><br>\nGeorge Buckley, Vice Chair SPE</p>"
+    "body": "<p>Ben Broadbent, the Bank of England’s Deputy Governor for Monetary Policy, addressed the Society on the history of the UK’s experience of quantitative easing in a special - and particularly well attended - evening meeting held at Ashurst on 23 July. SPE Chairman Kevin Daly hosted.</p>\n\n<div class=\"clearfix\"></div>\n<div class=\"body_image_container image format_landscape \">\n\n<img class=\"body_image\" src=\"/site/assets/files/5090/broadbent_daly.1200x720.webp\" alt=\"\">\n\n\n<!-- Type: image  Size: landscape  Sizeclass format_landscape -->\n\n\n</div>\n\n<p>The idea of quantitative easing (QE) was not new, Dr Broadbent began, noting the discussion of large scale asset purchases in Friedman and Schwartz’s influential 1960s book on the history of US monetary policy - a book which radically changed perceptions of what such policy could and could not do. And that in turn followed on from Keynes’ 1930 Treatise on Money which even back then suggested lower long term rates could be generated by central bank purchases.</p>\n\n<p>Judging the impact of recent QE programmes, however, is difficult Dr Broadbent argues. Experimentation is not possible in macroeconomics and such policies have been a reaction to - rather than a cause of - events. But it was observed that unlike the Great Depression, bank deposits did not collapse this time, industrial production didn’t halve and unemployment didn’t rise to 30%. While it is not possible to isolate QE as the cause of this less pernicious outturn, it was better than risking the alternative of doing nothing.</p>\n\n<p>There are various ways to test the impact of central bank asset purchases, with the negative announcement effect on government bond yields being easier to discern than any positive impact on equity prices. The impact of QE, it was argued, will change over both time and economic conditions. Dr Broadbent quotes a recent study by Weale and Weiladek that suggests asset purchases worth 1% of GDP add between a fifth to a third of a percent to GDP in the UK and US. As for asset prices, Broadbent suggests that QE prevented house prices from falling further rather than sparking a boom.</p>\n\n<p>Given the downside impact of QE on yields one might have expected a sharp upward response to yields in the US as the Fed announced quantitative tightening (QT) from early 2017. Event studies (based on bond market reactions half an hour after announcements) show otherwise, however. Why the difference on the way in to QE versus on the way out? Dr Broadbent suggests the “novelty value” of QE was important in reducing rates initially and that purchases matter more when markets seize up than when they are operating normally.</p>\n\n<p>Moreover, the Fed - he notes - has gone out of its way to stress that balance sheet shrinkage implies lower short rates than would otherwise have been the case. This sent a different message to the markets than during the 2013 taper tantrum, thereby dampening the effect of the QE roll-off on bond yields. Dr Broadbent said that the Bank of England would eventually do the same - decisions on Bank Rate, the BoE’s primary tool for altering policy at the margin, would take into consideration QE unwind when eventually that came to pass.</p>\n\n<p>With thanks to Ashurst for hosting the event.</p>\n\n<p><br>\nGeorge Buckley, Vice Chair SPE</p>",
+    "topics": [
+      "Monetary Policy",
+      "Economic History"
+    ]
   },
   {
     "slug": "evening-talks/5056",
@@ -2932,7 +3526,8 @@
       "Speaker: Sean O'Grady, Deputy Managing Editor, The Independent"
     ],
     "category": "speaker-series",
-    "body": "<div class='heading'>\n<h5 >19 June 2018 6.00pm</h5>\n<h1>Integenerational Fairness</h1>\n<h4 ><strong>Speaker: </strong><a href='../../../search/index.html%3Fq=Torsten+Bell.tmp.html'>Torsten Bell</a>, <span class='nobreak'>Director</span>, <span class='nobreak'>Resolution Foundation</span><br /><strong>Speaker: </strong>Sean O&#039;Grady, <span class='nobreak'>Deputy Managing Editor</span>, <span class='nobreak'>The Independent</span></h4 >\n</div>"
+    "body": "<div class='heading'>\n<h5 >19 June 2018 6.00pm</h5>\n<h1>Integenerational Fairness</h1>\n<h4 ><strong>Speaker: </strong><a href='../../../search/index.html%3Fq=Torsten+Bell.tmp.html'>Torsten Bell</a>, <span class='nobreak'>Director</span>, <span class='nobreak'>Resolution Foundation</span><br /><strong>Speaker: </strong>Sean O&#039;Grady, <span class='nobreak'>Deputy Managing Editor</span>, <span class='nobreak'>The Independent</span></h4 >\n</div>",
+    "topics": []
   },
   {
     "slug": "dinners/5045",
@@ -2947,6 +3542,9 @@
       "/images/5045/189274_164.1200x720.jpg",
       "/images/5045/189274_177.1200x720.webp",
       "/images/5045/189274_218.1200x720.jpg"
+    ],
+    "topics": [
+      "Monetary Policy"
     ]
   },
   {
@@ -2957,7 +3555,11 @@
       "Speaker: William Zimmern, Head of Global Macroeconomics, BP"
     ],
     "category": "speaker-series",
-    "body": "<p>BP’s Head of Global Macroeconomics William Zimmern hosted a fascinating discussion on the long-term outlook for oil and energy markets at BP’s London St James Square offices.</p>\n\n<p>William’s focus was on BP’s 2018 ‘Energy Outlook’, an annual publication that considers a range of scenarios for long-term structural trends in energy markets over the next 25 years. In particular the firm’s so called ‘evolving transition scenario’ assumes a continuation in recent trends in energy technologies, but with no major structural changes or significant shocks.</p>\n\n<p>In this forecast global growth of 3.25% is assumed, which is similar to that of the past 25 years, split roughly into three quarters productivity growth and one quarter population expansion. Much of this growth is expected to come from developing rather than developed countries.</p>\n\n<p>As a result energy demand is seen by BP rising by a third over the 25-year horizon, or 1.3% per year - while that is down from past annual rates of 2% it is due to improved efficiency. All of this rise in demand growth is ascribed to developing rather than developed countries, with China and India together accounting for half of it. In the final decade of the forecast India is the biggest single driver of demand growth, while Africa becomes responsible for as much a quarter of total growth.</p>\n\n<p>William then turns to market shares, noting that renewables are forecast to rise sizeably from 4% to 14% of energy output over the forecast period. Coal usage is seen as flat-lining thanks to demand peaking in China, and while oil should continue to grow it should lose market share over time - according to BP. Gas gains market share. All in all, William notes the more diversified fuel mix we are likely to see emerging in the coming decades, and a slippage in oil’s dominance.</p>\n\n<p>Whether it be oil, gas, coal, or non-fossil sources, William argues that fuel supply is currently in abundance. Different fuel types are beginning to compete with each other sectorally like never before - for example, electricity and gas penetrating the transport sector, renewable becoming competitive in providing power vis a vis gas and coal, and electricity supplanting coal and gas usage in industry.</p>\n\n<p></p><div class=\"clearfix\"></div>\n<div class=\"body_image_container image format_portrait \">\n\n<img class=\"body_image\" src=\"/site/assets/files/5004/20180502_134351_resized.500x666.webp\" alt=\"\">\n\n\n<!-- Type: image  Size: portrait  Sizeclass format_portrait -->\n\n\n</div> William concludes by looking at three key questions for the future of the energy market. First, electric vehicles (EVs). Of the current 1 billion vehicles on the roads globally just 2 million are electric of some form. Car ownership is set to double to 2 billion over the next 25 years thanks largely to China and India according to BP estimates, of which EVs are forecast to rise to 300 million. By kilometres driven (which it is argued is a better measure than simply ownership given the likely higher intensity of use of EVs) however, electric vehicles could account for almost a third of total usage by 2040. That share could rise to as high as 80% over the same time frame if governments decide to introduce bans on the internal combustion engine (ICE). The impact of such a ban on carbon emissions, however, might be relatively small given that cars only account for 20% of total oil consumption and they are relatively low emission in the first place. As a result, William argues that EVs are not the solution to the carbon issue.<p></p>\n\n<p>Second, when will oil demand stop rising? BP’s forecast assumes that oil demand rises by 10mbd to 110mbd by 2040 and the firm sees peak oil demand in the mid-2030s (early-2030s in the event of an ICE ban). There is much uncertainty around this forecast and it is noted that oil demand could peak rather later if efficiency grows at slower rates than assumed.</p>\n\n<p>Finally, how fast will renewables grow? Forecasters have repeatedly underestimated renewables growth. One explanation for this error is Swanson’s Law - that for every doubling of renewables capacity prices fall by 20% (or more like 25% in William’s view). Energy market shares tend to move slowly over time given the scale of investment that the sector requires. Still, after having reached 1% of global energy output in 2008, William concludes by arguing that renewables should penetrate global energy markets quicker than any other fuel in history.</p>\n\n<p>With many thanks to William and BP for hosting the event.</p>\n\n<p>George Buckley<br>\nVice Chair SPE, 2 May 2018</p>"
+    "body": "<p>BP’s Head of Global Macroeconomics William Zimmern hosted a fascinating discussion on the long-term outlook for oil and energy markets at BP’s London St James Square offices.</p>\n\n<p>William’s focus was on BP’s 2018 ‘Energy Outlook’, an annual publication that considers a range of scenarios for long-term structural trends in energy markets over the next 25 years. In particular the firm’s so called ‘evolving transition scenario’ assumes a continuation in recent trends in energy technologies, but with no major structural changes or significant shocks.</p>\n\n<p>In this forecast global growth of 3.25% is assumed, which is similar to that of the past 25 years, split roughly into three quarters productivity growth and one quarter population expansion. Much of this growth is expected to come from developing rather than developed countries.</p>\n\n<p>As a result energy demand is seen by BP rising by a third over the 25-year horizon, or 1.3% per year - while that is down from past annual rates of 2% it is due to improved efficiency. All of this rise in demand growth is ascribed to developing rather than developed countries, with China and India together accounting for half of it. In the final decade of the forecast India is the biggest single driver of demand growth, while Africa becomes responsible for as much a quarter of total growth.</p>\n\n<p>William then turns to market shares, noting that renewables are forecast to rise sizeably from 4% to 14% of energy output over the forecast period. Coal usage is seen as flat-lining thanks to demand peaking in China, and while oil should continue to grow it should lose market share over time - according to BP. Gas gains market share. All in all, William notes the more diversified fuel mix we are likely to see emerging in the coming decades, and a slippage in oil’s dominance.</p>\n\n<p>Whether it be oil, gas, coal, or non-fossil sources, William argues that fuel supply is currently in abundance. Different fuel types are beginning to compete with each other sectorally like never before - for example, electricity and gas penetrating the transport sector, renewable becoming competitive in providing power vis a vis gas and coal, and electricity supplanting coal and gas usage in industry.</p>\n\n<p></p><div class=\"clearfix\"></div>\n<div class=\"body_image_container image format_portrait \">\n\n<img class=\"body_image\" src=\"/site/assets/files/5004/20180502_134351_resized.500x666.webp\" alt=\"\">\n\n\n<!-- Type: image  Size: portrait  Sizeclass format_portrait -->\n\n\n</div> William concludes by looking at three key questions for the future of the energy market. First, electric vehicles (EVs). Of the current 1 billion vehicles on the roads globally just 2 million are electric of some form. Car ownership is set to double to 2 billion over the next 25 years thanks largely to China and India according to BP estimates, of which EVs are forecast to rise to 300 million. By kilometres driven (which it is argued is a better measure than simply ownership given the likely higher intensity of use of EVs) however, electric vehicles could account for almost a third of total usage by 2040. That share could rise to as high as 80% over the same time frame if governments decide to introduce bans on the internal combustion engine (ICE). The impact of such a ban on carbon emissions, however, might be relatively small given that cars only account for 20% of total oil consumption and they are relatively low emission in the first place. As a result, William argues that EVs are not the solution to the carbon issue.<p></p>\n\n<p>Second, when will oil demand stop rising? BP’s forecast assumes that oil demand rises by 10mbd to 110mbd by 2040 and the firm sees peak oil demand in the mid-2030s (early-2030s in the event of an ICE ban). There is much uncertainty around this forecast and it is noted that oil demand could peak rather later if efficiency grows at slower rates than assumed.</p>\n\n<p>Finally, how fast will renewables grow? Forecasters have repeatedly underestimated renewables growth. One explanation for this error is Swanson’s Law - that for every doubling of renewables capacity prices fall by 20% (or more like 25% in William’s view). Energy market shares tend to move slowly over time given the scale of investment that the sector requires. Still, after having reached 1% of global energy output in 2008, William concludes by arguing that renewables should penetrate global energy markets quicker than any other fuel in history.</p>\n\n<p>With many thanks to William and BP for hosting the event.</p>\n\n<p>George Buckley<br>\nVice Chair SPE, 2 May 2018</p>",
+    "topics": [
+      "Climate & Energy",
+      "Careers & Profession"
+    ]
   },
   {
     "slug": "podcasts/replay-adrian-majumdar-chairs-debate-on-algorithms",
@@ -2975,7 +3577,8 @@
     ],
     "speakers": [
       "Chair: Adrian Majumdar"
-    ]
+    ],
+    "topics": []
   },
   {
     "slug": "evening-talks/4953",
@@ -2985,28 +3588,41 @@
       "Speaker: Dr Brad Speigner, Bank of England"
     ],
     "category": "speaker-series",
-    "body": "<div class='heading'>\n<h5 >15 February 2018 </h5>\n<h1>Shaping Monetary Policy at Bank of England</h1>\n<h4 ><strong>Speaker: </strong><a href='../../../search/index.html%3Fq=Brad+Speigner.tmp.html'>Dr Brad Speigner</a>, <span class='nobreak'>Bank of England</span></h4 ><h4><strong>Venue: </strong>Bank of England, Threadneedle&nbsp;Street, London, EC2R&nbsp;8AH\n</h4 >\n</div>"
+    "body": "<div class='heading'>\n<h5 >15 February 2018 </h5>\n<h1>Shaping Monetary Policy at Bank of England</h1>\n<h4 ><strong>Speaker: </strong><a href='../../../search/index.html%3Fq=Brad+Speigner.tmp.html'>Dr Brad Speigner</a>, <span class='nobreak'>Bank of England</span></h4 ><h4><strong>Venue: </strong>Bank of England, Threadneedle&nbsp;Street, London, EC2R&nbsp;8AH\n</h4 >\n</div>",
+    "topics": [
+      "Monetary Policy"
+    ]
   },
   {
     "slug": "evening-talks/4894",
     "title": "2018 Outlook for the UK Economy",
     "date": "2018-01-15",
     "category": "speaker-series",
-    "body": "<div class='heading'>\n<h5 >15 January 2018 6.00pm</h5>\n<h1>2018 Outlook for the UK Economy</h1>\n<h4 ></h4 >\n</div>"
+    "body": "<div class='heading'>\n<h5 >15 January 2018 6.00pm</h5>\n<h1>2018 Outlook for the UK Economy</h1>\n<h4 ></h4 >\n</div>",
+    "topics": [
+      "Macroeconomics"
+    ]
   },
   {
     "slug": "evening-talks/4898",
     "title": "SPE Continuous Development Progamme Launch",
     "date": "2018-01-08",
     "category": "speaker-series",
-    "body": "<p>Professor Peter Urwin from Westminster Business School kicked off the SPE’s Continuing Professional Development series in January with a two-day seminar on using data for the purposes of quantitative evaluation. The aim of the course was to help attendees better understand data analysis to inform strategic policy-making. Peter’s approach is highly example-based, helping to explain how macro models and cost benefit analysis can be used to judge the economic impact of policy decisions.</p>\n\n<p></p><div class=\"clearfix\"></div>\n<div class=\"body_image_container image format_portrait \">\n\n<img class=\"body_image\" src=\"/site/assets/files/4898/cpd_jan_2018_-_for_web.0x420.webp\" alt=\"Peter Urwin\">\n<figcaption>Peter Urwin</figcaption>\n\n<!-- Type: image  Size: nocrop  Sizeclass format_portrait -->\n\n\n</div> The student feedback on the course was very positive – including both the pace of learning and the type of material covered, the latter being a combination of both new material and a refresh of students’ existing knowledge. There was a good mix of professional versus academic context to the course and attendees appreciated the ability to update their statistics skills through worked examples.<p></p>"
+    "body": "<p>Professor Peter Urwin from Westminster Business School kicked off the SPE’s Continuing Professional Development series in January with a two-day seminar on using data for the purposes of quantitative evaluation. The aim of the course was to help attendees better understand data analysis to inform strategic policy-making. Peter’s approach is highly example-based, helping to explain how macro models and cost benefit analysis can be used to judge the economic impact of policy decisions.</p>\n\n<p></p><div class=\"clearfix\"></div>\n<div class=\"body_image_container image format_portrait \">\n\n<img class=\"body_image\" src=\"/site/assets/files/4898/cpd_jan_2018_-_for_web.0x420.webp\" alt=\"Peter Urwin\">\n<figcaption>Peter Urwin</figcaption>\n\n<!-- Type: image  Size: nocrop  Sizeclass format_portrait -->\n\n\n</div> The student feedback on the course was very positive – including both the pace of learning and the type of material covered, the latter being a combination of both new material and a refresh of students’ existing knowledge. There was a good mix of professional versus academic context to the course and attendees appreciated the ability to update their statistics skills through worked examples.<p></p>",
+    "topics": [
+      "Monetary Policy",
+      "Public Policy"
+    ]
   },
   {
     "slug": "evening-talks/4851",
     "title": "China's Outlook following the 19th Party Congress",
     "date": "2017-12-04",
     "category": "speaker-series",
-    "body": "<div class='heading'>\n<h5 >04 December 2017 6.00pm</h5>\n<h1>China&#039;s Outlook following the 19th Party Congress</h1>\n<h4 ></h4 ><h4><strong>Venue: </strong>Ashurst, Broadwalk&nbsp;House, 5&nbsp;Appold&nbsp;Street, London, EC2A&nbsp;2AG\n</h4 >\n</div>"
+    "body": "<div class='heading'>\n<h5 >04 December 2017 6.00pm</h5>\n<h1>China&#039;s Outlook following the 19th Party Congress</h1>\n<h4 ></h4 ><h4><strong>Venue: </strong>Ashurst, Broadwalk&nbsp;House, 5&nbsp;Appold&nbsp;Street, London, EC2A&nbsp;2AG\n</h4 >\n</div>",
+    "topics": [
+      "Geopolitics"
+    ]
   },
   {
     "slug": "dinners/4837",
@@ -3023,6 +3639,9 @@
       "/images/4837/179261_145.1200x720.jpg",
       "/images/4837/179261_191.1200x720.jpg",
       "/images/4837/179261_272.1200x720.jpg"
+    ],
+    "topics": [
+      "Trade & Globalisation"
     ]
   },
   {
@@ -3030,14 +3649,18 @@
     "title": "Rebecca Harding talks to UK statistics regulator Ed Humpherson",
     "date": "2017-10-11",
     "category": "podcast",
-    "body": "<div class=\"full\" style=\"margin:2em 0;\">\n\t\n\t</div>\n\n<p>Ed Humpherson is the Director General of the Office of Statistics Regulation. This podcast focuses on the centrality of high quality statistics and big data to central government administration. Ed sets and enforces the standards for the statistics that are published by the government about “all human life” in the UK, from trade and economics through to health, crime and society. His passion is the data that “is going to be the way we view the world in the future” and his drive is to ensure that he is part of the process of ensuring that data is of the highest quality.</p>\n\n<p>He is in the process of reviewing the data Code of Practice – which is the central governance of how data is collected, managed and interrogated across government. There are two forces driving the need to update the Code which was first established in 2008. He argues that the abundance of data now makes people sceptical about its use and interpretation in the “post-truth” world we live in. His work is about addressing the core challenge that there is “data data everywhere, but no-one is really sure what to believe.”</p>"
+    "body": "<div class=\"full\" style=\"margin:2em 0;\">\n\t\n\t</div>\n\n<p>Ed Humpherson is the Director General of the Office of Statistics Regulation. This podcast focuses on the centrality of high quality statistics and big data to central government administration. Ed sets and enforces the standards for the statistics that are published by the government about “all human life” in the UK, from trade and economics through to health, crime and society. His passion is the data that “is going to be the way we view the world in the future” and his drive is to ensure that he is part of the process of ensuring that data is of the highest quality.</p>\n\n<p>He is in the process of reviewing the data Code of Practice – which is the central governance of how data is collected, managed and interrogated across government. There are two forces driving the need to update the Code which was first established in 2008. He argues that the abundance of data now makes people sceptical about its use and interpretation in the “post-truth” world we live in. His work is about addressing the core challenge that there is “data data everywhere, but no-one is really sure what to believe.”</p>",
+    "topics": [
+      "Economic Measurement"
+    ]
   },
   {
     "slug": "podcasts/4788",
     "title": "George Buckley talks to journalist‑turned-entrepreneur Ashley Seager",
     "date": "2017-09-22",
     "category": "podcast",
-    "body": "<p>Ashley Seager is the managing director of Sun4net Ltd, a company that develops solar energy projects and sells electricity back into the grid.</p>\n\n<p>Prior to setting up his solar business Ashley was an economics journalist for 20 years, spending 14 years at Reuters covering the energy markets (oil and solar) as well as economics, following which he was the Guardian’s economics correspondent until 2010. Between leaving journalism for solar, Ashley worked with Deutsche Bank using his expertise to redraft research reports into more digestible formats.</p>\n\n<p>We touch on a range of fascinating issues in this podcast, from the future of (economics) journalism, the development of solar projects in the UK, Germany and Africa, and the British government’s approach to solar power.</p>\n\n<div class=\"full\" style=\"margin:2em 0;\">\n\t\n\t</div>"
+    "body": "<p>Ashley Seager is the managing director of Sun4net Ltd, a company that develops solar energy projects and sells electricity back into the grid.</p>\n\n<p>Prior to setting up his solar business Ashley was an economics journalist for 20 years, spending 14 years at Reuters covering the energy markets (oil and solar) as well as economics, following which he was the Guardian’s economics correspondent until 2010. Between leaving journalism for solar, Ashley worked with Deutsche Bank using his expertise to redraft research reports into more digestible formats.</p>\n\n<p>We touch on a range of fascinating issues in this podcast, from the future of (economics) journalism, the development of solar projects in the UK, Germany and Africa, and the British government’s approach to solar power.</p>\n\n<div class=\"full\" style=\"margin:2em 0;\">\n\t\n\t</div>",
+    "topics": []
   },
   {
     "slug": "evening-talks/4793",
@@ -3047,14 +3670,22 @@
       "Speaker: Professor Sir Richard Blundell, Institute for Fiscal Studies"
     ],
     "category": "speaker-series",
-    "body": "<div class='heading'>\n<h5 >21 September 2017 </h5>\n<h1>Inequality, Tax Reform and the Labour Market</h1>\n<h4 ><strong>Speaker: </strong><a href='../../../search/index.html%3Fq=Richard+Blundell.tmp.html'>Professor Sir Richard Blundell</a>, <span class='nobreak'>Institute for Fiscal Studies</span></h4 ><h4><strong>Venue: </strong>Ashurst, Broadwalk&nbsp;House, 5&nbsp;Appold&nbsp;Street, London, EC2A&nbsp;2HA\n</h4 >\n</div>"
+    "body": "<div class='heading'>\n<h5 >21 September 2017 </h5>\n<h1>Inequality, Tax Reform and the Labour Market</h1>\n<h4 ><strong>Speaker: </strong><a href='../../../search/index.html%3Fq=Richard+Blundell.tmp.html'>Professor Sir Richard Blundell</a>, <span class='nobreak'>Institute for Fiscal Studies</span></h4 ><h4><strong>Venue: </strong>Ashurst, Broadwalk&nbsp;House, 5&nbsp;Appold&nbsp;Street, London, EC2A&nbsp;2HA\n</h4 >\n</div>",
+    "topics": [
+      "Fiscal Policy",
+      "Labour Markets",
+      "Inequality"
+    ]
   },
   {
     "slug": "podcasts/4819",
     "title": "Speaker Series: Annual Conference interview with Evan Davis",
     "date": "2017-09-18",
     "category": "podcast",
-    "body": "<div class=\"full\" style=\"margin:2em 0;\">\n\t\n\t</div>\n\n<p>Evan Davis is well known as the presenter of the BBC’s Newsnight programme and the business-related shows Dragon’s Den and The Bottom Line.&nbsp; Reflecting on the SBE’s Annual Conference, he speaks to Sunil Krishnan about why the Great Financial Crisis made the public so wary of economists, where their skills really lie, and the outlook for the global economy.</p>"
+    "body": "<div class=\"full\" style=\"margin:2em 0;\">\n\t\n\t</div>\n\n<p>Evan Davis is well known as the presenter of the BBC’s Newsnight programme and the business-related shows Dragon’s Den and The Bottom Line.&nbsp; Reflecting on the SBE’s Annual Conference, he speaks to Sunil Krishnan about why the Great Financial Crisis made the public so wary of economists, where their skills really lie, and the outlook for the global economy.</p>",
+    "topics": [
+      "Financial Markets"
+    ]
   },
   {
     "slug": "conferences/4778",
@@ -3069,6 +3700,10 @@
       "/images/4778/stephen_king.1200x0.webp",
       "/images/4778/chris_giles.0x420.webp",
       "/images/4778/diane_coyle.0x420.webp"
+    ],
+    "topics": [
+      "Macroeconomics",
+      "Monetary Policy"
     ]
   },
   {
@@ -3087,14 +3722,18 @@
         "id": "333023838",
         "url": "https://api.soundcloud.com/tracks/333023838?secret_token=s-DWIJJ"
       }
-    ]
+    ],
+    "topics": []
   },
   {
     "slug": "podcasts/4937",
     "title": "Replay: Britain's long‑term growth",
     "date": "2017-07-03",
     "category": "podcast",
-    "body": "<p>The SBE was very pleased to invite two well known figures in the world of economics to debate the future of economic growth, with Professor Nick Crafts and Professor Tim Besley speaking at the July evening meeting - jointly held with the Government Economic Service and kindly hosted by Ashurst.</p>\n\n<p>Listen to our interview podcast with the two speakers here:</p>\n\n<div class=\"full\" style=\"margin:2em 0;\">\n\t\n\t</div>"
+    "body": "<p>The SBE was very pleased to invite two well known figures in the world of economics to debate the future of economic growth, with Professor Nick Crafts and Professor Tim Besley speaking at the July evening meeting - jointly held with the Government Economic Service and kindly hosted by Ashurst.</p>\n\n<p>Listen to our interview podcast with the two speakers here:</p>\n\n<div class=\"full\" style=\"margin:2em 0;\">\n\t\n\t</div>",
+    "topics": [
+      "Macroeconomics"
+    ]
   },
   {
     "slug": "evening-talks/4671",
@@ -3106,6 +3745,9 @@
       "Speaker: Prof Jagjit Chadha",
       "Speaker: Dr Rebecca Harding",
       "Speaker: Jacqueline Minor"
+    ],
+    "topics": [
+      "Trade & Globalisation"
     ]
   },
   {
@@ -3117,21 +3759,32 @@
       "Speaker: Dr Jari Stehn, Goldman Sachs"
     ],
     "category": "speaker-series",
-    "body": "<div class=\"clearfix\"></div>\n<div class=\"body_image_container image format_landscape \">\n\n<img class=\"body_image\" src=\"/site/assets/files/4653/27_march_photo.1200x720.webp\" alt=\"Andrew Milligan and Dr Jari Stehn\">\n<figcaption>Andrew Milligan and Dr Jari Stehn</figcaption>\n\n<!-- Type: image  Size: landscape  Sizeclass format_landscape -->\n\n\n</div>\n\n<p>As we approach the 10-year anniversary of the start of the financial crisis, one of the most stubborn legacies has been exceptionally low Western interest rates - not just the policy rate but across the term structure. &nbsp;The Society resisted the temptation of a mild and bright Spring evening to hear two recognised market authorities debate whether low rates were here to stay or finally on the point of normalisation.</p>\n\n<p>Andrew Milligan OBE, Head of Global Strategy at Standard Life Investments, opened with the case for persistence. &nbsp;He began by noting that exceptional monetary policy has been both cause and indicator of the structural forces suppressing rates. &nbsp;Even a few years ago phenomena such as negative interest rates were inconceivable - whereas now they are perhaps the most viable option should further easing be needed. &nbsp; The policies themselves have not succeeded in normalising economic conditions; little evidence has emerged that such policies have been effective in economies such as Japan and the euro area - while political difficulties have resulted from the distributional implications. &nbsp;</p>\n\n<p>At the same time, more “conventional” policies such as ultra-low positive rates and government bond purchases have created a fertile environment for capital misallocation resulting from cheap finance. &nbsp;The absence of structural reform from governments is one example. Andy Haldane, the Bank of England’s Chief Economist, has highlighted that misallocation may also be affecting the private sector in the form of slower rates of new firm creation.</p>\n\n<p>Milligan continued by reflecting on the long-term downward trend in inflation and interest rates - this points to forces still greater (or at least older) than the financial crisis. &nbsp;For several decades now, each recession has left rates lower than the last; there is little reason to expect that the impact of the next recession would be any different.</p>\n\n<p>The third leg of the argument is perhaps the hardest to escape: the crushing lack of productivity growth in Western economies - one which has revealed itself not in one shock but in serial downgrades of forecasts. &nbsp;As Haldane has observed, UK productivity growth has dropped from around 2% to nearer zero over the last few decades. &nbsp;Diagnoses of the productivity slump are not encouraging of a quick turnaround. Robert Gordon has argued that waves of technological change are always less impactful from one to the next. Haldane’s own prescription, of management attitude change, is almost the opposite of a quick win.</p>\n\n<p>In their own analysis of the low interest rate regime, The Bank of England believes around 85% of the decline in yields can be explained through structural factors. Demographics is the biggest and best known, but the sheer breadth of this challenge is often overlooked. &nbsp;Human capital requirements in the modern economy have changed faster than the skills of the workforce. &nbsp;There are also interactions with inequality, such as the decline in UK home ownership, especially among the young. Forecasts of worsening dependency ratios in the West and China are perhaps the most alarming figures both in terms of their inevitability and their direct read through to fiscal and economic sustainability.</p>\n\n<p>Cross-border flows are another important downward force on rates which is often overlooked. &nbsp;We underestimate the importance of official institutions’ purchases on home bond markets, together with the regulatory environment facing banks, insurers and pension schemes. &nbsp;There is an acknowledged shortage of high credit quality paper, which means that any additional supply is eagerly seized by investors. &nbsp;20% of the global sovereign market is negative-yielding, and 30% of the euro-market.</p>\n\n<p>Milligan concluded that the impact of cyclically weak demand on rates is at best moderate. &nbsp;Some argue that the current low yields are the result of temporarily was monetary policy. &nbsp;But the supply-side evidence is that policy is being correctly set.</p>\n\n<p>Jari Stehn, Senior Economist at Goldman Sachs, began his response by looking at theoretical efforts to distinguish the structural drivers from more cyclical ones. &nbsp;He acknowledged that financial markets seem to have embraced the model of Federal Reserve researchers Holston, Laubach and Williams (HLW) that the equilibrium real rate has fallen materially - from 4% in the 1960s to zero today. &nbsp;There is plenty of evidence, though, which does not fit this interpretation. &nbsp;Unemployment rates have not just fallen, but faster than was forecast by the economist consensus. &nbsp;Arguably measurement issues around GDP make employment the more reliable indicator of activity. &nbsp;GS’ own in-house indicators suggest that global GDP growth has accelerated from around 2.5% to almost 4.5% in the space of a year.</p>\n\n<p>There are empirical issues with the assumptions of the HLW model. &nbsp;There is very little connection between estimates of potential growth and short-term rates in real terms - a key assumption. This result is apparent over long periods (multiple countries looking back as far as the 19th Century), and when controlling for alternative explanatory factors. This longer term approach also highlights that&nbsp;current real interest rates are not unprecedented and have mean-reverted to higher levels in the past.</p>\n\n<p>There are a number of alternative approaches, but simply easing the assumption of a 1-1 relation between potential growth and real rates produces a more benign outcome. &nbsp;If we also include labour market performance alongside GDP, and allow shocks to potential output to be temporary, the implication is that we have only now returned to full employment, and that equilibrium rates are in fact much more cyclical than HLW allow. &nbsp;The median estimate of sustainable real interest rates, from a range of studies over the last 2 years, approaches 1% more closely than 0%. &nbsp;HLW also accept that the uncertainty around their estimates is of the order of several percentage points.</p>\n\n<p>This uncertainty has policy implications. &nbsp;It may be rational to wait longer before tightening monetary policy into a normalisation - but a necessary consequence is that ultimately more tightening is needed compared to a more certain baseline. &nbsp;This may create surprises versus market expectations.</p>\n\n<p>Responding to questions, Stehn indicated that a failure of inflation to continue its apparent return to central bank targets would be a critical warning sign. &nbsp;Milligan noted the possibility that a lower-growth, lower-rate environment may not be a problem to be solved, but a fact to be accepted. &nbsp;The policy measures which might alternatively be required are indicated by the dramatic move from the Bank of Japan to manage bond yield levels across the curve - little short of classical helicopter money. &nbsp;Regarding the impact of modern technology, Milligan noted that it has perhaps done more to improve utility, in the form of consumer surplus, than output in a way which GDP measures can capture.</p>\n\n<p>It was noticeable that both speakers took different approaches to the issue, and in doing so gave the audience a well rounded view of the enormous range of explanatory factors. &nbsp;Financial markets are currently precariously poised between the two points of view, indicating just how balanced the debate really is. &nbsp;Resolution of the discussion, much less the underlying economic challenges, still feels a distant prospect.</p>\n\n<p>An audio recording of the meeting is available here:</p>\n\n<div class=\"full\" style=\"margin:2em 0;\">\n\t\n\t</div>\n\n<p>Slides are available on request from the SBE office.</p>\n\n<p>To hear an interview between the two speakers and our social media manager, George Matlock, please click here:</p>\n\n<div class=\"full\" style=\"margin:2em 0;\">\n\t\n\t</div>\n\n<div class=\"clearfix\"></div>\n<div class=\"body_image_container image format_landscape \">\n\n<img class=\"body_image\" src=\"/site/assets/files/4653/27_march_photo_2.1200x720.webp\" alt=\"\">\n\n\n<!-- Type: image  Size: landscape  Sizeclass format_landscape -->\n\n\n</div>"
+    "body": "<div class=\"clearfix\"></div>\n<div class=\"body_image_container image format_landscape \">\n\n<img class=\"body_image\" src=\"/site/assets/files/4653/27_march_photo.1200x720.webp\" alt=\"Andrew Milligan and Dr Jari Stehn\">\n<figcaption>Andrew Milligan and Dr Jari Stehn</figcaption>\n\n<!-- Type: image  Size: landscape  Sizeclass format_landscape -->\n\n\n</div>\n\n<p>As we approach the 10-year anniversary of the start of the financial crisis, one of the most stubborn legacies has been exceptionally low Western interest rates - not just the policy rate but across the term structure. &nbsp;The Society resisted the temptation of a mild and bright Spring evening to hear two recognised market authorities debate whether low rates were here to stay or finally on the point of normalisation.</p>\n\n<p>Andrew Milligan OBE, Head of Global Strategy at Standard Life Investments, opened with the case for persistence. &nbsp;He began by noting that exceptional monetary policy has been both cause and indicator of the structural forces suppressing rates. &nbsp;Even a few years ago phenomena such as negative interest rates were inconceivable - whereas now they are perhaps the most viable option should further easing be needed. &nbsp; The policies themselves have not succeeded in normalising economic conditions; little evidence has emerged that such policies have been effective in economies such as Japan and the euro area - while political difficulties have resulted from the distributional implications. &nbsp;</p>\n\n<p>At the same time, more “conventional” policies such as ultra-low positive rates and government bond purchases have created a fertile environment for capital misallocation resulting from cheap finance. &nbsp;The absence of structural reform from governments is one example. Andy Haldane, the Bank of England’s Chief Economist, has highlighted that misallocation may also be affecting the private sector in the form of slower rates of new firm creation.</p>\n\n<p>Milligan continued by reflecting on the long-term downward trend in inflation and interest rates - this points to forces still greater (or at least older) than the financial crisis. &nbsp;For several decades now, each recession has left rates lower than the last; there is little reason to expect that the impact of the next recession would be any different.</p>\n\n<p>The third leg of the argument is perhaps the hardest to escape: the crushing lack of productivity growth in Western economies - one which has revealed itself not in one shock but in serial downgrades of forecasts. &nbsp;As Haldane has observed, UK productivity growth has dropped from around 2% to nearer zero over the last few decades. &nbsp;Diagnoses of the productivity slump are not encouraging of a quick turnaround. Robert Gordon has argued that waves of technological change are always less impactful from one to the next. Haldane’s own prescription, of management attitude change, is almost the opposite of a quick win.</p>\n\n<p>In their own analysis of the low interest rate regime, The Bank of England believes around 85% of the decline in yields can be explained through structural factors. Demographics is the biggest and best known, but the sheer breadth of this challenge is often overlooked. &nbsp;Human capital requirements in the modern economy have changed faster than the skills of the workforce. &nbsp;There are also interactions with inequality, such as the decline in UK home ownership, especially among the young. Forecasts of worsening dependency ratios in the West and China are perhaps the most alarming figures both in terms of their inevitability and their direct read through to fiscal and economic sustainability.</p>\n\n<p>Cross-border flows are another important downward force on rates which is often overlooked. &nbsp;We underestimate the importance of official institutions’ purchases on home bond markets, together with the regulatory environment facing banks, insurers and pension schemes. &nbsp;There is an acknowledged shortage of high credit quality paper, which means that any additional supply is eagerly seized by investors. &nbsp;20% of the global sovereign market is negative-yielding, and 30% of the euro-market.</p>\n\n<p>Milligan concluded that the impact of cyclically weak demand on rates is at best moderate. &nbsp;Some argue that the current low yields are the result of temporarily was monetary policy. &nbsp;But the supply-side evidence is that policy is being correctly set.</p>\n\n<p>Jari Stehn, Senior Economist at Goldman Sachs, began his response by looking at theoretical efforts to distinguish the structural drivers from more cyclical ones. &nbsp;He acknowledged that financial markets seem to have embraced the model of Federal Reserve researchers Holston, Laubach and Williams (HLW) that the equilibrium real rate has fallen materially - from 4% in the 1960s to zero today. &nbsp;There is plenty of evidence, though, which does not fit this interpretation. &nbsp;Unemployment rates have not just fallen, but faster than was forecast by the economist consensus. &nbsp;Arguably measurement issues around GDP make employment the more reliable indicator of activity. &nbsp;GS’ own in-house indicators suggest that global GDP growth has accelerated from around 2.5% to almost 4.5% in the space of a year.</p>\n\n<p>There are empirical issues with the assumptions of the HLW model. &nbsp;There is very little connection between estimates of potential growth and short-term rates in real terms - a key assumption. This result is apparent over long periods (multiple countries looking back as far as the 19th Century), and when controlling for alternative explanatory factors. This longer term approach also highlights that&nbsp;current real interest rates are not unprecedented and have mean-reverted to higher levels in the past.</p>\n\n<p>There are a number of alternative approaches, but simply easing the assumption of a 1-1 relation between potential growth and real rates produces a more benign outcome. &nbsp;If we also include labour market performance alongside GDP, and allow shocks to potential output to be temporary, the implication is that we have only now returned to full employment, and that equilibrium rates are in fact much more cyclical than HLW allow. &nbsp;The median estimate of sustainable real interest rates, from a range of studies over the last 2 years, approaches 1% more closely than 0%. &nbsp;HLW also accept that the uncertainty around their estimates is of the order of several percentage points.</p>\n\n<p>This uncertainty has policy implications. &nbsp;It may be rational to wait longer before tightening monetary policy into a normalisation - but a necessary consequence is that ultimately more tightening is needed compared to a more certain baseline. &nbsp;This may create surprises versus market expectations.</p>\n\n<p>Responding to questions, Stehn indicated that a failure of inflation to continue its apparent return to central bank targets would be a critical warning sign. &nbsp;Milligan noted the possibility that a lower-growth, lower-rate environment may not be a problem to be solved, but a fact to be accepted. &nbsp;The policy measures which might alternatively be required are indicated by the dramatic move from the Bank of Japan to manage bond yield levels across the curve - little short of classical helicopter money. &nbsp;Regarding the impact of modern technology, Milligan noted that it has perhaps done more to improve utility, in the form of consumer surplus, than output in a way which GDP measures can capture.</p>\n\n<p>It was noticeable that both speakers took different approaches to the issue, and in doing so gave the audience a well rounded view of the enormous range of explanatory factors. &nbsp;Financial markets are currently precariously poised between the two points of view, indicating just how balanced the debate really is. &nbsp;Resolution of the discussion, much less the underlying economic challenges, still feels a distant prospect.</p>\n\n<p>An audio recording of the meeting is available here:</p>\n\n<div class=\"full\" style=\"margin:2em 0;\">\n\t\n\t</div>\n\n<p>Slides are available on request from the SBE office.</p>\n\n<p>To hear an interview between the two speakers and our social media manager, George Matlock, please click here:</p>\n\n<div class=\"full\" style=\"margin:2em 0;\">\n\t\n\t</div>\n\n<div class=\"clearfix\"></div>\n<div class=\"body_image_container image format_landscape \">\n\n<img class=\"body_image\" src=\"/site/assets/files/4653/27_march_photo_2.1200x720.webp\" alt=\"\">\n\n\n<!-- Type: image  Size: landscape  Sizeclass format_landscape -->\n\n\n</div>",
+    "topics": [
+      "Macroeconomics",
+      "Monetary Policy",
+      "Financial Markets"
+    ]
   },
   {
     "slug": "podcasts/4943",
     "title": "Replay: Secular stagnation and low interest rates: Temporary or Permanent?",
     "date": "2017-03-27",
     "category": "podcast",
-    "body": "<p>As we approach the 10-year anniversary of the start of the financial crisis, one of the most stubborn legacies has been exceptionally low Western interest rates - not just the policy rate but across the term structure. &nbsp;The Society resisted the temptation of a mild and bright Spring evening to hear two recognised market authorities, Andrew Milligan and Dr Jari Stehn, debate whether low rates were here to stay or finally on the point of normalisation.</p>\n\n<p>To hear an interview between the two speakers and our social media manager, George Matlock, please click here:</p>\n\n<div class=\"full\" style=\"margin:2em 0;\">\n\t\n\t</div>"
+    "body": "<p>As we approach the 10-year anniversary of the start of the financial crisis, one of the most stubborn legacies has been exceptionally low Western interest rates - not just the policy rate but across the term structure. &nbsp;The Society resisted the temptation of a mild and bright Spring evening to hear two recognised market authorities, Andrew Milligan and Dr Jari Stehn, debate whether low rates were here to stay or finally on the point of normalisation.</p>\n\n<p>To hear an interview between the two speakers and our social media manager, George Matlock, please click here:</p>\n\n<div class=\"full\" style=\"margin:2em 0;\">\n\t\n\t</div>",
+    "topics": [
+      "Macroeconomics",
+      "Monetary Policy",
+      "Financial Markets"
+    ]
   },
   {
     "slug": "podcasts/5037",
     "title": "Speaker Series: SBE Conference 2016",
     "date": "2016-11-18",
     "category": "podcast",
-    "body": "<p>George Matlock chats to delegates to the 2016 SBE conference, including Dame DeAnne Julius, Andrew Milligan and Sir Charles Bean.</p>\n\n<div class=\"full\" style=\"margin:2em 0;\">\n\t\n\t</div>"
+    "body": "<p>George Matlock chats to delegates to the 2016 SBE conference, including Dame DeAnne Julius, Andrew Milligan and Sir Charles Bean.</p>\n\n<div class=\"full\" style=\"margin:2em 0;\">\n\t\n\t</div>",
+    "topics": []
   },
   {
     "slug": "evening-talks/4566",
@@ -3149,7 +3802,8 @@
         "id": "294261439",
         "url": "https://api.soundcloud.com/tracks/294261439?secret_token=s-DWIJJ"
       }
-    ]
+    ],
+    "topics": []
   },
   {
     "slug": "dinners/4404",
@@ -3165,7 +3819,8 @@
       "/images/4404/169217_112.1200x720.jpg",
       "/images/4404/169217_244.1200x720.jpg",
       "/images/4404/169217_046.1200x720.webp"
-    ]
+    ],
+    "topics": []
   },
   {
     "slug": "evening-talks/4273",
@@ -3175,7 +3830,10 @@
       "Speaker: Professor John Van Reenen, London School of Economics"
     ],
     "category": "speaker-series",
-    "body": "<div class='heading'>\n<h5 >06 May 2016 1.00pm&nbsp;-&nbsp;2.30pm</h5>\n<h1>What&#039;s the British productivity problem?</h1>\n<h4 ><strong>Speaker: </strong><a href='../../../search/index.html%3Fq=Van+Reenen.tmp.html'>Professor John Van Reenen</a>, <span class='nobreak'>London School of Economics</span></h4 ><h4><strong>Venue: </strong>British Bankers Association, Pinners&nbsp;Hall, 105-108&nbsp;Old&nbsp;Broad&nbsp;Street, London, EC2N&nbsp;1EX\n</h4 >\n</div>"
+    "body": "<div class='heading'>\n<h5 >06 May 2016 1.00pm&nbsp;-&nbsp;2.30pm</h5>\n<h1>What&#039;s the British productivity problem?</h1>\n<h4 ><strong>Speaker: </strong><a href='../../../search/index.html%3Fq=Van+Reenen.tmp.html'>Professor John Van Reenen</a>, <span class='nobreak'>London School of Economics</span></h4 ><h4><strong>Venue: </strong>British Bankers Association, Pinners&nbsp;Hall, 105-108&nbsp;Old&nbsp;Broad&nbsp;Street, London, EC2N&nbsp;1EX\n</h4 >\n</div>",
+    "topics": [
+      "Macroeconomics"
+    ]
   },
   {
     "slug": "evening-talks/4329",
@@ -3193,6 +3851,9 @@
     "speakers": [
       "Speaker: Kevin Daly",
       "Speaker: John Pullinger CB"
+    ],
+    "topics": [
+      "Economic Measurement"
     ]
   },
   {
@@ -3204,6 +3865,9 @@
     "category": "evening-talks",
     "speakers": [
       "Speaker: Jörn-Steffen Pischke"
+    ],
+    "topics": [
+      "Careers & Profession"
     ]
   },
   {
@@ -3215,7 +3879,10 @@
       "Neville Hill, Head of European Economics, Credit Suisse"
     ],
     "category": "speaker-series",
-    "body": "<div class='heading'>\n<h5 >12 January 2016 </h5>\n<h1>UK Outlook Panel Debate</h1>\n<h4 ><strong><a href='../../../search/index.html%3Fq=Martin+Beck.tmp.html'>Martin Beck</a></strong>, <span class='nobreak'>Lead UK Economist</span>, <span class='nobreak'>Oxford Economics</span><br /><strong><a href='../../../search/index.html%3Fq=Neville+Hill.tmp.html'>Neville Hill</a></strong>, <span class='nobreak'>Head of European Economics</span>, <span class='nobreak'>Credit Suisse</span></h4 >\n</div>"
+    "body": "<div class='heading'>\n<h5 >12 January 2016 </h5>\n<h1>UK Outlook Panel Debate</h1>\n<h4 ><strong><a href='../../../search/index.html%3Fq=Martin+Beck.tmp.html'>Martin Beck</a></strong>, <span class='nobreak'>Lead UK Economist</span>, <span class='nobreak'>Oxford Economics</span><br /><strong><a href='../../../search/index.html%3Fq=Neville+Hill.tmp.html'>Neville Hill</a></strong>, <span class='nobreak'>Head of European Economics</span>, <span class='nobreak'>Credit Suisse</span></h4 >\n</div>",
+    "topics": [
+      "Macroeconomics"
+    ]
   },
   {
     "slug": "evening-talks/4077",
@@ -3223,7 +3890,10 @@
     "body": "<div class='members-notice'><p>This content can be accessed by members. To access please login, or register with us <a href=\"/membership/\">here</a>. </p></div>",
     "date": "2015-11-26",
     "image": "",
-    "category": "evening-talks"
+    "category": "evening-talks",
+    "topics": [
+      "Monetary Policy"
+    ]
   },
   {
     "slug": "dinners/4192",
@@ -3238,14 +3908,18 @@
       "/images/4192/159193_178.500x666.jpg",
       "/images/4192/159193_102.1200x720.webp",
       "/images/4192/159193_157.1200x720.jpg"
-    ]
+    ],
+    "topics": []
   },
   {
     "slug": "conferences/4179",
     "title": "2015 Annual Conference Report",
     "date": "2015-10-13",
     "category": "conference-report",
-    "body": "<div class='heading'>\n<h5 >13 October 2015 9.00am&nbsp;-&nbsp;1.00pm</h5>\n<h1>2015 Annual Conference Report</h1>\n<h2 class='page-subhead'>The post‑crisis global economy. Challenges, uncertainties and opportunities.</h2>\n<h4 ></h4 >\n</div>\n<p><strong>The Conference Chairman, Evan Davis, started the 2015 Annual Conference with some opening remarks.</strong> He said there is considerable confusion and debate within the economics profession. There are cyclical arguments as well as structural ones about the state of the world economy:  whether the current problems are largely lagged effects from the GFC or whether they are deeper -seated (for example, Larry Summers’ “secular stagnation” thesis).</p>\n\n<p><strong>The first Keynote speaker was Spencer Dale, formerly chief economist at the Bank of England, and now chief economist at BP.</strong> He spoke about the new economics of oil. There were four core principles in which he had believed when he started the job:  that oil is an exhaustible resource; that oil has steep demand and supply curves; that oil flows from the east to the west; with corresponding capital flows; and, lastly, that OPEC stabilises the oil market - as indeed it did in 2008-09. However, his work at BP has suggested that all four are wrong and that the market has changed considerably. </p>\n\n<p>One way in which the oil market is changing is concern about climate change, as long run demand for fossil fuels is altering. Existing reserves of fossil fuels far exceed the carbon budget by suggested by scientists. A second change is the technological revolution which has led to shale oil and gas. About 5% of the global market is being supplied by the US. Cost deflation means that it is broadly in the middle of the cost curve for global production. Such new supply has affected oil prices much more than demand side issues. Indeed, since 1980 the world has consumed 1trillion barrels of, oil but found 2 trillion. Whether these new reserves can be used is another matter. Overall, it is unlikely that oil reserves will ever be exhausted. On this basis, the relative price of oil need not rise over time. It will simply depend on relative demand and supply at any moment in time. Technology matters much more and firms are becoming more innovative, making some fields more or less economical to exploit, manufacturing-like processes create significant productivity gains. US new well production per rig has risen by 30% pa for the last 8 years. A key issue is whether other parts of the oil and gas industry can share such productivity growth.</p>\n\n<p>The second assumption was steep demand and supply curves for oil. Conventional wells involve long lead times, large investment and modest declines in output over time. Supply does not respond quickly to price signals. By contrast, new techniques in shale have short lead times, small fixed investment and high decline rates. Output can fall 50-75% a year. Hence shale can act as a price absorber, dampening volatility. Shale is only the marginal cost of supply in the short term though, not in the long term where more expensive areas such as Canadian tar sands become relevant. However, the financial characteristics of oil will increase as it comprises many hundreds of small firms who will go bust more quickly due to high levels of gearing and volatile cash flows.</p>\n\n<p>Oil is not flowing so much from east to west, not only due to shale but also due to greater energy efficiency and the shift of manufacturing to Asia and its rise in urban demand. By 2020 BP assume that the US will become self-sufficient in oil, by 2030 for all its energy needs. This contrasts with a major expansion of energy demand / net imports in China and India over this period. One result has been the reduction in the US current account deficit, so energy on its own is on its way to halving that deficit. </p>\n\n<p>In one respect the old assumptions are true, namely that OPEC (especially Saudi) retains power to be a marginal supplier. However this relationship with the US will alter and there are more limits to that power. All in all, shale can be a major factor for, say, five years. A key judgement about shale is whether it can expand in other parts of the world. BP assumes this does not happen, partly due to politics, mineral rights and population density, and partly to the infrastructure. One opportunity will be shale gas in China due to its need for energy security, </p>\n\n<p><strong>Ian Shepherdson, Chief Economist, Pantheon Economics followed with a talk on monetary policy, primarily in the US</strong>. The Fed is prevaricating partly due to concerns over the pace of the recovery and partly due to uncertainty over the state of the labour market. The manufacturing ISM faces a downward trend but poor seasonal adjustment will probably add to this. The fall in oil capex is a key factor, likely to fall in the energy sector from $200bn to $80bn. This will adversely affect Q3 and Q4 GDP. Employment in the shale sector, however,  is very small: it is a capital-intensive business. There are early signs that the cutbacks are stabilising. A second factor is the dollar plus weak export demand. A fall in Chinese growth to 5% pa takes about $100bn from incremental Chinese nominal GDP growth, down from $350bn to $250bn.</p>\n\n<p>On the plus side, US consumers are well supported. Real after- tax income is growing about 3.5% pa. Poor weather led to a temporary rise in the household savings ratio last spring but this has dissipated. All in all consumption is being supported by the rise in employment and the fall in oil prices. Overall nominal retail sales are lower due to price deflation but in real terms growth is about 5% pa. These are only about one- third of total consumer spending. So the more important story is the expansion in demand for services, eg leisure. Car sales are steady about 8m units a year but light truck demand has picked up sharply to some 10m units. Similarly, total home sales have recovered to some 6m units and construction spending is back to 2008 levels. While ISM manufacturing approaches zero, its service sector counterpart  is still about 57. Manufacturing is only 9% of employment, 12% of value added and 13% of exports. Trade with Europe is more important than with China. Indeed the European monetary cycle is improving. Real M1 growth signals 3-4% real GDP growth.</p>\n\n<p>Turning to labour markets, the Fed has assumed for several years that the unemployment rate will flatten out, Instead, its downward trend has continued towards the 5% NAIRU estimate. U6 has reached 10%, the same level at which the Fed last raised rates.</p>\n\n<p>There has been a slowdown in payroll growth: is this due to less demand for labour or problems for firms in finding the labour they need? JOLTS openings remain firm and NFIB employment intentions have moved upwards. ISM service sector demand is picking up.</p>\n\n<p>A further problem with the analysis is that wages are not rising as fast as past relationships would suggest. One measure - the Atlanta Fed’s hourly earnings index - does suggest an upturn, and this does take account of the changing mix of jobs. If that index is correct then real wages should rise strongly into the winter.</p>\n\n<p>There is a gap between the core CPI and core PCE deflator due to rents and medical, care costs. Some good prices are falling again, due to China and the dollar but generally services ex-energy and rents inflation is steady about 2% pa and shelter costs are slowly expanding about 3% pa.  Obamacare is leading to low medical care costs about 1% pa but regulators are currently allowing large price rises.</p>\n\n<p>Importantly, the US remains sensitive to large interest rate increases, as corporate debt has not fallen back and the household sector deleveraging was limited.</p>\n\n<p>EM will remain under pressure from the Fed tightening, as always happens. Large current account deficits, politics and oil dependency problems only add to the issues.</p>\n\n<p><strong>Sarah Hewin, Standard Chartered Bank’s Chief Economist, Europe, discussed the outlook for EM against the backdrop of developments in China and the US</strong>. What happens to EM when the Fed raises rates? The taper tantrum episode in May 2013 gives some evidence. EM assets then came under pressure, eg. commonly by 20 to 30% by December that year. The outturn since May 2015 has been rather similar, although the mix of countries has varied a little depending on commodity exposure. The relationship between current account deficits and currency depreciation is strong in such periods.</p>\n\n<p>China is a more important trade destination for EM as a whole than back in 2004 when the US last raised rates consistently. The relationship between Chinese and Sub -Saharan Africa growth rates is rather close for example, due to the commodity linkages.</p>\n\n<p><strong>After the break, Dr Claudio Borio, Head of the Monetary and Economic Department, Bank for International Settlements, gave a keynote address in which he summarised the analysis in the BIS annual report. </strong>He examined why global growth has been slow since the GFC. He argued that the current predicament reflects major problems in how the financial system interacts with the real economy. Outsized financial booms and busts have left long lasting scars on economic structures. They have also left limited room for manoeuvre for policy makers. More emphasis needs to be put on financial, medium-term and global factors, as opposed to real economy, short -term or country/regional specific. All in all, a faulty lens has contributed to the current predicament.</p>\n\n<p>He reviewed the symptoms of the unbalanced global expansion. There is some good news, namely global GDP has recovered to a pre-crisis trend, if not above -trend, while inflation risks remain low. Indeed, there are concerns that inflation is too low. The bad news involves the financial sector - debt has not declined since the GFC and deleveraging across whole economies has been limited. In crisis -hit economies, some cuts in private sector debt has been more than offset by the rise in public sector debt. In non-crisis hit economies, there has been a clear rise in private debt, with clear signs of a build-up in financial imbalance eg property or asset prices rising well above trend.</p>\n\n<p>There is little risk- taking in the real economy eg. businesses prefer share buy-backs to  capex, while there is aggressive risk-taking in financial markets eg. the hunt for yield.</p>\n\n<p>There are persistently low short and long interest rates, regardless of inflation targets. This may be related to the decline in trend productivity growth rates.</p>\n\n<p>There has been a progressive loss in the policy room for manoeuvre, whether fiscal or monetary.</p>\n\n<p>All in all, debt is too high, productivity too low and the room for manoeuvre too limited.</p>\n\n<p>The lens which the BIS puts forward to understand all this includes five key propositions.</p>\n\n<p>Macroeconomics cannot ignore the financial cycle. Joint booms and busts in credit and property cycles are more frequent and larger than in the traditional business cycle.</p>\n\n<p>Financial crises cause major and long lasting damage to the real economy. Sectoral misallocations - before and after a crisis - have large effects for example on labour demand and supply. The BIS calculates that the cumulative impact on productivity over a decade before and after a crisis is about 6%.</p>\n\n<p>Financial cycles have become more frequent and larger since the liberalisation of the 1980s. Other drivers include the objective of monetary policy focusing only on inflation and also globalisation which encourages disinflation.</p>\n\n<p>The international monetary and financial system amplifies these problems through the interaction of domestic and external regimes. Free mobility of capital encourages a spread easing bias from core economies to the rest of the world eg. the surge in dollar finance to EM. Examples include resistance to exchange rate appreciation.</p>\n\n<p>Post- financial balance sheet recessions are less amenable to demand management, there is less policy room for manoeuvre whole transmission mechanisms are weaker and balance sheet repair takes time. Monetary policy pushes on a string. Not all output gaps are equal.</p>\n\n<p>Overall, policy makers have failed to come to grips with the GFC. They did too little to constrain the boom, they relied too much in demand management to address the bust - rather than balance sheet repair which has been delayed. Monetary policy has become overburdened. Low interest rates in countries fighting the aftermath lead to problems elsewhere, for example leading to unwelcome currency appreciation in EM. A policy of intentional currency depreciation results to gain short- term benefits. The symptoms Include early signs of banking sector and GEM distress.</p>\n\n<p>Are market interest rates at an equilibrium level? The prevailing view is that the natural rate reflects output at potential and price stability in a given period, while the behaviour of inflation signals disequilibrium. The BIS lens suggests that the natural rate is consistent with sustainable good macro performance. Low rates contribute to financial instability by encouraging booms and busts so they are not equilibrium. Frameworks which exclude financial instability are dangerous. Long term rates can be misaligned for a long time.</p>\n\n<p>Why has the long term rate declined in recent years? In part it is a disequilibrium process. Monetary policy has been asymmetrical, over the crisis, imparting a downward bias to rates and an upward bias to debt. It becomes harder to raise rates without too much real economy damage. This embeds instability in the real economy. Over time low interest rates are self-validating of a crisis to come. Low rates beget low rates.</p>\n\n<p>In conclusion, the global economy is struggling to achieve a sustained and balanced expansion. The recent decline in GEM is the latest chapter. A key aspect is the inability of policy frameworks to come to grips with the global economy&#8217;s financial risks. We will see further episodes of severe financial stress, entrenching instability and chronic economic weakness. There is a threat of a rupture to the open global economic order. Adjustments to policy frameworks are needed, using a variety of policies to tackle the financial crisis, rebalancing the policy- mix towards more structural measures, not presuming simply because one country is in order that the global economy won&#8217;t affect it, and to lengthen policy horizons. We cannot afford to rely on the current debt- fuelled growth model any longer. The sooner we recognise this the better.</p>\n\n<p><strong>The Conference closed with a talk from SBE Vice President, and PwC’s Senior Economic Adviser, Dr Andrew Sentance CBE</strong>. In his talk, Andrew discussed some aspects of the economic recovery globally and then focused upon the UK. </p>\n\n<p>Nominal GDP of the world economy will rise from $33tn in 2000, currently about $74tn and on course for $96tn by 2020. Global GDP growth is close to its long- term trend, but well below that of the pre-crisis period. The length of the expansion has allowed G7 unemployment to fall below the 6.5% average since 1980. </p>\n\n<p>Myths and realities of the UK economic recovery:</p>\n\n<ul><li>The March of manufacturing did not materialise</li>\n <li>Austerity does not appear to have held back growth</li>\n <li>The labour market has been flexible. The rise in employment has been far better than normally seen after a recession</li>\n <li>The recovery has been driven by private non-financial businesses especially in services investment and exports</li>\n <li>The number of mortgage holders has declined from 40-45% towards some 30%, the lowest since the early 1980s.</li>\n</ul><p>In Europe, the disparity in growth is marked, with Poland, Spain and Sweden 3.0-3.5% pa and France, Austria and Italy under 1% pa. This partly reflects structural problems as well as limited restructuring of the banking systems. High public spending has weighed on tax burdens. There is weakness in key economic decision- making at the EU level.</p>\n\n<p>The sessions ended with a networking lunch. Our thanks go to all the speakers for ensuring that another successful annual conference took place.</p>"
+    "body": "<div class='heading'>\n<h5 >13 October 2015 9.00am&nbsp;-&nbsp;1.00pm</h5>\n<h1>2015 Annual Conference Report</h1>\n<h2 class='page-subhead'>The post‑crisis global economy. Challenges, uncertainties and opportunities.</h2>\n<h4 ></h4 >\n</div>\n<p><strong>The Conference Chairman, Evan Davis, started the 2015 Annual Conference with some opening remarks.</strong> He said there is considerable confusion and debate within the economics profession. There are cyclical arguments as well as structural ones about the state of the world economy:  whether the current problems are largely lagged effects from the GFC or whether they are deeper -seated (for example, Larry Summers’ “secular stagnation” thesis).</p>\n\n<p><strong>The first Keynote speaker was Spencer Dale, formerly chief economist at the Bank of England, and now chief economist at BP.</strong> He spoke about the new economics of oil. There were four core principles in which he had believed when he started the job:  that oil is an exhaustible resource; that oil has steep demand and supply curves; that oil flows from the east to the west; with corresponding capital flows; and, lastly, that OPEC stabilises the oil market - as indeed it did in 2008-09. However, his work at BP has suggested that all four are wrong and that the market has changed considerably. </p>\n\n<p>One way in which the oil market is changing is concern about climate change, as long run demand for fossil fuels is altering. Existing reserves of fossil fuels far exceed the carbon budget by suggested by scientists. A second change is the technological revolution which has led to shale oil and gas. About 5% of the global market is being supplied by the US. Cost deflation means that it is broadly in the middle of the cost curve for global production. Such new supply has affected oil prices much more than demand side issues. Indeed, since 1980 the world has consumed 1trillion barrels of, oil but found 2 trillion. Whether these new reserves can be used is another matter. Overall, it is unlikely that oil reserves will ever be exhausted. On this basis, the relative price of oil need not rise over time. It will simply depend on relative demand and supply at any moment in time. Technology matters much more and firms are becoming more innovative, making some fields more or less economical to exploit, manufacturing-like processes create significant productivity gains. US new well production per rig has risen by 30% pa for the last 8 years. A key issue is whether other parts of the oil and gas industry can share such productivity growth.</p>\n\n<p>The second assumption was steep demand and supply curves for oil. Conventional wells involve long lead times, large investment and modest declines in output over time. Supply does not respond quickly to price signals. By contrast, new techniques in shale have short lead times, small fixed investment and high decline rates. Output can fall 50-75% a year. Hence shale can act as a price absorber, dampening volatility. Shale is only the marginal cost of supply in the short term though, not in the long term where more expensive areas such as Canadian tar sands become relevant. However, the financial characteristics of oil will increase as it comprises many hundreds of small firms who will go bust more quickly due to high levels of gearing and volatile cash flows.</p>\n\n<p>Oil is not flowing so much from east to west, not only due to shale but also due to greater energy efficiency and the shift of manufacturing to Asia and its rise in urban demand. By 2020 BP assume that the US will become self-sufficient in oil, by 2030 for all its energy needs. This contrasts with a major expansion of energy demand / net imports in China and India over this period. One result has been the reduction in the US current account deficit, so energy on its own is on its way to halving that deficit. </p>\n\n<p>In one respect the old assumptions are true, namely that OPEC (especially Saudi) retains power to be a marginal supplier. However this relationship with the US will alter and there are more limits to that power. All in all, shale can be a major factor for, say, five years. A key judgement about shale is whether it can expand in other parts of the world. BP assumes this does not happen, partly due to politics, mineral rights and population density, and partly to the infrastructure. One opportunity will be shale gas in China due to its need for energy security, </p>\n\n<p><strong>Ian Shepherdson, Chief Economist, Pantheon Economics followed with a talk on monetary policy, primarily in the US</strong>. The Fed is prevaricating partly due to concerns over the pace of the recovery and partly due to uncertainty over the state of the labour market. The manufacturing ISM faces a downward trend but poor seasonal adjustment will probably add to this. The fall in oil capex is a key factor, likely to fall in the energy sector from $200bn to $80bn. This will adversely affect Q3 and Q4 GDP. Employment in the shale sector, however,  is very small: it is a capital-intensive business. There are early signs that the cutbacks are stabilising. A second factor is the dollar plus weak export demand. A fall in Chinese growth to 5% pa takes about $100bn from incremental Chinese nominal GDP growth, down from $350bn to $250bn.</p>\n\n<p>On the plus side, US consumers are well supported. Real after- tax income is growing about 3.5% pa. Poor weather led to a temporary rise in the household savings ratio last spring but this has dissipated. All in all consumption is being supported by the rise in employment and the fall in oil prices. Overall nominal retail sales are lower due to price deflation but in real terms growth is about 5% pa. These are only about one- third of total consumer spending. So the more important story is the expansion in demand for services, eg leisure. Car sales are steady about 8m units a year but light truck demand has picked up sharply to some 10m units. Similarly, total home sales have recovered to some 6m units and construction spending is back to 2008 levels. While ISM manufacturing approaches zero, its service sector counterpart  is still about 57. Manufacturing is only 9% of employment, 12% of value added and 13% of exports. Trade with Europe is more important than with China. Indeed the European monetary cycle is improving. Real M1 growth signals 3-4% real GDP growth.</p>\n\n<p>Turning to labour markets, the Fed has assumed for several years that the unemployment rate will flatten out, Instead, its downward trend has continued towards the 5% NAIRU estimate. U6 has reached 10%, the same level at which the Fed last raised rates.</p>\n\n<p>There has been a slowdown in payroll growth: is this due to less demand for labour or problems for firms in finding the labour they need? JOLTS openings remain firm and NFIB employment intentions have moved upwards. ISM service sector demand is picking up.</p>\n\n<p>A further problem with the analysis is that wages are not rising as fast as past relationships would suggest. One measure - the Atlanta Fed’s hourly earnings index - does suggest an upturn, and this does take account of the changing mix of jobs. If that index is correct then real wages should rise strongly into the winter.</p>\n\n<p>There is a gap between the core CPI and core PCE deflator due to rents and medical, care costs. Some good prices are falling again, due to China and the dollar but generally services ex-energy and rents inflation is steady about 2% pa and shelter costs are slowly expanding about 3% pa.  Obamacare is leading to low medical care costs about 1% pa but regulators are currently allowing large price rises.</p>\n\n<p>Importantly, the US remains sensitive to large interest rate increases, as corporate debt has not fallen back and the household sector deleveraging was limited.</p>\n\n<p>EM will remain under pressure from the Fed tightening, as always happens. Large current account deficits, politics and oil dependency problems only add to the issues.</p>\n\n<p><strong>Sarah Hewin, Standard Chartered Bank’s Chief Economist, Europe, discussed the outlook for EM against the backdrop of developments in China and the US</strong>. What happens to EM when the Fed raises rates? The taper tantrum episode in May 2013 gives some evidence. EM assets then came under pressure, eg. commonly by 20 to 30% by December that year. The outturn since May 2015 has been rather similar, although the mix of countries has varied a little depending on commodity exposure. The relationship between current account deficits and currency depreciation is strong in such periods.</p>\n\n<p>China is a more important trade destination for EM as a whole than back in 2004 when the US last raised rates consistently. The relationship between Chinese and Sub -Saharan Africa growth rates is rather close for example, due to the commodity linkages.</p>\n\n<p><strong>After the break, Dr Claudio Borio, Head of the Monetary and Economic Department, Bank for International Settlements, gave a keynote address in which he summarised the analysis in the BIS annual report. </strong>He examined why global growth has been slow since the GFC. He argued that the current predicament reflects major problems in how the financial system interacts with the real economy. Outsized financial booms and busts have left long lasting scars on economic structures. They have also left limited room for manoeuvre for policy makers. More emphasis needs to be put on financial, medium-term and global factors, as opposed to real economy, short -term or country/regional specific. All in all, a faulty lens has contributed to the current predicament.</p>\n\n<p>He reviewed the symptoms of the unbalanced global expansion. There is some good news, namely global GDP has recovered to a pre-crisis trend, if not above -trend, while inflation risks remain low. Indeed, there are concerns that inflation is too low. The bad news involves the financial sector - debt has not declined since the GFC and deleveraging across whole economies has been limited. In crisis -hit economies, some cuts in private sector debt has been more than offset by the rise in public sector debt. In non-crisis hit economies, there has been a clear rise in private debt, with clear signs of a build-up in financial imbalance eg property or asset prices rising well above trend.</p>\n\n<p>There is little risk- taking in the real economy eg. businesses prefer share buy-backs to  capex, while there is aggressive risk-taking in financial markets eg. the hunt for yield.</p>\n\n<p>There are persistently low short and long interest rates, regardless of inflation targets. This may be related to the decline in trend productivity growth rates.</p>\n\n<p>There has been a progressive loss in the policy room for manoeuvre, whether fiscal or monetary.</p>\n\n<p>All in all, debt is too high, productivity too low and the room for manoeuvre too limited.</p>\n\n<p>The lens which the BIS puts forward to understand all this includes five key propositions.</p>\n\n<p>Macroeconomics cannot ignore the financial cycle. Joint booms and busts in credit and property cycles are more frequent and larger than in the traditional business cycle.</p>\n\n<p>Financial crises cause major and long lasting damage to the real economy. Sectoral misallocations - before and after a crisis - have large effects for example on labour demand and supply. The BIS calculates that the cumulative impact on productivity over a decade before and after a crisis is about 6%.</p>\n\n<p>Financial cycles have become more frequent and larger since the liberalisation of the 1980s. Other drivers include the objective of monetary policy focusing only on inflation and also globalisation which encourages disinflation.</p>\n\n<p>The international monetary and financial system amplifies these problems through the interaction of domestic and external regimes. Free mobility of capital encourages a spread easing bias from core economies to the rest of the world eg. the surge in dollar finance to EM. Examples include resistance to exchange rate appreciation.</p>\n\n<p>Post- financial balance sheet recessions are less amenable to demand management, there is less policy room for manoeuvre whole transmission mechanisms are weaker and balance sheet repair takes time. Monetary policy pushes on a string. Not all output gaps are equal.</p>\n\n<p>Overall, policy makers have failed to come to grips with the GFC. They did too little to constrain the boom, they relied too much in demand management to address the bust - rather than balance sheet repair which has been delayed. Monetary policy has become overburdened. Low interest rates in countries fighting the aftermath lead to problems elsewhere, for example leading to unwelcome currency appreciation in EM. A policy of intentional currency depreciation results to gain short- term benefits. The symptoms Include early signs of banking sector and GEM distress.</p>\n\n<p>Are market interest rates at an equilibrium level? The prevailing view is that the natural rate reflects output at potential and price stability in a given period, while the behaviour of inflation signals disequilibrium. The BIS lens suggests that the natural rate is consistent with sustainable good macro performance. Low rates contribute to financial instability by encouraging booms and busts so they are not equilibrium. Frameworks which exclude financial instability are dangerous. Long term rates can be misaligned for a long time.</p>\n\n<p>Why has the long term rate declined in recent years? In part it is a disequilibrium process. Monetary policy has been asymmetrical, over the crisis, imparting a downward bias to rates and an upward bias to debt. It becomes harder to raise rates without too much real economy damage. This embeds instability in the real economy. Over time low interest rates are self-validating of a crisis to come. Low rates beget low rates.</p>\n\n<p>In conclusion, the global economy is struggling to achieve a sustained and balanced expansion. The recent decline in GEM is the latest chapter. A key aspect is the inability of policy frameworks to come to grips with the global economy&#8217;s financial risks. We will see further episodes of severe financial stress, entrenching instability and chronic economic weakness. There is a threat of a rupture to the open global economic order. Adjustments to policy frameworks are needed, using a variety of policies to tackle the financial crisis, rebalancing the policy- mix towards more structural measures, not presuming simply because one country is in order that the global economy won&#8217;t affect it, and to lengthen policy horizons. We cannot afford to rely on the current debt- fuelled growth model any longer. The sooner we recognise this the better.</p>\n\n<p><strong>The Conference closed with a talk from SBE Vice President, and PwC’s Senior Economic Adviser, Dr Andrew Sentance CBE</strong>. In his talk, Andrew discussed some aspects of the economic recovery globally and then focused upon the UK. </p>\n\n<p>Nominal GDP of the world economy will rise from $33tn in 2000, currently about $74tn and on course for $96tn by 2020. Global GDP growth is close to its long- term trend, but well below that of the pre-crisis period. The length of the expansion has allowed G7 unemployment to fall below the 6.5% average since 1980. </p>\n\n<p>Myths and realities of the UK economic recovery:</p>\n\n<ul><li>The March of manufacturing did not materialise</li>\n <li>Austerity does not appear to have held back growth</li>\n <li>The labour market has been flexible. The rise in employment has been far better than normally seen after a recession</li>\n <li>The recovery has been driven by private non-financial businesses especially in services investment and exports</li>\n <li>The number of mortgage holders has declined from 40-45% towards some 30%, the lowest since the early 1980s.</li>\n</ul><p>In Europe, the disparity in growth is marked, with Poland, Spain and Sweden 3.0-3.5% pa and France, Austria and Italy under 1% pa. This partly reflects structural problems as well as limited restructuring of the banking systems. High public spending has weighed on tax burdens. There is weakness in key economic decision- making at the EU level.</p>\n\n<p>The sessions ended with a networking lunch. Our thanks go to all the speakers for ensuring that another successful annual conference took place.</p>",
+    "topics": [
+      "Monetary Policy"
+    ]
   },
   {
     "slug": "evening-talks/3844",
@@ -3253,7 +3927,10 @@
     "body": "<div class='members-notice'><p>This content can be accessed by members. To access please login, or register with us <a href=\"/membership/\">here</a>. </p></div>\n\t<div class='page_links'>\n\t\n\t<h4>Related links</h4><p><a rel='nofollow' href='http://www.bankofengland.co.uk/publications/Pages/speeches/2015/820.aspx'>http://www.bankofengland.co.uk/publications/Pages/speeches/2015/820.aspx</a></p>\n\n\t</div>",
     "date": "2015-06-08",
     "image": "",
-    "category": "evening-talks"
+    "category": "evening-talks",
+    "topics": [
+      "Financial Markets"
+    ]
   },
   {
     "slug": "evening-talks/3843",
@@ -3265,6 +3942,9 @@
       "Speaker: Professor Ozlem Onaran",
       "Speaker: Max Lawson",
       "Speaker: Emran Mian"
+    ],
+    "topics": [
+      "Inequality"
     ]
   },
   {
@@ -3275,7 +3955,10 @@
       "Peter Kellner, President, YouGov"
     ],
     "category": "speaker-series",
-    "body": "<div class='heading'>\n<h5 >17 March 2015</h5>\n<h1>The coming General Election</h1>\n<h4 ><strong><a href='../../../search/index.html%3Fq=Peter+Kellner.tmp.html'>Peter Kellner</a></strong>, <span class='nobreak'>President</span>, <span class='nobreak'>YouGov</span></h4 >\n</div>"
+    "body": "<div class='heading'>\n<h5 >17 March 2015</h5>\n<h1>The coming General Election</h1>\n<h4 ><strong><a href='../../../search/index.html%3Fq=Peter+Kellner.tmp.html'>Peter Kellner</a></strong>, <span class='nobreak'>President</span>, <span class='nobreak'>YouGov</span></h4 >\n</div>",
+    "topics": [
+      "Geopolitics"
+    ]
   },
   {
     "slug": "evening-talks/3742",
@@ -3293,7 +3976,8 @@
     ],
     "speakers": [
       "Speaker: Lord Myners"
-    ]
+    ],
+    "topics": []
   },
   {
     "slug": "evening-talks/3734",
@@ -3310,6 +3994,9 @@
         "id": "sbe-audio-feed/sbe-meeting-10-february-2015",
         "url": "https://soundcloud.com/sbe-audio-feed/sbe-meeting-10-february-2015"
       }
+    ],
+    "topics": [
+      "Fiscal Policy"
     ]
   },
   {
@@ -3328,6 +4015,9 @@
         "id": "sbe-audio-feed/sbe-meeting-13-january-2015",
         "url": "https://soundcloud.com/sbe-audio-feed/sbe-meeting-13-january-2015"
       }
+    ],
+    "topics": [
+      "Macroeconomics"
     ]
   },
   {
@@ -3339,6 +4029,11 @@
     "category": "evening-talks",
     "speakers": [
       "Speaker: George Magnus"
+    ],
+    "topics": [
+      "Financial Markets",
+      "Trade & Globalisation",
+      "Geopolitics"
     ]
   },
   {
@@ -3355,6 +4050,10 @@
       "/images/2672/stephanie_flanders.500x500.webp",
       "/images/2673/jeffrey_currie.500x500.webp",
       "/images/2674/evan_davies.500x500.webp"
+    ],
+    "topics": [
+      "Macroeconomics",
+      "Financial Markets"
     ]
   },
   {
@@ -3366,6 +4065,10 @@
     "category": "evening-talks",
     "speakers": [
       "Speaker: Professor Henry G Overman"
+    ],
+    "topics": [
+      "Housing",
+      "Geopolitics"
     ]
   },
   {
@@ -3377,6 +4080,9 @@
     "category": "evening-talks",
     "speakers": [
       "Speaker: Stephen Glaister"
+    ],
+    "topics": [
+      "Housing"
     ]
   },
   {
@@ -3387,7 +4093,10 @@
       "Speaker: Christian Noyer, Governor, Banque de France"
     ],
     "category": "dinner-review",
-    "body": "<div class='heading'>\n<h5 >27 March 2014</h5>\n<h1>The SBE Annual Dinner 2014</h1>\n<h4 ><strong>Speaker: </strong>Christian Noyer, <span class='nobreak'>Governor</span>, <span class='nobreak'>Banque de France</span></h4 >\n</div>\n<p>Around 150 members and guests gathered on 27 March for the Society&#8217;s Annual Dinner in Plaisterers&#8217; Hall at One London Wall. Our guest speaker this year was Christian Noyer, Governor of the Banque de France who spoke about monetary policy in the current context of low inflation.</p>\n\n<p>The Chairman, Kate Barker thanked on behalf of the Society both Standard Life Investments for, once again generously sponsoring the dinner and KPMG for their continuing sponsorship of the <a href=\"../../../about/society-activities/rybczynski-prize/index.html\">Rybczynski Prize</a>. Dave Ramsden, as SBE President, welcomed the guest speaker after presenting this year&#8217;s Rybczynski Prize for the best piece of business economics writing in 2013.</p>\n\n<p>Congratulations go to Ian Mulheirn, whose prize-winning essay, &#8216;Just Deserts? Risk, Reward and Incentives in Criminal Justice&#8217; will appear in the next online edition of The Business Economist.</p>"
+    "body": "<div class='heading'>\n<h5 >27 March 2014</h5>\n<h1>The SBE Annual Dinner 2014</h1>\n<h4 ><strong>Speaker: </strong>Christian Noyer, <span class='nobreak'>Governor</span>, <span class='nobreak'>Banque de France</span></h4 >\n</div>\n<p>Around 150 members and guests gathered on 27 March for the Society&#8217;s Annual Dinner in Plaisterers&#8217; Hall at One London Wall. Our guest speaker this year was Christian Noyer, Governor of the Banque de France who spoke about monetary policy in the current context of low inflation.</p>\n\n<p>The Chairman, Kate Barker thanked on behalf of the Society both Standard Life Investments for, once again generously sponsoring the dinner and KPMG for their continuing sponsorship of the <a href=\"../../../about/society-activities/rybczynski-prize/index.html\">Rybczynski Prize</a>. Dave Ramsden, as SBE President, welcomed the guest speaker after presenting this year&#8217;s Rybczynski Prize for the best piece of business economics writing in 2013.</p>\n\n<p>Congratulations go to Ian Mulheirn, whose prize-winning essay, &#8216;Just Deserts? Risk, Reward and Incentives in Criminal Justice&#8217; will appear in the next online edition of The Business Economist.</p>",
+    "topics": [
+      "Monetary Policy"
+    ]
   },
   {
     "slug": "evening-talks/2873",
@@ -3397,7 +4106,11 @@
       "Diane Coyle, Enlightenment Economics"
     ],
     "category": "speaker-series",
-    "body": "<div class='heading'>\n<h5 >14 February 2014 </h5>\n<h1>Measuring GDP and social progress.</h1>\n<h4 ><strong><a href='../../../search/index.html%3Fq=Diane+Coyle.tmp.html'>Diane Coyle</a></strong>, <span class='nobreak'>Enlightenment Economics</span></h4 >\n</div>"
+    "body": "<div class='heading'>\n<h5 >14 February 2014 </h5>\n<h1>Measuring GDP and social progress.</h1>\n<h4 ><strong><a href='../../../search/index.html%3Fq=Diane+Coyle.tmp.html'>Diane Coyle</a></strong>, <span class='nobreak'>Enlightenment Economics</span></h4 >\n</div>",
+    "topics": [
+      "Macroeconomics",
+      "Economic Measurement"
+    ]
   },
   {
     "slug": "evening-talks/2874",
@@ -3408,7 +4121,8 @@
       "Jonathan Portes, NIESR"
     ],
     "category": "speaker-series",
-    "body": "<div class='heading'>\n<h5 >14 January 2014 </h5>\n<h1>Prospects for the UK economy</h1>\n<h4 ><strong>Michael Saunders</strong>, <span class='nobreak'>Citigroup</span><br /><strong><a href='../../../search/index.html%3Fq=Jonathan+Portes.tmp.html'>Jonathan Portes</a></strong>, <span class='nobreak'>NIESR</span></h4 >\n</div>"
+    "body": "<div class='heading'>\n<h5 >14 January 2014 </h5>\n<h1>Prospects for the UK economy</h1>\n<h4 ><strong>Michael Saunders</strong>, <span class='nobreak'>Citigroup</span><br /><strong><a href='../../../search/index.html%3Fq=Jonathan+Portes.tmp.html'>Jonathan Portes</a></strong>, <span class='nobreak'>NIESR</span></h4 >\n</div>",
+    "topics": []
   },
   {
     "slug": "conferences/2875",
@@ -3425,6 +4139,10 @@
     ],
     "speakers": [
       "Speaker: Topic: UK Economic Outlook"
+    ],
+    "topics": [
+      "Macroeconomics",
+      "Monetary Policy"
     ]
   },
   {
@@ -3436,6 +4154,7 @@
       "Ian Shepherdson, Chief Economist, Pantheon Macroeconomics"
     ],
     "category": "speaker-series",
-    "body": "<div class='heading'>\n<h5 >23 September 2013 </h5>\n<h1>SBE joint meeting with NABE</h1>\n<h4 ><strong>George Kahn</strong>, <span class='nobreak'>Vice President and Economist</span>, <span class=''>Federal Reserve Bank of Kansas City</span><br /><strong><a href='../../../search/index.html%3Fq=Ian+Shepherdson.tmp.html'>Ian Shepherdson</a></strong>, <span class='nobreak'>Chief Economist</span>, <span class='nobreak'>Pantheon Macroeconomics</span></h4 >\n</div>"
+    "body": "<div class='heading'>\n<h5 >23 September 2013 </h5>\n<h1>SBE joint meeting with NABE</h1>\n<h4 ><strong>George Kahn</strong>, <span class='nobreak'>Vice President and Economist</span>, <span class=''>Federal Reserve Bank of Kansas City</span><br /><strong><a href='../../../search/index.html%3Fq=Ian+Shepherdson.tmp.html'>Ian Shepherdson</a></strong>, <span class='nobreak'>Chief Economist</span>, <span class='nobreak'>Pantheon Macroeconomics</span></h4 >\n</div>",
+    "topics": []
   }
 ]
