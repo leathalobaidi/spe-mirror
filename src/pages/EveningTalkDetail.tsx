@@ -7,8 +7,10 @@ import ShareButtons from '../components/ShareButtons'
 import Breadcrumbs from '../components/Breadcrumbs'
 import { formatDate, sanitiseBodyHtml } from '../utils/helpers'
 import PdfDownloads from '../components/PdfDownloads'
+import PrevNextNav from '../components/PrevNextNav'
 import NotFound from './NotFound'
 import type { MediaEmbed as MediaEmbedType } from '../utils/media'
+import { extractPeopleFromBody, getSpeakerByName } from '../utils/speakerDirectory'
 
 export default function EveningTalkDetail() {
   const { slug } = useParams()
@@ -48,12 +50,9 @@ export default function EveningTalkDetail() {
   const mediaEmbeds = (item.mediaUrls ?? []) as MediaEmbedType[]
 
   // Strip CMS heading div that duplicates the title
+  // (login/members-notice artefacts are handled centrally by sanitiseBodyHtml)
   let bodyHtml = item.body || ''
   bodyHtml = bodyHtml.replace(/<div class=['"]heading['"]>[\s\S]*?<\/div>/gi, '')
-  bodyHtml = bodyHtml.replace(/<div class=['"]members-notice['"]>[\s\S]*?<\/div>/gi, '')
-  // Remove CMS login/register anchors and surrounding boilerplate
-  bodyHtml = bodyHtml.replace(/<a[^>]*class=['"][^'"]*login[^'"]*['"][^>]*>[\s\S]*?<\/a>/gi, '')
-  bodyHtml = bodyHtml.replace(/This content can be accessed by members[\s\S]*?(?=<(?:div|section|article)|$)/gi, '')
 
   // Find related talks: same year first, otherwise latest 3
   const talkYear = item.date ? new Date(item.date).getFullYear() : null
@@ -66,8 +65,9 @@ export default function EveningTalkDetail() {
   return (
     <div>
       {/* Header */}
-      <div className="bg-gradient-to-br from-spe-deep2 via-spe-deep to-spe-blue text-white">
-        <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 py-16 sm:py-20">
+      <div className="bg-gradient-to-br from-spe-ink via-spe-deep2 to-spe-deep text-white relative overflow-hidden grain-overlay">
+        <div className="absolute inset-0 opacity-[0.03] hero-pattern" />
+        <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 py-16 sm:py-20 relative z-10">
           <Breadcrumbs
             variant="light"
             className="mb-6"
@@ -82,6 +82,48 @@ export default function EveningTalkDetail() {
           {item.date && (
             <p className="text-sm text-white/70">{formatDate(item.date)}</p>
           )}
+          {(() => {
+            const people = extractPeopleFromBody(item.body || '', 'Speaker')
+            if (people.length === 0) return null
+            const speakers = people.filter(p => p.role === 'Speaker')
+            const chairs = people.filter(p => p.role === 'Chair')
+            return (
+              <div className="mt-4 space-y-1">
+                {speakers.length > 0 && (
+                  <div className="text-sm text-white/70">
+                    <span className="font-medium text-white/90">Speaker{speakers.length > 1 ? 's' : ''}: </span>
+                    {speakers.map((p, i) => {
+                      const sp = getSpeakerByName(p.name)
+                      return (
+                        <span key={i}>
+                          {i > 0 && ', '}
+                          {sp ? (
+                            <Link to={`/speakers/directory/${sp.slug}`} className="text-spe-gold hover:text-white transition-colors">{p.name}</Link>
+                          ) : p.name}
+                        </span>
+                      )
+                    })}
+                  </div>
+                )}
+                {chairs.length > 0 && (
+                  <div className="text-sm text-white/70">
+                    <span className="font-medium text-white/90">Chair: </span>
+                    {chairs.map((p, i) => {
+                      const sp = getSpeakerByName(p.name)
+                      return (
+                        <span key={i}>
+                          {i > 0 && ', '}
+                          {sp ? (
+                            <Link to={`/speakers/directory/${sp.slug}`} className="text-spe-gold hover:text-white transition-colors">{p.name}</Link>
+                          ) : p.name}
+                        </span>
+                      )
+                    })}
+                  </div>
+                )}
+              </div>
+            )
+          })()}
         </div>
       </div>
 
@@ -97,7 +139,7 @@ export default function EveningTalkDetail() {
           </div>
         )}
         <div
-          className="prose prose-lg max-w-none prose-headings:font-serif prose-headings:text-spe-dark prose-a:text-spe-blue prose-a:no-underline hover:prose-a:underline prose-img:rounded-lg prose-p:leading-relaxed"
+          className="prose prose-lg max-w-none prose-headings:font-serif prose-headings:text-spe-ink prose-a:text-spe-blue prose-a:no-underline hover:prose-a:underline prose-img:rounded-lg prose-p:leading-relaxed"
           dangerouslySetInnerHTML={{ __html: sanitiseBodyHtml(bodyHtml) }}
         />
 
@@ -105,16 +147,22 @@ export default function EveningTalkDetail() {
 
         {/* Share */}
         <ShareButtons title={item.title} />
+
+        <PrevNextNav
+          items={eveningTalksData}
+          currentSlug={item.slug}
+          slugToPath={slug => `/speakers/evening-talks/${slug}`}
+        />
       </article>
 
       {/* Related Talks */}
       {relatedTalks.length > 0 && (
-        <section className="bg-spe-bg/50 border-t border-spe-border/10">
+        <section className="bg-spe-paper/50 border-t border-spe-divider/10">
           <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-16">
             <div className="flex items-end justify-between mb-8">
               <div>
-                <p className="editorial-subheading text-spe-blue mb-2">From the Archive</p>
-                <h2 className="editorial-heading text-2xl text-spe-dark">More Evening Talks</h2>
+                <p className="section-label">From the Archive</p>
+                <h2 className="editorial-heading text-2xl text-spe-ink">More Evening Talks</h2>
               </div>
               <Link
                 to="/speakers/evening-talks"
@@ -122,7 +170,7 @@ export default function EveningTalkDetail() {
               >
                 View all talks
                 <svg className="w-4 h-4 transition-transform group-hover:translate-x-0.5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 5l7 7-7 7" />
+                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M17 8l4 4m0 0l-4 4m4-4H3" />
                 </svg>
               </Link>
             </div>

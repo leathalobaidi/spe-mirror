@@ -2,15 +2,18 @@
  * Speaker & Contributor Directory
  *
  * Scans all structured data sources (events, podcasts, book reviews, blogs,
- * Rybczynski essays) to build a directory of people and their appearances
- * across the site. Only uses structured fields — never guesses from body HTML
- * except for Rybczynski essay authors which are in well-known <h4> tags.
+ * Rybczynski essays, evening talks, and articles) to build a directory of
+ * people and their appearances across the site. Uses structured fields plus
+ * well-known <h4> patterns from the CMS for evening talks, articles, and
+ * Rybczynski essays.
  */
 import eventsData from '../data/events.json'
 import podcastsData from '../data/podcasts.json'
 import bookReviewsData from '../data/book-reviews.json'
 import blogsData from '../data/blogs.json'
 import rybEssaysData from '../data/ryb-essays.json'
+import eveningTalksData from '../data/evening-talks.json'
+import articlesData from '../data/articles.json'
 
 export interface Appearance {
   contentType: string
@@ -32,8 +35,41 @@ export interface Speaker {
 
 /** Extract person name from "Name, Role, Org" or "Speaker: Name, Role" */
 function extractName(raw: string): string {
-  const s = raw.replace(/^Speaker:\s*/i, '').trim()
+  const s = raw.replace(/^(Speaker|Chair|Author):\s*/i, '').trim()
   return s.split(',')[0].trim()
+}
+
+/**
+ * Parse well-known CMS <h4> tags that contain speaker/author info.
+ * Two patterns:
+ * 1. Role-prefixed: "<strong>Speaker: </strong><a>Name</a>, Org"
+ * 2. Plain names:    "Name, Org" (text or linked)
+ * Returns array of { name, role } extracted from the HTML.
+ */
+function parseH4People(html: string, defaultRole: string): { name: string; role: string }[] {
+  const results: { name: string; role: string }[] = []
+  // Split on <br> or <br /> to get individual person entries
+  const entries = html.split(/<br\s*\/?>/i)
+  for (const entry of entries) {
+    const text = entry.replace(/<[^>]*>/g, ' ').replace(/&amp;/g, '&').replace(/&#039;/g, "'").replace(/\s+/g, ' ').trim()
+    if (!text || text.length < 3) continue
+    if (/^related\s+(pages|links)$/i.test(text)) continue
+
+    // Check for role prefix
+    const roleMatch = text.match(/^(Speaker|Chair|Author):\s*(.+)/i)
+    if (roleMatch) {
+      const role = roleMatch[1].charAt(0).toUpperCase() + roleMatch[1].slice(1).toLowerCase()
+      const name = extractName(roleMatch[2])
+      if (name.length >= 3) results.push({ name, role })
+    } else {
+      // Plain "Name, Org" format
+      const name = extractName(text)
+      if (name.length >= 3 && !/^(Related|Login|This content)/.test(name)) {
+        results.push({ name, role: defaultRole })
+      }
+    }
+  }
+  return results
 }
 
 /** Normalise for matching — strip titles/honorifics, lowercase */
@@ -99,14 +135,14 @@ for (const podcast of podcastsData as any[]) {
   }
 }
 
-// --- Book Reviews ---
+// --- Book Reviews (apply extractName to strip trailing ", Org" from reviewer/author fields) ---
 for (const book of bookReviewsData as any[]) {
   const path = `/reading-room/book-reviews/${book.slug}`
   if (book.reviewer) {
-    add(book.reviewer, { contentType: 'book-review', title: book.title, path, date: (book as any).date, role: 'Reviewer' })
+    add(extractName(book.reviewer), { contentType: 'book-review', title: book.title, path, date: (book as any).date, role: 'Reviewer' })
   }
   if (book.author) {
-    add(book.author, { contentType: 'book-review', title: book.title, path, date: (book as any).date, role: 'Author' })
+    add(extractName(book.author), { contentType: 'book-review', title: book.title, path, date: (book as any).date, role: 'Author' })
   }
 }
 
@@ -114,7 +150,7 @@ for (const book of bookReviewsData as any[]) {
 for (const blog of blogsData as any[]) {
   const path = `/blogs/${blog.slug}`
   if (blog.author) {
-    add(blog.author, { contentType: 'blog', title: blog.title, path, date: blog.date, role: 'Author' })
+    add(extractName(blog.author), { contentType: 'blog', title: blog.title, path, date: blog.date, role: 'Author' })
   }
 }
 
@@ -137,6 +173,30 @@ for (const essay of rybEssaysData as any[]) {
     }
     for (const name of names) {
       add(name, { contentType: 'ryb-essay', title: essay.title, path, role: 'Prize Winner' })
+    }
+  }
+}
+
+// --- Evening Talks (speakers/chairs from <h4> tags) ---
+for (const talk of eveningTalksData as any[]) {
+  const path = `/speakers/evening-talks/${talk.slug}`
+  const h4Match = (talk.body || '').match(/<h4[^>]*>([\s\S]*?)<\/h4\s*>/i)
+  if (h4Match) {
+    const people = parseH4People(h4Match[1], 'Speaker')
+    for (const { name, role } of people) {
+      add(name, { contentType: 'evening-talk', title: talk.title, path, date: talk.date, role })
+    }
+  }
+}
+
+// --- Articles (authors from <h4> tags) ---
+for (const article of articlesData as any[]) {
+  const path = `/reading-room/articles/${article.slug}`
+  const h4Match = (article.body || '').match(/<h4[^>]*>([\s\S]*?)<\/h4\s*>/i)
+  if (h4Match) {
+    const people = parseH4People(h4Match[1], 'Author')
+    for (const { name, role } of people) {
+      add(name, { contentType: 'article', title: article.title, path, date: article.date, role })
     }
   }
 }
@@ -172,4 +232,13 @@ export function getSpeakerBySlug(slug: string): Speaker | undefined {
 export function getSpeakerByName(name: string): Speaker | undefined {
   const key = normaliseForMatch(name)
   return speakerDirectory.find(s => normaliseForMatch(s.name) === key)
+}
+
+/** Extract speaker/author names from body HTML's first <h4> tag.
+ *  Re-exports the same parsing used by the directory scanner so detail
+ *  pages can display the names with profile links. */
+export function extractPeopleFromBody(bodyHtml: string, defaultRole: string): { name: string; role: string }[] {
+  const h4Match = bodyHtml.match(/<h4[^>]*>([\s\S]*?)<\/h4\s*>/i)
+  if (!h4Match) return []
+  return parseH4People(h4Match[1], defaultRole)
 }

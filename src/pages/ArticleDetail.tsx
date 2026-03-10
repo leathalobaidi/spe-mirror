@@ -1,4 +1,4 @@
-import { useParams } from 'react-router-dom'
+import { useParams, Link } from 'react-router-dom'
 import { useSEO } from '../hooks/useSEO'
 import articlesData from '../data/articles.json'
 import MediaEmbed from '../components/MediaEmbed'
@@ -6,8 +6,10 @@ import ContentCard from '../components/ContentCard'
 import ShareButtons from '../components/ShareButtons'
 import Breadcrumbs from '../components/Breadcrumbs'
 import { formatDate, sanitiseBodyHtml } from '../utils/helpers'
+import PrevNextNav from '../components/PrevNextNav'
 import NotFound from './NotFound'
 import type { MediaEmbed as MediaEmbedType } from '../utils/media'
+import { extractPeopleFromBody, getSpeakerByName } from '../utils/speakerDirectory'
 
 export default function ArticleDetail() {
   const { slug } = useParams()
@@ -42,7 +44,7 @@ export default function ArticleDetail() {
     ],
   })
 
-  const mediaEmbeds = (item.mediaUrls ?? []) as MediaEmbedType[]
+  const mediaEmbeds = ((item as any).mediaUrls ?? []) as MediaEmbedType[]
 
   let bodyHtml = item.body || ''
   bodyHtml = bodyHtml.replace(/<div class=['"]heading['"]>[\s\S]*?<\/div>/gi, '')
@@ -68,6 +70,26 @@ export default function ArticleDetail() {
             ]}
           />
           <h1 className="editorial-heading text-3xl sm:text-4xl lg:text-5xl mb-4">{item.title}</h1>
+          {(() => {
+            const people = extractPeopleFromBody(item.body || '', 'Author')
+            if (people.length === 0) return null
+            return (
+              <div className="mt-2 text-sm text-white/70">
+                <span className="font-medium text-white/90">By </span>
+                {people.map((p, i) => {
+                  const sp = getSpeakerByName(p.name)
+                  return (
+                    <span key={i}>
+                      {i > 0 && (i === people.length - 1 ? ' and ' : ', ')}
+                      {sp ? (
+                        <Link to={`/speakers/directory/${sp.slug}`} className="text-spe-gold hover:text-white transition-colors">{p.name}</Link>
+                      ) : p.name}
+                    </span>
+                  )
+                })}
+              </div>
+            )
+          })()}
         </div>
       </div>
       <article className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
@@ -78,18 +100,24 @@ export default function ArticleDetail() {
             ))}
           </div>
         )}
-        <div className="prose prose-lg max-w-none prose-headings:font-serif prose-headings:text-spe-dark prose-a:text-spe-blue prose-a:no-underline hover:prose-a:underline prose-img:rounded-lg prose-p:leading-relaxed"
+        <div className="prose prose-lg max-w-none prose-headings:font-serif prose-headings:text-spe-ink prose-a:text-spe-blue prose-a:no-underline hover:prose-a:underline prose-img:rounded-lg prose-p:leading-relaxed"
           dangerouslySetInnerHTML={{ __html: sanitiseBodyHtml(bodyHtml) }} />
 
         {/* Share */}
         <ShareButtons title={item.title} />
+
+        <PrevNextNav
+          items={articlesData}
+          currentSlug={item.slug}
+          slugToPath={slug => `/reading-room/articles/${slug}`}
+        />
       </article>
 
       {/* Related Articles */}
       {relatedArticles.length > 0 && (
-        <section className="bg-spe-bg/50 border-t border-spe-border/10">
+        <section className="bg-spe-paper/50 border-t border-spe-divider/10">
           <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-16">
-            <h2 className="editorial-heading text-2xl text-spe-dark mb-8">More Articles</h2>
+            <h2 className="editorial-heading text-2xl text-spe-ink mb-8">More Articles</h2>
             <div className="grid grid-cols-1 sm:grid-cols-3 gap-6">
               {relatedArticles.map(a => (
                 <ContentCard
