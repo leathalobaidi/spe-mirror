@@ -90,7 +90,7 @@ export default function FilterBar({
                 onClick={clearAll}
                 className="inline-flex items-center gap-1 px-3 py-2 text-xs text-spe-grey hover:text-spe-ink bg-spe-paper/60 hover:bg-spe-paper rounded-md transition-colors min-h-[44px] min-w-[44px] justify-center"
               >
-                <svg className="w-3 h-3" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                <svg className="w-3 h-3" fill="none" stroke="currentColor" viewBox="0 0 24 24" aria-hidden="true">
                   <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M6 18L18 6M6 6l12 12" />
                 </svg>
                 Clear filters
