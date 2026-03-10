@@ -49,10 +49,10 @@ function AnimatedStat({ end, suffix = '', label }: { end: number; suffix?: strin
 
   return (
     <div ref={ref} className="text-center">
-      <div className="text-3xl sm:text-4xl lg:text-5xl font-serif font-bold text-white">
+      <div className="text-3xl sm:text-4xl lg:text-5xl font-serif font-black text-white tracking-tight">
         {count.toLocaleString()}{suffix}
       </div>
-      <div className="text-sm text-white/60 mt-2 font-medium">{label}</div>
+      <div className="text-xs uppercase tracking-[0.15em] text-white/50 mt-2.5 font-semibold">{label}</div>
     </div>
   )
 }
@@ -63,38 +63,27 @@ const makeExploreCards = (talkCount: number) => [
     to: '/speakers/evening-talks',
     label: 'Evening Talks',
     desc: `${talkCount || 147} recorded talks from leading economists`,
-    color: 'indigo',
     icon: 'M19 11a7 7 0 01-7 7m0 0a7 7 0 01-7-7m7 7v4m0 0H8m4 0h4m-4-8a3 3 0 01-3-3V5a3 3 0 116 0v6a3 3 0 01-3 3z',
   },
   {
     to: '/reading-room/articles',
     label: 'Articles & Analysis',
     desc: 'Research papers and economic commentary',
-    color: 'sky',
     icon: 'M12 6.253v13m0-13C10.832 5.477 9.246 5 7.5 5S4.168 5.477 3 6.253v13C4.168 18.477 5.754 18 7.5 18s3.332.477 4.5 1.253m0-13C13.168 5.477 14.754 5 16.5 5c1.747 0 3.332.477 4.5 1.253v13C19.832 18.477 18.247 18 16.5 18c-1.746 0-3.332.477-4.5 1.253',
   },
   {
     to: '/reading-room/rybczynski-essays',
     label: 'Rybczynski Prize',
     desc: 'Award-winning essays from young economists',
-    color: 'amber',
     icon: 'M5 3v4M3 5h4M6 17v4m-2-2h4m5-16l2.286 6.857L21 12l-5.714 2.143L13 21l-2.286-6.857L5 12l5.714-2.143L13 3z',
   },
   {
     to: '/careers',
     label: 'Careers & CPD',
     desc: 'Professional development and job opportunities',
-    color: 'emerald',
     icon: 'M21 13.255A23.931 23.931 0 0112 15c-3.183 0-6.22-.62-9-1.745M16 6V4a2 2 0 00-2-2h-4a2 2 0 00-2 2v2m4 6h.01M5 20h14a2 2 0 002-2V8a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z',
   },
 ] as const
-
-const colorMap: Record<string, { bg: string; border: string; iconBg: string; iconColor: string; hoverText: string; linkColor: string }> = {
-  indigo:  { bg: 'from-indigo-50 to-indigo-100/50',  border: 'border-indigo-200/30',  iconBg: 'bg-indigo-100',  iconColor: 'text-indigo-600',  hoverText: 'group-hover:text-indigo-700',  linkColor: 'text-indigo-600' },
-  sky:     { bg: 'from-sky-50 to-sky-100/50',        border: 'border-sky-200/30',      iconBg: 'bg-sky-100',     iconColor: 'text-sky-600',     hoverText: 'group-hover:text-sky-700',     linkColor: 'text-sky-600' },
-  amber:   { bg: 'from-amber-50 to-amber-100/50',    border: 'border-amber-200/30',    iconBg: 'bg-amber-100',   iconColor: 'text-amber-600',   hoverText: 'group-hover:text-amber-700',   linkColor: 'text-amber-600' },
-  emerald: { bg: 'from-emerald-50 to-emerald-100/50', border: 'border-emerald-200/30', iconBg: 'bg-emerald-100', iconColor: 'text-emerald-600', hoverText: 'group-hover:text-emerald-700', linkColor: 'text-emerald-600' },
-}
 
 export default function Home() {
   useSEO({
@@ -179,8 +168,9 @@ export default function Home() {
       />
 
       {/* Animated Stats Band */}
-      <section className="bg-gradient-to-r from-spe-deep2 via-spe-deep to-spe-deep2 border-y border-white/5">
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-10 sm:py-14">
+      <section className="relative bg-gradient-to-r from-spe-ink via-spe-deep2 to-spe-ink overflow-hidden">
+        <div className="absolute inset-0 opacity-[0.03] hero-pattern" />
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12 sm:py-16 relative">
           <div className="stats-grid">
             <AnimatedStat end={1953} label="Established" />
             <AnimatedStat end={250} suffix="+" label="Events Hosted" />
@@ -191,7 +181,7 @@ export default function Home() {
       </section>
 
       {/* Latest Podcasts & Talks */}
-      <section ref={podcastRef} className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-16 sm:py-20">
+      <section ref={podcastRef} className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8" style={{ paddingTop: 'var(--section-padding-y)', paddingBottom: 'var(--section-padding-y)' }}>
         <div className="reveal">
           <SectionHeading
             title="Latest Podcasts & Talks"
@@ -199,7 +189,7 @@ export default function Home() {
             linkTo="/podcasts"
           />
         </div>
-        <div className="grid grid-cols-1 md:grid-cols-3 gap-6 reveal-stagger">
+        <div className="grid grid-cols-1 md:grid-cols-3 gap-7 reveal-stagger">
           {latestPodcasts.map(item => (
             <div key={item.slug} className="reveal h-full">
               <ContentCard
@@ -217,8 +207,8 @@ export default function Home() {
       </section>
 
       {/* Evening Talks */}
-      <section ref={talksRef} className="bg-spe-bg/50 border-y border-spe-border/10">
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-16 sm:py-20">
+      <section ref={talksRef} className="bg-spe-bg border-y border-spe-divider/50">
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8" style={{ paddingTop: 'var(--section-padding-y)', paddingBottom: 'var(--section-padding-y)' }}>
           <div className="reveal">
             <SectionHeading
               title="Evening Speaker Series"
@@ -226,7 +216,7 @@ export default function Home() {
               linkTo="/speakers/evening-talks"
             />
           </div>
-          <div className="grid grid-cols-1 md:grid-cols-3 gap-6 reveal-stagger">
+          <div className="grid grid-cols-1 md:grid-cols-3 gap-7 reveal-stagger">
             {latestTalks.map(item => (
               <div key={item.slug} className="reveal h-full">
                 <ContentCard
@@ -246,7 +236,7 @@ export default function Home() {
 
       {/* Upcoming & Recent Events */}
       <section ref={eventsRef}>
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-16 sm:py-20">
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8" style={{ paddingTop: 'var(--section-padding-y)', paddingBottom: 'var(--section-padding-y)' }}>
           <div className="reveal">
             <SectionHeading
               title="Events"
@@ -254,7 +244,7 @@ export default function Home() {
               linkTo="/events"
             />
           </div>
-          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-5 reveal-stagger">
+          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6 reveal-stagger">
             {latestEvents.map((item, i) => (
               <div key={`${item.slug}-${i}`} className="reveal h-full">
                 <ContentCard
@@ -273,8 +263,8 @@ export default function Home() {
       </section>
 
       {/* Conference Highlights */}
-      <section ref={conferenceRef} className="bg-spe-bg/50 border-y border-spe-border/10">
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-16 sm:py-20">
+      <section ref={conferenceRef} className="bg-spe-bg border-y border-spe-divider/50">
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8" style={{ paddingTop: 'var(--section-padding-y)', paddingBottom: 'var(--section-padding-y)' }}>
           <div className="reveal">
             <SectionHeading
               title="Conference Highlights"
@@ -282,7 +272,7 @@ export default function Home() {
               linkTo="/speakers/conference-reports"
             />
           </div>
-          <div className="grid grid-cols-1 md:grid-cols-3 gap-6 reveal-stagger">
+          <div className="grid grid-cols-1 md:grid-cols-3 gap-7 reveal-stagger">
             {latestConferences.map(item => (
               <div key={item.slug} className="reveal h-full">
                 <ContentCard
@@ -301,25 +291,29 @@ export default function Home() {
       </section>
 
       {/* Membership CTA */}
-      <section className="relative overflow-hidden">
-        <div className="absolute inset-0 bg-gradient-to-br from-spe-blue via-spe-deep to-spe-deep2" />
-        <div className="absolute inset-0 bg-[url('data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iNDAiIGhlaWdodD0iNDAiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+PGNpcmNsZSBjeD0iMjAiIGN5PSIyMCIgcj0iMSIgZmlsbD0icmdiYSgyNTUsMjU1LDI1NSwwLjA1KSIvPjwvc3ZnPg==')] opacity-50" />
-        <div className="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-16 sm:py-20 text-center">
-          <p className="editorial-subheading text-white/50 mb-3">Become a Member</p>
-          <h2 className="editorial-heading text-3xl sm:text-4xl text-white mb-4">Join the UK&rsquo;s leading economics society</h2>
-          <p className="text-white/70 max-w-2xl mx-auto mb-8 leading-relaxed">
+      <section className="relative overflow-hidden grain-overlay">
+        <div className="absolute inset-0 bg-gradient-to-br from-spe-deep2 via-spe-deep to-spe-ink" />
+        <div className="absolute inset-0 opacity-[0.04] hero-pattern" />
+        <div className="relative z-10 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-20 sm:py-24 text-center">
+          <div className="inline-flex items-center gap-2 mb-4">
+            <span className="w-8 h-[2px] bg-spe-gold rounded-full" />
+            <span className="text-spe-gold text-xs font-semibold uppercase tracking-[0.15em]">Become a Member</span>
+            <span className="w-8 h-[2px] bg-spe-gold rounded-full" />
+          </div>
+          <h2 className="editorial-heading text-white mb-5" style={{ fontSize: 'clamp(1.75rem, 3vw + 0.5rem, 2.75rem)' }}>Join the UK&rsquo;s leading economics society</h2>
+          <p className="text-white/60 max-w-2xl mx-auto mb-10 leading-relaxed text-lg">
             Access exclusive salary surveys, members&rsquo; polls, professional networking events, and contribute to advancing the profession of economics.
           </p>
           <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
             <Link
               to="/membership"
-              className="px-8 py-3.5 bg-white text-spe-deep2 font-semibold rounded-xl hover:bg-white/90 transition-all shadow-lg shadow-black/10 text-sm btn-glow"
+              className="px-8 py-3.5 bg-white text-spe-ink font-semibold rounded-xl hover:bg-spe-cream transition-all shadow-lg shadow-black/20 text-sm btn-glow"
             >
               Explore Membership
             </Link>
             <Link
               to="/events"
-              className="px-8 py-3.5 bg-white/10 text-white font-medium rounded-xl hover:bg-white/20 transition-all border border-white/20 text-sm"
+              className="px-8 py-3.5 bg-white/8 text-white/80 font-medium rounded-xl hover:bg-white/15 transition-all border border-white/15 text-sm"
             >
               Browse Events
             </Link>
@@ -328,8 +322,8 @@ export default function Home() {
       </section>
 
       {/* Our Leadership */}
-      <section ref={leadershipRef} className="bg-gradient-to-b from-spe-bg to-white border-y border-spe-border/40">
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-16 sm:py-20">
+      <section ref={leadershipRef} className="bg-gradient-to-b from-spe-bg to-spe-cream border-y border-spe-divider/50">
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8" style={{ paddingTop: 'var(--section-padding-y)', paddingBottom: 'var(--section-padding-y)' }}>
           <div className="reveal">
             <SectionHeading
               title="Our Leadership"
@@ -343,32 +337,32 @@ export default function Home() {
             <div className="reveal mb-12">
               <Link
                 to={`/about/council/${president.slug}`}
-                className="group flex flex-col md:flex-row items-center gap-8 rounded-2xl bg-white border border-spe-border/60 p-8 hover:shadow-xl hover:border-spe-blue/20 transition-all duration-300"
+                className="group flex flex-col md:flex-row items-center gap-8 rounded-2xl bg-white border border-spe-divider p-8 hover:shadow-xl hover:border-spe-blue/20 transition-all duration-500"
               >
-                <div className="w-36 h-36 md:w-44 md:h-44 rounded-full overflow-hidden ring-4 ring-spe-blue/10 flex-shrink-0">
+                <div className="w-36 h-36 md:w-44 md:h-44 rounded-full overflow-hidden ring-4 ring-spe-paper flex-shrink-0">
                   <img
                     src={president.images?.[0]}
                     alt={president.name}
                     width={176}
                     height={176}
-                    className="w-full h-full object-cover object-top group-hover:scale-105 transition-transform duration-500"
+                    className="w-full h-full object-cover object-top group-hover:scale-105 transition-transform duration-700 ease-[cubic-bezier(0.16,1,0.3,1)]"
                     loading="lazy"
                   />
                 </div>
                 <div className="text-center md:text-left flex-1">
-                  <span className="inline-block px-3 py-1 text-xs font-semibold uppercase tracking-wider text-spe-blue bg-spe-blue/5 rounded-full mb-3">
+                  <span className="section-label mb-3 inline-flex">
                     {president.role}
                   </span>
-                  <h3 className="text-2xl font-serif font-bold text-spe-dark group-hover:text-spe-blue transition-colors mb-3">
+                  <h3 className="text-2xl font-serif font-bold text-spe-ink group-hover:text-spe-blue transition-colors duration-300 mb-3">
                     {president.name}
                   </h3>
                   <p className="text-spe-muted leading-relaxed max-w-xl line-clamp-3">
                     {president.body?.replace(/<[^>]*>/g, '').replace(/\s+/g, ' ').trim().slice(0, 280)}...
                   </p>
-                  <span className="inline-flex items-center gap-1.5 mt-4 text-sm font-medium text-spe-blue group-hover:gap-2.5 transition-all">
+                  <span className="inline-flex items-center gap-2 mt-4 text-sm font-semibold text-spe-blue group-hover:gap-3 transition-all duration-300">
                     View full profile
-                    <svg className="w-3.5 h-3.5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                      <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 5l7 7-7 7" />
+                    <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                      <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M17 8l4 4m0 0l-4 4m4-4H3" />
                     </svg>
                   </span>
                 </div>
@@ -382,28 +376,28 @@ export default function Home() {
               <div key={vp.slug} className="reveal h-full">
                 <Link
                   to={`/about/council/${vp.slug}`}
-                  className="group flex flex-col items-center text-center rounded-2xl bg-white border border-spe-border/60 p-6 hover:shadow-lg hover:border-spe-blue/20 transition-all duration-300 h-full"
+                  className="group flex flex-col items-center text-center rounded-2xl bg-white border border-spe-divider p-6 hover:shadow-lg hover:border-spe-blue/20 transition-all duration-500 h-full"
                 >
-                  <div className="w-24 h-24 rounded-full overflow-hidden ring-3 ring-spe-bg mb-4 flex-shrink-0">
+                  <div className="w-24 h-24 rounded-full overflow-hidden ring-3 ring-spe-paper mb-4 flex-shrink-0">
                     <img
                       src={vp.images?.[0]}
                       alt={vp.name}
                       width={96}
                       height={96}
-                      className="w-full h-full object-cover object-top group-hover:scale-105 transition-transform duration-500"
+                      className="w-full h-full object-cover object-top group-hover:scale-105 transition-transform duration-700 ease-[cubic-bezier(0.16,1,0.3,1)]"
                       loading="lazy"
                     />
                   </div>
-                  <span className="text-[11px] font-semibold uppercase tracking-wider text-spe-muted/70 mb-1.5">
+                  <span className="text-[10px] font-semibold uppercase tracking-[0.15em] text-spe-gold mb-2">
                     {vp.role}
                   </span>
-                  <h3 className="text-lg font-serif font-bold text-spe-dark group-hover:text-spe-blue transition-colors mb-2">
+                  <h3 className="text-lg font-serif font-bold text-spe-ink group-hover:text-spe-blue transition-colors duration-300 mb-2">
                     {vp.name}
                   </h3>
                   <p className="text-sm text-spe-muted leading-relaxed line-clamp-3 flex-1">
                     {vp.body?.replace(/<[^>]*>/g, '').replace(/\s+/g, ' ').trim().slice(0, 160)}...
                   </p>
-                  <span className="inline-flex items-center gap-1 mt-4 text-sm font-medium text-spe-blue group-hover:gap-1.5 transition-all">
+                  <span className="inline-flex items-center gap-1.5 mt-4 text-sm font-semibold text-spe-blue group-hover:gap-2 transition-all duration-300">
                     Profile
                     <svg className="w-3.5 h-3.5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                       <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 5l7 7-7 7" />
@@ -417,7 +411,7 @@ export default function Home() {
       </section>
 
       {/* Book Reviews — Magazine Grid */}
-      <section ref={booksRef} className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-16 sm:py-20">
+      <section ref={booksRef} className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8" style={{ paddingTop: 'var(--section-padding-y)', paddingBottom: 'var(--section-padding-y)' }}>
         <div className="reveal">
           <SectionHeading
             title="From the Reading Room"
@@ -441,25 +435,28 @@ export default function Home() {
       </section>
 
       {/* Annual Dinner — Elegant Dark Section */}
-      <section ref={dinnerRef} className="relative overflow-hidden">
-        <div className="absolute inset-0 bg-gradient-to-br from-slate-900 via-slate-800 to-slate-900" />
-        <div className="absolute inset-0 bg-[url('data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iNjAiIGhlaWdodD0iNjAiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+PHBhdGggZD0iTTAgMGg2MHY2MEgweiIgZmlsbD0ibm9uZSIvPjxwYXRoIGQ9Ik0zMCAzMGgxdjFoLTF6IiBmaWxsPSJyZ2JhKDI1NSwyMTUsMCwwLjAzKSIvPjwvc3ZnPg==')] opacity-60" />
-        <div className="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-16 sm:py-20">
+      <section ref={dinnerRef} className="relative overflow-hidden grain-overlay">
+        <div className="absolute inset-0 bg-gradient-to-br from-spe-ink via-[#1a1a2e] to-spe-ink" />
+        <div className="absolute inset-0 opacity-[0.03] hero-pattern" />
+        <div className="relative z-10 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8" style={{ paddingTop: 'var(--section-padding-y)', paddingBottom: 'var(--section-padding-y)' }}>
           <div className="reveal">
-            <p className="editorial-subheading text-amber-400/70 mb-2">Gala Events</p>
-            <h2 className="editorial-heading text-3xl sm:text-4xl text-white mb-3">Annual Dinner</h2>
-            <p className="text-white/50 max-w-2xl mb-10 leading-relaxed">
+            <div className="inline-flex items-center gap-2 mb-3">
+              <span className="w-6 h-[2px] bg-spe-gold/60 rounded-full" />
+              <span className="text-spe-gold/70 text-xs font-semibold uppercase tracking-[0.15em]">Gala Events</span>
+            </div>
+            <h2 className="editorial-heading text-white mb-3" style={{ fontSize: 'clamp(1.75rem, 3vw + 0.25rem, 2.5rem)' }}>Annual Dinner</h2>
+            <p className="text-white/45 max-w-2xl mb-10 leading-relaxed">
               Our flagship black-tie event brings together leading economists, policymakers, and industry leaders for an evening of distinguished speakers and networking.
             </p>
           </div>
-          <div className="grid grid-cols-1 md:grid-cols-3 gap-6 reveal-stagger">
+          <div className="grid grid-cols-1 md:grid-cols-3 gap-7 reveal-stagger">
             {latestDinners.map(item => {
               const heroImage = item.images?.[0]?.replace('/1200x0/', '/800x0/')
               return (
                 <div key={item.slug} className="reveal h-full">
                   <Link
                     to={`/speakers/dinner-reviews/${item.slug}`}
-                    className="group block rounded-2xl bg-white/5 border border-white/10 overflow-hidden hover:bg-white/10 hover:border-amber-500/30 transition-all duration-300 h-full"
+                    className="group block rounded-2xl bg-white/[0.04] border border-white/[0.08] overflow-hidden hover:bg-white/[0.08] hover:border-spe-gold/30 transition-all duration-500 h-full"
                   >
                     {heroImage && (
                       <div className="aspect-[4/3] overflow-hidden">
@@ -468,22 +465,22 @@ export default function Home() {
                           alt={item.title}
                           width={500}
                           height={375}
-                          className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500"
+                          className="w-full h-full object-cover group-hover:scale-[1.04] transition-transform duration-700 ease-[cubic-bezier(0.16,1,0.3,1)]"
                           loading="lazy"
                         />
                       </div>
                     )}
                     <div className="p-5">
-                      <h3 className="text-lg font-serif font-bold text-white group-hover:text-amber-200 transition-colors mb-2 line-clamp-2">
+                      <h3 className="text-lg font-serif font-bold text-white group-hover:text-spe-gold/90 transition-colors duration-300 mb-2 line-clamp-2">
                         {item.title}
                       </h3>
-                      <p className="text-sm text-white/50 line-clamp-3 leading-relaxed">
+                      <p className="text-sm text-white/40 line-clamp-3 leading-relaxed">
                         {item.body?.replace(/<[^>]*>/g, '').slice(0, 140)}...
                       </p>
-                      <span className="inline-flex items-center gap-1.5 mt-4 text-sm font-medium text-amber-400 group-hover:gap-2.5 transition-all">
+                      <span className="inline-flex items-center gap-2 mt-4 text-sm font-semibold text-spe-gold/80 group-hover:gap-3 transition-all duration-300">
                         Read more
                         <svg className="w-3.5 h-3.5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                          <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 5l7 7-7 7" />
+                          <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M17 8l4 4m0 0l-4 4m4-4H3" />
                         </svg>
                       </span>
                     </div>
@@ -492,10 +489,10 @@ export default function Home() {
               )
             })}
           </div>
-          <div className="text-center mt-10 reveal">
+          <div className="text-center mt-12 reveal">
             <Link
               to="/speakers/dinner-reviews"
-              className="inline-flex items-center gap-2 px-6 py-3 bg-amber-500/10 text-amber-300 font-medium rounded-xl hover:bg-amber-500/20 transition-all border border-amber-500/20 text-sm"
+              className="inline-flex items-center gap-2.5 px-7 py-3.5 bg-spe-gold/10 text-spe-gold/80 font-semibold rounded-xl hover:bg-spe-gold/20 transition-all duration-300 border border-spe-gold/20 text-sm"
             >
               View all dinner reviews
               <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
@@ -507,8 +504,8 @@ export default function Home() {
       </section>
 
       {/* Explore the SPE — Quick Navigation */}
-      <section ref={exploreRef} className="bg-spe-bg/50 border-y border-spe-border/10">
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-16 sm:py-20">
+      <section ref={exploreRef} className="bg-spe-bg border-y border-spe-divider/50">
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8" style={{ paddingTop: 'var(--section-padding-y)', paddingBottom: 'var(--section-padding-y)' }}>
           <div className="reveal">
             <SectionHeading
               title="Explore the SPE"
@@ -516,40 +513,37 @@ export default function Home() {
             />
           </div>
           <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6 reveal-stagger">
-            {exploreCards.map(card => {
-              const c = colorMap[card.color]
-              return (
-                <div key={card.to} className="reveal h-full">
-                  <Link
-                    to={card.to}
-                    className={`group block rounded-2xl bg-gradient-to-br ${c.bg} border ${c.border} p-6 hover:shadow-lg transition-all duration-300 h-full`}
-                  >
-                    <div className={`w-10 h-10 rounded-xl ${c.iconBg} flex items-center justify-center mb-3`}>
-                      <svg className={`w-5 h-5 ${c.iconColor}`} fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                        <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d={card.icon} />
-                      </svg>
-                    </div>
-                    <h3 className={`text-base font-serif font-bold text-spe-dark mb-1.5 ${c.hoverText} transition-colors`}>
-                      {card.label}
-                    </h3>
-                    <p className="text-sm text-spe-muted leading-relaxed">{card.desc}</p>
-                    <span className={`inline-flex items-center gap-1 mt-3 text-sm font-medium ${c.linkColor} group-hover:gap-1.5 transition-all`}>
-                      Explore
-                      <svg className="w-3.5 h-3.5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                        <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 5l7 7-7 7" />
-                      </svg>
-                    </span>
-                  </Link>
-                </div>
-              )
-            })}
+            {exploreCards.map(card => (
+              <div key={card.to} className="reveal h-full">
+                <Link
+                  to={card.to}
+                  className="group block rounded-2xl bg-white border border-spe-divider p-6 hover:shadow-lg hover:border-spe-blue/25 transition-all duration-500 h-full"
+                >
+                  <div className="w-11 h-11 rounded-xl bg-spe-blue/8 flex items-center justify-center mb-4">
+                    <svg className="w-5 h-5 text-spe-blue" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                      <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d={card.icon} />
+                    </svg>
+                  </div>
+                  <h3 className="text-base font-serif font-bold text-spe-ink mb-2 group-hover:text-spe-blue transition-colors duration-300">
+                    {card.label}
+                  </h3>
+                  <p className="text-sm text-spe-muted leading-relaxed">{card.desc}</p>
+                  <span className="inline-flex items-center gap-1.5 mt-4 text-sm font-semibold text-spe-blue group-hover:gap-2.5 transition-all duration-300">
+                    Explore
+                    <svg className="w-3.5 h-3.5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                      <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M17 8l4 4m0 0l-4 4m4-4H3" />
+                    </svg>
+                  </span>
+                </Link>
+              </div>
+            ))}
           </div>
         </div>
       </section>
 
       {/* Recent News */}
       <section ref={newsRef}>
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-16 sm:py-20">
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8" style={{ paddingTop: 'var(--section-padding-y)', paddingBottom: 'var(--section-padding-y)' }}>
           <div className="reveal">
             <SectionHeading
               title="News"
@@ -557,7 +551,7 @@ export default function Home() {
               linkTo="/news"
             />
           </div>
-          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-5 reveal-stagger">
+          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6 reveal-stagger">
             {latestNews.map(item => (
               <div key={item.slug} className="reveal h-full">
                 <ContentCard

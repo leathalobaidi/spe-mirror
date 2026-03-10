@@ -17,28 +17,28 @@ interface Props {
 }
 
 const categoryColors: Record<string, string> = {
-  podcast: 'bg-purple-100 text-purple-700',
-  'speaker-series': 'bg-spe-btn text-spe-btn-text',
-  'conference-report': 'bg-emerald-100 text-emerald-700',
-  'dinner-review': 'bg-amber-100 text-amber-700',
-  'book-review': 'bg-rose-100 text-rose-700',
-  article: 'bg-sky-100 text-sky-700',
-  event: 'bg-spe-light/30 text-spe-deep2',
-  news: 'bg-slate-100 text-slate-700',
-  'salary-survey': 'bg-teal-100 text-teal-700',
+  podcast: 'bg-purple-50 text-purple-700 border border-purple-200/60',
+  'speaker-series': 'bg-spe-blue/10 text-spe-deep2 border border-spe-blue/20',
+  'conference-report': 'bg-emerald-50 text-emerald-700 border border-emerald-200/60',
+  'dinner-review': 'bg-amber-50 text-amber-700 border border-amber-200/60',
+  'book-review': 'bg-rose-50 text-rose-700 border border-rose-200/60',
+  article: 'bg-sky-50 text-sky-700 border border-sky-200/60',
+  event: 'bg-spe-blue/8 text-spe-deep2 border border-spe-blue/15',
+  news: 'bg-slate-50 text-slate-600 border border-slate-200/60',
+  'salary-survey': 'bg-teal-50 text-teal-700 border border-teal-200/60',
 }
 
 /** Gradient backgrounds for placeholder thumbnails when no image is available */
 const categoryGradients: Record<string, string> = {
-  podcast: 'from-purple-500/20 via-purple-400/10 to-purple-300/5',
-  'speaker-series': 'from-spe-blue/20 via-spe-blue/10 to-spe-accent/5',
-  'conference-report': 'from-emerald-500/20 via-emerald-400/10 to-emerald-300/5',
-  'dinner-review': 'from-amber-500/20 via-amber-400/10 to-amber-300/5',
-  'book-review': 'from-rose-500/20 via-rose-400/10 to-rose-300/5',
-  article: 'from-sky-500/20 via-sky-400/10 to-sky-300/5',
-  event: 'from-spe-deep/20 via-spe-blue/10 to-spe-accent/5',
-  news: 'from-slate-500/20 via-slate-400/10 to-slate-300/5',
-  'salary-survey': 'from-teal-500/20 via-teal-400/10 to-teal-300/5',
+  podcast: 'from-purple-500/15 via-purple-400/8 to-spe-paper',
+  'speaker-series': 'from-spe-blue/15 via-spe-blue/8 to-spe-paper',
+  'conference-report': 'from-emerald-500/15 via-emerald-400/8 to-spe-paper',
+  'dinner-review': 'from-amber-500/15 via-amber-400/8 to-spe-paper',
+  'book-review': 'from-rose-500/15 via-rose-400/8 to-spe-paper',
+  article: 'from-sky-500/15 via-sky-400/8 to-spe-paper',
+  event: 'from-spe-deep/15 via-spe-blue/8 to-spe-paper',
+  news: 'from-slate-500/15 via-slate-400/8 to-spe-paper',
+  'salary-survey': 'from-teal-500/15 via-teal-400/8 to-spe-paper',
 }
 
 /** SVG icon paths by category for placeholders */
@@ -57,16 +57,16 @@ export default function ContentCard({
   to, title, date, category, excerpt, image, imageAlt, className = '', size = 'md', speaker
 }: Props) {
   const [imgError, setImgError] = useState(false)
-  const colorClass = category ? (categoryColors[category] || 'bg-spe-bg text-spe-muted') : ''
+  const colorClass = category ? (categoryColors[category] || 'bg-spe-paper text-spe-muted') : ''
   const strippedExcerpt = excerpt ? truncateText(stripHtml(excerpt), size === 'lg' ? 200 : 120) : ''
-  const gradientClass = category ? (categoryGradients[category] || 'from-spe-bg to-white') : 'from-spe-bg to-white'
+  const gradientClass = category ? (categoryGradients[category] || 'from-spe-paper to-white') : 'from-spe-paper to-white'
   const iconPath = category ? categoryIcons[category] : null
   const imageHeight = size === 'lg' ? 'h-64' : size === 'sm' ? 'h-36' : 'h-48'
 
   return (
     <Link
       to={to}
-      className={`content-card group block h-full flex flex-col bg-white rounded-xl overflow-hidden border border-spe-border/30 hover:border-spe-blue/20 hover:shadow-lg transition-shadow ${className}`}
+      className={`content-card group block h-full flex flex-col overflow-hidden ${className}`}
     >
       {/* Image or Placeholder */}
       <div className={`relative overflow-hidden ${imageHeight}`}>
@@ -76,50 +76,50 @@ export default function ContentCard({
             alt={imageAlt || title}
             width={500}
             height={333}
-            className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-105"
+            className="w-full h-full object-cover transition-transform duration-700 ease-[cubic-bezier(0.16,1,0.3,1)] group-hover:scale-[1.04]"
             loading="lazy"
             onError={() => setImgError(true)}
           />
         ) : (
           <div className={`w-full h-full bg-gradient-to-br ${gradientClass} flex items-center justify-center`}>
             {iconPath && (
-              <svg className="w-12 h-12 text-spe-border/40 group-hover:text-spe-blue/30 transition-colors" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.2} d={iconPath} />
+              <svg className="w-12 h-12 text-spe-border/50 group-hover:text-spe-blue/25 transition-colors duration-500" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1} d={iconPath} />
               </svg>
             )}
           </div>
         )}
         {category && (
-          <span className={`absolute top-3 left-3 px-2.5 py-1 rounded-full text-xs font-semibold ${colorClass} ${!image || imgError ? 'backdrop-blur-sm' : ''}`}>
+          <span className={`absolute top-3 left-3 px-2.5 py-1 rounded-md text-[11px] font-semibold tracking-wide ${colorClass} ${!image || imgError ? '' : 'backdrop-blur-sm bg-white/90 text-spe-text border-white/60'}`}>
             {category.replace(/-/g, ' ').replace(/\b\w/g, l => l.toUpperCase())}
           </span>
         )}
         {category === 'event' && date && new Date(date) >= new Date(new Date().toDateString()) && (
-          <span className="absolute top-3 right-3 px-2 py-0.5 rounded-full text-[10px] font-bold uppercase tracking-wider bg-emerald-500 text-white shadow-sm">
+          <span className="absolute top-3 right-3 px-2 py-0.5 rounded-md text-[10px] font-bold uppercase tracking-wider bg-emerald-600 text-white shadow-sm">
             Upcoming
           </span>
         )}
       </div>
 
       {/* Content */}
-      <div className={`flex-1 ${size === 'lg' ? 'p-6' : size === 'sm' ? 'p-3' : 'p-4'}`}>
+      <div className={`flex-1 ${size === 'lg' ? 'p-6' : size === 'sm' ? 'p-3.5' : 'p-5'}`}>
         {date && (
-          <p className="editorial-subheading text-spe-grey mb-1.5">
+          <p className="text-[11px] font-semibold uppercase tracking-[0.1em] text-spe-grey mb-2">
             {formatDateShort(date)}
           </p>
         )}
-        <h3 className={`font-serif font-semibold text-spe-dark group-hover:text-spe-blue transition-colors leading-snug ${
+        <h3 className={`font-serif font-bold text-spe-ink group-hover:text-spe-blue transition-colors duration-300 leading-snug ${
           size === 'lg' ? 'text-xl' : size === 'sm' ? 'text-sm' : 'text-base'
         }`}>
           {title}
         </h3>
         {speaker && (
-          <p className={`mt-1 font-medium text-spe-blue/70 ${size === 'sm' ? 'text-xs' : 'text-sm'}`}>
+          <p className={`mt-1.5 font-medium text-spe-blue/60 ${size === 'sm' ? 'text-xs' : 'text-sm'}`}>
             {speaker}
           </p>
         )}
         {strippedExcerpt && (
-          <p className={`mt-2 text-spe-muted leading-relaxed line-clamp-3 ${
+          <p className={`mt-2.5 text-spe-muted leading-relaxed line-clamp-3 ${
             size === 'sm' ? 'text-xs' : 'text-sm'
           }`}>
             {strippedExcerpt}
