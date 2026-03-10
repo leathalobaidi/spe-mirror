@@ -452,6 +452,90 @@ iframe {
 }
 
 /* ═══════════════════════════════════════════════════════
+   CMS Body Images — float layout from original spe.org.uk
+   Portrait/square images float left with text wrapping;
+   landscape/full images span full width.
+   ═══════════════════════════════════════════════════════ */
+
+/* Contain floats within the prose container */
+.prose::after {
+  content: '';
+  display: table;
+  clear: both;
+}
+
+.prose .body_image_container {
+  float: left;
+  width: 250px;
+  margin: 0.5em 1.5rem 1rem 0;
+  clear: left;
+}
+
+.prose .body_image_container img,
+.prose img.body_image {
+  display: block;
+  width: 100%;
+  height: auto;
+  border-radius: var(--radius-md);
+}
+
+/* Standalone body_image (not inside a container) — same float behaviour */
+.prose img.body_image {
+  float: left;
+  width: 250px;
+  margin: 0.5em 1.5rem 1rem 0;
+  clear: left;
+}
+
+/* Format variants */
+.prose .body_image_container.format_portrait,
+.prose .body_image_container.format_square {
+  width: 250px;
+}
+
+.prose .body_image_container.format_landscape {
+  float: none;
+  width: 100%;
+  margin: 1.25rem 0;
+}
+
+.prose .body_image_container.format_full {
+  float: none;
+  width: 100%;
+  margin: 1.5rem 0 2rem;
+}
+
+/* Captions under images */
+.prose .body_image_container figcaption {
+  font-size: var(--font-size-sm);
+  color: var(--color-spe-muted);
+  margin-top: 0.4rem;
+  line-height: var(--line-height-snug);
+  font-style: italic;
+}
+
+/* Clearfix after floated images — prevent content overlap */
+.prose .body_image_container + .clearfix,
+.prose .clearfix {
+  clear: both;
+}
+
+/* Body text wrapping — ensure paragraphs flow around floated images */
+.prose p {
+  margin-bottom: 0.9em;
+}
+
+/* Mobile: collapse floats so images stack full-width */
+@media (max-width: 640px) {
+  .prose .body_image_container,
+  .prose img.body_image {
+    float: none;
+    width: 100%;
+    margin: 1rem 0;
+  }
+}
+
+/* ═══════════════════════════════════════════════════════
    Scrollable tables in scraped content
    ═══════════════════════════════════════════════════════ */
 .prose table {
