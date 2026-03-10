@@ -229,6 +229,40 @@ export function getDinnerContentForNews(newsTitle: string, newsDate: string): {
   return { event: null, review: null, essays: [] }
 }
 
+/** Find the dinner podcast for a Rybczynski essay (by title pattern) */
+export function getPodcastForEssay(essayTitle: string) {
+  const match = essayTitle.match(/(\d{4})\/(\d{2})/)
+  if (!match) return null
+  const century = match[1].slice(0, 2)
+  const dinnerYear = parseInt(century + match[2])
+  return dinnerPodcastsByYear.get(dinnerYear) ?? null
+}
+
+/** Find Rybczynski essays for a dinner event (only for dinner events) */
+export function getEssaysForEvent(eventTitle: string, eventDate: string) {
+  if (!eventTitle.toLowerCase().includes('dinner')) return []
+  return essaysByDinnerYear.get(getYear(eventDate)) ?? []
+}
+
+/** Find dinner/Ryb-related news for a dinner review's year */
+export function getNewsForDinnerReview(dinnerDate: string) {
+  const year = getYear(dinnerDate)
+  return dinnerNewsByYear.get(year)?.filter(m => m.type === 'dinner-recap' || m.type === 'ryb-winner') ?? []
+}
+
+/** Find Rybczynski essays for a dinner podcast */
+export function getEssaysForPodcast(podcastCategory: string | undefined, podcastDate: string) {
+  if (podcastCategory !== 'dinner-review') return []
+  return essaysByDinnerYear.get(getYear(podcastDate)) ?? []
+}
+
+/** Find dinner/Ryb news for a dinner podcast */
+export function getNewsForPodcast(podcastCategory: string | undefined, podcastDate: string) {
+  if (podcastCategory !== 'dinner-review') return []
+  const year = getYear(podcastDate)
+  return dinnerNewsByYear.get(year)?.filter(m => m.type === 'dinner-recap') ?? []
+}
+
 /** Extract the route-friendly slug for podcast links (last segment only) */
 export function podcastLinkSlug(fullSlug: string) {
   const parts = fullSlug.split('/')

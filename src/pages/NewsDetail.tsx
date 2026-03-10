@@ -8,7 +8,7 @@ import Breadcrumbs from '../components/Breadcrumbs'
 import PdfDownloads from '../components/PdfDownloads'
 import PrevNextNav from '../components/PrevNextNav'
 import NotFound from './NotFound'
-import { getDinnerContentForNews, eventDetailPath } from '../utils/crossLinks'
+import { getDinnerContentForNews, getPodcastForDinner, podcastLinkSlug, eventDetailPath } from '../utils/crossLinks'
 
 export default function NewsDetail() {
   const { slug } = useParams()
@@ -114,7 +114,9 @@ export default function NewsDetail() {
         {/* Cross-links for dinner/Rybczynski news */}
         {article.title && article.date && (() => {
           const { event, review, essays } = getDinnerContentForNews(article.title, article.date)
-          if (!event && !review && essays.length === 0) return null
+          const podcast = (article.title.toLowerCase().includes('annual dinner') || article.title.toLowerCase().includes('rybczynski'))
+            ? getPodcastForDinner(article.date) : null
+          if (!event && !review && !podcast && essays.length === 0) return null
           return (
             <div className="my-10 rounded-xl border border-spe-divider/15 bg-spe-paper/30 p-6">
               <p className="text-[10px] font-semibold uppercase tracking-[0.15em] text-spe-copper mb-4">Related content</p>
@@ -144,6 +146,20 @@ export default function NewsDetail() {
                     <div>
                       <span className="text-sm font-medium text-spe-blue group-hover:text-spe-deep transition-colors">Read the dinner review</span>
                       <span className="block text-xs text-spe-ink/50 mt-0.5">{review.title}</span>
+                    </div>
+                  </Link>
+                )}
+                {podcast && (
+                  <Link
+                    to={`/podcasts/${podcastLinkSlug(podcast.slug)}`}
+                    className="flex items-start gap-3 group"
+                  >
+                    <span className="mt-0.5 flex-shrink-0 w-8 h-8 rounded-lg bg-spe-blue/10 flex items-center justify-center">
+                      <svg className="w-4 h-4 text-spe-blue" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M15.536 8.464a5 5 0 010 7.072M12 12h.01M18.364 5.636a9 9 0 010 12.728M5.636 18.364a9 9 0 010-12.728M8.464 15.536a5 5 0 010-7.072" /></svg>
+                    </span>
+                    <div>
+                      <span className="text-sm font-medium text-spe-blue group-hover:text-spe-deep transition-colors">Listen to the dinner speech</span>
+                      <span className="block text-xs text-spe-ink/50 mt-0.5">{podcast.title}</span>
                     </div>
                   </Link>
                 )}

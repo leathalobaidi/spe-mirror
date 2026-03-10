@@ -10,7 +10,7 @@ import PdfDownloads from '../components/PdfDownloads'
 import PrevNextNav from '../components/PrevNextNav'
 import NotFound from './NotFound'
 import type { MediaEmbed as MediaEmbedType } from '../utils/media'
-import { getPodcastForDinner, getEssaysForDinner, getEventForDinnerReview, podcastLinkSlug, eventDetailPath } from '../utils/crossLinks'
+import { getPodcastForDinner, getEssaysForDinner, getEventForDinnerReview, getNewsForDinnerReview, podcastLinkSlug, eventDetailPath } from '../utils/crossLinks'
 
 export default function DinnerReviewDetail() {
   const { slug } = useParams()
@@ -101,7 +101,8 @@ export default function DinnerReviewDetail() {
           const podcast = getPodcastForDinner(item.date)
           const essays = getEssaysForDinner(item.date)
           const event = getEventForDinnerReview(item.date)
-          if (!podcast && essays.length === 0 && !event) return null
+          const newsItems = getNewsForDinnerReview(item.date)
+          if (!podcast && essays.length === 0 && !event && newsItems.length === 0) return null
           return (
             <div className="my-10 rounded-xl border border-spe-divider/15 bg-spe-paper/30 p-6">
               <p className="text-[10px] font-semibold uppercase tracking-[0.15em] text-spe-copper mb-4">Related content</p>
@@ -146,6 +147,21 @@ export default function DinnerReviewDetail() {
                     <div>
                       <span className="text-sm font-medium text-spe-blue group-hover:text-spe-deep transition-colors">Rybczynski Prize Essay</span>
                       <span className="block text-xs text-spe-ink/50 mt-0.5">{essay.title}</span>
+                    </div>
+                  </Link>
+                ))}
+                {newsItems.map(({ news }) => (
+                  <Link
+                    key={news.slug}
+                    to={`/news/${news.slug}`}
+                    className="flex items-start gap-3 group"
+                  >
+                    <span className="mt-0.5 flex-shrink-0 w-8 h-8 rounded-lg bg-spe-copper/10 flex items-center justify-center">
+                      <svg className="w-4 h-4 text-spe-copper" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M19 20H5a2 2 0 01-2-2V6a2 2 0 012-2h10a2 2 0 012 2v1m2 13a2 2 0 01-2-2V7m2 13a2 2 0 002-2V9a2 2 0 00-2-2h-2m-4-3H9M7 16h6M7 8h6v4H7V8z" /></svg>
+                    </span>
+                    <div>
+                      <span className="text-sm font-medium text-spe-blue group-hover:text-spe-deep transition-colors">News coverage</span>
+                      <span className="block text-xs text-spe-ink/50 mt-0.5">{news.title}</span>
                     </div>
                   </Link>
                 ))}

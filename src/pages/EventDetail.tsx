@@ -10,7 +10,7 @@ import type { MediaEmbed as MediaEmbedType } from '../utils/media'
 import PdfDownloads from '../components/PdfDownloads'
 import NotFound from './NotFound'
 import PrevNextNav from '../components/PrevNextNav'
-import { getDinnerReviewForEvent, getPodcastForEvent, getNewsForEvent, podcastLinkSlug, eventDetailPath } from '../utils/crossLinks'
+import { getDinnerReviewForEvent, getPodcastForEvent, getNewsForEvent, getEssaysForEvent, podcastLinkSlug, eventDetailPath } from '../utils/crossLinks'
 
 export default function EventDetail() {
   const { slug } = useParams()
@@ -149,8 +149,9 @@ export default function EventDetail() {
         {event.date && (() => {
           const review = getDinnerReviewForEvent(event.title, event.date)
           const podcast = getPodcastForEvent(event.title, event.date)
+          const essays = getEssaysForEvent(event.title, event.date)
           const newsItems = getNewsForEvent(event.title, event.date) ?? []
-          if (!review && !podcast && newsItems.length === 0) return null
+          if (!review && !podcast && essays.length === 0 && newsItems.length === 0) return null
           return (
             <div className="my-10 rounded-xl border border-spe-divider/15 bg-spe-paper/30 p-6">
               <p className="text-[10px] font-semibold uppercase tracking-[0.15em] text-spe-copper mb-4">Related content</p>
@@ -183,6 +184,21 @@ export default function EventDetail() {
                     </div>
                   </Link>
                 )}
+                {essays.map(essay => (
+                  <Link
+                    key={essay.slug}
+                    to={`/reading-room/rybczynski-essays/${essay.slug}`}
+                    className="flex items-start gap-3 group"
+                  >
+                    <span className="mt-0.5 flex-shrink-0 w-8 h-8 rounded-lg bg-spe-gold/10 flex items-center justify-center">
+                      <svg className="w-4 h-4 text-spe-gold" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M12 6.253v13m0-13C10.832 5.477 9.246 5 7.5 5S4.168 5.477 3 6.253v13C4.168 18.477 5.754 18 7.5 18s3.332.477 4.5 1.253m0-13C13.168 5.477 14.754 5 16.5 5c1.747 0 3.332.477 4.5 1.253v13C19.832 18.477 18.247 18 16.5 18c-1.746 0-3.332.477-4.5 1.253" /></svg>
+                    </span>
+                    <div>
+                      <span className="text-sm font-medium text-spe-blue group-hover:text-spe-deep transition-colors">Rybczynski Prize Essay</span>
+                      <span className="block text-xs text-spe-ink/50 mt-0.5">{essay.title}</span>
+                    </div>
+                  </Link>
+                ))}
                 {newsItems.map(({ news }) => (
                   <Link
                     key={news.slug}
