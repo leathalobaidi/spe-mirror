@@ -22,6 +22,7 @@ export default function PodcastDetail() {
   useSEO({
     title: podcast.title,
     description: podcast.body ? podcast.body.replace(/<[^>]*>/g, '').slice(0, 155) + '...' : '',
+    image: podcast.images?.[0] || undefined,
     type: 'article',
     schema: [
       {

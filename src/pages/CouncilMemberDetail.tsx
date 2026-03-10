@@ -15,6 +15,7 @@ export default function CouncilMemberDetail() {
   useSEO({
     title: person.name,
     description: person.body ? person.body.replace(/<[^>]*>/g, '').slice(0, 155) + '...' : '',
+    image: person.images?.[0] || undefined,
     type: 'profile',
     schema: {
       '@context': 'https://schema.org',

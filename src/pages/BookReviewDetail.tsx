@@ -19,6 +19,7 @@ export default function BookReviewDetail() {
   useSEO({
     title: review.title,
     description: review.body ? review.body.replace(/<[^>]*>/g, '').slice(0, 155) + '...' : '',
+    image: review.coverImage || review.images?.[0] || undefined,
     type: 'article',
     schema: [
       {

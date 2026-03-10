@@ -22,6 +22,7 @@ export default function DinnerReviewDetail() {
   useSEO({
     title: item.title,
     description: (item?.body ? item.body.replace(/<[^>]*>/g, '').slice(0, 155) + '...' : ''),
+    image: item.images?.[0] || undefined,
     type: 'article',
     schema: [
       {

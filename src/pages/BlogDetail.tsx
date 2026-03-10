@@ -18,6 +18,7 @@ export default function BlogDetail() {
   useSEO({
     title: post.title,
     description: post.body ? post.body.replace(/<[^>]*>/g, '').slice(0, 155) + '...' : '',
+    image: post.images?.[0] || undefined,
     type: 'article',
     schema: [
       {

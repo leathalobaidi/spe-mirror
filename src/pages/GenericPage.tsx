@@ -78,6 +78,7 @@ export default function GenericPage() {
   useSEO({
     title: page.title,
     description: pageDescription,
+    image: (page as any).images?.[0] || undefined,
     type: 'website',
     schema: [
       webPageSchema({ name: page.title, description: pageDescription, path: '/' + slug }),

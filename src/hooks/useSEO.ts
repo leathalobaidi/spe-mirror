@@ -93,7 +93,9 @@ export function useSEO({
     setLink('canonical', canonicalUrl)
 
     // ── Open Graph ──────────────────────────────────
-    const ogImage = image ? `${SITE_URL}${image}` : `${SITE_URL}${DEFAULT_IMAGE}`
+    const ogImage = image
+      ? image.startsWith('http') ? image : `${SITE_URL}${image}`
+      : `${SITE_URL}${DEFAULT_IMAGE}`
     setMeta('property', 'og:title', title || SITE_NAME)
     setMeta('property', 'og:description', desc)
     setMeta('property', 'og:image', ogImage)

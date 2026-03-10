@@ -19,6 +19,7 @@ export default function NewsDetail() {
   useSEO({
     title: article.title,
     description: article.body ? article.body.replace(/<[^>]*>/g, '').slice(0, 155) + '...' : '',
+    image: article.bannerImage || article.images?.[0] || undefined,
     type: 'article',
     schema: [
       {

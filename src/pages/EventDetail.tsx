@@ -26,6 +26,7 @@ export default function EventDetail() {
   useSEO({
     title: event.title,
     description: event.body ? event.body.replace(/<[^>]*>/g, '').slice(0, 155) + '...' : '',
+    image: event.images?.[0] || undefined,
     type: 'event',
     schema: [
       {
