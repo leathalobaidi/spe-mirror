@@ -12,6 +12,7 @@ import NotFound from './NotFound'
 import PrevNextNav from '../components/PrevNextNav'
 import { getDinnerReviewForEvent, getPodcastForEvent, getNewsForEvent, getEssaysForEvent, podcastLinkSlug, eventDetailPath } from '../utils/crossLinks'
 import { getSpeakerByName } from '../utils/speakerDirectory'
+import { getYear } from '../utils/helpers'
 
 export default function EventDetail() {
   const { slug } = useParams()
@@ -77,6 +78,17 @@ export default function EventDetail() {
             ]}
           />
           <h1 className="editorial-heading text-3xl sm:text-4xl lg:text-5xl mb-4">{event.title}</h1>
+
+          {/* Hub link for dinner events */}
+          {event.title.toLowerCase().includes('annual dinner') && event.date && (
+            <Link
+              to={`/events/annual-dinner/${getYear(event.date)}`}
+              className="inline-flex items-center gap-2 mt-2 mb-2 px-3 py-1.5 rounded-full bg-spe-gold/15 text-spe-gold text-xs font-medium hover:bg-spe-gold/25 transition-colors"
+            >
+              <svg className="w-3.5 h-3.5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M19 11H5m14 0a2 2 0 012 2v6a2 2 0 01-2 2H5a2 2 0 01-2-2v-6a2 2 0 012-2m14 0V9a2 2 0 00-2-2M5 11V9a2 2 0 012-2m0 0V5a2 2 0 012-2h6a2 2 0 012 2v2M7 7h10" /></svg>
+              View all {getYear(event.date)} dinner content →
+            </Link>
+          )}
 
           <div className="flex flex-wrap gap-x-6 gap-y-2 mt-6 text-sm text-white/80">
             {event.date && (

@@ -11,6 +11,7 @@ import PrevNextNav from '../components/PrevNextNav'
 import NotFound from './NotFound'
 import type { MediaEmbed as MediaEmbedType } from '../utils/media'
 import { getPodcastForDinner, getEssaysForDinner, getEventForDinnerReview, getNewsForDinnerReview, podcastLinkSlug, eventDetailPath } from '../utils/crossLinks'
+import { getYear } from '../utils/helpers'
 
 export default function DinnerReviewDetail() {
   const { slug } = useParams()
@@ -75,6 +76,15 @@ export default function DinnerReviewDetail() {
           />
           <div className="inline-flex items-center gap-2 mb-3"><span className="w-6 h-[2px] bg-spe-gold rounded-full" /><span className="text-spe-gold text-[10px] font-semibold uppercase tracking-[0.15em]">Dinner Review</span></div>
           <h1 className="editorial-heading text-3xl sm:text-4xl lg:text-5xl mb-4">{item.title}</h1>
+          {item.date && (
+            <Link
+              to={`/events/annual-dinner/${getYear(item.date)}`}
+              className="inline-flex items-center gap-2 mt-1 px-3 py-1.5 rounded-full bg-spe-gold/15 text-spe-gold text-xs font-medium hover:bg-spe-gold/25 transition-colors"
+            >
+              <svg className="w-3.5 h-3.5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M19 11H5m14 0a2 2 0 012 2v6a2 2 0 01-2 2H5a2 2 0 01-2-2v-6a2 2 0 012-2m14 0V9a2 2 0 00-2-2M5 11V9a2 2 0 012-2m0 0V5a2 2 0 012-2h6a2 2 0 012 2v2M7 7h10" /></svg>
+              View all {getYear(item.date)} dinner content →
+            </Link>
+          )}
         </div>
       </div>
 

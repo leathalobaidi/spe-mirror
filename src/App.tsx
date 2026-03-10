@@ -6,6 +6,7 @@ import MainLayout from './layouts/MainLayout'
 // will be in a separate chunk, loaded only when the route is visited
 const Home = lazy(() => import('./pages/Home'))
 const Events = lazy(() => import('./pages/Events'))
+const AnnualDinnerHub = lazy(() => import('./pages/AnnualDinnerHub'))
 const EventDetail = lazy(() => import('./pages/EventDetail'))
 const Podcasts = lazy(() => import('./pages/Podcasts'))
 const PodcastDetail = lazy(() => import('./pages/PodcastDetail'))
@@ -67,6 +68,7 @@ export default function App() {
 
           {/* Events */}
           <Route path="/events" element={<Events />} />
+          <Route path="/events/annual-dinner/:year" element={<AnnualDinnerHub />} />
           <Route path="/events/:slug" element={<EventDetail />} />
 
           {/* Podcasts & Talks */}
