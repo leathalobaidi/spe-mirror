@@ -6,6 +6,7 @@ import BackToTop from '../components/BackToTop'
 import CookieBanner from '../components/CookieBanner'
 import ScrollToTop from '../components/ScrollToTop'
 import SkipToContent from '../components/SkipToContent'
+import ErrorBoundary from '../components/ErrorBoundary'
 
 export default function MainLayout() {
   const { pathname } = useLocation()
@@ -19,7 +20,9 @@ export default function MainLayout() {
       {/* Add top padding for fixed navbar, except on home (hero is full-bleed) */}
       {/* Mobile: h-14 nav only (56px). Desktop: h-8 accent + h-14 nav (88px) */}
       <main id="main-content" className={`flex-1 ${isHome ? '' : 'pt-14 lg:pt-[5.5rem]'}`}>
-        <Outlet />
+        <ErrorBoundary>
+          <Outlet />
+        </ErrorBoundary>
       </main>
       <Footer />
       <SearchOverlay />
