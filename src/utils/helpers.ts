@@ -144,6 +144,15 @@ export function sanitiseBodyHtml(html: string): string {
       /(<img[^>]*src=["'])\/site\/assets\/files\//gi,
       `$1${SPE_ASSET_BASE}/`
     )
+    // Resolve old CMS link hrefs (PDFs, docs): /images/ and /site/assets/files/
+    .replace(
+      /(<a[^>]*href=["'])\/images\//gi,
+      `$1${SPE_ASSET_BASE}/`
+    )
+    .replace(
+      /(<a[^>]*href=["'])\/site\/assets\/files\//gi,
+      `$1${SPE_ASSET_BASE}/`
+    )
     // Remove empty CMS wrapper divs (clearfix, body_image_container)
     .replace(/<div[^>]*class=["']clearfix["'][^>]*>\s*<\/div>/gi, '')
     .replace(/<div[^>]*class=["']body_image_container[^"']*["'][^>]*>\s*<\/div>/gi, '')
