@@ -10,6 +10,7 @@ import PdfDownloads from '../components/PdfDownloads'
 import PrevNextNav from '../components/PrevNextNav'
 import NotFound from './NotFound'
 import { getDinnerReviewForPodcast, getEventForPodcast, getEssaysForPodcast, getNewsForPodcast, eventDetailPath } from '../utils/crossLinks'
+import { getSpeakerByName } from '../utils/speakerDirectory'
 
 export default function PodcastDetail() {
   const { slug } = useParams()
@@ -89,7 +90,18 @@ export default function PodcastDetail() {
           {podcast.speakers && podcast.speakers.length > 0 && (
             <div className="mt-3 text-sm text-white/70">
               <span className="font-medium text-white/90">With: </span>
-              {podcast.speakers.join(', ')}
+              {podcast.speakers.map((s: string, i: number) => {
+                const name = s.replace(/^Speaker:\s*/i, '').split(',')[0].trim()
+                const speaker = getSpeakerByName(name)
+                return (
+                  <span key={i}>
+                    {i > 0 && ', '}
+                    {speaker ? (
+                      <Link to={`/speakers/directory/${speaker.slug}`} className="text-spe-gold hover:text-white transition-colors">{s}</Link>
+                    ) : s}
+                  </span>
+                )
+              })}
             </div>
           )}
         </div>

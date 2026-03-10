@@ -5,7 +5,9 @@ import { formatDate, sanitiseBodyHtml } from '../utils/helpers'
 import ContentCard from '../components/ContentCard'
 import ShareButtons from '../components/ShareButtons'
 import Breadcrumbs from '../components/Breadcrumbs'
+import PrevNextNav from '../components/PrevNextNav'
 import NotFound from './NotFound'
+import { getSpeakerByName } from '../utils/speakerDirectory'
 
 export default function BlogDetail() {
   const { slug } = useParams()
@@ -65,7 +67,14 @@ export default function BlogDetail() {
           />
           <h1 className="editorial-heading text-3xl sm:text-4xl lg:text-5xl mb-4">{post.title}</h1>
           <div className="flex items-center gap-3 text-sm text-white/70">
-            {post.author && <span>By {post.author}</span>}
+            {post.author && (() => {
+              const speaker = getSpeakerByName(post.author)
+              return speaker ? (
+                <Link to={`/speakers/directory/${speaker.slug}`} className="text-spe-gold hover:text-white transition-colors">By {post.author}</Link>
+              ) : (
+                <span>By {post.author}</span>
+              )
+            })()}
             {post.author && post.date && <span className="text-white/30">&middot;</span>}
             {post.date && <span>{formatDate(post.date)}</span>}
           </div>
@@ -74,22 +83,28 @@ export default function BlogDetail() {
 
       <article className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
         <div
-          className="prose prose-lg max-w-none prose-headings:font-serif prose-headings:text-spe-dark prose-a:text-spe-blue prose-a:no-underline hover:prose-a:underline prose-img:rounded-lg prose-p:leading-relaxed"
+          className="prose prose-lg max-w-none prose-headings:font-serif prose-headings:text-spe-ink prose-a:text-spe-blue prose-a:no-underline hover:prose-a:underline prose-img:rounded-lg prose-p:leading-relaxed"
           dangerouslySetInnerHTML={{ __html: sanitiseBodyHtml(bodyHtml) }}
         />
 
         {/* Share */}
         <ShareButtons title={post.title} />
+
+        <PrevNextNav
+          items={blogsData}
+          currentSlug={post.slug}
+          slugToPath={slug => `/blogs/${slug}`}
+        />
       </article>
 
       {/* Related Blog Posts */}
       {relatedPosts.length > 0 && (
-        <section className="bg-spe-bg/50 border-t border-spe-border/10">
+        <section className="bg-spe-paper/50 border-t border-spe-divider/10">
           <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-16">
             <div className="flex items-end justify-between mb-8">
               <div>
-                <p className="editorial-subheading text-spe-blue mb-2">From the Blog</p>
-                <h2 className="editorial-heading text-2xl text-spe-dark">More Posts</h2>
+                <p className="section-label">From the Blog</p>
+                <h2 className="editorial-heading text-2xl text-spe-ink">More Posts</h2>
               </div>
               <Link
                 to="/blogs"
@@ -97,7 +112,7 @@ export default function BlogDetail() {
               >
                 View all posts
                 <svg className="w-4 h-4 transition-transform group-hover:translate-x-0.5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 5l7 7-7 7" />
+                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M17 8l4 4m0 0l-4 4m4-4H3" />
                 </svg>
               </Link>
             </div>

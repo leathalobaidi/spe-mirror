@@ -11,6 +11,7 @@ import PdfDownloads from '../components/PdfDownloads'
 import NotFound from './NotFound'
 import PrevNextNav from '../components/PrevNextNav'
 import { getDinnerReviewForEvent, getPodcastForEvent, getNewsForEvent, getEssaysForEvent, podcastLinkSlug, eventDetailPath } from '../utils/crossLinks'
+import { getSpeakerByName } from '../utils/speakerDirectory'
 
 export default function EventDetail() {
   const { slug } = useParams()
@@ -108,15 +109,32 @@ export default function EventDetail() {
           {event.speakers && event.speakers.length > 0 && (
             <div className="mt-4 text-sm text-white/70">
               <span className="font-medium text-white/90">Speakers: </span>
-              {event.speakers.join(', ')}
+              {event.speakers.map((s: string, i: number) => {
+                const name = s.replace(/^Speaker:\s*/i, '').split(',')[0].trim()
+                const speaker = getSpeakerByName(name)
+                return (
+                  <span key={i}>
+                    {i > 0 && ', '}
+                    {speaker ? (
+                      <Link to={`/speakers/directory/${speaker.slug}`} className="text-spe-gold hover:text-white transition-colors">{s}</Link>
+                    ) : s}
+                  </span>
+                )
+              })}
             </div>
           )}
-          {event.chair && (
-            <div className="mt-1 text-sm text-white/70">
-              <span className="font-medium text-white/90">Chair: </span>
-              {event.chair}
-            </div>
-          )}
+          {event.chair && (() => {
+            const chairName = event.chair.replace(/^Speaker:\s*/i, '').split(',')[0].trim()
+            const chairSpeaker = getSpeakerByName(chairName)
+            return (
+              <div className="mt-1 text-sm text-white/70">
+                <span className="font-medium text-white/90">Chair: </span>
+                {chairSpeaker ? (
+                  <Link to={`/speakers/directory/${chairSpeaker.slug}`} className="text-spe-gold hover:text-white transition-colors">{event.chair}</Link>
+                ) : event.chair}
+              </div>
+            )
+          })()}
         </div>
       </div>
 
