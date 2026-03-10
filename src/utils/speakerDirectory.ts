@@ -167,3 +167,9 @@ export const speakerDirectory: Speaker[] = Array.from(map.values())
 export function getSpeakerBySlug(slug: string): Speaker | undefined {
   return speakerDirectory.find(s => s.slug === slug)
 }
+
+/** Look up a speaker by display name (exact match) — for cross-linking reviewers etc. */
+export function getSpeakerByName(name: string): Speaker | undefined {
+  const key = normaliseForMatch(name)
+  return speakerDirectory.find(s => normaliseForMatch(s.name) === key)
+}

@@ -1,10 +1,12 @@
 import { useParams, Link } from 'react-router-dom'
 import { useSEO } from '../hooks/useSEO'
 import bookReviewsData from '../data/book-reviews.json'
-import { formatDate, sanitiseBodyHtml } from '../utils/helpers'
+import { formatDate, sanitiseBodyHtml, resolveImageUrl } from '../utils/helpers'
+import { getSpeakerByName } from '../utils/speakerDirectory'
 import BookCover from '../components/BookCover'
 import ShareButtons from '../components/ShareButtons'
 import Breadcrumbs from '../components/Breadcrumbs'
+import PrevNextNav from '../components/PrevNextNav'
 import NotFound from './NotFound'
 
 export default function BookReviewDetail() {
@@ -44,16 +46,22 @@ export default function BookReviewDetail() {
     ],
   })
 
-  // Find related reviews: 3 other reviews
-  const relatedReviews = bookReviewsData
-    .filter(b => b.slug !== review.slug && b.coverImage)
-    .slice(0, 3)
+  // Cross-link reviewer to speaker profile if they're in the directory
+  const reviewerSpeaker = review.reviewer ? getSpeakerByName(review.reviewer) : undefined
+
+  // Related reviews: prefer same reviewer, then fall back to others with covers
+  const sameReviewer = review.reviewer
+    ? bookReviewsData.filter(b => b.slug !== review.slug && b.reviewer === review.reviewer && b.coverImage)
+    : []
+  const otherReviews = bookReviewsData.filter(b => b.slug !== review.slug && b.coverImage && (!review.reviewer || b.reviewer !== review.reviewer))
+  const relatedReviews = [...sameReviewer, ...otherReviews].slice(0, 3)
 
   return (
     <div>
       {/* Header */}
-      <div className="bg-gradient-to-br from-spe-deep2 via-spe-deep to-spe-blue text-white">
-        <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 py-16 sm:py-20">
+      <div className="bg-gradient-to-br from-spe-ink via-spe-deep2 to-spe-deep text-white relative overflow-hidden grain-overlay">
+        <div className="absolute inset-0 opacity-[0.03] hero-pattern" />
+        <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 py-16 sm:py-20 relative z-10">
           <Breadcrumbs
             variant="light"
             className="mb-6"
@@ -72,7 +80,13 @@ export default function BookReviewDetail() {
             {review.reviewer && (
               <span>
                 <span className="font-medium text-white/90">Reviewed by </span>
-                {review.reviewer}
+                {reviewerSpeaker ? (
+                  <Link to={`/speakers/directory/${reviewerSpeaker.slug}`} className="text-spe-gold hover:text-white transition-colors underline decoration-spe-gold/30 hover:decoration-white/60">
+                    {review.reviewer}
+                  </Link>
+                ) : (
+                  review.reviewer
+                )}
               </span>
             )}
             {review.date && (
@@ -88,9 +102,9 @@ export default function BookReviewDetail() {
           {/* Book cover */}
           {review.coverImage && (
             <div className="flex-shrink-0 mb-8 md:mb-0">
-              <div className="book-cover rounded-lg overflow-hidden w-48 mx-auto md:mx-0 aspect-[2/3] bg-spe-bg shadow-lg">
+              <div className="book-cover rounded-lg overflow-hidden w-48 mx-auto md:mx-0 aspect-[2/3] bg-spe-paper shadow-lg">
                 <img
-                  src={review.coverImage}
+                  src={resolveImageUrl(review.coverImage)}
                   alt={review.title}
                   className="w-full h-full object-cover"
                 />
@@ -101,7 +115,7 @@ export default function BookReviewDetail() {
           {/* Review text */}
           <div className="flex-1 min-w-0">
             <div
-              className="prose prose-lg max-w-none prose-headings:font-serif prose-headings:text-spe-dark prose-a:text-spe-blue prose-a:no-underline hover:prose-a:underline prose-img:rounded-lg prose-p:leading-relaxed"
+              className="prose prose-lg max-w-none prose-headings:font-serif prose-headings:text-spe-ink prose-a:text-spe-blue prose-a:no-underline hover:prose-a:underline prose-img:rounded-lg prose-p:leading-relaxed"
               dangerouslySetInnerHTML={{ __html: sanitiseBodyHtml(review.body) }}
             />
           </div>
@@ -109,16 +123,24 @@ export default function BookReviewDetail() {
 
         {/* Share */}
         <ShareButtons title={review.title} />
+
+        <PrevNextNav
+          items={bookReviewsData}
+          currentSlug={review.slug}
+          slugToPath={slug => `/reading-room/book-reviews/${slug}`}
+        />
       </article>
 
       {/* More Reviews */}
       {relatedReviews.length > 0 && (
-        <section className="bg-spe-bg/50 border-t border-spe-border/10">
+        <section className="bg-spe-paper/50 border-t border-spe-divider/10">
           <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-16">
             <div className="flex items-end justify-between mb-8">
               <div>
-                <p className="editorial-subheading text-spe-blue mb-2">Reading Room</p>
-                <h2 className="editorial-heading text-2xl text-spe-dark">More Reviews</h2>
+                <p className="section-label">Reading Room</p>
+                <h2 className="editorial-heading text-2xl text-spe-ink">
+                  {sameReviewer.length > 0 ? `More by ${review.reviewer}` : 'More Reviews'}
+                </h2>
               </div>
               <Link
                 to="/reading-room/book-reviews"
@@ -126,7 +148,7 @@ export default function BookReviewDetail() {
               >
                 View all reviews
                 <svg className="w-4 h-4 transition-transform group-hover:translate-x-0.5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 5l7 7-7 7" />
+                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M17 8l4 4m0 0l-4 4m4-4H3" />
                 </svg>
               </Link>
             </div>
