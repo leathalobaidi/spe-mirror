@@ -1,6 +1,6 @@
 import { useState } from 'react'
 import { Link } from 'react-router-dom'
-import { formatDateShort, truncateText, stripHtml } from '../utils/helpers'
+import { formatDateShort, truncateText, stripHtml, sanitiseBodyHtml, resolveImageUrl } from '../utils/helpers'
 
 interface Props {
   to: string
@@ -17,28 +17,28 @@ interface Props {
 }
 
 const categoryColors: Record<string, string> = {
-  podcast: 'bg-purple-50 text-purple-700 border border-purple-200/60',
-  'speaker-series': 'bg-spe-blue/10 text-spe-deep2 border border-spe-blue/20',
-  'conference-report': 'bg-emerald-50 text-emerald-700 border border-emerald-200/60',
-  'dinner-review': 'bg-amber-50 text-amber-700 border border-amber-200/60',
-  'book-review': 'bg-rose-50 text-rose-700 border border-rose-200/60',
-  article: 'bg-sky-50 text-sky-700 border border-sky-200/60',
+  podcast: 'bg-spe-cream text-spe-copper border border-spe-divider/40',
+  'speaker-series': 'bg-spe-blue/8 text-spe-deep2 border border-spe-blue/20',
+  'conference-report': 'bg-spe-cream text-spe-ink border border-spe-divider/40',
+  'dinner-review': 'bg-spe-cream text-spe-copper border border-spe-divider/40',
+  'book-review': 'bg-spe-cream text-spe-burgundy border border-spe-divider/40',
+  article: 'bg-spe-blue/8 text-spe-deep2 border border-spe-blue/20',
   event: 'bg-spe-blue/8 text-spe-deep2 border border-spe-blue/15',
-  news: 'bg-slate-50 text-slate-600 border border-slate-200/60',
-  'salary-survey': 'bg-teal-50 text-teal-700 border border-teal-200/60',
+  news: 'bg-spe-paper text-spe-muted border border-spe-divider/40',
+  'salary-survey': 'bg-spe-cream text-spe-ink border border-spe-divider/40',
 }
 
 /** Gradient backgrounds for placeholder thumbnails when no image is available */
 const categoryGradients: Record<string, string> = {
-  podcast: 'from-purple-500/15 via-purple-400/8 to-spe-paper',
+  podcast: 'from-spe-copper/12 via-spe-gold/6 to-spe-paper',
   'speaker-series': 'from-spe-blue/15 via-spe-blue/8 to-spe-paper',
-  'conference-report': 'from-emerald-500/15 via-emerald-400/8 to-spe-paper',
-  'dinner-review': 'from-amber-500/15 via-amber-400/8 to-spe-paper',
-  'book-review': 'from-rose-500/15 via-rose-400/8 to-spe-paper',
-  article: 'from-sky-500/15 via-sky-400/8 to-spe-paper',
+  'conference-report': 'from-spe-ink/10 via-spe-deep/5 to-spe-paper',
+  'dinner-review': 'from-spe-gold/12 via-spe-copper/6 to-spe-paper',
+  'book-review': 'from-spe-burgundy/10 via-spe-burgundy/5 to-spe-paper',
+  article: 'from-spe-blue/12 via-spe-deep/6 to-spe-paper',
   event: 'from-spe-deep/15 via-spe-blue/8 to-spe-paper',
-  news: 'from-slate-500/15 via-slate-400/8 to-spe-paper',
-  'salary-survey': 'from-teal-500/15 via-teal-400/8 to-spe-paper',
+  news: 'from-spe-ink/8 via-spe-divider/10 to-spe-paper',
+  'salary-survey': 'from-spe-teal/12 via-spe-teal/5 to-spe-paper',
 }
 
 /** SVG icon paths by category for placeholders */
@@ -57,8 +57,10 @@ export default function ContentCard({
   to, title, date, category, excerpt, image, imageAlt, className = '', size = 'md', speaker
 }: Props) {
   const [imgError, setImgError] = useState(false)
+  // Resolve local CMS asset paths (e.g. /images/…) to live spe.org.uk URLs
+  const resolvedImage = resolveImageUrl(image)
   const colorClass = category ? (categoryColors[category] || 'bg-spe-paper text-spe-muted') : ''
-  const strippedExcerpt = excerpt ? truncateText(stripHtml(excerpt), size === 'lg' ? 200 : 120) : ''
+  const strippedExcerpt = excerpt ? truncateText(stripHtml(sanitiseBodyHtml(excerpt)), size === 'lg' ? 200 : 120) : ''
   const gradientClass = category ? (categoryGradients[category] || 'from-spe-paper to-white') : 'from-spe-paper to-white'
   const iconPath = category ? categoryIcons[category] : null
   const imageHeight = size === 'lg' ? 'h-64' : size === 'sm' ? 'h-36' : 'h-48'
@@ -70,9 +72,9 @@ export default function ContentCard({
     >
       {/* Image or Placeholder */}
       <div className={`relative overflow-hidden ${imageHeight}`}>
-        {image && !imgError ? (
+        {resolvedImage && !imgError ? (
           <img
-            src={image}
+            src={resolvedImage}
             alt={imageAlt || title}
             width={500}
             height={333}
@@ -83,23 +85,24 @@ export default function ContentCard({
         ) : (
           <div className={`w-full h-full bg-gradient-to-br ${gradientClass} flex items-center justify-center`}>
             {iconPath && (
-              <svg className="w-12 h-12 text-spe-border/50 group-hover:text-spe-blue/25 transition-colors duration-500" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+              <svg className="w-12 h-12 text-spe-divider/50 group-hover:text-spe-blue/25 transition-colors duration-500" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                 <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1} d={iconPath} />
               </svg>
             )}
           </div>
         )}
         {category && (
-          <span className={`absolute top-3 left-3 px-2.5 py-1 rounded-md text-[11px] font-semibold tracking-wide ${colorClass} ${!image || imgError ? '' : 'backdrop-blur-sm bg-white/90 text-spe-text border-white/60'}`}>
+          <span className={`absolute top-3 left-3 px-2.5 py-1 rounded-md text-[11px] font-semibold tracking-wide ${colorClass} ${!resolvedImage || imgError ? '' : 'backdrop-blur-sm bg-white/90 text-spe-text border-white/60'}`}>
             {category.replace(/-/g, ' ').replace(/\b\w/g, l => l.toUpperCase())}
           </span>
         )}
         {category === 'event' && date && new Date(date) >= new Date(new Date().toDateString()) && (
-          <span className="absolute top-3 right-3 px-2 py-0.5 rounded-md text-[10px] font-bold uppercase tracking-wider bg-emerald-600 text-white shadow-sm">
+          <span className="absolute top-3 right-3 px-2 py-0.5 rounded-md text-[10px] font-bold uppercase tracking-wider bg-spe-teal text-white shadow-sm">
             Upcoming
           </span>
         )}
       </div>
+
 
       {/* Content */}
       <div className={`flex-1 ${size === 'lg' ? 'p-6' : size === 'sm' ? 'p-3.5' : 'p-5'}`}>

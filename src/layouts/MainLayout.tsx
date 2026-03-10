@@ -17,7 +17,8 @@ export default function MainLayout() {
       <SkipToContent />
       <Navbar />
       {/* Add top padding for fixed navbar, except on home (hero is full-bleed) */}
-      <main id="main-content" className={`flex-1 ${isHome ? '' : 'pt-16'}`}>
+      {/* Mobile: h-14 nav only (56px). Desktop: h-8 accent + h-14 nav (88px) */}
+      <main id="main-content" className={`flex-1 ${isHome ? '' : 'pt-14 lg:pt-[5.5rem]'}`}>
         <Outlet />
       </main>
       <Footer />

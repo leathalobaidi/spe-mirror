@@ -7,8 +7,12 @@ import { useEffect, useRef } from 'react'
  *
  * Uses both IntersectionObserver and a scroll fallback to ensure
  * elements always become visible regardless of browser quirks.
+ *
+ * @param trigger — optional value that triggers a re-scan when it changes.
+ *   Pass a data length or boolean so the hook picks up dynamically-rendered
+ *   `.reveal` elements that weren't in the DOM on first mount.
  */
-export function useReveal() {
+export function useReveal(trigger?: unknown) {
   const containerRef = useRef<HTMLDivElement>(null)
 
   useEffect(() => {
@@ -63,7 +67,8 @@ export function useReveal() {
       window.removeEventListener('scroll', onScroll)
       clearTimeout(safetyTimer)
     }
-  }, [])
+    // eslint-disable-next-line react-hooks/exhaustive-deps
+  }, [trigger])
 
   return containerRef
 }

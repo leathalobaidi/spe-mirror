@@ -45,13 +45,13 @@ const tiers = [
     name: 'Student',
     price: '£40',
     period: 'per year',
-    description: 'For those currently enrolled in a degree programme.',
+    description: 'For students and recent graduates starting their economics career.',
     features: [
-      'All member events at student rates',
+      'All member events at reduced rates',
       'Full digital access to publications',
       'Salary survey access',
       'Members\' poll participation',
-      'Networking opportunities',
+      'Networking & career development',
     ],
     accent: 'blue',
     popular: false,
@@ -72,21 +72,6 @@ const tiers = [
     ],
     accent: 'blue',
     popular: true,
-  },
-  {
-    name: 'Graduate',
-    price: '£40',
-    period: 'per year',
-    description: 'For recent graduates starting their economics career.',
-    features: [
-      'All member events at reduced rates',
-      'Full digital access to publications',
-      'Salary survey access',
-      'Members\' poll participation',
-      'Career development resources',
-    ],
-    accent: 'blue',
-    popular: false,
   },
 ]
 
@@ -146,9 +131,10 @@ export default function Membership() {
   return (
     <div>
       {/* Hero */}
-      <div className="bg-gradient-to-br from-spe-deep via-spe-blue to-spe-accent text-white">
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-16 sm:py-24">
-          <p className="editorial-subheading text-spe-light/80 mb-3">Join the Community</p>
+      <div className="bg-gradient-to-br from-spe-ink via-spe-deep2 to-spe-deep text-white relative overflow-hidden grain-overlay">
+        <div className="absolute inset-0 opacity-[0.03] hero-pattern" />
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-16 sm:py-24 relative z-10">
+          <div className="inline-flex items-center gap-2 mb-3"><span className="w-6 h-[2px] bg-spe-gold rounded-full" /><span className="text-spe-gold text-[10px] font-semibold uppercase tracking-[0.15em]">Join the Community</span></div>
           <h1 className="editorial-heading text-4xl sm:text-5xl lg:text-6xl mb-5">
             Become a Member
           </h1>
@@ -161,13 +147,13 @@ export default function Membership() {
       </div>
 
       {/* Spring Offer Banner */}
-      <div className="bg-gradient-to-r from-amber-50 to-orange-50 border-b border-amber-200/50">
+      <div className="bg-gradient-to-r from-spe-cream to-spe-paper border-b border-spe-divider/30">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-4">
           <div className="flex items-center justify-center gap-3 text-center">
-            <span className="inline-flex items-center gap-1.5 bg-amber-100 text-amber-800 text-xs font-bold px-3 py-1 rounded-full uppercase tracking-wide">
+            <span className="inline-flex items-center gap-1.5 bg-spe-gold/20 text-spe-copper text-xs font-bold px-3 py-1 rounded-full uppercase tracking-wide">
               Spring Offer
             </span>
-            <p className="text-sm sm:text-base text-amber-900 font-medium">
+            <p className="text-sm sm:text-base text-spe-ink font-medium">
               Join now and get <strong>18 months for the price of 12</strong> — your membership
               won't renew until end of June 2027.
             </p>
@@ -178,8 +164,8 @@ export default function Membership() {
       {/* Benefits */}
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-16 sm:py-20">
         <div className="text-center mb-12">
-          <p className="editorial-subheading text-spe-blue mb-2">Why Join</p>
-          <h2 className="editorial-heading text-2xl sm:text-3xl text-spe-dark">
+          <p className="section-label">Why Join</p>
+          <h2 className="editorial-heading text-2xl sm:text-3xl text-spe-ink">
             Membership Benefits
           </h2>
         </div>
@@ -220,7 +206,7 @@ export default function Membership() {
                 )}
               </div>
               <div>
-                <h3 className="font-serif font-bold text-spe-dark mb-1">{benefit.title}</h3>
+                <h3 className="font-serif font-bold text-spe-ink mb-1">{benefit.title}</h3>
                 <p className="text-sm text-spe-muted leading-relaxed">{benefit.description}</p>
               </div>
             </div>
@@ -229,23 +215,23 @@ export default function Membership() {
       </div>
 
       {/* Pricing Cards */}
-      <div className="bg-spe-light/30 border-y border-spe-border/20">
+      <div className="bg-spe-cream/50 border-y border-spe-divider/20">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-16 sm:py-20">
           <div className="text-center mb-12">
-            <p className="editorial-subheading text-spe-blue mb-2">Pricing</p>
-            <h2 className="editorial-heading text-2xl sm:text-3xl text-spe-dark">
+            <p className="section-label">Pricing</p>
+            <h2 className="editorial-heading text-2xl sm:text-3xl text-spe-ink">
               Choose Your Membership
             </h2>
           </div>
 
-          <div className="grid grid-cols-1 md:grid-cols-3 gap-8 max-w-5xl mx-auto">
+          <div className="grid grid-cols-1 md:grid-cols-2 gap-8 max-w-3xl mx-auto">
             {tiers.map(tier => (
               <div
                 key={tier.name}
                 className={`relative rounded-2xl bg-white p-8 flex flex-col ${
                   tier.popular
                     ? 'border-2 border-spe-blue shadow-lg shadow-spe-blue/10 ring-1 ring-spe-blue/5'
-                    : 'border border-spe-border/30'
+                    : 'border border-spe-divider/30'
                 }`}
               >
                 {tier.popular && (
@@ -257,9 +243,9 @@ export default function Membership() {
                 )}
 
                 <div className="text-center mb-6">
-                  <h3 className="text-lg font-serif font-bold text-spe-dark mb-2">{tier.name}</h3>
+                  <h3 className="text-lg font-serif font-bold text-spe-ink mb-2">{tier.name}</h3>
                   <div className="flex items-baseline justify-center gap-1">
-                    <span className="text-4xl font-bold text-spe-dark">{tier.price}</span>
+                    <span className="text-4xl font-bold text-spe-ink">{tier.price}</span>
                     <span className="text-spe-muted text-sm">/{tier.period}</span>
                   </div>
                   <p className="text-sm text-spe-muted mt-2">{tier.description}</p>
@@ -267,9 +253,9 @@ export default function Membership() {
 
                 <ul className="space-y-3 mb-8 flex-1">
                   {tier.features.map(feature => (
-                    <li key={feature} className="flex items-start gap-2.5 text-sm text-spe-dark">
+                    <li key={feature} className="flex items-start gap-2.5 text-sm text-spe-ink">
                       <svg
-                        className="w-4 h-4 text-emerald-500 flex-shrink-0 mt-0.5"
+                        className="w-4 h-4 text-spe-teal flex-shrink-0 mt-0.5"
                         fill="none"
                         stroke="currentColor"
                         viewBox="0 0 24 24"
@@ -291,7 +277,7 @@ export default function Membership() {
                   className={`block text-center font-semibold px-6 py-3 rounded-lg transition-colors ${
                     tier.popular
                       ? 'bg-spe-blue text-white hover:bg-spe-deep'
-                      : 'bg-spe-light text-spe-dark hover:bg-spe-blue/10'
+                      : 'bg-spe-cream text-spe-ink hover:bg-spe-blue/10'
                   }`}
                 >
                   Join as {tier.name.replace(' Membership', '')}
@@ -303,7 +289,7 @@ export default function Membership() {
           {/* Fellowship note */}
           <div className="mt-10 max-w-2xl mx-auto text-center">
             <p className="text-sm text-spe-muted">
-              <strong className="text-spe-dark">Fellowship</strong> is awarded by the Council to
+              <strong className="text-spe-ink">Fellowship</strong> is awarded by the Council to
               members who have made a distinguished contribution to economics or to the Society.
               Fellows use the designation FSPE.
             </p>
@@ -314,8 +300,8 @@ export default function Membership() {
       {/* Directory preview */}
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-16 sm:py-20">
         <div className="text-center mb-10">
-          <p className="editorial-subheading text-spe-blue mb-2">Our Network</p>
-          <h2 className="editorial-heading text-2xl sm:text-3xl text-spe-dark">
+          <p className="section-label">Our Network</p>
+          <h2 className="editorial-heading text-2xl sm:text-3xl text-spe-ink">
             Where Our Members Work
           </h2>
           <p className="text-spe-muted mt-3 max-w-xl mx-auto font-light">
@@ -328,7 +314,7 @@ export default function Membership() {
           {directoryOrgs.map(org => (
             <span
               key={org}
-              className="inline-block bg-white border border-spe-border/30 rounded-full px-4 py-2 text-sm text-spe-dark font-medium"
+              className="inline-block bg-white border border-spe-divider/30 rounded-full px-4 py-2 text-sm text-spe-ink font-medium"
             >
               {org}
             </span>
@@ -339,18 +325,18 @@ export default function Membership() {
           >
             View all 300+
             <svg className="w-3.5 h-3.5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-              <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 5l7 7-7 7" />
+              <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M17 8l4 4m0 0l-4 4m4-4H3" />
             </svg>
           </Link>
         </div>
       </div>
 
       {/* Sub-page cards */}
-      <div className="border-t border-spe-border/20">
+      <div className="border-t border-spe-divider/20">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-16">
           <div className="text-center mb-10">
-            <p className="editorial-subheading text-spe-blue mb-2">Quick Links</p>
-            <h2 className="editorial-heading text-2xl sm:text-3xl text-spe-dark">
+            <p className="section-label">Quick Links</p>
+            <h2 className="editorial-heading text-2xl sm:text-3xl text-spe-ink">
               Membership Resources
             </h2>
           </div>
@@ -360,7 +346,7 @@ export default function Membership() {
               <Link
                 key={page.path}
                 to={page.path}
-                className="group rounded-2xl border border-spe-border/30 bg-white p-6 hover:shadow-md transition-shadow text-center"
+                className="group rounded-2xl border border-spe-divider/30 bg-white p-6 hover:shadow-md transition-shadow text-center"
               >
                 <div className="w-12 h-12 rounded-xl bg-spe-blue/10 flex items-center justify-center mx-auto mb-4 group-hover:bg-spe-blue/20 transition-colors">
                   {page.icon === 'arrow-right' && (
@@ -384,7 +370,7 @@ export default function Membership() {
                     </svg>
                   )}
                 </div>
-                <h3 className="font-serif font-bold text-spe-dark group-hover:text-spe-blue transition-colors mb-1">
+                <h3 className="font-serif font-bold text-spe-ink group-hover:text-spe-blue transition-colors mb-1">
                   {page.title}
                 </h3>
                 <p className="text-sm text-spe-muted">{page.description}</p>
@@ -395,8 +381,9 @@ export default function Membership() {
       </div>
 
       {/* Payment info + CTA */}
-      <div className="bg-gradient-to-br from-spe-deep2 via-spe-deep to-spe-blue text-white">
-        <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 py-16 sm:py-20 text-center">
+      <div className="bg-gradient-to-br from-spe-ink via-spe-deep2 to-spe-deep text-white relative overflow-hidden grain-overlay">
+        <div className="absolute inset-0 opacity-[0.03] hero-pattern" />
+        <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 py-16 sm:py-20 text-center relative z-10">
           <h2 className="editorial-heading text-2xl sm:text-3xl mb-4">Ready to Join?</h2>
           <p className="text-white/70 max-w-xl mx-auto mb-8 font-light leading-relaxed">
             Pay by PayPal, Direct Debit, credit or debit card, or cheque. You can also join by
@@ -405,11 +392,11 @@ export default function Membership() {
           <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
             <Link
               to="/membership/join"
-              className="inline-flex items-center gap-2 bg-white text-spe-deep font-semibold px-8 py-3.5 rounded-lg hover:bg-spe-light transition-colors"
+              className="inline-flex items-center gap-2 bg-white text-spe-deep font-semibold px-8 py-3.5 rounded-lg hover:bg-spe-cream transition-colors"
             >
               Apply for Membership
               <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 5l7 7-7 7" />
+                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M17 8l4 4m0 0l-4 4m4-4H3" />
               </svg>
             </Link>
             <a
@@ -430,7 +417,7 @@ export default function Membership() {
             >
               Questions? Contact us
               <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 5l7 7-7 7" />
+                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M17 8l4 4m0 0l-4 4m4-4H3" />
               </svg>
             </Link>
           </div>

@@ -10,7 +10,7 @@ export default function MediaEmbed({ media, className = '', title }: Props) {
   const embedUrl = getEmbedUrl(media)
 
   return (
-    <div className={`relative w-full overflow-hidden rounded-xl bg-spe-dark/5 ${className}`}>
+    <div className={`relative w-full overflow-hidden rounded-xl bg-spe-ink/5 ${className}`}>
       <div className="relative pt-[56.25%]">
         <iframe
           src={embedUrl}

@@ -7,6 +7,7 @@ import ContentCard from '../components/ContentCard'
 import ShareButtons from '../components/ShareButtons'
 import Breadcrumbs from '../components/Breadcrumbs'
 import PdfDownloads from '../components/PdfDownloads'
+import PrevNextNav from '../components/PrevNextNav'
 import NotFound from './NotFound'
 import type { MediaEmbed as MediaEmbedType } from '../utils/media'
 
@@ -58,8 +59,9 @@ export default function ConferenceReportDetail() {
   return (
     <div>
       {/* Header */}
-      <div className="bg-gradient-to-br from-spe-deep2 via-spe-deep to-spe-blue text-white">
-        <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 py-16 sm:py-20">
+      <div className="bg-gradient-to-br from-spe-ink via-spe-deep2 to-spe-deep text-white relative overflow-hidden grain-overlay">
+        <div className="absolute inset-0 opacity-[0.03] hero-pattern" />
+        <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 py-16 sm:py-20 relative z-10">
           <Breadcrumbs
             variant="light"
             className="mb-6"
@@ -70,7 +72,7 @@ export default function ConferenceReportDetail() {
               { label: item.title },
             ]}
           />
-          <p className="editorial-subheading text-spe-light mb-3">Conference Report</p>
+          <div className="inline-flex items-center gap-2 mb-3"><span className="w-6 h-[2px] bg-spe-gold rounded-full" /><span className="text-spe-gold text-[10px] font-semibold uppercase tracking-[0.15em]">Conference Report</span></div>
           <h1 className="editorial-heading text-3xl sm:text-4xl lg:text-5xl mb-4">{item.title}</h1>
         </div>
       </div>
@@ -87,23 +89,29 @@ export default function ConferenceReportDetail() {
           </div>
         )}
         <div
-          className="prose prose-lg max-w-none prose-headings:font-serif prose-headings:text-spe-dark prose-a:text-spe-blue prose-a:no-underline hover:prose-a:underline prose-img:rounded-lg prose-p:leading-relaxed"
+          className="prose prose-lg max-w-none prose-headings:font-serif prose-headings:text-spe-ink prose-a:text-spe-blue prose-a:no-underline hover:prose-a:underline prose-img:rounded-lg prose-p:leading-relaxed"
           dangerouslySetInnerHTML={{ __html: sanitiseBodyHtml(bodyHtml) }}
         />
 
         <PdfDownloads pdfs={(item as any).pdfLinks} />
 
         <ShareButtons title={item.title} />
+
+        <PrevNextNav
+          items={conferenceReportsData}
+          currentSlug={item.slug}
+          slugToPath={slug => `/speakers/conference-reports/${slug}`}
+        />
       </article>
 
       {/* Related Reports */}
       {relatedReports.length > 0 && (
-        <section className="bg-spe-bg/50 border-t border-spe-border/10">
+        <section className="bg-spe-paper/50 border-t border-spe-divider/10">
           <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-16">
             <div className="flex items-end justify-between mb-8">
               <div>
-                <p className="editorial-subheading text-spe-blue mb-2">Speakers</p>
-                <h2 className="editorial-heading text-2xl text-spe-dark">More Conference Reports</h2>
+                <p className="section-label">Speakers</p>
+                <h2 className="editorial-heading text-2xl text-spe-ink">More Conference Reports</h2>
               </div>
               <Link
                 to="/speakers/conference-reports"
@@ -111,7 +119,7 @@ export default function ConferenceReportDetail() {
               >
                 View all reports
                 <svg className="w-4 h-4 transition-transform group-hover:translate-x-0.5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 5l7 7-7 7" />
+                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M17 8l4 4m0 0l-4 4m4-4H3" />
                 </svg>
               </Link>
             </div>

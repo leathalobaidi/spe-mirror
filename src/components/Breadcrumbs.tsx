@@ -18,7 +18,7 @@ export default function Breadcrumbs({ items, className = '', variant = 'default'
   const isLight = variant === 'light'
   const listColor = isLight ? 'text-white/60' : 'text-spe-grey'
   const sepColor = isLight ? 'text-white/30' : 'text-spe-grey/40'
-  const currentColor = isLight ? 'text-white/90 font-medium' : 'text-spe-dark/70 font-medium'
+  const currentColor = isLight ? 'text-white/90 font-medium' : 'text-spe-ink/70 font-medium'
   const linkHover = isLight ? 'hover:text-white' : 'hover:text-spe-blue'
 
   return (
@@ -38,7 +38,7 @@ export default function Breadcrumbs({ items, className = '', variant = 'default'
                   stroke="currentColor"
                   viewBox="0 0 24 24"
                 >
-                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 5l7 7-7 7" />
+                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M17 8l4 4m0 0l-4 4m4-4H3" />
                 </svg>
               )}
 

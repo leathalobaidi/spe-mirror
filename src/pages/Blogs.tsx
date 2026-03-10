@@ -18,7 +18,7 @@ export default function Blogs() {
     <div>
       <div className="bg-gradient-to-br from-spe-deep2 via-spe-blue to-spe-accent text-white">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-16 sm:py-20">
-          <p className="editorial-subheading text-spe-light mb-3">Member Voices</p>
+          <div className="inline-flex items-center gap-2 mb-3"><span className="w-6 h-[2px] bg-spe-gold rounded-full" /><span className="text-spe-gold text-[10px] font-semibold uppercase tracking-[0.15em]">Member Voices</span></div>
           <h1 className="editorial-heading text-4xl sm:text-5xl mb-4">Blog</h1>
           <p className="text-lg text-white/70 max-w-2xl font-light">
             Commentary and insights from SPE members on economic topics.
@@ -56,7 +56,7 @@ export default function Blogs() {
           </section>
         ) : (
           <div className="text-center py-20">
-            <svg className="mx-auto h-16 w-16 text-spe-border/60 mb-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+            <svg className="mx-auto h-16 w-16 text-spe-divider/60 mb-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
               <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M11 5H6a2 2 0 00-2 2v11a2 2 0 002 2h11a2 2 0 002-2v-5m-1.414-9.414a2 2 0 112.828 2.828L11.828 15H9v-2.828l8.586-8.586z" />
             </svg>
             <p className="text-spe-grey text-lg font-medium mb-1">No blog posts found</p>

@@ -1,6 +1,7 @@
 import { Link } from 'react-router-dom'
 import { useSEO } from '../hooks/useSEO'
 import BookCover from '../components/BookCover'
+import ContentCard from '../components/ContentCard'
 import bookReviewsData from '../data/book-reviews.json'
 import articlesData from '../data/articles.json'
 import rybEssaysData from '../data/ryb-essays.json'
@@ -12,6 +13,8 @@ export default function ReadingRoom() {
     type: 'website',
   })
   const latestBooks = bookReviewsData.slice(0, 12)
+  const latestArticles = articlesData.slice(0, 3)
+  const latestEssays = rybEssaysData.slice(0, 3)
 
   return (
     <div>
@@ -226,6 +229,67 @@ export default function ReadingRoom() {
                 coverImage={book.coverImage || '/images/placeholder-book.svg'}
                 author={book.author}
                 reviewer={book.reviewer}
+              />
+            ))}
+          </div>
+        </div>
+
+        {/* Latest articles preview */}
+        <div className="border-t border-spe-divider/20 pt-12 mb-16">
+          <div className="flex items-end justify-between mb-8">
+            <div>
+              <p className="section-label">Latest</p>
+              <h2 className="editorial-heading text-2xl sm:text-3xl text-spe-ink">Recent Articles</h2>
+            </div>
+            <Link
+              to="/reading-room/articles"
+              className="hidden sm:flex items-center gap-1.5 text-sm font-medium text-spe-blue hover:text-spe-deep transition-colors group"
+            >
+              View all {articlesData.length} articles
+              <svg className="w-4 h-4 transition-transform group-hover:translate-x-0.5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M17 8l4 4m0 0l-4 4m4-4H3" />
+              </svg>
+            </Link>
+          </div>
+          <div className="grid grid-cols-1 sm:grid-cols-3 gap-6">
+            {latestArticles.map(a => (
+              <ContentCard
+                key={a.slug}
+                to={`/reading-room/articles/${a.slug}`}
+                title={a.title}
+                category="article"
+                excerpt={a.body}
+              />
+            ))}
+          </div>
+        </div>
+
+        {/* Latest Rybczynski essays preview */}
+        <div className="border-t border-spe-divider/20 pt-12">
+          <div className="flex items-end justify-between mb-8">
+            <div>
+              <p className="section-label">Rybczynski Prize</p>
+              <h2 className="editorial-heading text-2xl sm:text-3xl text-spe-ink">Recent Prize Essays</h2>
+            </div>
+            <Link
+              to="/reading-room/rybczynski-essays"
+              className="hidden sm:flex items-center gap-1.5 text-sm font-medium text-spe-blue hover:text-spe-deep transition-colors group"
+            >
+              View all {rybEssaysData.length} essays
+              <svg className="w-4 h-4 transition-transform group-hover:translate-x-0.5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M17 8l4 4m0 0l-4 4m4-4H3" />
+              </svg>
+            </Link>
+          </div>
+          <div className="grid grid-cols-1 sm:grid-cols-3 gap-6">
+            {latestEssays.map(e => (
+              <ContentCard
+                key={e.slug}
+                to={`/reading-room/rybczynski-essays/${e.slug}`}
+                title={e.title}
+                category="article"
+                excerpt={e.body}
+                image={(e as any).images?.[0]}
               />
             ))}
           </div>

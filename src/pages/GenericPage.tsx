@@ -15,42 +15,42 @@ const sectionMeta: Record<string, { subtitle: string; label: string; gradient: s
   about: {
     subtitle: 'About the SPE',
     label: 'About',
-    gradient: 'from-spe-deep2 via-spe-deep to-spe-blue',
+    gradient: 'from-spe-ink via-spe-deep2 to-spe-deep',
   },
   membership: {
     subtitle: 'Join the Community',
     label: 'Membership',
-    gradient: 'from-spe-deep via-spe-blue to-spe-accent',
+    gradient: 'from-spe-ink via-spe-deep2 to-spe-deep',
   },
   careers: {
     subtitle: 'Professional Development',
     label: 'Careers',
-    gradient: 'from-spe-deep2 to-spe-deep',
+    gradient: 'from-spe-ink via-spe-deep2 to-spe-deep',
   },
   advertise: {
     subtitle: 'Partner with SPE',
     label: 'Advertise',
-    gradient: 'from-spe-deep2 via-spe-deep to-spe-blue',
+    gradient: 'from-spe-ink via-spe-deep2 to-spe-deep',
   },
   'reading-room': {
     subtitle: 'Publications',
     label: 'Reading Room',
-    gradient: 'from-spe-deep2 via-spe-deep to-spe-blue',
+    gradient: 'from-spe-ink via-spe-deep2 to-spe-deep',
   },
   'site-policies': {
     subtitle: 'Legal',
     label: 'Site Policies',
-    gradient: 'from-slate-700 to-slate-900',
+    gradient: 'from-spe-ink via-spe-deep2 to-spe-deep',
   },
   faqs: {
     subtitle: 'Help & Support',
     label: 'FAQs',
-    gradient: 'from-spe-deep2 via-spe-blue to-spe-accent',
+    gradient: 'from-spe-ink via-spe-deep2 to-spe-deep',
   },
   contact: {
     subtitle: 'Get in Touch',
     label: 'Contact',
-    gradient: 'from-spe-deep2 via-spe-deep to-spe-blue',
+    gradient: 'from-spe-ink via-spe-deep2 to-spe-deep',
   },
 }
 
@@ -127,8 +127,9 @@ export default function GenericPage() {
   return (
     <div>
       {/* Header */}
-      <div className={`bg-gradient-to-br ${meta.gradient} text-white`}>
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12 sm:py-16">
+      <div className={`bg-gradient-to-br ${meta.gradient} text-white relative overflow-hidden grain-overlay`}>
+        <div className="absolute inset-0 opacity-[0.03] hero-pattern" />
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-16 sm:py-20 relative z-10">
           <Breadcrumbs
             variant="light"
             className="mb-6"
@@ -140,7 +141,7 @@ export default function GenericPage() {
           />
 
           {meta.subtitle && (
-            <p className="editorial-subheading text-spe-light/80 mb-2">{meta.subtitle}</p>
+            <div className="inline-flex items-center gap-2 mb-3"><span className="w-6 h-[2px] bg-spe-gold rounded-full" /><span className="text-spe-gold text-[10px] font-semibold uppercase tracking-[0.15em]">{meta.subtitle}</span></div>
           )}
           <h1 className="editorial-heading text-3xl sm:text-4xl lg:text-5xl">{page.title}</h1>
         </div>
@@ -165,7 +166,7 @@ export default function GenericPage() {
             {/* Body HTML */}
             {bodyHtml && (
               <div
-                className="prose prose-lg max-w-none prose-headings:font-serif prose-headings:text-spe-dark prose-a:text-spe-blue prose-a:no-underline hover:prose-a:underline prose-p:leading-relaxed prose-img:rounded-lg"
+                className="prose prose-lg max-w-none prose-headings:font-serif prose-headings:text-spe-ink prose-a:text-spe-blue prose-a:no-underline hover:prose-a:underline prose-p:leading-relaxed prose-img:rounded-lg"
                 dangerouslySetInnerHTML={{ __html: sanitiseBodyHtml(bodyHtml) }}
               />
             )}
@@ -175,8 +176,8 @@ export default function GenericPage() {
 
             {/* Child pages list */}
             {childPages.length > 0 && (
-              <div className="mt-12 border-t border-spe-border/20 pt-10">
-                <h2 className="editorial-heading text-xl sm:text-2xl text-spe-dark mb-6">
+              <div className="mt-12 border-t border-spe-divider/20 pt-10">
+                <h2 className="editorial-heading text-xl sm:text-2xl text-spe-ink mb-6">
                   In this section
                 </h2>
                 <div className="grid gap-4 sm:grid-cols-2">
@@ -184,15 +185,15 @@ export default function GenericPage() {
                     <Link
                       key={child.slug}
                       to={'/' + child.slug}
-                      className="group rounded-xl border border-spe-border/30 bg-white p-6 hover:shadow-md transition-shadow"
+                      className="group rounded-xl border border-spe-divider/30 bg-white p-6 hover:shadow-md transition-shadow"
                     >
-                      <h3 className="font-serif font-bold text-spe-dark group-hover:text-spe-blue transition-colors mb-1">
+                      <h3 className="font-serif font-bold text-spe-ink group-hover:text-spe-blue transition-colors mb-1">
                         {child.title}
                       </h3>
                       <span className="text-sm text-spe-blue flex items-center gap-1">
                         Read more
                         <svg className="w-3.5 h-3.5 group-hover:translate-x-0.5 transition-transform" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                          <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 5l7 7-7 7" />
+                          <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M17 8l4 4m0 0l-4 4m4-4H3" />
                         </svg>
                       </span>
                     </Link>
@@ -205,7 +206,7 @@ export default function GenericPage() {
           {/* Sidebar — only if there are sibling pages */}
           {siblingPages.length > 0 && (
             <aside className="lg:w-72 flex-shrink-0">
-              <div className="sticky top-24 rounded-xl border border-spe-border/30 bg-spe-light/30 p-6">
+              <div className="sticky top-24 rounded-xl border border-spe-divider/30 bg-spe-cream/50 p-6">
                 <h3 className="text-xs font-semibold uppercase tracking-wider text-spe-muted mb-4">
                   Related pages
                 </h3>
@@ -214,7 +215,7 @@ export default function GenericPage() {
                     <Link
                       key={sib.slug}
                       to={'/' + sib.slug}
-                      className="block text-sm text-spe-dark hover:text-spe-blue transition-colors py-1"
+                      className="block text-sm text-spe-ink hover:text-spe-blue transition-colors py-1"
                     >
                       {sib.title}
                     </Link>

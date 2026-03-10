@@ -21,8 +21,9 @@ export default function NotFound() {
   return (
     <div className="min-h-[70vh] flex flex-col">
       {/* Header */}
-      <div className="bg-gradient-to-br from-spe-deep2 via-spe-deep to-spe-blue text-white">
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-16 sm:py-20 text-center">
+      <div className="bg-gradient-to-br from-spe-ink via-spe-deep2 to-spe-deep text-white relative overflow-hidden grain-overlay">
+        <div className="absolute inset-0 opacity-[0.03] hero-pattern" />
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-16 sm:py-20 text-center relative z-10">
           <p className="text-8xl sm:text-9xl font-serif font-bold text-white/10 mb-4 select-none">404</p>
           <h1 className="editorial-heading text-3xl sm:text-4xl mb-3">Page Not Found</h1>
           <p className="text-white/60 max-w-lg mx-auto font-light leading-relaxed">
@@ -47,7 +48,7 @@ export default function NotFound() {
           </Link>
           <button
             onClick={() => document.dispatchEvent(new CustomEvent('toggle-search'))}
-            className="inline-flex items-center justify-center gap-2 border border-spe-border/50 text-spe-dark font-medium px-7 py-3 rounded-xl hover:bg-spe-bg transition-colors"
+            className="inline-flex items-center justify-center gap-2 border border-spe-divider/50 text-spe-ink font-medium px-7 py-3 rounded-xl hover:bg-spe-paper transition-colors"
           >
             <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
               <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z" />
@@ -58,8 +59,8 @@ export default function NotFound() {
 
         {/* Quick navigation */}
         <div className="text-center mb-8">
-          <p className="editorial-subheading text-spe-blue mb-2">Explore</p>
-          <h2 className="editorial-heading text-xl sm:text-2xl text-spe-dark">Popular Sections</h2>
+          <p className="section-label">Explore</p>
+          <h2 className="editorial-heading text-xl sm:text-2xl text-spe-ink">Popular Sections</h2>
         </div>
 
         <div className="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-6 gap-4 max-w-4xl mx-auto">
@@ -67,14 +68,14 @@ export default function NotFound() {
             <Link
               key={link.to}
               to={link.to}
-              className="group flex flex-col items-center gap-2.5 p-5 rounded-xl border border-spe-border/30 bg-white hover:shadow-md hover:border-spe-blue/20 transition-all"
+              className="group flex flex-col items-center gap-2.5 p-5 rounded-xl border border-spe-divider/30 bg-white hover:shadow-md hover:border-spe-blue/20 transition-all"
             >
-              <div className="w-10 h-10 rounded-xl bg-spe-bg flex items-center justify-center group-hover:bg-spe-blue/10 transition-colors">
+              <div className="w-10 h-10 rounded-xl bg-spe-paper flex items-center justify-center group-hover:bg-spe-blue/10 transition-colors">
                 <svg className="w-5 h-5 text-spe-grey group-hover:text-spe-blue transition-colors" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                   <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d={link.icon} />
                 </svg>
               </div>
-              <span className="text-sm font-medium text-spe-dark group-hover:text-spe-blue transition-colors text-center">
+              <span className="text-sm font-medium text-spe-ink group-hover:text-spe-blue transition-colors text-center">
                 {link.label}
               </span>
             </Link>

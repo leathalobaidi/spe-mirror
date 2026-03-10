@@ -1,5 +1,6 @@
 import { useState } from 'react'
 import { Link } from 'react-router-dom'
+import { resolveImageUrl } from '../utils/helpers'
 
 interface Props {
   to: string
@@ -13,6 +14,7 @@ interface Props {
 
 export default function BookCover({ to, title, coverImage, author, reviewer, date, className = '' }: Props) {
   const [imgError, setImgError] = useState(false)
+  const resolvedCover = resolveImageUrl(coverImage)
 
   return (
     <Link to={to} className={`group block h-full flex flex-col ${className}`}>
@@ -21,7 +23,7 @@ export default function BookCover({ to, title, coverImage, author, reviewer, dat
         <div className="book-cover rounded-lg overflow-hidden aspect-[2/3] bg-spe-paper">
           {!imgError ? (
             <img
-              src={coverImage}
+              src={resolvedCover}
               alt={title}
               width={500}
               height={750}

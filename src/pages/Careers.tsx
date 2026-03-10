@@ -42,9 +42,9 @@ const subPages = [
 ]
 
 const colourMap: Record<string, { bg: string; text: string; ring: string }> = {
-  emerald: { bg: 'bg-emerald-50', text: 'text-emerald-600', ring: 'ring-emerald-200' },
-  blue: { bg: 'bg-blue-50', text: 'text-blue-600', ring: 'ring-blue-200' },
-  violet: { bg: 'bg-violet-50', text: 'text-violet-600', ring: 'ring-violet-200' },
+  emerald: { bg: 'bg-spe-cream', text: 'text-spe-gold', ring: 'ring-spe-divider' },
+  blue: { bg: 'bg-spe-cream', text: 'text-spe-gold', ring: 'ring-spe-divider' },
+  violet: { bg: 'bg-spe-cream', text: 'text-spe-gold', ring: 'ring-spe-divider' },
 }
 
 export default function Careers() {
@@ -59,9 +59,10 @@ export default function Careers() {
   return (
     <div>
       {/* Header */}
-      <div className="bg-gradient-to-br from-spe-deep2 via-spe-deep to-spe-blue text-white">
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-16 sm:py-20">
-          <p className="editorial-subheading text-spe-light mb-3">Grow Your Career</p>
+      <div className="bg-gradient-to-br from-spe-ink via-spe-deep2 to-spe-deep text-white relative overflow-hidden grain-overlay">
+        <div className="absolute inset-0 opacity-[0.03] hero-pattern" />
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-16 sm:py-20 relative z-10">
+          <div className="inline-flex items-center gap-2 mb-3"><span className="w-6 h-[2px] bg-spe-gold rounded-full" /><span className="text-spe-gold text-[10px] font-semibold uppercase tracking-[0.15em]">Grow Your Career</span></div>
           <h1 className="editorial-heading text-4xl sm:text-5xl mb-4">
             Careers &amp; Professional Development
           </h1>
@@ -76,7 +77,7 @@ export default function Careers() {
         {/* CMS body intro */}
         {careersPage?.body && (
           <div
-            className="prose prose-slate max-w-none mb-12 text-spe-muted leading-relaxed"
+            className="prose max-w-none mb-12 text-spe-muted leading-relaxed"
             dangerouslySetInnerHTML={{ __html: sanitiseBodyHtml(careersPage.body) }}
           />
         )}
@@ -89,21 +90,21 @@ export default function Careers() {
               <Link
                 key={page.href}
                 to={page.href}
-                className="group rounded-2xl border border-spe-border/30 bg-white p-7 hover:shadow-md transition-all hover:-translate-y-0.5"
+                className="group rounded-2xl border border-spe-divider/30 bg-white p-7 hover:shadow-md transition-all hover:-translate-y-0.5"
               >
                 <div
                   className={`w-12 h-12 rounded-xl ${c.bg} flex items-center justify-center mb-5`}
                 >
                   <span className={c.text}>{page.icon}</span>
                 </div>
-                <h3 className="font-serif font-bold text-lg text-spe-dark mb-2 group-hover:text-spe-blue transition-colors">
+                <h3 className="font-serif font-bold text-lg text-spe-ink mb-2 group-hover:text-spe-blue transition-colors">
                   {page.title}
                 </h3>
                 <p className="text-sm text-spe-muted leading-relaxed">{page.description}</p>
                 <span className="inline-flex items-center gap-1 text-sm font-medium text-spe-blue mt-4">
                   Explore
                   <svg className="w-4 h-4 group-hover:translate-x-0.5 transition-transform" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 5l7 7-7 7" />
+                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M17 8l4 4m0 0l-4 4m4-4H3" />
                   </svg>
                 </span>
               </Link>
@@ -112,8 +113,8 @@ export default function Careers() {
         </div>
 
         {/* Stats */}
-        <div className="rounded-2xl bg-gradient-to-br from-slate-50 to-slate-100/50 border border-spe-border/20 p-10 mb-16">
-          <h2 className="editorial-heading text-2xl text-spe-dark mb-8 text-center">
+        <div className="rounded-2xl bg-gradient-to-br from-spe-cream/50 to-spe-paper/50 border border-spe-divider/20 p-10 mb-16">
+          <h2 className="editorial-heading text-2xl text-spe-ink mb-8 text-center">
             Supporting Economists Since 2008
           </h2>
           <div className="grid grid-cols-2 md:grid-cols-4 gap-8 text-center">
@@ -132,7 +133,7 @@ export default function Careers() {
         </div>
 
         {/* Membership CTA */}
-        <div className="text-center bg-gradient-to-br from-spe-deep to-spe-blue rounded-2xl p-10 text-white">
+        <div className="text-center bg-gradient-to-br from-spe-ink via-spe-deep2 to-spe-deep rounded-2xl p-10 text-white relative overflow-hidden grain-overlay">
           <h2 className="editorial-heading text-2xl mb-3">Advance Your Career with the SPE</h2>
           <p className="text-white/70 max-w-lg mx-auto mb-6 font-light">
             Members enjoy discounted course fees, exclusive job listings, and access to our full CPD
@@ -140,11 +141,11 @@ export default function Careers() {
           </p>
           <Link
             to="/membership"
-            className="inline-flex items-center gap-2 bg-white text-spe-blue font-semibold px-6 py-3 rounded-lg hover:bg-blue-50 transition-colors"
+            className="inline-flex items-center gap-2 bg-white text-spe-deep font-semibold px-6 py-3 rounded-lg hover:bg-spe-cream transition-colors"
           >
             Join the SPE
             <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-              <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 5l7 7-7 7" />
+              <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M17 8l4 4m0 0l-4 4m4-4H3" />
             </svg>
           </Link>
         </div>

@@ -28,7 +28,7 @@ export default function FilterBar({
   }
 
   return (
-    <div className="bg-white border-b border-spe-border/30 sticky top-16 z-30 backdrop-blur-sm bg-white/95">
+    <div className="bg-white border-b border-spe-divider/30 sticky top-16 z-30 backdrop-blur-sm bg-white/95">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-4">
         <div className="flex flex-col sm:flex-row items-start sm:items-center gap-3">
           {/* Search */}
@@ -44,7 +44,7 @@ export default function FilterBar({
               onBlur={() => setSearchFocused(false)}
               placeholder={`Search ${label}...`}
               aria-label={`Search ${label}`}
-              className="w-full pl-10 pr-4 py-2.5 text-base border border-spe-border/50 rounded-lg bg-spe-bg/50 focus:outline-none focus:bg-white focus:border-spe-blue/30 transition-colors"
+              className="w-full pl-10 pr-4 py-2.5 text-base border border-spe-divider/50 rounded-lg bg-spe-paper/50 focus:outline-none focus:bg-white focus:border-spe-blue/30 transition-colors"
             />
           </div>
 
@@ -54,7 +54,7 @@ export default function FilterBar({
               value={selectedYear || ''}
               onChange={(e) => onYearChange(e.target.value ? Number(e.target.value) : null)}
               aria-label="Filter by year"
-              className="px-3 py-2.5 text-base border border-spe-border/50 rounded-lg bg-white focus:outline-none focus:border-spe-blue/30 cursor-pointer"
+              className="px-3 py-2.5 text-base border border-spe-divider/50 rounded-lg bg-white focus:outline-none focus:border-spe-blue/30 cursor-pointer"
             >
               <option value="">All years</option>
               {years.map(y => (
@@ -68,7 +68,7 @@ export default function FilterBar({
                 value={selectedCategory || ''}
                 onChange={(e) => onCategoryChange(e.target.value || null)}
                 aria-label="Filter by category"
-                className="px-3 py-2.5 text-base border border-spe-border/50 rounded-lg bg-white focus:outline-none focus:border-spe-blue/30 cursor-pointer"
+                className="px-3 py-2.5 text-base border border-spe-divider/50 rounded-lg bg-white focus:outline-none focus:border-spe-blue/30 cursor-pointer"
               >
                 <option value="">All categories</option>
                 {categories.map(c => (
@@ -88,7 +88,7 @@ export default function FilterBar({
             {hasActiveFilters && (
               <button
                 onClick={clearAll}
-                className="inline-flex items-center gap-1 px-3 py-2 text-xs text-spe-grey hover:text-spe-dark bg-spe-bg/60 hover:bg-spe-bg rounded-md transition-colors min-h-[44px] min-w-[44px] justify-center"
+                className="inline-flex items-center gap-1 px-3 py-2 text-xs text-spe-grey hover:text-spe-ink bg-spe-paper/60 hover:bg-spe-paper rounded-md transition-colors min-h-[44px] min-w-[44px] justify-center"
               >
                 <svg className="w-3 h-3" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                   <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M6 18L18 6M6 6l12 12" />

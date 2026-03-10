@@ -12,8 +12,8 @@ export default function PdfDownloads({ pdfs, heading = 'Downloads' }: Props) {
   if (!pdfs || pdfs.length === 0) return null
 
   return (
-    <section className="mt-10 border-t border-spe-border/20 pt-8">
-      <h2 className="editorial-heading text-xl text-spe-dark mb-4">{heading}</h2>
+    <section className="mt-10 border-t border-spe-divider/20 pt-8">
+      <h2 className="editorial-heading text-xl text-spe-ink mb-4">{heading}</h2>
       <ul className="space-y-3">
         {pdfs.map((pdf, i) => (
           <li key={i}>

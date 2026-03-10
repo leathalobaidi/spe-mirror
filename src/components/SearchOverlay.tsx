@@ -150,17 +150,17 @@ export default function SearchOverlay() {
 
   // Category colors
   const catColors: Record<string, string> = {
-    'Event': 'bg-blue-100 text-blue-700',
-    'Podcast': 'bg-purple-100 text-purple-700',
-    'News': 'bg-slate-100 text-slate-700',
-    'Book Review': 'bg-rose-100 text-rose-700',
-    'Article': 'bg-sky-100 text-sky-700',
-    'Essay': 'bg-emerald-100 text-emerald-700',
-    'Talk': 'bg-amber-100 text-amber-700',
-    'Blog': 'bg-indigo-100 text-indigo-700',
-    'Conference': 'bg-orange-100 text-orange-700',
-    'Dinner': 'bg-teal-100 text-teal-700',
-    'Page': 'bg-gray-100 text-gray-600',
+    'Event': 'bg-spe-blue/10 text-spe-deep2',
+    'Podcast': 'bg-spe-cream text-spe-copper',
+    'News': 'bg-spe-paper text-spe-muted',
+    'Book Review': 'bg-spe-cream text-spe-burgundy',
+    'Article': 'bg-spe-blue/8 text-spe-deep2',
+    'Essay': 'bg-spe-cream text-spe-ink',
+    'Talk': 'bg-spe-cream text-spe-copper',
+    'Blog': 'bg-spe-blue/8 text-spe-deep2',
+    'Conference': 'bg-spe-cream text-spe-ink',
+    'Dinner': 'bg-spe-cream text-spe-copper',
+    'Page': 'bg-spe-paper text-spe-muted',
   }
 
   // Combobox expansion state
@@ -177,15 +177,15 @@ export default function SearchOverlay() {
       aria-label="Site search"
       onClick={close}
     >
-      <div className="absolute inset-0 bg-spe-dark/60 backdrop-blur-sm" aria-hidden="true" />
+      <div className="absolute inset-0 bg-spe-ink/60 backdrop-blur-sm" aria-hidden="true" />
       <div
         ref={dialogRef}
         className="relative max-w-2xl mx-auto mt-[12vh] px-4"
         onClick={e => e.stopPropagation()}
       >
-        <div className="bg-white rounded-2xl shadow-2xl overflow-hidden search-overlay-content border border-spe-border/20">
+        <div className="bg-white rounded-2xl shadow-2xl overflow-hidden search-overlay-content border border-spe-divider/20">
           {/* Search input — combobox pattern */}
-          <div className="flex items-center gap-3 px-5 border-b border-spe-border/20">
+          <div className="flex items-center gap-3 px-5 border-b border-spe-divider/20">
             <svg className="w-5 h-5 text-spe-grey flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24" aria-hidden="true">
               <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z" />
             </svg>
@@ -202,11 +202,11 @@ export default function SearchOverlay() {
               onChange={e => { setQuery(e.target.value); setSelectedIndex(0) }}
               onKeyDown={handleInputKey}
               placeholder="Search events, podcasts, articles, books..."
-              className="flex-1 py-4 text-base text-spe-dark placeholder:text-spe-grey/60 focus:outline-none bg-transparent"
+              className="flex-1 py-4 text-base text-spe-ink placeholder:text-spe-grey/60 focus:outline-none bg-transparent"
             />
             <button
               onClick={close}
-              className="hidden sm:inline-flex items-center px-2 py-1 text-xs text-spe-grey border border-spe-border/40 rounded-md bg-spe-bg/50 hover:bg-spe-bg transition-colors"
+              className="hidden sm:inline-flex items-center px-2 py-1 text-xs text-spe-grey border border-spe-divider/40 rounded-md bg-spe-paper/50 hover:bg-spe-paper transition-colors"
               aria-label="Close search"
             >
               ESC
@@ -227,19 +227,19 @@ export default function SearchOverlay() {
                       onClick={() => { navigate(item.path); close() }}
                       onMouseEnter={() => setSelectedIndex(i)}
                       className={`w-full text-left px-5 py-3 flex items-start gap-3 transition-colors cursor-pointer ${
-                        i === selectedIndex ? 'bg-spe-blue/5' : 'hover:bg-spe-bg/50'
+                        i === selectedIndex ? 'bg-spe-blue/5' : 'hover:bg-spe-paper/50'
                       }`}
                     >
                       <div className="flex-1 min-w-0">
                         <div className="flex items-center gap-2 mb-0.5">
-                          <span className={`inline-flex px-2 py-0.5 rounded-full text-[10px] font-semibold ${catColors[item.category] || 'bg-gray-100 text-gray-600'}`}>
+                          <span className={`inline-flex px-2 py-0.5 rounded-full text-[10px] font-semibold ${catColors[item.category] || 'bg-spe-paper text-spe-muted'}`}>
                             {item.category}
                           </span>
                           {item.date && (
                             <span className="text-xs text-spe-grey">{formatDateShort(item.date)}</span>
                           )}
                         </div>
-                        <p className="text-sm font-medium text-spe-dark truncate">{item.title}</p>
+                        <p className="text-sm font-medium text-spe-ink truncate">{item.title}</p>
                         {item.body && (
                           <p className="text-xs text-spe-muted mt-0.5 line-clamp-1">
                             {truncateText(stripHtml(item.body), 100)}
@@ -248,7 +248,7 @@ export default function SearchOverlay() {
                       </div>
                       {i === selectedIndex && (
                         <svg className="w-4 h-4 text-spe-blue mt-1 flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24" aria-hidden="true">
-                          <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 5l7 7-7 7" />
+                          <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M17 8l4 4m0 0l-4 4m4-4H3" />
                         </svg>
                       )}
                     </li>
@@ -280,13 +280,13 @@ export default function SearchOverlay() {
               </p>
               <div className="flex items-center justify-center gap-4 mt-3 text-xs text-spe-grey/40">
                 <span className="flex items-center gap-1">
-                  <kbd className="px-1.5 py-0.5 bg-spe-bg rounded border border-spe-border/30 text-[10px]">&uarr;&darr;</kbd> navigate
+                  <kbd className="px-1.5 py-0.5 bg-spe-paper rounded border border-spe-divider/30 text-[10px]">&uarr;&darr;</kbd> navigate
                 </span>
                 <span className="flex items-center gap-1">
-                  <kbd className="px-1.5 py-0.5 bg-spe-bg rounded border border-spe-border/30 text-[10px]">&crarr;</kbd> select
+                  <kbd className="px-1.5 py-0.5 bg-spe-paper rounded border border-spe-divider/30 text-[10px]">&crarr;</kbd> select
                 </span>
                 <span className="flex items-center gap-1">
-                  <kbd className="px-1.5 py-0.5 bg-spe-bg rounded border border-spe-border/30 text-[10px]">esc</kbd> close
+                  <kbd className="px-1.5 py-0.5 bg-spe-paper rounded border border-spe-divider/30 text-[10px]">esc</kbd> close
                 </span>
               </div>
             </div>

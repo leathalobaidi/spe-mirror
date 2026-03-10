@@ -47,7 +47,7 @@ const faqs: FAQItem[] = [
 
 function AccordionItem({ item, isOpen, onToggle, index }: { item: FAQItem; isOpen: boolean; onToggle: () => void; index: number }) {
   return (
-    <div className="border border-spe-border/30 rounded-xl bg-white overflow-hidden transition-shadow hover:shadow-sm">
+    <div className="border border-spe-divider/30 rounded-xl bg-white overflow-hidden transition-shadow hover:shadow-sm">
       <button
         onClick={onToggle}
         className="w-full flex items-start justify-between gap-4 p-6 text-left group"
@@ -55,12 +55,12 @@ function AccordionItem({ item, isOpen, onToggle, index }: { item: FAQItem; isOpe
         aria-controls={`faq-panel-${index}`}
         id={`faq-btn-${index}`}
       >
-        <span className="font-serif font-bold text-lg text-spe-dark group-hover:text-spe-blue transition-colors">
+        <span className="font-serif font-bold text-lg text-spe-ink group-hover:text-spe-blue transition-colors">
           {item.question}
         </span>
         <span
           className={`flex-shrink-0 w-8 h-8 rounded-full flex items-center justify-center transition-all duration-300 ${
-            isOpen ? 'bg-spe-blue text-white rotate-180' : 'bg-spe-light text-spe-muted'
+            isOpen ? 'bg-spe-blue text-white rotate-180' : 'bg-spe-cream text-spe-muted'
           }`}
         >
           <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
@@ -99,7 +99,7 @@ export default function FAQs() {
       {/* Header */}
       <div className="bg-gradient-to-br from-spe-deep2 via-spe-blue to-spe-accent text-white">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-16 sm:py-20">
-          <p className="editorial-subheading text-spe-light/80 mb-3">Help & Support</p>
+          <div className="inline-flex items-center gap-2 mb-3"><span className="w-6 h-[2px] bg-spe-gold rounded-full" /><span className="text-spe-gold text-[10px] font-semibold uppercase tracking-[0.15em]">Help & Support</span></div>
           <h1 className="editorial-heading text-4xl sm:text-5xl mb-4">Frequently Asked Questions</h1>
           <p className="text-lg text-white/70 max-w-2xl font-light">
             Find answers to the most commonly asked questions about the Society of Professional Economists.
@@ -123,12 +123,12 @@ export default function FAQs() {
 
         {/* Still have questions */}
         <div className="mt-16 text-center">
-          <div className="inline-flex items-center justify-center w-16 h-16 rounded-2xl bg-spe-light mb-6">
+          <div className="inline-flex items-center justify-center w-16 h-16 rounded-2xl bg-spe-cream mb-6">
             <svg className="w-8 h-8 text-spe-blue" fill="none" stroke="currentColor" viewBox="0 0 24 24">
               <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M8.228 9c.549-1.165 2.03-2 3.772-2 2.21 0 4 1.343 4 3 0 1.4-1.278 2.575-3.006 2.907-.542.104-.994.54-.994 1.093m0 3h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z" />
             </svg>
           </div>
-          <h2 className="editorial-heading text-2xl text-spe-dark mb-3">Still have questions?</h2>
+          <h2 className="editorial-heading text-2xl text-spe-ink mb-3">Still have questions?</h2>
           <p className="text-spe-muted mb-8 max-w-md mx-auto">
             Can't find what you're looking for? Get in touch with the SPE team and we'll be happy to help.
           </p>
@@ -139,7 +139,7 @@ export default function FAQs() {
             >
               Contact Us
               <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 5l7 7-7 7" />
+                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M17 8l4 4m0 0l-4 4m4-4H3" />
               </svg>
             </Link>
             <a

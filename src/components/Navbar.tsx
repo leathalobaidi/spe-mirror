@@ -22,8 +22,8 @@ const megaMenus: Record<string, { label: string; to: string; desc?: string }[]> 
     { label: 'Book Reviews', to: '/reading-room/book-reviews', desc: '386 reviews' },
     { label: 'Articles', to: '/reading-room/articles', desc: 'Economic analysis' },
     { label: 'Rybczynski Essays', to: '/reading-room/rybczynski-essays', desc: 'Prize-winning essays' },
-    { label: 'Salary Surveys', to: '/reading-room/salary-surveys', desc: 'Members only' },
-    { label: 'Members\u2019 Polls', to: '/reading-room/members-polls', desc: 'Members only' },
+    { label: 'Salary Surveys', to: '/reading-room/salary-surveys', desc: 'Compensation benchmarking' },
+    { label: 'Members\u2019 Polls', to: '/reading-room/members-polls', desc: 'Economic opinion surveys' },
   ],
 }
 
@@ -86,17 +86,40 @@ export default function Navbar() {
 
   return (
     <header className="fixed top-0 left-0 right-0 z-50">
+      {/* Accent top bar — desktop only */}
+      <div className={`hidden lg:block transition-all duration-500 ${isTransparent ? 'bg-white/5 border-b border-white/10' : 'bg-spe-cream/80 border-b border-spe-divider/40'}`}>
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+          <div className="flex items-center justify-between h-8">
+            <div className="flex items-center gap-2">
+              <span className={`w-5 h-[1.5px] rounded-full transition-colors duration-300 ${isTransparent ? 'bg-spe-gold/70' : 'bg-spe-gold'}`} />
+              <span className={`text-[10px] font-semibold uppercase tracking-[0.18em] transition-colors duration-300 ${isTransparent ? 'text-spe-gold/70' : 'text-spe-copper'}`}>Est. 1953</span>
+            </div>
+            <div className="flex items-center gap-3">
+              {[
+                { href: 'https://twitter.com/econ_SPE', label: 'Twitter', icon: 'M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-5.214-6.817L4.99 21.75H1.68l7.73-8.835L1.254 2.25H8.08l4.713 6.231zm-1.161 17.52h1.833L7.084 4.126H5.117z' },
+                { href: 'https://www.linkedin.com/company/society-of-professional-economists/', label: 'LinkedIn', icon: 'M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433a2.062 2.062 0 01-2.063-2.065 2.064 2.064 0 112.063 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z' },
+                { href: 'https://www.youtube.com/@econ_SPE', label: 'YouTube', icon: 'M23.498 6.186a3.016 3.016 0 00-2.122-2.136C19.505 3.545 12 3.545 12 3.545s-7.505 0-9.377.505A3.017 3.017 0 00.502 6.186C0 8.07 0 12 0 12s0 3.93.502 5.814a3.016 3.016 0 002.122 2.136c1.871.505 9.376.505 9.376.505s7.505 0 9.377-.505a3.015 3.015 0 002.122-2.136C24 15.93 24 12 24 12s0-3.93-.502-5.814zM9.545 15.568V8.432L15.818 12l-6.273 3.568z' },
+              ].map(s => (
+                <a key={s.label} href={s.href} target="_blank" rel="noopener noreferrer" className={`transition-colors duration-200 ${isTransparent ? 'text-white/40 hover:text-white/70' : 'text-spe-muted hover:text-spe-blue'}`} aria-label={s.label}>
+                  <svg className="w-3 h-3" fill="currentColor" viewBox="0 0 24 24"><path d={s.icon}/></svg>
+                </a>
+              ))}
+            </div>
+          </div>
+        </div>
+      </div>
+
       <nav className={`transition-all duration-500 ${navBg}`} aria-label="Main navigation">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <div className="flex items-center justify-between h-16">
+          <div className="flex items-center justify-between h-14">
             {/* Logo */}
             <Link to="/" className="flex items-center gap-2.5 group flex-shrink-0" aria-label="SPE Home">
-              <img src="/images/logo.webp" alt="SPE" width={242} height={36} className={`h-9 w-auto transition-all duration-500 ${logoFilter}`} />
-              <div className="hidden sm:block">
-                <span className={`font-serif text-lg font-bold tracking-wide transition-colors duration-300 ${textColor}`}>
-                  SPE
-                </span>
-              </div>
+              <span className={`font-serif text-xl font-black tracking-tight transition-colors duration-300 ${textColor}`}>
+                SPE
+              </span>
+              <span className={`hidden sm:block text-[10px] font-medium uppercase tracking-[0.12em] leading-tight max-w-[140px] transition-colors duration-300 ${textMuted}`}>
+                Society of Professional Economists
+              </span>
             </Link>
 
             {/* Desktop nav */}
@@ -184,26 +207,6 @@ export default function Navbar() {
               >
                 Join SPE
               </Link>
-
-              {/* Social links — desktop only */}
-              <div className={`hidden xl:flex items-center gap-2.5 ml-2 pl-3 border-l transition-colors duration-300 ${isTransparent ? 'border-white/20' : 'border-spe-divider'}`}>
-                {[
-                  { href: 'https://twitter.com/econ_SPE', label: 'Twitter', icon: 'M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-5.214-6.817L4.99 21.75H1.68l7.73-8.835L1.254 2.25H8.08l4.713 6.231zm-1.161 17.52h1.833L7.084 4.126H5.117z' },
-                  { href: 'https://www.linkedin.com/company/society-of-professional-economists/', label: 'LinkedIn', icon: 'M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433a2.062 2.062 0 01-2.063-2.065 2.064 2.064 0 112.063 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z' },
-                  { href: 'https://www.youtube.com/@econ_SPE', label: 'YouTube', icon: 'M23.498 6.186a3.016 3.016 0 00-2.122-2.136C19.505 3.545 12 3.545 12 3.545s-7.505 0-9.377.505A3.017 3.017 0 00.502 6.186C0 8.07 0 12 0 12s0 3.93.502 5.814a3.016 3.016 0 002.122 2.136c1.871.505 9.376.505 9.376.505s7.505 0 9.377-.505a3.015 3.015 0 002.122-2.136C24 15.93 24 12 24 12s0-3.93-.502-5.814zM9.545 15.568V8.432L15.818 12l-6.273 3.568z' },
-                ].map(s => (
-                  <a
-                    key={s.label}
-                    href={s.href}
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    className={`transition-colors duration-200 ${textMuted} hover:text-spe-blue`}
-                    aria-label={s.label}
-                  >
-                    <svg className="w-4 h-4" fill="currentColor" viewBox="0 0 24 24"><path d={s.icon}/></svg>
-                  </a>
-                ))}
-              </div>
 
               {/* Mobile hamburger */}
               <button

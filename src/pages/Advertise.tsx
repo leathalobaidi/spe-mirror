@@ -45,10 +45,10 @@ const services = [
 ]
 
 const colourMap: Record<string, { bg: string; icon: string; text: string }> = {
-  indigo: { bg: 'bg-indigo-50', icon: 'text-indigo-600', text: 'text-indigo-700' },
-  amber: { bg: 'bg-amber-50', icon: 'text-amber-600', text: 'text-amber-700' },
-  emerald: { bg: 'bg-emerald-50', icon: 'text-emerald-600', text: 'text-emerald-700' },
-  rose: { bg: 'bg-rose-50', icon: 'text-rose-600', text: 'text-rose-700' },
+  indigo: { bg: 'bg-spe-cream', icon: 'text-spe-gold', text: 'text-spe-ink' },
+  amber: { bg: 'bg-spe-cream', icon: 'text-spe-gold', text: 'text-spe-ink' },
+  emerald: { bg: 'bg-spe-cream', icon: 'text-spe-gold', text: 'text-spe-ink' },
+  rose: { bg: 'bg-spe-cream', icon: 'text-spe-gold', text: 'text-spe-ink' },
 }
 
 const stats = [
@@ -68,9 +68,10 @@ export default function Advertise() {
   return (
     <div>
       {/* Header */}
-      <div className="bg-gradient-to-br from-spe-deep2 via-spe-deep to-spe-blue text-white">
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-16 sm:py-20">
-          <p className="editorial-subheading text-spe-light/80 mb-3">Partner with SPE</p>
+      <div className="bg-gradient-to-br from-spe-ink via-spe-deep2 to-spe-deep text-white relative overflow-hidden grain-overlay">
+        <div className="absolute inset-0 opacity-[0.03] hero-pattern" />
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-16 sm:py-20 relative z-10">
+          <div className="inline-flex items-center gap-2 mb-3"><span className="w-6 h-[2px] bg-spe-gold rounded-full" /><span className="text-spe-gold text-[10px] font-semibold uppercase tracking-[0.15em]">Partner with SPE</span></div>
           <h1 className="editorial-heading text-4xl sm:text-5xl mb-4">Advertise</h1>
           <p className="text-lg text-white/70 max-w-2xl font-light">
             Connect your brand with the UK's leading community of professional economists through recruitment, sponsorship, and advertising.
@@ -82,7 +83,7 @@ export default function Advertise() {
         {/* Stats */}
         <div className="grid grid-cols-2 md:grid-cols-4 gap-6 mb-16">
           {stats.map(stat => (
-            <div key={stat.label} className="text-center p-6 rounded-xl bg-spe-light/30 border border-spe-border/20">
+            <div key={stat.label} className="text-center p-6 rounded-xl bg-spe-cream/50 border border-spe-divider/20">
               <div className="text-3xl sm:text-4xl font-serif font-bold text-spe-blue mb-1">{stat.value}</div>
               <div className="text-sm text-spe-muted">{stat.label}</div>
             </div>
@@ -91,7 +92,7 @@ export default function Advertise() {
 
         {/* Services */}
         <div className="mb-16">
-          <h2 className="editorial-heading text-2xl sm:text-3xl text-spe-dark mb-2">Advertising Services</h2>
+          <h2 className="editorial-heading text-2xl sm:text-3xl text-spe-ink mb-2">Advertising Services</h2>
           <p className="text-spe-muted mb-10 max-w-2xl">
             The Society offers multiple ways to reach professional economists across the public and private sectors.
           </p>
@@ -101,7 +102,7 @@ export default function Advertise() {
               return (
                 <div
                   key={service.title}
-                  className="rounded-2xl border border-spe-border/30 bg-white p-8 hover:shadow-md transition-shadow"
+                  className="rounded-2xl border border-spe-divider/30 bg-white p-8 hover:shadow-md transition-shadow"
                 >
                   <div className={`w-12 h-12 rounded-xl ${colours.bg} flex items-center justify-center mb-5`}>
                     <span className={colours.icon}>{service.icon}</span>
@@ -117,8 +118,8 @@ export default function Advertise() {
         </div>
 
         {/* Audience */}
-        <div className="mb-16 rounded-2xl bg-spe-light/50 border border-spe-border/20 p-8 sm:p-10">
-          <h2 className="editorial-heading text-2xl text-spe-dark mb-6">Our Audience</h2>
+        <div className="mb-16 rounded-2xl bg-spe-cream/50 border border-spe-divider/20 p-8 sm:p-10">
+          <h2 className="editorial-heading text-2xl text-spe-ink mb-6">Our Audience</h2>
           <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4">
             {[
               'Bank of England',
@@ -134,7 +135,7 @@ export default function Advertise() {
               'London School of Economics',
               'University of Oxford',
             ].map(org => (
-              <div key={org} className="flex items-center gap-3 text-sm text-spe-dark">
+              <div key={org} className="flex items-center gap-3 text-sm text-spe-ink">
                 <div className="w-1.5 h-1.5 rounded-full bg-spe-blue flex-shrink-0" />
                 {org}
               </div>
@@ -146,7 +147,7 @@ export default function Advertise() {
         </div>
 
         {/* CTA */}
-        <div className="text-center bg-gradient-to-br from-spe-deep to-spe-blue rounded-2xl p-10 sm:p-14 text-white">
+        <div className="text-center bg-gradient-to-br from-spe-ink via-spe-deep2 to-spe-deep rounded-2xl p-10 sm:p-14 text-white relative overflow-hidden grain-overlay">
           <h2 className="editorial-heading text-2xl sm:text-3xl mb-3">Get in Touch</h2>
           <p className="text-white/70 max-w-lg mx-auto mb-6 font-light">
             To discuss advertising opportunities, sponsorship packages, or recruitment placements, contact the SPE Secretariat.
@@ -159,11 +160,11 @@ export default function Advertise() {
           <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
             <Link
               to="/contact"
-              className="inline-flex items-center gap-2 bg-white text-spe-deep font-semibold px-6 py-3 rounded-lg hover:bg-spe-light transition-colors"
+              className="inline-flex items-center gap-2 bg-white text-spe-deep font-semibold px-6 py-3 rounded-lg hover:bg-spe-cream transition-colors"
             >
               Contact the SPE
               <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 5l7 7-7 7" />
+                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M17 8l4 4m0 0l-4 4m4-4H3" />
               </svg>
             </Link>
             <Link
@@ -172,7 +173,7 @@ export default function Advertise() {
             >
               View Jobs Board
               <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 5l7 7-7 7" />
+                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M17 8l4 4m0 0l-4 4m4-4H3" />
               </svg>
             </Link>
           </div>

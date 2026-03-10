@@ -6,6 +6,7 @@ import BookCover from '../components/BookCover'
 import SectionHeading from '../components/SectionHeading'
 import { useReveal } from '../hooks/useReveal'
 import { useSEO } from '../hooks/useSEO'
+import { resolveImageUrl } from '../utils/helpers'
 
 // Data loaded lazily after first paint — reduces initial bundle by ~3.7 MB
 type PodcastItem = { slug: string; title: string; date: string; category: string; body: string; images?: string[] }
@@ -111,6 +112,7 @@ export default function Home() {
   const [president, setPresident] = useState<PresidentItem | undefined>()
   const [vicePresidents, setVicePresidents] = useState<PresidentItem[]>([])
   const [talkCount, setTalkCount] = useState(147) // fallback count
+  const [dataLoaded, setDataLoaded] = useState(false)
 
   useEffect(() => {
     // Load all data in parallel after first paint
@@ -125,36 +127,29 @@ export default function Home() {
       import('../data/presidents.json'),
     ]).then(([podcasts, events, books, news, talks, conferences, dinners, presidents]) => {
       setLatestPodcasts(podcasts.default.slice(0, 3))
-      setLatestEvents(events.default.slice(0, 4))
+      setLatestEvents(events.default.slice(0, 4).reverse())
       setLatestBooks(books.default.slice(0, 6))
       setLatestNews(news.default.slice(0, 4))
       setLatestTalks(talks.default.slice(0, 3))
       setTalkCount(talks.default.length)
-      setLatestConferences(conferences.default.slice(1, 4).reverse())
-
-      const sortedDinners = [...dinners.default]
-        .sort((a: DinnerItem, b: DinnerItem) => {
-          const yearA = parseInt(a.slug.match(/\d{4}/)?.[0] || '0')
-          const yearB = parseInt(b.slug.match(/\d{4}/)?.[0] || '0')
-          return yearB - yearA
-        })
-        .slice(0, 3)
-      setLatestDinners(sortedDinners)
+      setLatestConferences(conferences.default.slice(0, 3))
+      setLatestDinners(dinners.default.slice(0, 3))
 
       setPresident(presidents.default.find((p: PresidentItem) => p.role === 'President'))
       setVicePresidents(presidents.default.filter((p: PresidentItem) => p.role !== 'President'))
+      setDataLoaded(true)
     })
   }, [])
 
-  const podcastRef = useReveal()
-  const eventsRef = useReveal()
-  const booksRef = useReveal()
-  const newsRef = useReveal()
-  const talksRef = useReveal()
-  const exploreRef = useReveal()
-  const conferenceRef = useReveal()
-  const dinnerRef = useReveal()
-  const leadershipRef = useReveal()
+  const podcastRef = useReveal(dataLoaded)
+  const eventsRef = useReveal(dataLoaded)
+  const booksRef = useReveal(dataLoaded)
+  const newsRef = useReveal(dataLoaded)
+  const talksRef = useReveal(dataLoaded)
+  const exploreRef = useReveal(dataLoaded)
+  const conferenceRef = useReveal(dataLoaded)
+  const dinnerRef = useReveal(dataLoaded)
+  const leadershipRef = useReveal(dataLoaded)
 
   const exploreCards = makeExploreCards(talkCount)
 
@@ -198,7 +193,7 @@ export default function Home() {
                 date={item.date}
                 category={item.category}
                 excerpt={item.body}
-                image={item.images?.[0]}
+                image={resolveImageUrl(item.images?.[0])}
                 size="md"
               />
             </div>
@@ -207,7 +202,7 @@ export default function Home() {
       </section>
 
       {/* Evening Talks */}
-      <section ref={talksRef} className="bg-spe-bg border-y border-spe-divider/50">
+      <section ref={talksRef} className="bg-spe-paper border-y border-spe-divider/50">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8" style={{ paddingTop: 'var(--section-padding-y)', paddingBottom: 'var(--section-padding-y)' }}>
           <div className="reveal">
             <SectionHeading
@@ -225,7 +220,7 @@ export default function Home() {
                   date={item.date}
                   category="speaker-series"
                   excerpt={item.body}
-                  image={item.images?.[0]}
+                  image={resolveImageUrl(item.images?.[0])}
                   size="md"
                 />
               </div>
@@ -253,7 +248,7 @@ export default function Home() {
                   date={item.date}
                   category="event"
                   excerpt={item.body}
-                  image={item.images?.[0]}
+                  image={resolveImageUrl(item.images?.[0])}
                   size="sm"
                 />
               </div>
@@ -263,7 +258,7 @@ export default function Home() {
       </section>
 
       {/* Conference Highlights */}
-      <section ref={conferenceRef} className="bg-spe-bg border-y border-spe-divider/50">
+      <section ref={conferenceRef} className="bg-spe-paper border-y border-spe-divider/50">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8" style={{ paddingTop: 'var(--section-padding-y)', paddingBottom: 'var(--section-padding-y)' }}>
           <div className="reveal">
             <SectionHeading
@@ -281,7 +276,7 @@ export default function Home() {
                   date={item.date}
                   category="conference"
                   excerpt={item.body}
-                  image={item.images?.find(img => !img.includes('vimeocdn'))?.replace('/1200x0/', '/800x0/')}
+                  image={resolveImageUrl(item.images?.find(img => !img.includes('vimeocdn'))?.replace('/1200x0/', '/800x0/'))}
                   size="md"
                 />
               </div>
@@ -341,7 +336,7 @@ export default function Home() {
               >
                 <div className="w-36 h-36 md:w-44 md:h-44 rounded-full overflow-hidden ring-4 ring-spe-paper flex-shrink-0">
                   <img
-                    src={president.images?.[0]}
+                    src={resolveImageUrl(president.images?.[0])}
                     alt={president.name}
                     width={176}
                     height={176}
@@ -380,7 +375,7 @@ export default function Home() {
                 >
                   <div className="w-24 h-24 rounded-full overflow-hidden ring-3 ring-spe-paper mb-4 flex-shrink-0">
                     <img
-                      src={vp.images?.[0]}
+                      src={resolveImageUrl(vp.images?.[0])}
                       alt={vp.name}
                       width={96}
                       height={96}
@@ -451,7 +446,7 @@ export default function Home() {
           </div>
           <div className="grid grid-cols-1 md:grid-cols-3 gap-7 reveal-stagger">
             {latestDinners.map(item => {
-              const heroImage = item.images?.[0]?.replace('/1200x0/', '/800x0/')
+              const heroImage = resolveImageUrl(item.images?.[0]?.replace('/1200x0/', '/800x0/'))
               return (
                 <div key={item.slug} className="reveal h-full">
                   <Link
@@ -504,7 +499,7 @@ export default function Home() {
       </section>
 
       {/* Explore the SPE — Quick Navigation */}
-      <section ref={exploreRef} className="bg-spe-bg border-y border-spe-divider/50">
+      <section ref={exploreRef} className="bg-spe-paper border-y border-spe-divider/50">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8" style={{ paddingTop: 'var(--section-padding-y)', paddingBottom: 'var(--section-padding-y)' }}>
           <div className="reveal">
             <SectionHeading
@@ -560,7 +555,7 @@ export default function Home() {
                   date={item.date}
                   category="news"
                   excerpt={item.body}
-                  image={item.bannerImage}
+                  image={resolveImageUrl(item.bannerImage)}
                   size="sm"
                 />
               </div>

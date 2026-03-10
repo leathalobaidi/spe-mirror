@@ -76,6 +76,28 @@ export function stripHtml(html: string): string {
   return text
 }
 
+/**
+ * Resolve an image path from scraped data to a full URL.
+ *
+ * Local relative paths like `/images/15308/foo.webp` were the original
+ * CMS asset paths on spe.org.uk. The scraper didn't download all of them,
+ * so we point them at the live site's asset directory instead.
+ *
+ * Absolute URLs (https://…) and already-resolved paths are returned as-is.
+ */
+const SPE_ASSET_BASE = 'https://spe.org.uk/site/assets/files'
+
+export function resolveImageUrl(src: string | undefined): string | undefined {
+  if (!src) return undefined
+  // Already an absolute URL — leave as-is
+  if (src.startsWith('http://') || src.startsWith('https://')) return src
+  // Local CMS asset path → resolve to live site
+  if (src.startsWith('/images/')) {
+    return SPE_ASSET_BASE + src.replace(/^\/images/, '')
+  }
+  return src
+}
+
 export function getUniqueYears(dates: string[]): number[] {
   const years = dates.map(getYear).filter(y => y > 0)
   return [...new Set(years)].sort((a, b) => b - a)
@@ -99,6 +121,10 @@ export function sanitiseBodyHtml(html: string): string {
   if (!html) return ''
 
   return html
+    // Remove "Login to comment" links (old CMS artefact)
+    .replace(/<a[^>]*class=["']login btn["'][^>]*>[\s\S]*?<\/a>/gi, '')
+    // Remove "members-notice" gated-content banners
+    .replace(/<div[^>]*class=["']members-notice["'][^>]*>[\s\S]*?<\/div>/gi, '')
     // Wrap absolute-positioned iframes in a responsive 16:9 container
     .replace(
       /<iframe([^>]*style=['"][^'"]*position:\s*absolute[^'"]*['"][^>]*)><\/iframe>/gi,

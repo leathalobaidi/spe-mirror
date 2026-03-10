@@ -1,5 +1,6 @@
 import { Link } from 'react-router-dom'
 import { useSEO } from '../hooks/useSEO'
+import Breadcrumbs from '../components/Breadcrumbs'
 
 const polls = [
   {
@@ -35,23 +36,19 @@ export default function MembersPolls() {
   return (
     <div>
       {/* Page header */}
-      <div className="bg-gradient-to-br from-spe-deep2 via-spe-deep to-spe-blue text-white">
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-16 sm:py-20">
-          <div className="flex items-center gap-3 mb-4">
-            <Link to="/reading-room" className="text-spe-light hover:text-white transition-colors text-sm">
-              Reading Room
-            </Link>
-            <span className="text-white/40">/</span>
-          </div>
-          <div className="flex items-center gap-4 mb-4">
-            <h1 className="editorial-heading text-4xl sm:text-5xl">Members' Polls</h1>
-            <span className="inline-flex items-center gap-1.5 text-xs font-medium bg-white/15 text-white/90 px-3 py-1.5 rounded-full">
-              <svg className="w-3.5 h-3.5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M12 15v2m-6 4h12a2 2 0 002-2v-6a2 2 0 00-2-2H6a2 2 0 00-2 2v6a2 2 0 002 2zm10-10V7a4 4 0 00-8 0v4h8z" />
-              </svg>
-              Members Only
-            </span>
-          </div>
+      <div className="bg-gradient-to-br from-spe-ink via-spe-deep2 to-spe-deep text-white relative overflow-hidden grain-overlay">
+        <div className="absolute inset-0 opacity-[0.03] hero-pattern" />
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-16 sm:py-20 relative z-10">
+          <Breadcrumbs
+            variant="light"
+            className="mb-6"
+            items={[
+              { label: 'Home', to: '/' },
+              { label: 'Reading Room', to: '/reading-room' },
+              { label: "Members' Polls" },
+            ]}
+          />
+          <h1 className="editorial-heading text-4xl sm:text-5xl mb-4">Members' Polls</h1>
           <p className="text-lg text-white/70 max-w-2xl font-light">
             In our "Ask the Members" series, the SPE invites members to share their views
             on the most pressing economic topics of the day.
@@ -60,36 +57,16 @@ export default function MembersPolls() {
       </div>
 
       <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
-        {/* Member notice */}
-        <div className="mb-10 rounded-xl border border-violet-200 bg-violet-50/50 p-6">
-          <div className="flex items-start gap-4">
-            <div className="w-10 h-10 rounded-lg bg-violet-100 flex items-center justify-center flex-shrink-0">
-              <svg className="w-5 h-5 text-violet-600" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M12 15v2m-6 4h12a2 2 0 002-2v-6a2 2 0 00-2-2H6a2 2 0 00-2 2v6a2 2 0 002 2zm10-10V7a4 4 0 00-8 0v4h8z" />
-              </svg>
-            </div>
-            <div>
-              <h3 className="font-semibold text-violet-900 mb-1">Members-Only Content</h3>
-              <p className="text-sm text-violet-700 leading-relaxed">
-                Full poll results and detailed analysis are available exclusively to SPE members.{' '}
-                <Link to="/membership" className="font-medium underline hover:no-underline">
-                  Learn about membership →
-                </Link>
-              </p>
-            </div>
-          </div>
-        </div>
-
         {/* Poll cards */}
         <div className="space-y-6">
           {polls.map((poll, i) => (
             <div
               key={i}
-              className="rounded-2xl border border-spe-border/30 bg-white p-8 hover:shadow-sm transition-shadow"
+              className="rounded-2xl border border-spe-divider/30 bg-white p-8 hover:shadow-sm transition-shadow"
             >
               <div className="flex items-start justify-between gap-4 mb-4">
                 <div>
-                  <span className="text-xs font-medium text-violet-600 bg-violet-50 px-2.5 py-1 rounded-full">
+                  <span className="text-xs font-medium text-spe-copper bg-spe-cream px-2.5 py-1 rounded-full">
                     {poll.date}
                   </span>
                 </div>
@@ -106,27 +83,22 @@ export default function MembersPolls() {
                   <span className="hover:underline">Download PDF</span>
                 </a>
               </div>
-              <h3 className="text-xl font-serif font-bold text-spe-dark mb-3">{poll.title}</h3>
+              <h3 className="text-xl font-serif font-bold text-spe-ink mb-3">{poll.title}</h3>
               <p className="text-spe-muted leading-relaxed">{poll.summary}</p>
             </div>
           ))}
         </div>
 
-        {/* Membership CTA */}
-        <div className="mt-12 text-center bg-gradient-to-br from-violet-600 to-violet-700 rounded-2xl p-10 text-white">
-          <h2 className="editorial-heading text-2xl mb-3">Access Full Poll Results</h2>
-          <p className="text-white/70 max-w-lg mx-auto mb-6 font-light">
-            Join the SPE to download complete survey results and contribute your views
-            to future polls.
-          </p>
+        {/* Back link */}
+        <div className="mt-10 pt-8 border-t border-spe-divider/20">
           <Link
-            to="/membership"
-            className="inline-flex items-center gap-2 bg-white text-violet-700 font-semibold px-6 py-3 rounded-lg hover:bg-violet-50 transition-colors"
+            to="/reading-room"
+            className="inline-flex items-center gap-1.5 text-sm font-medium text-spe-blue hover:text-spe-deep transition-colors"
           >
-            Join the SPE
-            <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-              <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 5l7 7-7 7" />
+            <svg className="w-3.5 h-3.5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+              <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M15 19l-7-7 7-7" />
             </svg>
+            Back to Reading Room
           </Link>
         </div>
       </div>
