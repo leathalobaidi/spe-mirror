@@ -27,13 +27,17 @@ const staticRoutes = [
   { path: '/reading-room/book-reviews', priority: '0.7', changefreq: 'monthly' },
   { path: '/reading-room/articles', priority: '0.7', changefreq: 'monthly' },
   { path: '/reading-room/rybczynski-essays', priority: '0.7', changefreq: 'monthly' },
+  { path: '/reading-room/rybczynski-prize', priority: '0.6', changefreq: 'yearly' },
   { path: '/reading-room/salary-surveys', priority: '0.6', changefreq: 'yearly' },
   { path: '/reading-room/members-polls', priority: '0.6', changefreq: 'yearly' },
   { path: '/news', priority: '0.8', changefreq: 'weekly' },
   { path: '/blogs', priority: '0.7', changefreq: 'weekly' },
   { path: '/about', priority: '0.6', changefreq: 'monthly' },
   { path: '/about/council', priority: '0.6', changefreq: 'monthly' },
+  { path: '/speakers/directory', priority: '0.6', changefreq: 'monthly' },
   { path: '/membership', priority: '0.7', changefreq: 'monthly' },
+  { path: '/membership/directory', priority: '0.5', changefreq: 'monthly' },
+  { path: '/explore', priority: '0.7', changefreq: 'weekly' },
   { path: '/careers', priority: '0.6', changefreq: 'monthly' },
   { path: '/faqs', priority: '0.5', changefreq: 'monthly' },
   { path: '/advertise', priority: '0.5', changefreq: 'monthly' },
@@ -109,6 +113,20 @@ for (const source of dynamicSources) {
       priority: source.priority,
     })
   }
+}
+
+// Add GenericPage routes from pages.json (CMS sub-pages that aren't covered by
+// the static or dynamic sources above, e.g. /about/privacy-policy)
+const genericPages = read('src/data/pages.json')
+for (const page of genericPages) {
+  if (!page.slug) continue
+  const path = `/${page.slug}`
+  addUrl({
+    loc: `${SITE}${path}`,
+    lastmod: TODAY,
+    changefreq: 'yearly',
+    priority: '0.4',
+  })
 }
 
 const xml = `<?xml version="1.0" encoding="UTF-8"?>
