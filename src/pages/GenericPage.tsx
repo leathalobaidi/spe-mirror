@@ -3,6 +3,7 @@ import NotFound from './NotFound'
 import pagesData from '../data/pages.json'
 import { sanitiseBodyHtml } from '../utils/helpers'
 import { useSEO } from '../hooks/useSEO'
+import { webPageSchema, breadcrumbSchema } from '../utils/seoSchemas'
 import Breadcrumbs from '../components/Breadcrumbs'
 import ShareButtons from '../components/ShareButtons'
 import MediaEmbed from '../components/MediaEmbed'
@@ -70,12 +71,26 @@ export default function GenericPage() {
     return <NotFound />
   }
 
+  const pageDescription = page.body
+    ? page.body.replace(/<[^>]*>/g, '').slice(0, 155) + '...'
+    : ''
+
   useSEO({
     title: page.title,
-    description: page.body
-      ? page.body.replace(/<[^>]*>/g, '').slice(0, 155) + '...'
-      : '',
+    description: pageDescription,
     type: 'website',
+    schema: [
+      webPageSchema({ name: page.title, description: pageDescription, path: '/' + slug }),
+      breadcrumbSchema([
+        { name: 'Home', path: '/' },
+        ...slug.split('/').slice(0, -1).map((seg, i, arr) => {
+          const ancestorSlug = arr.slice(0, i + 1).join('/')
+          const ancestorPage = pagesData.find(p => p.slug === ancestorSlug)
+          return { name: ancestorPage?.title ?? seg.replace(/-/g, ' '), path: '/' + ancestorSlug }
+        }),
+        { name: page.title },
+      ]),
+    ],
   })
 
   const topSection = slug.split('/')[0]

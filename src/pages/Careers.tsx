@@ -1,5 +1,6 @@
 import { Link } from 'react-router-dom'
 import { useSEO } from '../hooks/useSEO'
+import { webPageSchema, breadcrumbSchema } from '../utils/seoSchemas'
 import pagesData from '../data/pages.json'
 import { sanitiseBodyHtml } from '../utils/helpers'
 
@@ -52,6 +53,10 @@ export default function Careers() {
     title: 'Careers & Professional Development',
     description: 'Economics careers and job opportunities. Find roles in policy, research, finance, and consulting.',
     type: 'website',
+    schema: [
+      webPageSchema({ name: 'Careers & Professional Development', description: 'Economics careers and job opportunities. Find roles in policy, research, finance, and consulting.', path: '/careers' }),
+      breadcrumbSchema([{ name: 'Home', path: '/' }, { name: 'Careers' }]),
+    ],
   })
 
   const careersPage = pagesData.find(p => p.slug === 'careers')

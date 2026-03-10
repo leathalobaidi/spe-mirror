@@ -1,5 +1,6 @@
 import { Link } from 'react-router-dom'
 import { useSEO } from '../hooks/useSEO'
+import { collectionPageSchema, breadcrumbSchema } from '../utils/seoSchemas'
 import Breadcrumbs from '../components/Breadcrumbs'
 
 const surveys = [
@@ -30,6 +31,10 @@ export default function SalarySurveys() {
     title: 'Salary Surveys',
     description: 'SPE salary surveys providing data on economist compensation across sectors and seniority levels.',
     type: 'website',
+    schema: [
+      collectionPageSchema({ name: 'Salary Surveys', description: 'SPE salary surveys providing data on economist compensation across sectors and seniority levels.', path: '/reading-room/salary-surveys', itemCount: surveys.length }),
+      breadcrumbSchema([{ name: 'Home', path: '/' }, { name: 'Reading Room', path: '/reading-room' }, { name: 'Salary Surveys' }]),
+    ],
   })
 
   return (

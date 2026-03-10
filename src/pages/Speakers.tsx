@@ -1,5 +1,6 @@
 import { Link } from 'react-router-dom'
 import { useSEO } from '../hooks/useSEO'
+import { breadcrumbSchema, webPageSchema } from '../utils/seoSchemas'
 import ContentCard from '../components/ContentCard'
 import eveningTalksData from '../data/evening-talks.json'
 import conferenceReportsData from '../data/conference-reports.json'
@@ -11,6 +12,10 @@ export default function Speakers() {
     title: 'Speakers',
     description: 'Browse SPE speakers available for economics events, conferences, and media commentary.',
     type: 'website',
+    schema: [
+      webPageSchema({ name: 'Speakers', description: 'SPE speakers and presentations hub.', path: '/speakers' }),
+      breadcrumbSchema([{ name: 'Home', path: '/' }, { name: 'Speakers' }]),
+    ],
   })
   const recentTalks = eveningTalksData.slice(0, 6)
   const recentReports = conferenceReportsData.slice(0, 3)

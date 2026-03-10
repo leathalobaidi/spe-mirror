@@ -1,4 +1,5 @@
 import { useSEO } from '../hooks/useSEO'
+import { breadcrumbSchema, collectionPageSchema } from '../utils/seoSchemas'
 import ContentCard from '../components/ContentCard'
 import FilterBar from '../components/FilterBar'
 import { useFilteredData } from '../hooks/useFilteredData'
@@ -10,6 +11,10 @@ export default function Blogs() {
     title: 'Blog',
     description: 'Blog posts from SPE members covering economic research, policy debate, and professional insights.',
     type: 'website',
+    schema: [
+      collectionPageSchema({ name: 'Blog', description: 'SPE member blog posts.', path: '/blogs', itemCount: blogsData.length }),
+      breadcrumbSchema([{ name: 'Home', path: '/' }, { name: 'Blog' }]),
+    ],
   })
   const { filtered, searchQuery, setSearchQuery, selectedYear, setSelectedYear, years } = useFilteredData(blogsData)
   const gridRef = useReveal()

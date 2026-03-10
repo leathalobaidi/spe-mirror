@@ -1,5 +1,6 @@
 import { Link } from 'react-router-dom'
 import { useSEO } from '../hooks/useSEO'
+import { webPageSchema, breadcrumbSchema } from '../utils/seoSchemas'
 
 const benefits = [
   {
@@ -126,6 +127,10 @@ export default function Membership() {
     title: 'Membership',
     description: 'Join the Society of Professional Economists. Membership benefits, fees, and how to apply.',
     type: 'website',
+    schema: [
+      webPageSchema({ name: 'Membership', description: 'Join the Society of Professional Economists. Membership benefits, fees, and how to apply.', path: '/membership' }),
+      breadcrumbSchema([{ name: 'Home', path: '/' }, { name: 'Membership' }]),
+    ],
   })
 
   return (

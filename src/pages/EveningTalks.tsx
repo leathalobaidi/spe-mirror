@@ -1,4 +1,5 @@
 import { useSEO } from '../hooks/useSEO'
+import { breadcrumbSchema, collectionPageSchema } from '../utils/seoSchemas'
 import ContentCard from '../components/ContentCard'
 import FilterBar from '../components/FilterBar'
 import { useFilteredData } from '../hooks/useFilteredData'
@@ -10,6 +11,10 @@ export default function EveningTalks() {
     title: 'Evening Talks',
     description: 'Watch recordings of SPE evening talks with leading economists on current economic issues.',
     type: 'website',
+    schema: [
+      collectionPageSchema({ name: 'Evening Talks', description: 'SPE evening talk recordings.', path: '/speakers/evening-talks', itemCount: eveningTalksData.length }),
+      breadcrumbSchema([{ name: 'Home', path: '/' }, { name: 'Speakers', path: '/speakers' }, { name: 'Evening Talks' }]),
+    ],
   })
   const { filtered, searchQuery, setSearchQuery, selectedYear, setSelectedYear, years } = useFilteredData(eveningTalksData)
   const gridRef = useReveal()

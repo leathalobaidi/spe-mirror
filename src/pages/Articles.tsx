@@ -1,4 +1,5 @@
 import { useSEO } from '../hooks/useSEO'
+import { breadcrumbSchema, collectionPageSchema } from '../utils/seoSchemas'
 import ContentCard from '../components/ContentCard'
 import FilterBar from '../components/FilterBar'
 import { useFilteredData } from '../hooks/useFilteredData'
@@ -10,6 +11,10 @@ export default function Articles() {
     title: 'Articles',
     description: 'Read articles and analysis from leading economists on policy, markets, and the UK economy.',
     type: 'website',
+    schema: [
+      collectionPageSchema({ name: 'Articles', description: 'SPE articles and analysis.', path: '/reading-room/articles', itemCount: articlesData.length }),
+      breadcrumbSchema([{ name: 'Home', path: '/' }, { name: 'Reading Room', path: '/reading-room' }, { name: 'Articles' }]),
+    ],
   })
   const { filtered, searchQuery, setSearchQuery, selectedYear, setSelectedYear, years } = useFilteredData(articlesData)
   const gridRef = useReveal()

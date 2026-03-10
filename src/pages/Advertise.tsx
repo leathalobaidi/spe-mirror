@@ -1,5 +1,6 @@
 import { Link } from 'react-router-dom'
 import { useSEO } from '../hooks/useSEO'
+import { webPageSchema, breadcrumbSchema } from '../utils/seoSchemas'
 
 const services = [
   {
@@ -63,6 +64,10 @@ export default function Advertise() {
     title: 'Advertise with SPE',
     description: 'Advertise with the Society of Professional Economists. Reach professional economists across the UK.',
     type: 'website',
+    schema: [
+      webPageSchema({ name: 'Advertise with SPE', description: 'Advertise with the Society of Professional Economists. Reach professional economists across the UK.', path: '/advertise' }),
+      breadcrumbSchema([{ name: 'Home', path: '/' }, { name: 'Advertise' }]),
+    ],
   })
 
   return (

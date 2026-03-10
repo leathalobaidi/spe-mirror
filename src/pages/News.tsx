@@ -1,4 +1,5 @@
 import { useSEO } from '../hooks/useSEO'
+import { breadcrumbSchema, collectionPageSchema } from '../utils/seoSchemas'
 import ContentCard from '../components/ContentCard'
 import FilterBar from '../components/FilterBar'
 import { useFilteredData } from '../hooks/useFilteredData'
@@ -10,6 +11,10 @@ export default function News() {
     title: 'News',
     description: 'Latest news from the Society of Professional Economists on events, policy, and member updates.',
     type: 'website',
+    schema: [
+      collectionPageSchema({ name: 'News', description: 'SPE news and updates.', path: '/news', itemCount: newsData.length }),
+      breadcrumbSchema([{ name: 'Home', path: '/' }, { name: 'News' }]),
+    ],
   })
   const { filtered, searchQuery, setSearchQuery, selectedYear, setSelectedYear, years } = useFilteredData(newsData)
   const gridRef = useReveal()

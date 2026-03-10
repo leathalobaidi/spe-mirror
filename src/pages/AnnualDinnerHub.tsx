@@ -1,5 +1,6 @@
 import { useParams, Link, Navigate } from 'react-router-dom'
 import { useSEO } from '../hooks/useSEO'
+import { eventSchema, breadcrumbSchema } from '../utils/seoSchemas'
 import { getDinnerYear, getDinnerYearsList } from '../utils/annualDinnerData'
 import { podcastLinkSlug, eventDetailPath } from '../utils/crossLinks'
 import { getSpeakerByName } from '../utils/speakerDirectory'
@@ -37,6 +38,19 @@ export default function AnnualDinnerHub() {
       ? `The SPE Annual Dinner ${year} — guest speaker ${data.guestSpeaker}${data.guestSpeakerRole ? `, ${data.guestSpeakerRole}` : ''}.`
       : `The SPE Annual Dinner ${year} at the ${venue}.`,
     type: 'event',
+    schema: [
+      eventSchema({
+        name: `SPE Annual Dinner ${year}`,
+        date: dateStr ?? undefined,
+        venue,
+        speakers: data.guestSpeaker ? [data.guestSpeaker] : undefined,
+        description: data.guestSpeaker
+          ? `The SPE Annual Dinner ${year} — guest speaker ${data.guestSpeaker}.`
+          : `The SPE Annual Dinner ${year} at the ${venue}.`,
+        path: `/events/annual-dinner/${year}`,
+      }),
+      breadcrumbSchema([{ name: 'Home', path: '/' }, { name: 'Events', path: '/events' }, { name: `Annual Dinner ${year}` }]),
+    ],
   })
 
   // Speaker profile link

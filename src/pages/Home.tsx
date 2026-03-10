@@ -6,6 +6,7 @@ import BookCover from '../components/BookCover'
 import SectionHeading from '../components/SectionHeading'
 import { useReveal } from '../hooks/useReveal'
 import { useSEO } from '../hooks/useSEO'
+import { orgSchema } from '../utils/seoSchemas'
 import { resolveImageUrl } from '../utils/helpers'
 
 // Data loaded lazily after first paint — reduces initial bundle by ~3.7 MB
@@ -89,16 +90,7 @@ const makeExploreCards = (talkCount: number) => [
 export default function Home() {
   useSEO({
     description: 'The Society of Professional Economists — the UK\'s leading forum for economists since 1953, offering events, podcasts, book reviews and career resources.',
-    schema: {
-      '@context': 'https://schema.org',
-      '@type': 'Organization',
-      name: 'Society of Professional Economists',
-      alternateName: 'SPE',
-      url: 'https://www.spe.org.uk',
-      logo: 'https://www.spe.org.uk/images/logo-colour.png',
-      foundingDate: '1953',
-      description: 'The UK\'s leading forum for professional economists.',
-    },
+    schema: orgSchema(),
   })
 
   // ── Lazy-loaded data (deferred to after first paint) ──────────────

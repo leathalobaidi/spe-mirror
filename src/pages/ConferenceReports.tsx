@@ -1,6 +1,7 @@
 import ContentCard from '../components/ContentCard'
 import FilterBar from '../components/FilterBar'
 import { useSEO } from '../hooks/useSEO'
+import { breadcrumbSchema, collectionPageSchema } from '../utils/seoSchemas'
 import { useFilteredData } from '../hooks/useFilteredData'
 import { useReveal } from '../hooks/useReveal'
 import conferenceReportsData from '../data/conference-reports.json'
@@ -10,6 +11,10 @@ export default function ConferenceReports() {
     title: 'Conference Reports',
     description: 'Reports from SPE conferences covering macroeconomics, policy, and the UK economic outlook.',
     type: 'website',
+    schema: [
+      collectionPageSchema({ name: 'Conference Reports', description: 'SPE conference reports.', path: '/speakers/conference-reports', itemCount: conferenceReportsData.length }),
+      breadcrumbSchema([{ name: 'Home', path: '/' }, { name: 'Speakers', path: '/speakers' }, { name: 'Conference Reports' }]),
+    ],
   })
   const { filtered, searchQuery, setSearchQuery, selectedYear, setSelectedYear, years } = useFilteredData(conferenceReportsData)
   const gridRef = useReveal()

@@ -3,6 +3,7 @@ import councillorsData from '../data/councillors.json'
 import presidentsData from '../data/presidents.json'
 import { stripHtml, truncateText, resolveImageUrl } from '../utils/helpers'
 import { useSEO } from '../hooks/useSEO'
+import { webPageSchema, breadcrumbSchema } from '../utils/seoSchemas'
 import Breadcrumbs from '../components/Breadcrumbs'
 
 export default function Council() {
@@ -10,6 +11,10 @@ export default function Council() {
     title: 'Council & Officers',
     description: 'Meet the SPE Council members who govern the Society of Professional Economists.',
     type: 'website',
+    schema: [
+      webPageSchema({ name: 'Council & Officers', description: 'Meet the SPE Council members who govern the Society of Professional Economists.', path: '/about/council' }),
+      breadcrumbSchema([{ name: 'Home', path: '/' }, { name: 'About', path: '/about' }, { name: 'Council & Officers' }]),
+    ],
   })
 
   return (

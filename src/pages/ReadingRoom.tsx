@@ -1,5 +1,6 @@
 import { Link } from 'react-router-dom'
 import { useSEO } from '../hooks/useSEO'
+import { breadcrumbSchema, webPageSchema } from '../utils/seoSchemas'
 import BookCover from '../components/BookCover'
 import ContentCard from '../components/ContentCard'
 import bookReviewsData from '../data/book-reviews-index.json'
@@ -11,6 +12,10 @@ export default function ReadingRoom() {
     title: 'Reading Room',
     description: 'The SPE Reading Room: articles, book reviews, essays, and conference reports from economists.',
     type: 'website',
+    schema: [
+      webPageSchema({ name: 'Reading Room', description: 'SPE publications and reading material.', path: '/reading-room' }),
+      breadcrumbSchema([{ name: 'Home', path: '/' }, { name: 'Reading Room' }]),
+    ],
   })
   const latestBooks = bookReviewsData.slice(0, 12)
   const latestArticles = articlesData.slice(0, 3)

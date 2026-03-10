@@ -1,5 +1,6 @@
 import { useState, useMemo } from 'react'
 import { useSEO } from '../hooks/useSEO'
+import { breadcrumbSchema, collectionPageSchema } from '../utils/seoSchemas'
 import BookCover from '../components/BookCover'
 import { useReveal } from '../hooks/useReveal'
 import bookReviewsData from '../data/book-reviews-index.json'
@@ -10,6 +11,10 @@ export default function BookReviews() {
     title: 'Book Reviews',
     description: 'Book reviews by economists. Discover the latest economics titles reviewed by SPE members.',
     type: 'website',
+    schema: [
+      collectionPageSchema({ name: 'Book Reviews', description: 'SPE book reviews.', path: '/reading-room/book-reviews', itemCount: bookReviewsData.length }),
+      breadcrumbSchema([{ name: 'Home', path: '/' }, { name: 'Reading Room', path: '/reading-room' }, { name: 'Book Reviews' }]),
+    ],
   })
   const [searchQuery, setSearchQuery] = useState('')
   const [selectedYear, setSelectedYear] = useState<number | null>(null)

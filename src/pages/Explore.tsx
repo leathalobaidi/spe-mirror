@@ -1,6 +1,8 @@
 import { useState, useMemo, useEffect, useRef } from 'react'
 import { Link, useSearchParams } from 'react-router-dom'
 import { stripHtml, truncateText, formatDateShort, getYear, getUniqueYears, sanitiseBodyHtml } from '../utils/helpers'
+import { useSEO } from '../hooks/useSEO'
+import { breadcrumbSchema, collectionPageSchema } from '../utils/seoSchemas'
 import ContentCard from '../components/ContentCard'
 
 // Import all content sources
@@ -124,6 +126,28 @@ export default function Explore() {
   const [searchParams, setSearchParams] = useSearchParams()
   const gridRef = useRef<HTMLDivElement>(null)
 
+  // Build index once (needed for item count in SEO)
+  const allItems = useMemo(() => buildIndex(), [])
+
+  useSEO({
+    title: 'Explore All Content',
+    description: `Browse ${allItems.length.toLocaleString()} events, podcasts, articles, and publications from the SPE — filter by topic, year, or content type.`,
+    type: 'website',
+    noindex: false,
+    schema: [
+      collectionPageSchema({
+        name: 'Explore All Content',
+        description: 'Unified content discovery page for the Society of Professional Economists.',
+        path: '/explore',
+        itemCount: allItems.length,
+      }),
+      breadcrumbSchema([
+        { name: 'Home', path: '/' },
+        { name: 'Explore' },
+      ]),
+    ],
+  })
+
   // Read filter state from URL
   const query = searchParams.get('q') || ''
   const yearParam = searchParams.get('year')
@@ -136,9 +160,6 @@ export default function Explore() {
 
   // Reset page when filters change
   useEffect(() => { setPage(1) }, [query, selectedYear, selectedType, selectedTopic])
-
-  // Build index once
-  const allItems = useMemo(() => buildIndex(), [])
 
   // Extract unique years and topics for filter dropdowns
   const years = useMemo(

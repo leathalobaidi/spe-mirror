@@ -1,4 +1,5 @@
 import { useSEO } from '../hooks/useSEO'
+import { breadcrumbSchema, collectionPageSchema } from '../utils/seoSchemas'
 import ContentCard from '../components/ContentCard'
 import FilterBar from '../components/FilterBar'
 import { useFilteredData } from '../hooks/useFilteredData'
@@ -10,6 +11,10 @@ export default function Podcasts() {
     title: 'Podcasts & Talks',
     description: 'Listen to SPE podcasts featuring interviews with economists on policy, research, and careers.',
     type: 'website',
+    schema: [
+      collectionPageSchema({ name: 'Podcasts & Talks', description: 'SPE podcast episodes.', path: '/podcasts', itemCount: podcastsData.length }),
+      breadcrumbSchema([{ name: 'Home', path: '/' }, { name: 'Podcasts' }]),
+    ],
   })
   const { filtered, searchQuery, setSearchQuery, selectedYear, setSelectedYear, selectedCategory, setSelectedCategory, years, categories } = useFilteredData(podcastsData)
   const gridRef = useReveal()

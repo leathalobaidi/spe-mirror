@@ -1,5 +1,6 @@
 import { Link } from 'react-router-dom'
 import { useSEO } from '../hooks/useSEO'
+import { webPageSchema, breadcrumbSchema } from '../utils/seoSchemas'
 import pagesData from '../data/pages.json'
 import presidentsData from '../data/presidents.json'
 import MediaEmbed from '../components/MediaEmbed'
@@ -11,6 +12,10 @@ export default function About() {
     title: 'About',
     description: 'Learn about the Society of Professional Economists, our mission, leadership, and how we support UK economists.',
     type: 'website',
+    schema: [
+      webPageSchema({ name: 'About', description: 'Learn about the Society of Professional Economists, our mission, leadership, and how we support UK economists.', path: '/about' }),
+      breadcrumbSchema([{ name: 'Home', path: '/' }, { name: 'About' }]),
+    ],
   })
   const aboutPage = pagesData.find(p => p.slug === 'about')
 

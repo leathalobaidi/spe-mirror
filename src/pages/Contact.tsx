@@ -1,10 +1,15 @@
 import { useSEO } from '../hooks/useSEO'
+import { webPageSchema, breadcrumbSchema } from '../utils/seoSchemas'
 
 export default function Contact() {
   useSEO({
     title: 'Contact the SPE',
     description: 'Contact the Society of Professional Economists. Get in touch with our team in London.',
     type: 'website',
+    schema: [
+      webPageSchema({ name: 'Contact the SPE', description: 'Contact the Society of Professional Economists. Get in touch with our team in London.', path: '/contact' }),
+      breadcrumbSchema([{ name: 'Home', path: '/' }, { name: 'Contact' }]),
+    ],
   })
 
   return (

@@ -1,5 +1,6 @@
 import { Link } from 'react-router-dom'
 import { useSEO } from '../hooks/useSEO'
+import { breadcrumbSchema, collectionPageSchema } from '../utils/seoSchemas'
 import ContentCard from '../components/ContentCard'
 import FilterBar from '../components/FilterBar'
 import { useFilteredData } from '../hooks/useFilteredData'
@@ -12,6 +13,10 @@ export default function Events() {
     title: 'Events',
     description: 'Upcoming and past SPE events including conferences, dinners, and evening talks for economists.',
     type: 'website',
+    schema: [
+      collectionPageSchema({ name: 'Events', description: 'SPE events listing.', path: '/events', itemCount: eventsData.length }),
+      breadcrumbSchema([{ name: 'Home', path: '/' }, { name: 'Events' }]),
+    ],
   })
   const { filtered, searchQuery, setSearchQuery, selectedYear, setSelectedYear, selectedCategory, setSelectedCategory, years, categories } = useFilteredData(eventsData)
   const gridRef = useReveal()

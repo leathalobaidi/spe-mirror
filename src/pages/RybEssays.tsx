@@ -2,6 +2,7 @@ import { Link } from 'react-router-dom'
 import ContentCard from '../components/ContentCard'
 import FilterBar from '../components/FilterBar'
 import { useSEO } from '../hooks/useSEO'
+import { breadcrumbSchema, collectionPageSchema } from '../utils/seoSchemas'
 import { useFilteredData } from '../hooks/useFilteredData'
 import { useReveal } from '../hooks/useReveal'
 import essaysData from '../data/ryb-essays.json'
@@ -11,6 +12,10 @@ export default function RybEssays() {
     title: 'Rybczynski Essays',
     description: 'Read Your Brief essays by SPE members on topical economic issues and policy debates.',
     type: 'website',
+    schema: [
+      collectionPageSchema({ name: 'Rybczynski Essays', description: 'SPE Rybczynski Prize essays.', path: '/reading-room/rybczynski-essays', itemCount: essaysData.length }),
+      breadcrumbSchema([{ name: 'Home', path: '/' }, { name: 'Reading Room', path: '/reading-room' }, { name: 'Rybczynski Essays' }]),
+    ],
   })
   const { filtered, searchQuery, setSearchQuery, selectedYear, setSelectedYear, years } = useFilteredData(essaysData)
   const gridRef = useReveal()

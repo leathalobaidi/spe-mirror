@@ -1,6 +1,7 @@
 import { useState } from 'react'
 import { Link } from 'react-router-dom'
 import { useSEO } from '../hooks/useSEO'
+import { faqPageSchema, breadcrumbSchema } from '../utils/seoSchemas'
 
 interface FAQItem {
   question: string
@@ -91,6 +92,10 @@ export default function FAQs() {
     title: 'FAQs',
     description: 'Frequently asked questions about SPE membership, events, and the economics profession.',
     type: 'website',
+    schema: [
+      faqPageSchema(faqs.map(f => ({ question: f.question, answer: f.answer }))),
+      breadcrumbSchema([{ name: 'Home', path: '/' }, { name: 'FAQs' }]),
+    ],
   })
   const [openIndex, setOpenIndex] = useState<number | null>(0)
 

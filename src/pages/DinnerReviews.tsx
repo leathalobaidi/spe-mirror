@@ -1,6 +1,7 @@
 import ContentCard from '../components/ContentCard'
 import FilterBar from '../components/FilterBar'
 import { useSEO } from '../hooks/useSEO'
+import { breadcrumbSchema, collectionPageSchema } from '../utils/seoSchemas'
 import { useFilteredData } from '../hooks/useFilteredData'
 import { useReveal } from '../hooks/useReveal'
 import dinnerReviewsData from '../data/dinner-reviews.json'
@@ -10,6 +11,10 @@ export default function DinnerReviews() {
     title: 'Dinner Reviews',
     description: 'Reviews of SPE dinner events featuring talks from distinguished economists and policymakers.',
     type: 'website',
+    schema: [
+      collectionPageSchema({ name: 'Dinner Reviews', description: 'SPE annual dinner reviews.', path: '/speakers/dinner-reviews', itemCount: dinnerReviewsData.length }),
+      breadcrumbSchema([{ name: 'Home', path: '/' }, { name: 'Speakers', path: '/speakers' }, { name: 'Dinner Reviews' }]),
+    ],
   })
   const { filtered, searchQuery, setSearchQuery, selectedYear, setSelectedYear, years } = useFilteredData(dinnerReviewsData)
   const gridRef = useReveal()

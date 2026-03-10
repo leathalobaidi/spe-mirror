@@ -1,5 +1,6 @@
 import { Link } from 'react-router-dom'
 import { useSEO } from '../hooks/useSEO'
+import { collectionPageSchema, breadcrumbSchema } from '../utils/seoSchemas'
 import Breadcrumbs from '../components/Breadcrumbs'
 
 const polls = [
@@ -31,6 +32,10 @@ export default function MembersPolls() {
     title: "Members' Polls",
     description: 'SPE members polls on economic forecasts, policy views, and professional opinions.',
     type: 'website',
+    schema: [
+      collectionPageSchema({ name: "Members' Polls", description: 'SPE members polls on economic forecasts, policy views, and professional opinions.', path: '/reading-room/members-polls', itemCount: polls.length }),
+      breadcrumbSchema([{ name: 'Home', path: '/' }, { name: 'Reading Room', path: '/reading-room' }, { name: "Members' Polls" }]),
+    ],
   })
 
   return (
