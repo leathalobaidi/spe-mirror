@@ -76,7 +76,7 @@ export default function Footer() {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-14">
         <div className="grid grid-cols-1 min-[480px]:grid-cols-2 md:grid-cols-5 gap-8 lg:gap-12">
           {/* Brand */}
-          <div className="col-span-2 md:col-span-1">
+          <div className="min-[480px]:col-span-2 md:col-span-1">
             <Link to="/" className="flex items-center gap-2 mb-4">
               <img src="/images/logo.webp" alt="SPE" width={215} height={32} className="h-8 w-auto brightness-0 invert" />
               <span className="font-serif text-lg font-bold text-white">SPE</span>
