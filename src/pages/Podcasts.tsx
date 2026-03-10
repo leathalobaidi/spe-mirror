@@ -55,7 +55,7 @@ export default function Podcasts() {
               {filtered.map(item => (
                 <div key={item.slug} className="reveal h-full">
                   <ContentCard
-                    to={`/podcasts/${item.slug.split('/').pop()}`}
+                    to={`/podcasts/${item.slug}`}
                     title={item.title}
                     date={item.date}
                     category={item.category}

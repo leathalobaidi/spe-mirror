@@ -106,7 +106,7 @@ export default function Events() {
                         {upcoming.map((item, i) => (
                           <div key={`${item.slug}-${i}`} className="reveal h-full">
                             <ContentCard
-                              to={`/events/${item.slug.split('/').pop()}`}
+                              to={`/events/${item.slug}`}
                               title={item.title}
                               date={item.date ?? undefined}
                               category="event"
@@ -130,7 +130,7 @@ export default function Events() {
                         {past.map((item, i) => (
                           <div key={`${item.slug}-${i}`} className="h-full">
                             <ContentCard
-                              to={`/events/${item.slug.split('/').pop()}`}
+                              to={`/events/${item.slug}`}
                               title={item.title}
                               date={item.date ?? undefined}
                               category="event"

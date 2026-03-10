@@ -268,18 +268,14 @@ export function getNewsForPodcast(podcastCategory: string | undefined, podcastDa
   return dinnerNewsByYear.get(year)?.filter(m => m.type === 'dinner-recap') ?? []
 }
 
-/** Extract the route-friendly slug for podcast links (last segment only) */
+/** Extract the route-friendly slug for podcast links */
 export function podcastLinkSlug(fullSlug: string) {
-  const parts = fullSlug.split('/')
-  return parts[parts.length - 1]
+  return fullSlug
 }
 
 /** Build the correct event detail path from an event slug */
 export function eventDetailPath(eventSlug: string) {
-  // Event slugs are like "events/spe-annual-dinner-2025" or "past-events/12226-1"
-  // The route is /events/:slug where :slug is the last segment
-  const parts = eventSlug.split('/')
-  return `/events/${parts[parts.length - 1]}`
+  return `/events/${eventSlug}`
 }
 
 // ── Topic-based cross-links (book reviews ↔ events ↔ podcasts) ──────────

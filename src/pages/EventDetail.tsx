@@ -17,7 +17,7 @@ import { getYear } from '../utils/helpers'
 
 export default function EventDetail() {
   const { slug } = useParams()
-  const event = eventsData.find(e => e.slug.endsWith(`/${slug}`))
+  const event = eventsData.find(e => e.slug === slug)
 
   if (!event) return <NotFound />
 

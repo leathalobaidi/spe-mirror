@@ -35,8 +35,8 @@ export default function SearchOverlay() {
   // Build search index once
   const searchIndex = useMemo<SearchItem[]>(() => {
     const items: SearchItem[] = []
-    eventsData.forEach((e: any) => items.push({ title: e.title, slug: e.slug, date: e.date, category: 'Event', path: `/events/${e.slug.split('/').pop()}`, body: e.body }))
-    podcastsData.forEach((e: any) => items.push({ title: e.title, slug: e.slug, date: e.date, category: 'Podcast', path: `/podcasts/${e.slug.split('/').pop()}`, body: e.body }))
+    eventsData.forEach((e: any) => items.push({ title: e.title, slug: e.slug, date: e.date, category: 'Event', path: `/events/${e.slug}`, body: e.body }))
+    podcastsData.forEach((e: any) => items.push({ title: e.title, slug: e.slug, date: e.date, category: 'Podcast', path: `/podcasts/${e.slug}`, body: e.body }))
     newsData.forEach((e: any) => items.push({ title: e.title, slug: e.slug, date: e.date, category: 'News', path: `/news/${e.slug}`, body: e.body }))
     bookReviewsData.forEach((e: any) => items.push({ title: e.title, slug: e.slug, date: e.date, category: 'Book Review', path: `/reading-room/book-reviews/${e.slug}`, body: e.body }))
     articlesData.forEach((e: any) => items.push({ title: e.title, slug: e.slug, date: e.date, category: 'Article', path: `/reading-room/articles/${e.slug}`, body: e.body }))

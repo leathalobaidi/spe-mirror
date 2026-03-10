@@ -112,8 +112,7 @@ function add(rawName: string, appearance: Appearance) {
 
 // --- Events ---
 for (const event of eventsData as any[]) {
-  const lastSlug = (event.slug || '').split('/').pop() || event.slug
-  const path = `/events/${lastSlug}`
+  const path = `/events/${event.slug}`
   if (event.speakers) {
     for (const s of event.speakers) {
       add(extractName(s), { contentType: 'event', title: event.title, path, date: event.date, role: 'Speaker' })
@@ -126,8 +125,7 @@ for (const event of eventsData as any[]) {
 
 // --- Podcasts ---
 for (const podcast of podcastsData as any[]) {
-  const lastSlug = (podcast.slug || '').split('/').pop() || podcast.slug
-  const path = `/podcasts/${lastSlug}`
+  const path = `/podcasts/${podcast.slug}`
   if (podcast.speakers) {
     for (const s of podcast.speakers) {
       add(extractName(s), { contentType: 'podcast', title: podcast.title, path, date: podcast.date, role: 'Guest' })

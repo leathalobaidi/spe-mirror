@@ -1,6 +1,6 @@
 [
   {
-    "slug": "podcasts/interview-with-eric-leeper",
+    "slug": "interview-with-eric-leeper",
     "title": "Interview with Eric Leeper",
     "date": "2026-02-26",
     "category": "podcast",
@@ -23,7 +23,7 @@
     ]
   },
   {
-    "slug": "podcasts/interview-with-brad-setser",
+    "slug": "interview-with-brad-setser",
     "title": "Interview with Brad Setser",
     "date": "2026-02-16",
     "category": "podcast",
@@ -47,7 +47,7 @@
     ]
   },
   {
-    "slug": "podcasts/interview-with-eamonn-butler",
+    "slug": "interview-with-eamonn-butler",
     "title": "Interview with Eamonn Butler",
     "date": "2026-02-10",
     "category": "podcast",
@@ -71,7 +71,7 @@
     ]
   },
   {
-    "slug": "podcasts/interview-with-mark-blyth",
+    "slug": "interview-with-mark-blyth",
     "title": "Interview with Mark Blyth",
     "date": "2026-01-28",
     "category": "podcast",
@@ -95,7 +95,7 @@
     ]
   },
   {
-    "slug": "podcasts/interview-with-financial-times-economists-chris-giles-and-joel-suss",
+    "slug": "interview-with-financial-times-economists-chris-giles-and-joel-suss",
     "title": "Interview with Financial Times economists Chris Giles and Joel Suss",
     "date": "2025-12-16",
     "category": "podcast",
@@ -120,7 +120,7 @@
     ]
   },
   {
-    "slug": "podcasts/interview-with-dr-anne-bradley",
+    "slug": "interview-with-dr-anne-bradley",
     "title": "Interview with Dr Anne Bradley",
     "date": "2025-12-10",
     "category": "podcast",
@@ -143,7 +143,7 @@
     ]
   },
   {
-    "slug": "podcasts/interview-with-joe-mayes",
+    "slug": "interview-with-joe-mayes",
     "title": "Interview with Joe Mayes",
     "date": "2025-11-20",
     "category": "podcast",
@@ -167,7 +167,7 @@
     ]
   },
   {
-    "slug": "podcasts/interview-with-cesar-hidalgo",
+    "slug": "interview-with-cesar-hidalgo",
     "title": "Interview with César Hidalgo",
     "date": "2025-11-19",
     "category": "podcast",
@@ -188,7 +188,7 @@
     "topics": []
   },
   {
-    "slug": "podcasts/interview-with-tyler-cowen",
+    "slug": "interview-with-tyler-cowen",
     "title": "Interview with Tyler Cowen",
     "date": "2025-10-16",
     "category": "podcast",
@@ -212,7 +212,7 @@
     ]
   },
   {
-    "slug": "conferences/economic-crossroads-policy-choices-and-global-challenges",
+    "slug": "economic-crossroads-policy-choices-and-global-challenges",
     "title": "Economic Crossroads: Policy Choices and Global Challenges",
     "date": "2025-10-13",
     "category": "conference-report",
@@ -235,7 +235,7 @@
     ]
   },
   {
-    "slug": "evening-talks/money-historical-and-contemporary-perspectives",
+    "slug": "money-historical-and-contemporary-perspectives",
     "title": "Money: Historical and Contemporary Perspectives",
     "date": "2025-10-10",
     "speakers": [
@@ -257,7 +257,7 @@
     ]
   },
   {
-    "slug": "podcasts/interview-with-federico-sturzenegger",
+    "slug": "interview-with-federico-sturzenegger",
     "title": "Interview with Federico Sturzenegger",
     "date": "2025-10-08",
     "category": "podcast",
@@ -282,7 +282,7 @@
     ]
   },
   {
-    "slug": "evening-talks/is-population-ageing-a-demographic-timebomb",
+    "slug": "is-population-ageing-a-demographic-timebomb",
     "title": "Is Population Ageing a Demographic Timebomb?",
     "date": "2025-09-24",
     "category": "speaker-series",
@@ -300,7 +300,7 @@
     ]
   },
   {
-    "slug": "podcasts/interview-with-ricardo-hausmann",
+    "slug": "interview-with-ricardo-hausmann",
     "title": "Interview with Ricardo Hausmann",
     "date": "2025-08-29",
     "category": "podcast",
@@ -323,7 +323,7 @@
     ]
   },
   {
-    "slug": "podcasts/interview-with-david-mcwilliams",
+    "slug": "interview-with-david-mcwilliams",
     "title": "Interview with David McWilliams",
     "date": "2025-07-22",
     "category": "podcast",
@@ -346,7 +346,7 @@
     ]
   },
   {
-    "slug": "evening-talks/a-new-world-order",
+    "slug": "a-new-world-order",
     "title": "A New World Order",
     "date": "2025-07-09",
     "category": "speaker-series",
@@ -364,7 +364,7 @@
     ]
   },
   {
-    "slug": "podcasts/interview-with-johan-norberg",
+    "slug": "interview-with-johan-norberg",
     "title": "Interview with Johan Norberg",
     "date": "2025-06-20",
     "category": "podcast",
@@ -388,7 +388,7 @@
     ]
   },
   {
-    "slug": "evening-talks/defence-economics-in-the-new-age-of-geopolitical-reality",
+    "slug": "defence-economics-in-the-new-age-of-geopolitical-reality",
     "title": "Defence Economics in the new age of Geopolitical Reality",
     "date": "2025-06-05",
     "category": "speaker-series",
@@ -405,7 +405,7 @@
     ]
   },
   {
-    "slug": "podcasts/interview-with-scott-lincicome",
+    "slug": "interview-with-scott-lincicome",
     "title": "Interview with Scott Lincicome",
     "date": "2025-05-13",
     "category": "podcast",
@@ -429,7 +429,7 @@
     ]
   },
   {
-    "slug": "podcasts/interview-with-martin-wolf",
+    "slug": "interview-with-martin-wolf",
     "title": "Interview with Martin Wolf",
     "date": "2025-05-01",
     "category": "podcast",
@@ -453,7 +453,7 @@
     ]
   },
   {
-    "slug": "podcasts/interview-with-jon-moynihan",
+    "slug": "interview-with-jon-moynihan",
     "title": "Interview with Jon Moynihan",
     "date": "2025-03-31",
     "category": "podcast",
@@ -475,7 +475,7 @@
     ]
   },
   {
-    "slug": "evening-talks/obr-post-spring-statement-briefing",
+    "slug": "obr-post-spring-statement-briefing",
     "title": "OBR Post‑Spring Statement Briefing",
     "date": "2025-03-28",
     "category": "speaker-series",
@@ -492,7 +492,7 @@
     ]
   },
   {
-    "slug": "podcasts/interview-with-philippe-aghion",
+    "slug": "interview-with-philippe-aghion",
     "title": "Interview with Philippe Aghion",
     "date": "2025-03-27",
     "category": "podcast",
@@ -513,7 +513,7 @@
     ]
   },
   {
-    "slug": "podcasts/spe-book-review-podcast-interview",
+    "slug": "spe-book-review-podcast-interview",
     "title": "SPE Book Review Podcast Interview",
     "date": "2025-03-21",
     "category": "podcast",
@@ -532,7 +532,7 @@
     ]
   },
   {
-    "slug": "podcasts/interview-with-russell-napier",
+    "slug": "interview-with-russell-napier",
     "title": "Interview with Russell Napier",
     "date": "2025-03-20",
     "category": "podcast",
@@ -552,7 +552,7 @@
     ]
   },
   {
-    "slug": "evening-talks/climate-change-economics-and-policy-developments",
+    "slug": "climate-change-economics-and-policy-developments",
     "title": "Climate Change: Economics and Policy Developments",
     "date": "2025-03-17",
     "category": "speaker-series",
@@ -573,7 +573,7 @@
     ]
   },
   {
-    "slug": "podcasts/interview-with-edward-chancellor",
+    "slug": "interview-with-edward-chancellor",
     "title": "Interview with Edward Chancellor",
     "date": "2025-03-17",
     "category": "podcast",
@@ -593,7 +593,7 @@
     ]
   },
   {
-    "slug": "podcasts/interview-with-sam-gregg",
+    "slug": "interview-with-sam-gregg",
     "title": "Interview with Samuel Gregg",
     "date": "2025-03-12",
     "category": "podcast",
@@ -615,7 +615,7 @@
     ]
   },
   {
-    "slug": "podcasts/interview-with-greg-mankiw",
+    "slug": "interview-with-greg-mankiw",
     "title": "Interview with Greg Mankiw",
     "date": "2025-03-04",
     "category": "podcast",
@@ -637,7 +637,7 @@
     ]
   },
   {
-    "slug": "podcasts/interview-with-amity-shlaes",
+    "slug": "interview-with-amity-shlaes",
     "title": "Interview with Amity Shlaes",
     "date": "2025-03-03",
     "category": "podcast",
@@ -655,7 +655,7 @@
     "topics": []
   },
   {
-    "slug": "evening-talks/why-britain-has-stagnated-and-what-can-we-do-about-it",
+    "slug": "why-britain-has-stagnated-and-what-can-we-do-about-it",
     "title": "Why Britain has stagnated and what can we do about it",
     "date": "2025-02-05",
     "category": "speaker-series",
@@ -671,7 +671,7 @@
     ]
   },
   {
-    "slug": "podcasts/interview-with-lyman-stone-and-clara-piano",
+    "slug": "interview-with-lyman-stone-and-clara-piano",
     "title": "Interview with Lyman Stone and Clara Piano",
     "date": "2025-02-04",
     "category": "podcast",
@@ -698,7 +698,7 @@
     ]
   },
   {
-    "slug": "podcasts/interview-with-agath-demarais",
+    "slug": "interview-with-agath-demarais",
     "title": "Interview with Agathe Demarais",
     "date": "2025-01-24",
     "category": "podcast",
@@ -718,7 +718,7 @@
     ]
   },
   {
-    "slug": "podcasts/interview-with-gauti-eggertsson",
+    "slug": "interview-with-gauti-eggertsson",
     "title": "Interview with Gauti Eggertsson",
     "date": "2025-01-22",
     "category": "podcast",
@@ -744,7 +744,7 @@
     ]
   },
   {
-    "slug": "podcasts/filippo-gaddo-interviews-adam-posen",
+    "slug": "filippo-gaddo-interviews-adam-posen",
     "title": "Interview with Adam Posen",
     "date": "2024-12-13",
     "category": "podcast",
@@ -766,7 +766,7 @@
     ]
   },
   {
-    "slug": "podcasts/interview-with-tera-allas",
+    "slug": "interview-with-tera-allas",
     "title": "Interview with Tera Allas",
     "date": "2024-12-05",
     "category": "podcast",
@@ -787,7 +787,7 @@
     ]
   },
   {
-    "slug": "evening-talks/economic-growth-and-the-challenge-of-demographics",
+    "slug": "economic-growth-and-the-challenge-of-demographics",
     "title": "Economic Growth and the Challenge of Demographics",
     "date": "2024-12-03",
     "category": "speaker-series",
@@ -804,7 +804,7 @@
     ]
   },
   {
-    "slug": "podcasts/interview-with-john-cochrane",
+    "slug": "interview-with-john-cochrane",
     "title": "Interview with John Cochrane",
     "date": "2024-11-29",
     "category": "podcast",
@@ -826,7 +826,7 @@
     ]
   },
   {
-    "slug": "dinners/spe-annual-dinner-2024",
+    "slug": "spe-annual-dinner-2024",
     "title": "SPE Annual Dinner 2024",
     "date": "2024-11-27",
     "speakers": [
@@ -850,7 +850,7 @@
     ]
   },
   {
-    "slug": "podcasts/interview-with-dimitri-zenghelis",
+    "slug": "interview-with-dimitri-zenghelis",
     "title": "Interview with Dimitri Zenghelis",
     "date": "2024-11-22",
     "category": "podcast",
@@ -870,7 +870,7 @@
     ]
   },
   {
-    "slug": "podcasts/12823-1",
+    "slug": "12823-1",
     "title": "Interview with Spencer Dale",
     "date": "2024-11-20",
     "category": "podcast",
@@ -892,7 +892,7 @@
     ]
   },
   {
-    "slug": "evening-talks/what-are-the-top-economic-priorities-for-the-new-us-president",
+    "slug": "what-are-the-top-economic-priorities-for-the-new-us-president",
     "title": "Joint panel with Chatham House",
     "date": "2024-11-19",
     "category": "speaker-series",
@@ -900,7 +900,7 @@
     "topics": []
   },
   {
-    "slug": "conferences/2024-annual-conference-report",
+    "slug": "2024-annual-conference-report",
     "title": "Revitalising the Global Economy",
     "date": "2024-11-14",
     "category": "conference-report",
@@ -922,7 +922,7 @@
     ]
   },
   {
-    "slug": "podcasts/12808",
+    "slug": "12808",
     "title": "Interview with Sam Bowman, Works in Progress",
     "date": "2024-10-31",
     "category": "podcast",
@@ -943,7 +943,7 @@
     ]
   },
   {
-    "slug": "podcasts/12801",
+    "slug": "12801",
     "title": "Interview with Nicholas Eberstadt",
     "date": "2024-10-21",
     "category": "podcast",
@@ -964,7 +964,7 @@
     ]
   },
   {
-    "slug": "podcasts/12362",
+    "slug": "12362",
     "title": "Interview with David Beckworth, Mercatus Center",
     "date": "2024-10-01",
     "category": "podcast",
@@ -986,7 +986,7 @@
     ]
   },
   {
-    "slug": "podcasts/12353",
+    "slug": "12353",
     "title": "Interview with Stephen Millard, NIESR",
     "date": "2024-09-16",
     "category": "podcast",
@@ -1008,7 +1008,7 @@
     ]
   },
   {
-    "slug": "podcasts/12332",
+    "slug": "12332",
     "title": "Interview with Shannon O'Neil, Council on Foreign Relations",
     "date": "2024-07-18",
     "category": "podcast",
@@ -1028,7 +1028,7 @@
     ]
   },
   {
-    "slug": "podcasts/12324",
+    "slug": "12324",
     "title": "Interview with Vicky Pryce",
     "date": "2024-07-12",
     "category": "podcast",
@@ -1050,7 +1050,7 @@
     ]
   },
   {
-    "slug": "podcasts/12291",
+    "slug": "12291",
     "title": "Interview with Mike Strain",
     "date": "2024-06-25",
     "category": "podcast",
@@ -1072,7 +1072,7 @@
     ]
   },
   {
-    "slug": "podcasts/12273",
+    "slug": "12273",
     "title": "Interview with Marian Tupy",
     "date": "2024-05-23",
     "category": "podcast",
@@ -1092,7 +1092,7 @@
     ]
   },
   {
-    "slug": "podcasts/12262",
+    "slug": "12262",
     "title": "Interview with Jared Rubin, Chapman University",
     "date": "2024-05-15",
     "category": "podcast",
@@ -1112,7 +1112,7 @@
     ]
   },
   {
-    "slug": "podcasts/12254",
+    "slug": "12254",
     "title": "Interview with Matt Dillon, Arup",
     "date": "2024-05-02",
     "category": "podcast",
@@ -1133,7 +1133,7 @@
     "topics": []
   },
   {
-    "slug": "podcasts/12244",
+    "slug": "12244",
     "title": "Interview with Jonathan Haskel",
     "date": "2024-04-18",
     "category": "podcast",
@@ -1155,7 +1155,7 @@
     ]
   },
   {
-    "slug": "podcasts/12236",
+    "slug": "12236",
     "title": "Interview with Dame Professor Diane Coyle, University of Cambridge",
     "date": "2024-04-11",
     "category": "podcast",
@@ -1177,7 +1177,7 @@
     ]
   },
   {
-    "slug": "podcasts/12229",
+    "slug": "12229",
     "title": "Interview with Ricardo Reis, London School of Economics",
     "date": "2024-04-02",
     "category": "podcast",
@@ -1199,7 +1199,7 @@
     ]
   },
   {
-    "slug": "evening-talks/12191",
+    "slug": "12191",
     "title": "OBR Post‑Budget Briefing",
     "date": "2024-03-07",
     "category": "speaker-series",
@@ -1216,7 +1216,7 @@
     ]
   },
   {
-    "slug": "evening-talks/12200",
+    "slug": "12200",
     "title": "Assessing Cycles and Structural Changes in Markets",
     "date": "2024-03-06",
     "category": "speaker-series",
@@ -1233,7 +1233,7 @@
     ]
   },
   {
-    "slug": "evening-talks/12183",
+    "slug": "12183",
     "title": "Breakfast Meeting: Public Service Productivity and Reform",
     "date": "2024-02-22",
     "category": "speaker-series",
@@ -1249,7 +1249,7 @@
     ]
   },
   {
-    "slug": "evening-talks/12132",
+    "slug": "12132",
     "title": "Prospects for the Housing Market: a building storm?",
     "date": "2023-12-05",
     "category": "speaker-series",
@@ -1264,7 +1264,7 @@
     ]
   },
   {
-    "slug": "dinners/spe-annual-dinner-2023",
+    "slug": "spe-annual-dinner-2023",
     "title": "SPE Annual Dinner 2023",
     "date": "2023-11-22",
     "speakers": [
@@ -1279,7 +1279,7 @@
     "topics": []
   },
   {
-    "slug": "conferences/12111",
+    "slug": "12111",
     "title": "Future‑Proofing the World Economy",
     "date": "2023-11-17",
     "category": "conference-report",
@@ -1323,7 +1323,7 @@
     ]
   },
   {
-    "slug": "evening-talks/11494",
+    "slug": "11494",
     "title": "Enlightened economics",
     "date": "2023-09-13",
     "category": "speaker-series",
@@ -1333,7 +1333,7 @@
     ]
   },
   {
-    "slug": "podcasts/11456",
+    "slug": "11456",
     "title": "Interview with Simon Johnson, co‑author of Power and Progress",
     "date": "2023-07-14",
     "category": "podcast",
@@ -1353,7 +1353,7 @@
     ]
   },
   {
-    "slug": "evening-talks/11450",
+    "slug": "11450",
     "title": "Masterclass: Transforming policy analysis through data linking",
     "date": "2023-07-11",
     "speakers": [
@@ -1374,7 +1374,7 @@
     ]
   },
   {
-    "slug": "podcasts/interview-with-jon-danielsson-about-his-book-the-illusion-of-control",
+    "slug": "interview-with-jon-danielsson-about-his-book-the-illusion-of-control",
     "title": "Interview with Jon Danielsson about his book 'The Illusion of Control'",
     "date": "2023-06-22",
     "category": "podcast",
@@ -1392,7 +1392,7 @@
     "topics": []
   },
   {
-    "slug": "evening-talks/11409",
+    "slug": "11409",
     "title": "Estimates of the effects of quantitative easing",
     "date": "2023-06-06",
     "speakers": [
@@ -1413,7 +1413,7 @@
     ]
   },
   {
-    "slug": "podcasts/11402",
+    "slug": "11402",
     "title": "Podcast: William Allen's book review of 'Leveraged'",
     "date": "2023-06-02",
     "category": "podcast",
@@ -1430,7 +1430,7 @@
     ]
   },
   {
-    "slug": "podcasts/11405",
+    "slug": "11405",
     "title": "Podcast: Listen to Ian Bright read his review of The Gender Capital",
     "date": "2023-06-02",
     "category": "podcast",
@@ -1447,7 +1447,7 @@
     ]
   },
   {
-    "slug": "evening-talks/11375",
+    "slug": "11375",
     "title": "Interview with David Owen, Saltmarsh Economics",
     "date": "2023-05-02",
     "category": "speaker-series",
@@ -1465,7 +1465,7 @@
     "topics": []
   },
   {
-    "slug": "evening-talks/11372",
+    "slug": "11372",
     "title": "We Need to Talk About Inflation",
     "date": "2023-04-26",
     "speakers": [
@@ -1486,7 +1486,7 @@
     ]
   },
   {
-    "slug": "evening-talks/11346",
+    "slug": "11346",
     "title": "Achieving a Green Transition - the role of the financial sector",
     "date": "2023-03-27",
     "category": "speaker-series",
@@ -1504,7 +1504,7 @@
     ]
   },
   {
-    "slug": "evening-talks/11335",
+    "slug": "11335",
     "title": "OBR Spring Budget Briefing",
     "date": "2023-03-16",
     "category": "speaker-series",
@@ -1521,7 +1521,7 @@
     ]
   },
   {
-    "slug": "evening-talks/11306",
+    "slug": "11306",
     "title": "How to be a Successful Economist",
     "date": "2023-02-09",
     "category": "speaker-series",
@@ -1539,7 +1539,7 @@
     ]
   },
   {
-    "slug": "evening-talks/11309",
+    "slug": "11309",
     "title": "Interview with Andrew Smithers, author of 'The Economics of the Stock Market'",
     "date": "2023-02-09",
     "category": "speaker-series",
@@ -1559,7 +1559,7 @@
     ]
   },
   {
-    "slug": "evening-talks/11299",
+    "slug": "11299",
     "title": "Watch interviews with shortlisted contenders for the 2021‑2 Essay Competition",
     "date": "2023-01-31",
     "category": "speaker-series",
@@ -1574,7 +1574,7 @@
     "topics": []
   },
   {
-    "slug": "conferences/11240",
+    "slug": "11240",
     "title": "Transitioning to a New Economic Model",
     "date": "2022-11-11",
     "category": "conference-report",
@@ -1596,7 +1596,7 @@
     ]
   },
   {
-    "slug": "evening-talks/10775",
+    "slug": "10775",
     "title": "Demographics Unravelled",
     "date": "2022-10-21",
     "category": "speaker-series",
@@ -1613,7 +1613,7 @@
     ]
   },
   {
-    "slug": "evening-talks/10685",
+    "slug": "10685",
     "title": "Interview with Jonathan Cribb",
     "date": "2022-07-11",
     "category": "speaker-series",
@@ -1631,7 +1631,7 @@
     "topics": []
   },
   {
-    "slug": "dinners/10678",
+    "slug": "10678",
     "title": "SPE Annual Dinner 2022",
     "date": "2022-06-27",
     "speakers": [
@@ -1657,7 +1657,7 @@
     ]
   },
   {
-    "slug": "evening-talks/10658",
+    "slug": "10658",
     "title": "Evening meeting: The Chancellors: How to handle an economic crisis",
     "date": "2022-05-31",
     "category": "speaker-series",
@@ -1674,7 +1674,7 @@
     ]
   },
   {
-    "slug": "evening-talks/10641",
+    "slug": "10641",
     "title": "Interview with Mark Cliffe",
     "date": "2022-05-17",
     "category": "speaker-series",
@@ -1692,7 +1692,7 @@
     "topics": []
   },
   {
-    "slug": "evening-talks/10632",
+    "slug": "10632",
     "title": "In conversation with Diane Coyle",
     "date": "2022-04-29",
     "speakers": [
@@ -1712,7 +1712,7 @@
     "topics": []
   },
   {
-    "slug": "evening-talks/10593",
+    "slug": "10593",
     "title": "Evening meeting: Fiscal policy lessons from the pandemic",
     "date": "2022-03-29",
     "category": "speaker-series",
@@ -1730,7 +1730,7 @@
     ]
   },
   {
-    "slug": "evening-talks/10588",
+    "slug": "10588",
     "title": "Webinar: Post Spring Statement Briefing",
     "date": "2022-03-28",
     "speakers": [
@@ -1752,7 +1752,7 @@
     ]
   },
   {
-    "slug": "conferences/10546",
+    "slug": "10546",
     "title": "2022 Conference Report",
     "date": "2022-02-09",
     "category": "conference-report",
@@ -1770,7 +1770,7 @@
     ]
   },
   {
-    "slug": "evening-talks/10532",
+    "slug": "10532",
     "title": "Webinar: Quant or qual - different evaluation methods in discussion",
     "date": "2022-01-31",
     "category": "speaker-series",
@@ -1785,7 +1785,7 @@
     ]
   },
   {
-    "slug": "evening-talks/10527",
+    "slug": "10527",
     "title": "Watch Kevin Daly in conversation with Andrew Milligan",
     "date": "2022-01-27",
     "category": "speaker-series",
@@ -1804,7 +1804,7 @@
     "topics": []
   },
   {
-    "slug": "evening-talks/10523",
+    "slug": "10523",
     "title": "Webinar: UK Outlook for 2022",
     "date": "2022-01-20",
     "category": "speaker-series",
@@ -1824,7 +1824,7 @@
     ]
   },
   {
-    "slug": "evening-talks/10506",
+    "slug": "10506",
     "title": "Watch interview with some of the shortlisted contenders of our Essay Competition",
     "date": "2022-01-07",
     "category": "speaker-series",
@@ -1832,7 +1832,7 @@
     "topics": []
   },
   {
-    "slug": "evening-talks/10495",
+    "slug": "10495",
     "title": "Watch Prof Amelia Fletcher in conversation with Ulrike Hotopp",
     "date": "2021-12-07",
     "category": "speaker-series",
@@ -1851,7 +1851,7 @@
     "topics": []
   },
   {
-    "slug": "evening-talks/10681",
+    "slug": "10681",
     "title": "Webinar: Has Covid Changed the Labour Market Forever and How Should Policy Respond",
     "date": "2021-11-30",
     "category": "speaker-series",
@@ -1869,7 +1869,7 @@
     ]
   },
   {
-    "slug": "evening-talks/10475",
+    "slug": "10475",
     "title": "Watch Vicky Pryce in conversation with Andrew Milligan",
     "date": "2021-11-22",
     "category": "speaker-series",
@@ -1881,7 +1881,7 @@
     "topics": []
   },
   {
-    "slug": "evening-talks/10188",
+    "slug": "10188",
     "title": "Watch Fabio Natalucci from the IMF in conversation with Andrew Milligan",
     "date": "2021-11-05",
     "category": "speaker-series",
@@ -1904,7 +1904,7 @@
     ]
   },
   {
-    "slug": "evening-talks/8749",
+    "slug": "8749",
     "title": "Watch Jonathan Athow in conversation with Andrew Milligan",
     "date": "2021-10-07",
     "category": "speaker-series",
@@ -1927,7 +1927,7 @@
     ]
   },
   {
-    "slug": "evening-talks/8720",
+    "slug": "8720",
     "title": "Watch Tim Jackson in conversation with Andrew Milligan",
     "date": "2021-09-21",
     "category": "speaker-series",
@@ -1950,7 +1950,7 @@
     ]
   },
   {
-    "slug": "evening-talks/8714",
+    "slug": "8714",
     "title": "Watch Tim Congdon in conversation with George Buckley",
     "date": "2021-08-04",
     "category": "speaker-series",
@@ -1969,7 +1969,7 @@
     "topics": []
   },
   {
-    "slug": "evening-talks/8709",
+    "slug": "8709",
     "title": "Webinar: Wellbeing in public policy decisions",
     "date": "2021-08-02",
     "category": "speaker-series",
@@ -1987,7 +1987,7 @@
     ]
   },
   {
-    "slug": "evening-talks/8694",
+    "slug": "8694",
     "title": "Watch Stephen King in conversation with Andrew Milligan",
     "date": "2021-07-15",
     "category": "speaker-series",
@@ -2010,7 +2010,7 @@
     ]
   },
   {
-    "slug": "evening-talks/8670",
+    "slug": "8670",
     "title": "Watch Diane Coyle in conversation with Andrew Milligan",
     "date": "2021-06-21",
     "category": "speaker-series",
@@ -2022,7 +2022,7 @@
     "topics": []
   },
   {
-    "slug": "evening-talks/8667",
+    "slug": "8667",
     "title": "Webinar: The impact of Brexit - what have we learned so far?",
     "date": "2021-06-15",
     "category": "speaker-series",
@@ -2044,7 +2044,7 @@
     ]
   },
   {
-    "slug": "evening-talks/8660",
+    "slug": "8660",
     "title": "Watch George Magnus in conversation with Andrew Milligan",
     "date": "2021-06-02",
     "category": "speaker-series",
@@ -2065,7 +2065,7 @@
     ]
   },
   {
-    "slug": "evening-talks/8653",
+    "slug": "8653",
     "title": "Webinar: Using alternative data for now‑casts and forecasts",
     "date": "2021-05-25",
     "category": "speaker-series",
@@ -2083,7 +2083,7 @@
     ]
   },
   {
-    "slug": "evening-talks/8649",
+    "slug": "8649",
     "title": "Watch Jim O'Neill in conversation with Andrew Milligan",
     "date": "2021-05-21",
     "category": "speaker-series",
@@ -2095,7 +2095,7 @@
     "topics": []
   },
   {
-    "slug": "evening-talks/8639",
+    "slug": "8639",
     "title": "Watch Jens Ulbrich in conversation with Ulrike Hotopp",
     "date": "2021-04-23",
     "category": "speaker-series",
@@ -2107,7 +2107,7 @@
     "topics": []
   },
   {
-    "slug": "evening-talks/8630",
+    "slug": "8630",
     "title": "Webinar: Rethinking the Economics of Biodiversity",
     "date": "2021-04-13",
     "speakers": [
@@ -2127,7 +2127,7 @@
     ]
   },
   {
-    "slug": "evening-talks/8580",
+    "slug": "8580",
     "title": "Watch Prof Elroy Dimson in conversation with Andrew Milligan",
     "date": "2021-04-08",
     "category": "speaker-series",
@@ -2139,7 +2139,7 @@
     "topics": []
   },
   {
-    "slug": "evening-talks/8574",
+    "slug": "8574",
     "title": "Watch Richard Hughes in conversation with Andrew Milligan",
     "date": "2021-03-29",
     "category": "speaker-series",
@@ -2162,7 +2162,7 @@
     ]
   },
   {
-    "slug": "evening-talks/8569",
+    "slug": "8569",
     "title": "Watch Tim Ng in conversation with Catherine Connolly",
     "date": "2021-03-18",
     "category": "speaker-series",
@@ -2174,7 +2174,7 @@
     "topics": []
   },
   {
-    "slug": "evening-talks/8563",
+    "slug": "8563",
     "title": "Watch Prof Dalia Marin in conversation with Andrew Milligan",
     "date": "2021-03-11",
     "category": "speaker-series",
@@ -2186,7 +2186,7 @@
     "topics": []
   },
   {
-    "slug": "evening-talks/8566",
+    "slug": "8566",
     "title": "Webinar: How Should Governments Deal With The Post‑COVID Debt",
     "date": "2021-03-10",
     "category": "speaker-series",
@@ -2203,7 +2203,7 @@
     ]
   },
   {
-    "slug": "evening-talks/8544",
+    "slug": "8544",
     "title": "Watch Jan‑Emmanuel Neve in conversation with Andrew Milligan",
     "date": "2021-02-23",
     "category": "speaker-series",
@@ -2226,7 +2226,7 @@
     ]
   },
   {
-    "slug": "evening-talks/8541",
+    "slug": "8541",
     "title": "Webinar: Origins and development of Modern Monetary Theory",
     "date": "2021-02-22",
     "speakers": [
@@ -2246,7 +2246,7 @@
     ]
   },
   {
-    "slug": "evening-talks/8533",
+    "slug": "8533",
     "title": "Watch Lionel Barber in conversation with Kevin Daly",
     "date": "2021-02-15",
     "category": "speaker-series",
@@ -2258,7 +2258,7 @@
     "topics": []
   },
   {
-    "slug": "evening-talks/8527",
+    "slug": "8527",
     "title": "Watch Fabio Natalucci talk to Andrew Milligan",
     "date": "2021-02-10",
     "category": "speaker-series",
@@ -2270,7 +2270,7 @@
     "topics": []
   },
   {
-    "slug": "evening-talks/8509",
+    "slug": "8509",
     "title": "Watch Sarah Hewin talk to Andrew Milligan",
     "date": "2021-01-22",
     "category": "speaker-series",
@@ -2292,7 +2292,7 @@
     ]
   },
   {
-    "slug": "evening-talks/8491",
+    "slug": "8491",
     "title": "Webinar: Making good decisions on climate risk and the low carbon transition",
     "date": "2020-12-15",
     "category": "speaker-series",
@@ -2309,7 +2309,7 @@
     ]
   },
   {
-    "slug": "evening-talks/7821",
+    "slug": "7821",
     "title": "Watch Sir Robert Stheeman talk to George Buckley",
     "date": "2020-12-03",
     "category": "speaker-series",
@@ -2331,7 +2331,7 @@
     ]
   },
   {
-    "slug": "evening-talks/7801",
+    "slug": "7801",
     "title": "Watch Jonathan Athow talk to Andrew Milligan",
     "date": "2020-11-19",
     "category": "speaker-series",
@@ -2354,7 +2354,7 @@
     ]
   },
   {
-    "slug": "evening-talks/7786",
+    "slug": "7786",
     "title": "Watch Willem Buiter talk to Andrew Milligan",
     "date": "2020-11-10",
     "category": "speaker-series",
@@ -2377,7 +2377,7 @@
     ]
   },
   {
-    "slug": "evening-talks/7791",
+    "slug": "7791",
     "title": "Webinar: The Future of Infrastructure Appraisal",
     "date": "2020-11-09",
     "category": "speaker-series",
@@ -2392,7 +2392,7 @@
     ]
   },
   {
-    "slug": "evening-talks/7770",
+    "slug": "7770",
     "title": "Watch Prof Alan Winters talk to Andrew Milligan",
     "date": "2020-10-29",
     "category": "speaker-series",
@@ -2404,7 +2404,7 @@
     "topics": []
   },
   {
-    "slug": "evening-talks/7773",
+    "slug": "7773",
     "title": "Joint SPE and WEN Webinar: Behaviour post Covid",
     "date": "2020-10-27",
     "speakers": [
@@ -2418,7 +2418,7 @@
     ]
   },
   {
-    "slug": "conferences/7808",
+    "slug": "7808",
     "title": "2020 Conference Report",
     "date": "2020-10-21",
     "category": "conference-report",
@@ -2440,7 +2440,7 @@
     ]
   },
   {
-    "slug": "evening-talks/7762",
+    "slug": "7762",
     "title": "SPE Virtual Annual Conference 2020",
     "date": "2020-10-21",
     "category": "speaker-series",
@@ -2462,7 +2462,7 @@
     ]
   },
   {
-    "slug": "evening-talks/7713",
+    "slug": "7713",
     "title": "Watch Dr Karen Horn interview with Dr Ulrike Hotopp",
     "date": "2020-10-13",
     "category": "speaker-series",
@@ -2474,7 +2474,7 @@
     "topics": []
   },
   {
-    "slug": "evening-talks/7687",
+    "slug": "7687",
     "title": "Watch Prof Sir Richard Blundell interview with Andrew Milligan",
     "date": "2020-10-06",
     "category": "speaker-series",
@@ -2497,7 +2497,7 @@
     ]
   },
   {
-    "slug": "evening-talks/7675",
+    "slug": "7675",
     "title": "Watch Sir Dave Ramsden interview with Andrew Milligan",
     "date": "2020-09-28",
     "category": "speaker-series",
@@ -2520,7 +2520,7 @@
     ]
   },
   {
-    "slug": "evening-talks/7678",
+    "slug": "7678",
     "title": "Webinar Event: The OBR at 10",
     "date": "2020-09-24",
     "category": "speaker-series",
@@ -2545,7 +2545,7 @@
     ]
   },
   {
-    "slug": "evening-talks/7651",
+    "slug": "7651",
     "title": "Watch Diana Choyleva interview with Andrew Milligan",
     "date": "2020-09-07",
     "category": "speaker-series",
@@ -2567,7 +2567,7 @@
     ]
   },
   {
-    "slug": "evening-talks/7648",
+    "slug": "7648",
     "title": "Watch Dame Minouche Shafik interview with Kevin Daly",
     "date": "2020-09-01",
     "category": "speaker-series",
@@ -2579,7 +2579,7 @@
     "topics": []
   },
   {
-    "slug": "evening-talks/7639",
+    "slug": "7639",
     "title": "Watch Andy Haldane interview with Andrew Milligan",
     "date": "2020-08-10",
     "category": "speaker-series",
@@ -2591,7 +2591,7 @@
     "topics": []
   },
   {
-    "slug": "evening-talks/7628",
+    "slug": "7628",
     "title": "Watch Brian Pearce interview with Andrew Milligan",
     "date": "2020-07-31",
     "category": "speaker-series",
@@ -2613,7 +2613,7 @@
     ]
   },
   {
-    "slug": "evening-talks/7595",
+    "slug": "7595",
     "title": "Watch Fabio Natalucci interview with Andrew Milligan",
     "date": "2020-07-23",
     "category": "speaker-series",
@@ -2636,7 +2636,7 @@
     ]
   },
   {
-    "slug": "evening-talks/7579",
+    "slug": "7579",
     "title": "Virtual Masterclass: Taxing Multinationals",
     "date": "2020-07-15",
     "category": "speaker-series",
@@ -2654,7 +2654,7 @@
     ]
   },
   {
-    "slug": "evening-talks/7575",
+    "slug": "7575",
     "title": "Watch Dr Dambisa Moyo interview with Andrew Milligan",
     "date": "2020-07-14",
     "category": "speaker-series",
@@ -2677,7 +2677,7 @@
     ]
   },
   {
-    "slug": "evening-talks/7569",
+    "slug": "7569",
     "title": "Watch Matthew Swindells interview with Andrew Milligan",
     "date": "2020-07-06",
     "category": "speaker-series",
@@ -2689,7 +2689,7 @@
     "topics": []
   },
   {
-    "slug": "evening-talks/7566",
+    "slug": "7566",
     "title": "SPE Webinar: Levelling up is hard to do",
     "date": "2020-07-02",
     "category": "speaker-series",
@@ -2704,7 +2704,7 @@
     ]
   },
   {
-    "slug": "evening-talks/7556",
+    "slug": "7556",
     "title": "Watch Ed Balls interview with Kevin Daly",
     "date": "2020-06-26",
     "category": "speaker-series",
@@ -2716,7 +2716,7 @@
     "topics": []
   },
   {
-    "slug": "evening-talks/7552",
+    "slug": "7552",
     "title": "Watch interview with Isabell Koske",
     "date": "2020-06-24",
     "category": "speaker-series",
@@ -2724,7 +2724,7 @@
     "topics": []
   },
   {
-    "slug": "evening-talks/7549",
+    "slug": "7549",
     "title": "Watch interview with Chris Giles discussing Cross‑Country COVID Data",
     "date": "2020-06-22",
     "category": "speaker-series",
@@ -2734,7 +2734,7 @@
     ]
   },
   {
-    "slug": "evening-talks/7538",
+    "slug": "7538",
     "title": "Watch Janet Henry interview with Andrew Milligan",
     "date": "2020-06-19",
     "category": "speaker-series",
@@ -2756,7 +2756,7 @@
     ]
   },
   {
-    "slug": "podcasts/7508",
+    "slug": "7508",
     "title": "Podcast: Sarah Smith on improving diversity in economics during the Coronavirus",
     "date": "2020-06-16",
     "category": "podcast",
@@ -2770,7 +2770,7 @@
     ]
   },
   {
-    "slug": "evening-talks/7535",
+    "slug": "7535",
     "title": "Watch Ece Özdemiroğlu interview with Ulrike Hotopp",
     "date": "2020-06-15",
     "category": "speaker-series",
@@ -2782,7 +2782,7 @@
     "topics": []
   },
   {
-    "slug": "evening-talks/7532",
+    "slug": "7532",
     "title": "Watch Sonja Gibbs interview with Andrew Milligan",
     "date": "2020-06-12",
     "category": "speaker-series",
@@ -2803,7 +2803,7 @@
     ]
   },
   {
-    "slug": "evening-talks/7524",
+    "slug": "7524",
     "title": "Watch Anita Charlesworth interview with Catherine Connolly",
     "date": "2020-06-08",
     "category": "speaker-series",
@@ -2826,7 +2826,7 @@
     ]
   },
   {
-    "slug": "evening-talks/7521",
+    "slug": "7521",
     "title": "Watch Spencer Dale interview with Andrew Milligan",
     "date": "2020-06-05",
     "category": "speaker-series",
@@ -2838,7 +2838,7 @@
     "topics": []
   },
   {
-    "slug": "evening-talks/7511",
+    "slug": "7511",
     "title": "Watch Adam Posen interview with Andrew Milligan",
     "date": "2020-06-01",
     "category": "speaker-series",
@@ -2860,7 +2860,7 @@
     ]
   },
   {
-    "slug": "evening-talks/7503",
+    "slug": "7503",
     "title": "Watch Roman Frydman interview with Andrew Milligan",
     "date": "2020-05-27",
     "category": "speaker-series",
@@ -2872,7 +2872,7 @@
     "topics": []
   },
   {
-    "slug": "evening-talks/7493",
+    "slug": "7493",
     "title": "Hear Paul Ormerod in conversation with Andrew Milligan",
     "date": "2020-05-21",
     "category": "speaker-series",
@@ -2889,7 +2889,7 @@
     ]
   },
   {
-    "slug": "evening-talks/7487",
+    "slug": "7487",
     "title": "Watch Lord Gus O'Donnell interview with Andrew Milligan",
     "date": "2020-05-18",
     "category": "speaker-series",
@@ -2910,7 +2910,7 @@
     ]
   },
   {
-    "slug": "evening-talks/7480",
+    "slug": "7480",
     "title": "Watch Lord Alistair Darling Interview with SPE Chairman, Kevin Daly",
     "date": "2020-05-13",
     "category": "speaker-series",
@@ -2922,7 +2922,7 @@
     "topics": []
   },
   {
-    "slug": "evening-talks/7475",
+    "slug": "7475",
     "title": "Sunil Krishnan interviews Martin Wolf",
     "date": "2020-05-08",
     "category": "speaker-series",
@@ -2930,7 +2930,7 @@
     "topics": []
   },
   {
-    "slug": "podcasts/7465",
+    "slug": "7465",
     "title": "Podcast: Diane Coyle CBE on the coronavirus and inequality",
     "date": "2020-05-04",
     "category": "podcast",
@@ -2944,7 +2944,7 @@
     ]
   },
   {
-    "slug": "podcasts/7468",
+    "slug": "7468",
     "title": "Podcast: Richard Hughes on the fiscal impact of the coronavirus",
     "date": "2020-05-04",
     "category": "podcast",
@@ -2958,7 +2958,7 @@
     ]
   },
   {
-    "slug": "podcasts/podcast-william-keegan-cbe-on-the-coronavirus",
+    "slug": "podcast-william-keegan-cbe-on-the-coronavirus",
     "title": "Podcast: William Keegan CBE on the Coronavirus",
     "body": "<p>In this podcast William Keegan (CBE) discusses how World War II might provide a useful reference point for thinking about the impact of the coronavirus and why economic journalism might change as a result of the crisis.  William also talks about his hopes for a broad-based recovery.</p>\n\n<div class=\"full\" style=\"margin:2em 0;\">\n\t\t\n\t\t</div>",
     "date": "2020-04-30",
@@ -2972,7 +2972,7 @@
     ]
   },
   {
-    "slug": "podcasts/podcast-ian-mccafferty-cbe-on-coronavirus",
+    "slug": "podcast-ian-mccafferty-cbe-on-coronavirus",
     "title": "Podcast: Ian McCafferty CBE on Coronavirus",
     "body": "<p>In this podcast Ian McCafferty CBE discusses why, based on an analysis of previous natural disasters and the textbook policy response to the crisis, we might expect the recession to be sharp, but relatively short. Ian also discusses some of the changes we might see in corporate behaviour over the longer-term, particularly in terms of supply chain management and financing.</p>\n\n<div class=\"full\" style=\"margin:2em 0;\">\n\t\t\n\t\t</div>",
     "date": "2020-04-30",
@@ -2987,7 +2987,7 @@
     ]
   },
   {
-    "slug": "evening-talks/7453",
+    "slug": "7453",
     "title": "Kevin Daly interviews Professor Lord Mervyn King",
     "date": "2020-04-24",
     "category": "speaker-series",
@@ -3004,7 +3004,7 @@
     ]
   },
   {
-    "slug": "podcasts/7434",
+    "slug": "7434",
     "title": "Podcast: Bronwyn Curtis OBE on how this economic crisis differs",
     "date": "2020-04-23",
     "category": "podcast",
@@ -3022,7 +3022,7 @@
     "topics": []
   },
   {
-    "slug": "podcasts/7437",
+    "slug": "7437",
     "title": "Podcast: Ian Harwood on the economic impact of Covid‑19",
     "date": "2020-04-23",
     "category": "podcast",
@@ -3043,7 +3043,7 @@
     ]
   },
   {
-    "slug": "podcasts/7440",
+    "slug": "7440",
     "title": "Podcast: Dame Kate Barker on the Coronavirus crisis",
     "date": "2020-04-22",
     "category": "podcast",
@@ -3065,7 +3065,7 @@
     ]
   },
   {
-    "slug": "podcasts/7425",
+    "slug": "7425",
     "title": "Podcast: Andrew Milligan on the Coronavirus Economy",
     "date": "2020-04-16",
     "category": "podcast",
@@ -3078,7 +3078,7 @@
     ]
   },
   {
-    "slug": "evening-talks/7396",
+    "slug": "7396",
     "title": "Strategic Reviews of Monetary Policy",
     "date": "2020-02-28",
     "speakers": [
@@ -3091,7 +3091,7 @@
     ]
   },
   {
-    "slug": "evening-talks/7386",
+    "slug": "7386",
     "title": "2020 Outlook for the UK Economy - watch video now!",
     "date": "2020-01-27",
     "speakers": [
@@ -3112,7 +3112,7 @@
     ]
   },
   {
-    "slug": "podcasts/7383",
+    "slug": "7383",
     "title": "Video: 2020 Outlook for the UK Economy",
     "date": "2020-01-27",
     "category": "podcast",
@@ -3129,7 +3129,7 @@
     ]
   },
   {
-    "slug": "evening-talks/7361",
+    "slug": "7361",
     "title": "The Economic Case for Gender Equality: Watch video now!",
     "date": "2019-11-25",
     "speakers": [
@@ -3150,7 +3150,7 @@
     ]
   },
   {
-    "slug": "podcasts/7364",
+    "slug": "7364",
     "title": "Video: The Economic Case for Gender Equality",
     "date": "2019-11-25",
     "category": "podcast",
@@ -3168,7 +3168,7 @@
     ]
   },
   {
-    "slug": "conferences/7262",
+    "slug": "7262",
     "title": "2019 Annual Conference Report",
     "date": "2019-10-14",
     "category": "conference-report",
@@ -3184,7 +3184,7 @@
     ]
   },
   {
-    "slug": "podcasts/7252",
+    "slug": "7252",
     "title": "Speaker Series: Interview with Yael Selfin",
     "date": "2019-10-14",
     "category": "podcast",
@@ -3195,7 +3195,7 @@
     "topics": []
   },
   {
-    "slug": "podcasts/7280",
+    "slug": "7280",
     "title": "Speaker Series: Interview with Sir Ivan Rogers",
     "date": "2019-10-14",
     "category": "podcast",
@@ -3206,7 +3206,7 @@
     "topics": []
   },
   {
-    "slug": "podcasts/7287",
+    "slug": "7287",
     "title": "Speaker Series: Interview with Professor Rachel Griffith",
     "date": "2019-10-14",
     "category": "podcast",
@@ -3224,7 +3224,7 @@
     "topics": []
   },
   {
-    "slug": "podcasts/7291",
+    "slug": "7291",
     "title": "Speaker Series: Interview with Randall Kroszner",
     "date": "2019-10-14",
     "speakers": [],
@@ -3240,7 +3240,7 @@
     "topics": []
   },
   {
-    "slug": "evening-talks/7240",
+    "slug": "7240",
     "title": "Careers in Economics",
     "date": "2019-10-07",
     "category": "speaker-series",
@@ -3250,7 +3250,7 @@
     ]
   },
   {
-    "slug": "podcasts/7249",
+    "slug": "7249",
     "title": "Speaker Series: Interview with Janet Henry and Osama Rahman",
     "date": "2019-10-07",
     "category": "podcast",
@@ -3261,7 +3261,7 @@
     "topics": []
   },
   {
-    "slug": "podcasts/5514",
+    "slug": "5514",
     "title": "Speaker Series: Interview with Jonathan Athow and Jill Leyland",
     "date": "2019-09-18",
     "category": "podcast",
@@ -3274,7 +3274,7 @@
     ]
   },
   {
-    "slug": "evening-talks/5443",
+    "slug": "5443",
     "title": "Populism - end or salvation of liberal democracy",
     "date": "2019-07-03",
     "category": "speaker-series",
@@ -3284,7 +3284,7 @@
     ]
   },
   {
-    "slug": "podcasts/5454",
+    "slug": "5454",
     "title": "Speaker Series: Interview with Martin Wolf and Stephanie Flanders",
     "date": "2019-07-01",
     "speakers": [],
@@ -3300,7 +3300,7 @@
     "topics": []
   },
   {
-    "slug": "dinners/5436",
+    "slug": "5436",
     "title": "SPE Annual Dinner 2019",
     "date": "2019-03-15",
     "speakers": [
@@ -3317,7 +3317,7 @@
     "topics": []
   },
   {
-    "slug": "evening-talks/5352",
+    "slug": "5352",
     "title": "Brexit Countdown: Scenarios and Consequences",
     "date": "2019-03-06",
     "category": "speaker-series",
@@ -3333,7 +3333,7 @@
     ]
   },
   {
-    "slug": "evening-talks/5325",
+    "slug": "5325",
     "title": "Women in Economics",
     "date": "2019-01-29",
     "category": "speaker-series",
@@ -3351,7 +3351,7 @@
     ]
   },
   {
-    "slug": "evening-talks/5313",
+    "slug": "5313",
     "title": "2019 Outlook for the UK Economy",
     "date": "2019-01-22",
     "speakers": [
@@ -3365,7 +3365,7 @@
     ]
   },
   {
-    "slug": "evening-talks/5290",
+    "slug": "5290",
     "title": "Trade after Brexit",
     "date": "2018-11-22",
     "speakers": [
@@ -3386,7 +3386,7 @@
     ]
   },
   {
-    "slug": "evening-talks/5190",
+    "slug": "5190",
     "title": "Rebuilding Macroeconomics",
     "date": "2018-10-09",
     "category": "speaker-series",
@@ -3400,7 +3400,7 @@
     "topics": []
   },
   {
-    "slug": "evening-talks/5204",
+    "slug": "5204",
     "title": "Machine Learning and Economics",
     "date": "2018-10-01",
     "speakers": [
@@ -3413,7 +3413,7 @@
     ]
   },
   {
-    "slug": "conferences/5157",
+    "slug": "5157",
     "title": "2018 Annual Conference Report",
     "date": "2018-09-28",
     "category": "conference-report",
@@ -3433,7 +3433,7 @@
     ]
   },
   {
-    "slug": "podcasts/5160",
+    "slug": "5160",
     "title": "George Matlock talks to Robert Chote at the SPE Annual Conference 2018",
     "date": "2018-09-28",
     "category": "podcast",
@@ -3443,7 +3443,7 @@
     ]
   },
   {
-    "slug": "podcasts/5163",
+    "slug": "5163",
     "title": "Sunil Krishnan talks to Philip Lane at the SPE Annual Conference 2018",
     "date": "2018-09-28",
     "category": "podcast",
@@ -3453,7 +3453,7 @@
     ]
   },
   {
-    "slug": "podcasts/5187",
+    "slug": "5187",
     "title": "George Matlock talks to Jari Stehn, Senior Global Economist, Goldman Sachs & Tom Orlik, Chief Economist, Bloomberg Economics at the SPE Annual Conference 2018",
     "date": "2018-09-28",
     "category": "podcast",
@@ -3463,7 +3463,7 @@
     ]
   },
   {
-    "slug": "podcasts/5200",
+    "slug": "5200",
     "title": "Interview with Evan Davis, BBC broadcaster and journalist",
     "date": "2018-09-28",
     "category": "podcast",
@@ -3483,7 +3483,7 @@
     ]
   },
   {
-    "slug": "podcasts/5252",
+    "slug": "5252",
     "title": "Interview with Stephanie Flanders, Head of Bloomberg Economics",
     "date": "2018-09-28",
     "category": "podcast",
@@ -3494,7 +3494,7 @@
     "topics": []
   },
   {
-    "slug": "podcasts/5146",
+    "slug": "5146",
     "title": "Rebecca Harding talks to Rain Newton‑Smith",
     "date": "2018-08-16",
     "category": "podcast",
@@ -3504,7 +3504,7 @@
     ]
   },
   {
-    "slug": "evening-talks/5090",
+    "slug": "5090",
     "title": "The History and Future of QE",
     "date": "2018-07-23",
     "speakers": [
@@ -3518,7 +3518,7 @@
     ]
   },
   {
-    "slug": "evening-talks/5056",
+    "slug": "5056",
     "title": "Integenerational Fairness",
     "date": "2018-06-19",
     "speakers": [
@@ -3530,7 +3530,7 @@
     "topics": []
   },
   {
-    "slug": "dinners/5045",
+    "slug": "5045",
     "title": "SPE Annual Dinner 2018",
     "date": "2018-06-06",
     "speakers": [
@@ -3548,7 +3548,7 @@
     ]
   },
   {
-    "slug": "evening-talks/5004",
+    "slug": "5004",
     "title": "BP Masterclass on global energy markets",
     "date": "2018-05-02",
     "speakers": [
@@ -3562,7 +3562,7 @@
     ]
   },
   {
-    "slug": "podcasts/replay-adrian-majumdar-chairs-debate-on-algorithms",
+    "slug": "replay-adrian-majumdar-chairs-debate-on-algorithms",
     "title": "Replay: Adrian Majumdar Chairs Debate on Algorithms",
     "body": "<div class='members-notice'><p>This content can be accessed by members. To access please login, or register with us <a href=\"/membership/\">here</a>.</p></div>",
     "date": "2018-04-25",
@@ -3581,7 +3581,7 @@
     "topics": []
   },
   {
-    "slug": "evening-talks/4953",
+    "slug": "4953",
     "title": "Shaping Monetary Policy at Bank of England",
     "date": "2018-02-15",
     "speakers": [
@@ -3594,7 +3594,7 @@
     ]
   },
   {
-    "slug": "evening-talks/4894",
+    "slug": "4894",
     "title": "2018 Outlook for the UK Economy",
     "date": "2018-01-15",
     "category": "speaker-series",
@@ -3604,7 +3604,7 @@
     ]
   },
   {
-    "slug": "evening-talks/4898",
+    "slug": "4898",
     "title": "SPE Continuous Development Progamme Launch",
     "date": "2018-01-08",
     "category": "speaker-series",
@@ -3615,7 +3615,7 @@
     ]
   },
   {
-    "slug": "evening-talks/4851",
+    "slug": "4851",
     "title": "China's Outlook following the 19th Party Congress",
     "date": "2017-12-04",
     "category": "speaker-series",
@@ -3625,7 +3625,7 @@
     ]
   },
   {
-    "slug": "dinners/4837",
+    "slug": "4837",
     "title": "SPE Annual Dinner 2017",
     "date": "2017-11-29",
     "speakers": [
@@ -3645,7 +3645,7 @@
     ]
   },
   {
-    "slug": "podcasts/4802",
+    "slug": "4802",
     "title": "Rebecca Harding talks to UK statistics regulator Ed Humpherson",
     "date": "2017-10-11",
     "category": "podcast",
@@ -3655,7 +3655,7 @@
     ]
   },
   {
-    "slug": "podcasts/4788",
+    "slug": "4788",
     "title": "George Buckley talks to journalist‑turned-entrepreneur Ashley Seager",
     "date": "2017-09-22",
     "category": "podcast",
@@ -3663,7 +3663,7 @@
     "topics": []
   },
   {
-    "slug": "evening-talks/4793",
+    "slug": "4793",
     "title": "Inequality, Tax Reform and the Labour Market",
     "date": "2017-09-21",
     "speakers": [
@@ -3678,7 +3678,7 @@
     ]
   },
   {
-    "slug": "podcasts/4819",
+    "slug": "4819",
     "title": "Speaker Series: Annual Conference interview with Evan Davis",
     "date": "2017-09-18",
     "category": "podcast",
@@ -3688,7 +3688,7 @@
     ]
   },
   {
-    "slug": "conferences/4778",
+    "slug": "4778",
     "title": "2017 Annual Conference Report",
     "date": "2017-09-15",
     "category": "conference-report",
@@ -3707,7 +3707,7 @@
     ]
   },
   {
-    "slug": "evening-talks/4725",
+    "slug": "4725",
     "title": "Britain's long‑term growth",
     "date": "2017-07-03",
     "speakers": [
@@ -3726,7 +3726,7 @@
     "topics": []
   },
   {
-    "slug": "podcasts/4937",
+    "slug": "4937",
     "title": "Replay: Britain's long‑term growth",
     "date": "2017-07-03",
     "category": "podcast",
@@ -3736,7 +3736,7 @@
     ]
   },
   {
-    "slug": "evening-talks/4671",
+    "slug": "4671",
     "title": "Brexit following Article 50: Implications for the economy, trade and the negotiation process (NIESR)",
     "date": "2017-04-25",
     "category": "speaker-series",
@@ -3751,7 +3751,7 @@
     ]
   },
   {
-    "slug": "evening-talks/4653",
+    "slug": "4653",
     "title": "Secular stagnation and low interest rates: Temporary or Permanent?",
     "date": "2017-03-27",
     "speakers": [
@@ -3767,7 +3767,7 @@
     ]
   },
   {
-    "slug": "podcasts/4943",
+    "slug": "4943",
     "title": "Replay: Secular stagnation and low interest rates: Temporary or Permanent?",
     "date": "2017-03-27",
     "category": "podcast",
@@ -3779,7 +3779,7 @@
     ]
   },
   {
-    "slug": "podcasts/5037",
+    "slug": "5037",
     "title": "Speaker Series: SBE Conference 2016",
     "date": "2016-11-18",
     "category": "podcast",
@@ -3787,7 +3787,7 @@
     "topics": []
   },
   {
-    "slug": "evening-talks/4566",
+    "slug": "4566",
     "title": "Does Home‑Ownership Matter?",
     "date": "2016-11-08",
     "speakers": [
@@ -3806,14 +3806,14 @@
     "topics": []
   },
   {
-    "slug": "dinners/4404",
+    "slug": "4404",
     "title": "SPE Annual Dinner 2016",
     "date": "2016-06-30",
     "speakers": [
       "Speaker: Dr James Bullard, President, Federal Reserve Bank of St Louis"
     ],
     "category": "dinner-review",
-    "body": "<div class='heading'>\n<h5 >30 June 2016 6.30pm</h5>\n<h1>The SBE Annual Dinner 2016</h1>\n<h4 ><strong>Speaker: </strong><a href='../../../search/index.html%3Fq=James+Bullard.tmp.html'>Dr James Bullard</a>, <span class='nobreak'>President</span>, <span class=''>Federal Reserve Bank of St Louis</span></h4 ><h4><strong>Venue: </strong>Institute of Directors, 116&nbsp;Pall&nbsp;Mall, London, SW1Y&nbsp;5ED\n</h4 >\n</div>\n<p>Around 140 members and guests gathered on 30 June for the Society&#8217;s Annual Dinner in the Nash Room at the Institute of Directors. Our guest this year was Dr James Bullard, St Louis Fed President, and the evening was presided over by Sir Alan Budd, Vice President of the Society.</p>\n\n<div class='clearfix'></div>\n<div class='body_image_container image format_landscape '>\n\n<img class='body_image' src='/images/4404/169217_179.1200x720.jpg' alt=''>\n\n</div>\n\n<p>The retiring Chairman, Dame Kate Barker, thanked on behalf of the Society both Standard Life Investments for generously sponsoring the dinner, and MNI for their support in organising the speaker. Kate also thanked PwC for their kind sponsorship of the Rybczynksi Prize, and Sir Alan presented the winner, Toby Nangle, with a certificate and the £3,000 prize.</p>\n\n<div class='clearfix'></div>\n<div class='body_image_container image format_landscape '>\n\n<img class='body_image' src='/images/4404/169217_112.1200x720.jpg' alt=''>\n\n</div>\n\n<p>Kate then handed over the baton of chairing the society to Kevin Daly, co-head of CEEMEA Economics within Goldman Sachs.</p>\n\n<p>James Bullard began his speech to the annual SBE dinner by claiming to be the low mystery dot in the Fed&#8217;s latest interest rate &#8216;dot-plot&#8217;. This was based on new and different thinking at the St Louis Fed with respect to monetary and economic policymaking. Bullard claims that the existing economic narrative - the concept of a long-run steady state - had outlived its usefulness, advocating instead a focus on &#8220;regimes&#8221; based on simple forecasts of macroeconomic outcomes over the next 2-3 years. Over the current period/regime, he sees growth and inflation of around 2% and unemployment persisting at low levels. His analysis suggests the need for very low policy rates - just 63bps according to his models.</p>\n\n<div class='clearfix'></div>\n<div class='body_image_container image format_landscape '>\n\n<img class='body_image' src='/images/4404/169217_244.1200x720.jpg' alt=''>\n\n</div>\n\n<p>This is an about-turn from his views at the end of last year, when in December 2015 he concurred with the need for higher rates. He believes that when the Fed did raise rates back then, markets saw the 25bps move as larger than the Fed intended. Economic data subsequently weakened in early 2016, at which point it no longer made sense to make strong economic forecasts. This was the basis of Bullard&#8217;s re-think of his forecasting methodology. The idea of regimes in forecasting is to assume that key economic indicators (inflation, growth, unemployment) are likely to persist at current levels for some time - in other words, that the current regime is presumed to last. Using this methodology it is of course impossible to forecast over long time horizons, and thus his forecasts stop after two and a half years (which explains also his unwillingness to provide a long-term interest rate &#8220;dot&#8221; at the last FOMC meeting).</p>\n\n<p>He believes that key economic indicators (growth, inflation and unemployment) are currently close to levels they can remain at over the medium term. The US will, therefore, remain in its low-productivity growth regime for some time in this economic model. Of course, it could eventually switch to a high-productivity regime, but Bullard assumes the existing weak-regime persists for the purposes of policy-making. This also means that low real interest rates will be persistent, which explains his low-ball forecasts for the Fed Funds rate in the published dot plot. Still, he believes that the probability of recession is very low right now, and that there are upside risks to his (regime-dependent) interest rate forecasts. Bullard concludes by stating that this is just one style of economic forecasting model, and that it is a good idea to have the wide library of intellectual models to draw upon that Fed Presidents bring to the table.</p>\n\n<p>A PDF copy of President Bullard&#8217;s speech is available for download on this page.</p>\n\n<div class='clearfix'></div>\n<div class='body_image_container image format_landscape '>\n\n<img class='body_image' src='/images/4404/169217_046.1200x720.webp' alt=''>\n\n</div>",
+    "body": "<div class='heading'>\n<h5 >30 June 2016 6.30pm</h5>\n<h1>The SBE Annual Dinner 2016</h1>\n<h4 ><strong>Speaker: </strong><a href='../../../search/index.html%3Fq=James+Bullard.tmp.html'>Dr James Bullard</a>, <span class='nobreak'>President</span>, <span class=''>Federal Reserve Bank of St Louis</span></h4 ><h4><strong>Venue: </strong>Institute of Directors, 116&nbsp;Pall&nbsp;Mall, London, SW1Y&nbsp;5ED\n</h4 >\n</div>\n<p>Around 140 members and guests gathered on 30 June for the Society&#8217;s Annual Dinner in the Nash Room at the Institute of Directors. Our guest this year was Dr James Bullard, St Louis Fed President, and the evening was presided over by Sir Alan Budd, Vice President of the Society.</p>\n\n<div class='clearfix'></div>\n<div class='body_image_container image format_landscape '>\n\n<img class='body_image' src='/images/4404/169217_179.1200x720.jpg' alt=''>\n\n</div>\n\n<p>The retiring Chairman, Dame Kate Barker, thanked on behalf of the Society both Standard Life Investments for generously sponsoring the dinner, and MNI for their support in organising the speaker. Kate also thanked PwC for their kind sponsorship of the Rybczynski Prize, and Sir Alan presented the winner, Toby Nangle, with a certificate and the £3,000 prize.</p>\n\n<div class='clearfix'></div>\n<div class='body_image_container image format_landscape '>\n\n<img class='body_image' src='/images/4404/169217_112.1200x720.jpg' alt=''>\n\n</div>\n\n<p>Kate then handed over the baton of chairing the society to Kevin Daly, co-head of CEEMEA Economics within Goldman Sachs.</p>\n\n<p>James Bullard began his speech to the annual SBE dinner by claiming to be the low mystery dot in the Fed&#8217;s latest interest rate &#8216;dot-plot&#8217;. This was based on new and different thinking at the St Louis Fed with respect to monetary and economic policymaking. Bullard claims that the existing economic narrative - the concept of a long-run steady state - had outlived its usefulness, advocating instead a focus on &#8220;regimes&#8221; based on simple forecasts of macroeconomic outcomes over the next 2-3 years. Over the current period/regime, he sees growth and inflation of around 2% and unemployment persisting at low levels. His analysis suggests the need for very low policy rates - just 63bps according to his models.</p>\n\n<div class='clearfix'></div>\n<div class='body_image_container image format_landscape '>\n\n<img class='body_image' src='/images/4404/169217_244.1200x720.jpg' alt=''>\n\n</div>\n\n<p>This is an about-turn from his views at the end of last year, when in December 2015 he concurred with the need for higher rates. He believes that when the Fed did raise rates back then, markets saw the 25bps move as larger than the Fed intended. Economic data subsequently weakened in early 2016, at which point it no longer made sense to make strong economic forecasts. This was the basis of Bullard&#8217;s re-think of his forecasting methodology. The idea of regimes in forecasting is to assume that key economic indicators (inflation, growth, unemployment) are likely to persist at current levels for some time - in other words, that the current regime is presumed to last. Using this methodology it is of course impossible to forecast over long time horizons, and thus his forecasts stop after two and a half years (which explains also his unwillingness to provide a long-term interest rate &#8220;dot&#8221; at the last FOMC meeting).</p>\n\n<p>He believes that key economic indicators (growth, inflation and unemployment) are currently close to levels they can remain at over the medium term. The US will, therefore, remain in its low-productivity growth regime for some time in this economic model. Of course, it could eventually switch to a high-productivity regime, but Bullard assumes the existing weak-regime persists for the purposes of policy-making. This also means that low real interest rates will be persistent, which explains his low-ball forecasts for the Fed Funds rate in the published dot plot. Still, he believes that the probability of recession is very low right now, and that there are upside risks to his (regime-dependent) interest rate forecasts. Bullard concludes by stating that this is just one style of economic forecasting model, and that it is a good idea to have the wide library of intellectual models to draw upon that Fed Presidents bring to the table.</p>\n\n<p>A PDF copy of President Bullard&#8217;s speech is available for download on this page.</p>\n\n<div class='clearfix'></div>\n<div class='body_image_container image format_landscape '>\n\n<img class='body_image' src='/images/4404/169217_046.1200x720.webp' alt=''>\n\n</div>",
     "images": [
       "/images/4404/169217_179.1200x720.jpg",
       "/images/4404/169217_112.1200x720.jpg",
@@ -3823,7 +3823,7 @@
     "topics": []
   },
   {
-    "slug": "evening-talks/4273",
+    "slug": "4273",
     "title": "What's the British productivity problem?",
     "date": "2016-05-06",
     "speakers": [
@@ -3836,7 +3836,7 @@
     ]
   },
   {
-    "slug": "evening-talks/4329",
+    "slug": "4329",
     "title": "UK National Statistics",
     "date": "2016-04-14",
     "category": "speaker-series",
@@ -3857,7 +3857,7 @@
     ]
   },
   {
-    "slug": "evening-talks/4157",
+    "slug": "4157",
     "title": "Mastering Metrics",
     "body": "<div class='heading'>\n<h5 >21 January 2016 1.00pm&nbsp;-&nbsp;2.30pm</h5>\n<h1>Mastering Metrics</h1>\n<h4 ><strong><a href='/search/?q=Jörn-Steffen+Pischke'>Jörn-Steffen Pischke</a></strong>, <span class='nobreak'>Professor, Economics Dept</span>, <span class='nobreak'>London School of Economics</span></h4 >\n</div>\n<div class='members-notice'><p>This content can be accessed by members. To access please login, or register with us <a href=\"/membership/\">here</a>. </p></div>",
     "date": "2016-01-21",
@@ -3871,7 +3871,7 @@
     ]
   },
   {
-    "slug": "evening-talks/4150",
+    "slug": "4150",
     "title": "UK Outlook Panel Debate",
     "date": "2016-01-12",
     "speakers": [
@@ -3885,7 +3885,7 @@
     ]
   },
   {
-    "slug": "evening-talks/4077",
+    "slug": "4077",
     "title": "Monetary policy after the crisis: no return to past certainties",
     "body": "<div class='members-notice'><p>This content can be accessed by members. To access please login, or register with us <a href=\"/membership/\">here</a>. </p></div>",
     "date": "2015-11-26",
@@ -3896,7 +3896,7 @@
     ]
   },
   {
-    "slug": "dinners/4192",
+    "slug": "4192",
     "title": "SPE Annual Dinner 2015",
     "date": "2015-11-11",
     "speakers": [
@@ -3912,7 +3912,7 @@
     "topics": []
   },
   {
-    "slug": "conferences/4179",
+    "slug": "4179",
     "title": "2015 Annual Conference Report",
     "date": "2015-10-13",
     "category": "conference-report",
@@ -3922,7 +3922,7 @@
     ]
   },
   {
-    "slug": "evening-talks/3844",
+    "slug": "3844",
     "title": "Reflections on the FPC: the road ahead",
     "body": "<div class='members-notice'><p>This content can be accessed by members. To access please login, or register with us <a href=\"/membership/\">here</a>. </p></div>\n\t<div class='page_links'>\n\t\n\t<h4>Related links</h4><p><a rel='nofollow' href='http://www.bankofengland.co.uk/publications/Pages/speeches/2015/820.aspx'>http://www.bankofengland.co.uk/publications/Pages/speeches/2015/820.aspx</a></p>\n\n\t</div>",
     "date": "2015-06-08",
@@ -3933,7 +3933,7 @@
     ]
   },
   {
-    "slug": "evening-talks/3843",
+    "slug": "3843",
     "title": "SBE Debate on Inequality",
     "date": "2015-06-01",
     "category": "speaker-series",
@@ -3948,7 +3948,7 @@
     ]
   },
   {
-    "slug": "evening-talks/3767",
+    "slug": "3767",
     "title": "The coming General Election",
     "date": "2015-03-17",
     "speakers": [
@@ -3961,7 +3961,7 @@
     ]
   },
   {
-    "slug": "evening-talks/3742",
+    "slug": "3742",
     "title": "Where have the owners of our public companies gone?",
     "body": "<div class=\"heading\">\n<h5>03 March 2015 </h5>\n<h1>Where have the owners of our public companies gone?</h1>\n<h4><strong><a href=\"/web/20241015062703/https://spe.org.uk/search/?q=Myners\">Lord Myners</a></strong></h4>\n</div>\n<p>The SBE had the pleasure of hearing from Lord Paul Myners in March on the topic of UK public company ownership. Drawing heavily on his experiences at Gartmore he concluded management and owners of public companies are on an unequal footing, and that there is also a vacuum of communication and cooperation between these two groups which has weakened decision making. Overall this has undermined corporate purpose, resulting in the long term performance of public companies becoming jeopardized.</p>\n\n<div class=\"clearfix\"></div>\n<div class=\"body_image_container image format_landscape \">\n\n<img class=\"body_image\" src=\"/web/20241015062703im_/https://spe.org.uk/site/assets/files/3742/paul_myners_mtg.765x459.jpg\" alt=\"Paul Myners\">\n<figcaption>Paul Myners</figcaption>\n\n\n\n\n</div>\n\n<div class=\"full\" style=\"margin:2em 0;\">\n\t\t\n\t\t</div>\n\n<p>He attributed the shortcomings of the current model of PLC ownership to an explosive increase in institutional investment from large funds in recent decades and poor portfolio construction, as well as improper performance measures used by fund managers.</p>\n\n<p>Lord Myners stated that institutional investing and fund management is a relatively new profession, emerging around the 1970’s. This business line grew explosively (especially with the advent of defined benefit pension schemes), highlighted by the emergence of more analytical portfolio comparison measures such as Time Weighted Return (TWROR), compared to previously flawed measures of portfolio performance pre-1970. Fund management has now grown into one of the most profitable areas of finance.</p>\n\n<p>However, portfolio diversification and construction were not well understood. In the 1980’s when the UK’s economy began to diversify, investment managers were able to reduce stock-specific risk through portfolio diversification. Performance indicators also became more advanced with the use of tracking-error and other tools for relative performance. This diversification process was driven partially by the need to deliver competitive returns to clients.  However this was also driven by the need for fund managers to protect their business as Lord Myners states that the primary role of a fund manager is to gather assets in order to benefit from Ad Valorem fees.</p>\n\n<p>The overall effect of the diversification of large funds was the fragmented ownership of our largest companies. Lord Myners questioned whether there was a point where ownership was large enough to change the business relationship of companies such as Gartmore to the companies it owns, warranting a greater duty of care and responsibility.  In the case of many owners the answer is ‘no’, highlighting the separation between owners and managers of public companies that has persisted into the long term.</p>\n\n<p>Lord Myners also highlighted several further issues which could undermine company performance that result from fund managers’ methodologies and the lack of close involvement with the management of firms they own.</p>\n\n<p>The first is the adoption of relative<em> </em>performance benchmarks (such as TWROR and Tracking Error) as key performance indicators for fund managers, which can potentially damage incentives. In his experience, even when losses were made bonuses would still be paid on the basis that the losses were lower than in other investment companies. This removes the incentive for fund managers to seek a strong intrinsic performance from their investments as opposed to a strong relative performance.</p>\n\n<p>The second is that from his experience, funds would need to invest in certain key companies (whatever their expectations were for the company) in order to satisfy and thus retain their client base. Similarly Myners believes there is a fundamental flaw in funds taking an underweight position in a company in these scenarios as managers should not have to invest in a company they expect to underperform.</p>\n\n<p>Thirdly are the existing mechanisms for dealing with underperforming investments, which Lord Myners summarized as a choice between ‘Speak’ or ‘Sell’. Speaking out and trying to reform management would take a great deal of time and thus there is often little benefit to fund managers seeking this option when it is much easier to take the ‘Sell’ option and search for more favourable investments. This problem is also exacerbated in the UK where legislation allows for the easy take over a company and thus further encourages selling. This weakens the management of public companies and causes them to underperform for long periods of time without facing any pressure for reform. This has also had substantial consequences for the economy; Lord Myners attributes the decline of the food and shipping industries to the selling of shares by investment funds in times of cyclical underperformance.</p>\n\n<p>Overall Lord Myners believes that the separation of management and ownership in public companies is a substantial and persistent problem. Fund managers exercise huge economic power and have overstressed the requirement for immediate short term returns rather than the long term growth of companies, in turn reducing the health of these companies. To tackle this problem he suggests: a transactions (Tobin) tax to reduce hyper-trading and discourage over-diversification; a fundamental review of legislation in the UK; greater action from trustees to control the benchmarks used by fund managers; and measures to encourage the cooperation of investors and company managers.</p>\n\n<p><em>Written by Arjun Saini</em></p>",
     "date": "2015-03-03",
@@ -3980,7 +3980,7 @@
     "topics": []
   },
   {
-    "slug": "evening-talks/3734",
+    "slug": "3734",
     "title": "The Fiscal Outlook",
     "date": "2015-02-10",
     "speakers": [
@@ -4000,7 +4000,7 @@
     ]
   },
   {
-    "slug": "evening-talks/3075",
+    "slug": "3075",
     "title": "Outlook for the UK Economy",
     "date": "2015-01-13",
     "speakers": [
@@ -4021,7 +4021,7 @@
     ]
   },
   {
-    "slug": "evening-talks/2813",
+    "slug": "2813",
     "title": "Making sense of China",
     "body": "<div class=\"heading\">\n<h5>25 November 2014 </h5>\n<h1>Making sense of China</h1>\n<h4><strong>Speaker: </strong><a href=\"/web/20241015070925/https://spe.org.uk/search/?q=George+Magnus\">George Magnus</a></h4><h4><strong>Venue</strong> : Ashurst</h4>\n</div>\n<div class=\"full\" style=\"margin:2em 0;\">\n\t\t\n\t\t</div>\n<p>George Magnus spoke on the topic of &#8220;Making sense of China&#8221; to a full house at November&#8217;s evening meeting following the AGM. His overarching view was that China had reached &#8220;the end of extrapolation&#8221; - that the period of benign globalisation had been brought to an end via the catalyst of the global financial crisis. A slowing in the acceleration, rather than a reversal, of globalisation was the issue for China going forward. </p>\n<p>China has benefited from a period of catch-up of low incomes. Slowdown is now inevitable, according to George, because certain events that had generated growth in the past (the &#8216;low hanging fruit&#8217;) were not repeatable - such as joining the WTO, raising secondary school attendance and transferring labour from low- (agricultural) to high- (city-based) productivity employment.</p>\n<p>George then focused on what he called the &#8216;Four P&#8217;s&#8221;: politics, property, policy and productivity. First, Politics - something you can&#8217;t ignore when considering the outlook for Chinese growth. The new government has run an anti-corruption campaign, with many Party members being affected (both junior members and grandees of the Party have been held to account, the former in mass numbers). The motive? To make the Party more compliant and to re-centralise power.</p>\n<p>From a political angle, how has China&#8217;s rebalancing progressed so far? The evidence is mixed. For sure there has been an improved allocation of resources such that capital has become more price sensitive, the idea being to make State Owned Enterprises (SOEs) more efficient. Energy subsidies have been removed, and there have been pilot schemes to introduce private capital into non-strategic businesses.</p>\n<p>But progress has been slow and moderate thus far. Capital market liberalisation has meant a more flexible currency. Rule of Law - or at least the stricter enforcement of current laws - has been a key aspect of the Fourth Plenum. The one-child policy has been relaxed (though how effective this has been is debatable) and pilot schemes in &#8216;minor&#8217; cities have been introduced to give more rural migrants &#8216;urban status&#8217;. There remain, however, no formal plans to introduce property rights as they exist in developed countries. Moreover, while these changes are encouraging there has been no attempt to codify the rules more generally, with the risk that China is simply replacing one elite with another - just with different sets of vested interests.</p>\n<p>The second &#8216;P&#8217; was Property. Falling residential investment is hampering economic growth (after all, 16-17% of GDP is related to property), with over-leverage, over-supply, and new regulations governing land sales/the environment meaning that this time is truly different for the housing market, and thereby GDP. George described housing as being the &#8220;leading edge&#8221; of rebalancing, arguing that falling prices and activity might persist for some time. Indeed, a substantial number of &#8216;non-core&#8217; cities had the worrying combination of previously fast growing property markets and over-supply, making them especially vulnerable - just like the cities in the US that led the downturn in property more generally post the financial bubble deflating from 2007/08 onwards.</p>\n<p>The third of George&#8217;s &#8216;Ps&#8217; stood for policy. The authorities understand the need to put the credit genie back in the bottle, according to George. Rising debt/gdp ratios cannot continue ad infinitum. That said, continued reductions in official interest rates over the next year seem likely, and the &#8220;long march&#8221; to RMB over-valuation looks to be over. We are &#8220;in the foothills&#8221; of the third dollar bull market since the Bretton Woods system collapsed. And while a devaluation is not on the cards for China, a 5-8% depreciation can be expected.</p>\n<p>Finally, George turned to the issue of Productivity. Heavy industry has led the way in generating growth in the past, but going forward it must come from more varied sources. The labour contribution to productivity has never been that large and is now dwindling (it should continue to do so unless we see improving education); the capital contribution has been sizable in the past but is falling thanks to economic rebalacing; thus it comes down to total factor productivity (as is the case for all countries with &#8216;middle income&#8217; status) to boost growth which can only be achieved by improving the quality of the institutions governing the country.</p>\n<p>In summary, the risks of a speedy slowdown in China could yet prove toxic for the global economy - as such, George argues, we need to be particularly watchful about the pattern and pace of China&#8217;s slowing growth rate.</p>\n<p>The Society of Business Economists would like to express its thanks to Ashurst for hosting the event.</p>",
     "date": "2014-11-25",
@@ -4037,7 +4037,7 @@
     ]
   },
   {
-    "slug": "conferences/2667",
+    "slug": "2667",
     "title": "2014 Annual Conference Report",
     "date": "2014-10-23",
     "category": "conference-report",
@@ -4057,7 +4057,7 @@
     ]
   },
   {
-    "slug": "evening-talks/2503",
+    "slug": "2503",
     "title": "The Future of British Cities",
     "body": "<div class='heading'>\n<h5 >23 June 2014</h5>\n<h1>The Future of British Cities</h1>\n<h2 class='page-subhead'>and the Role of Urban Policy</h2>\n<h4 ><strong>Professor Henry G Overman</strong>, <span class='nobreak'>LSE</span></h4 ><h4><strong>Venue</strong> : Ashurst</h4>\n</div>\n<div class='members-notice'><p>This content can be accessed by members. To access please login, or register with us <a href=\"/membership/\">here</a>. </p></div>",
     "date": "2014-06-23",
@@ -4072,7 +4072,7 @@
     ]
   },
   {
-    "slug": "evening-talks/2402",
+    "slug": "2402",
     "title": "What price HS2?",
     "body": "<div class='heading'>\n<h5 >01 April 2014 </h5>\n<h1>What price HS2?</h1>\n<h4 ><strong>Stephen Glaister</strong>, <span class='nobreak'>RAC Foundation</span></h4 >\n</div>\n<div class='members-notice'><p>This content can be accessed by members. To access please login, or register with us <a href=\"/membership/\">here</a>. </p></div>",
     "date": "2014-04-01",
@@ -4086,7 +4086,7 @@
     ]
   },
   {
-    "slug": "dinners/4198",
+    "slug": "4198",
     "title": "SPE Annual Dinner 2014",
     "date": "2014-03-27",
     "speakers": [
@@ -4099,7 +4099,7 @@
     ]
   },
   {
-    "slug": "evening-talks/2873",
+    "slug": "2873",
     "title": "Measuring GDP and social progress.",
     "date": "2014-02-14",
     "speakers": [
@@ -4113,7 +4113,7 @@
     ]
   },
   {
-    "slug": "evening-talks/2874",
+    "slug": "2874",
     "title": "Prospects for the UK economy",
     "date": "2014-01-14",
     "speakers": [
@@ -4125,7 +4125,7 @@
     "topics": []
   },
   {
-    "slug": "conferences/2875",
+    "slug": "2875",
     "title": "The 2013 SBE Annual Conference Report",
     "date": "2013-11-04",
     "category": "conference-report",
@@ -4146,7 +4146,7 @@
     ]
   },
   {
-    "slug": "evening-talks/2905",
+    "slug": "2905",
     "title": "SBE joint meeting with NABE",
     "date": "2013-09-23",
     "speakers": [

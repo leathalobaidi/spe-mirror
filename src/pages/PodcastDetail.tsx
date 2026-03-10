@@ -15,7 +15,7 @@ import { getSpeakerByName } from '../utils/speakerDirectory'
 
 export default function PodcastDetail() {
   const { slug } = useParams()
-  const podcast = podcastsData.find(p => p.slug.endsWith(`/${slug}`))
+  const podcast = podcastsData.find(p => p.slug === slug)
 
   if (!podcast) return <NotFound />
 

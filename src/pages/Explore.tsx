@@ -56,7 +56,7 @@ function buildIndex(): ExploreItem[] {
 
   const push = (raw: any, contentType: string, pathFn: (slug: string) => string) => {
     const ct = contentTypeMap.get(contentType)!
-    const slug = typeof raw.slug === 'string' ? raw.slug.split('/').pop() || raw.slug : raw.slug
+    const slug = raw.slug
     items.push({
       title: raw.title || '',
       slug,

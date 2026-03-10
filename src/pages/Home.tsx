@@ -180,7 +180,7 @@ export default function Home() {
           {latestPodcasts.map(item => (
             <div key={item.slug} className="reveal h-full">
               <ContentCard
-                to={`/podcasts/${item.slug.split('/').pop()}`}
+                to={`/podcasts/${item.slug}`}
                 title={item.title}
                 date={item.date}
                 category={item.category}
@@ -235,7 +235,7 @@ export default function Home() {
             {latestEvents.map((item, i) => (
               <div key={`${item.slug}-${i}`} className="reveal h-full">
                 <ContentCard
-                  to={`/events/${item.slug.split('/').pop()}`}
+                  to={`/events/${item.slug}`}
                   title={item.title}
                   date={item.date}
                   category="event"
