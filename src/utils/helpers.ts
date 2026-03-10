@@ -144,4 +144,7 @@ export function sanitiseBodyHtml(html: string): string {
       /(<img[^>]*src=["'])\/site\/assets\/files\//gi,
       `$1${SPE_ASSET_BASE}/`
     )
+    // Remove empty CMS wrapper divs (clearfix, body_image_container)
+    .replace(/<div[^>]*class=["']clearfix["'][^>]*>\s*<\/div>/gi, '')
+    .replace(/<div[^>]*class=["']body_image_container[^"']*["'][^>]*>\s*<\/div>/gi, '')
 }
