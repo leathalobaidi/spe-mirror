@@ -16,6 +16,7 @@ const Articles = lazy(() => import('./pages/Articles'))
 const ArticleDetail = lazy(() => import('./pages/ArticleDetail'))
 const RybEssays = lazy(() => import('./pages/RybEssays'))
 const RybEssayDetail = lazy(() => import('./pages/RybEssayDetail'))
+const RybczynskiTimeline = lazy(() => import('./pages/RybczynskiTimeline'))
 const News = lazy(() => import('./pages/News'))
 const NewsDetail = lazy(() => import('./pages/NewsDetail'))
 const About = lazy(() => import('./pages/About'))
@@ -33,6 +34,7 @@ const BlogDetail = lazy(() => import('./pages/BlogDetail'))
 const SalarySurveys = lazy(() => import('./pages/SalarySurveys'))
 const MembersPolls = lazy(() => import('./pages/MembersPolls'))
 const Membership = lazy(() => import('./pages/Membership'))
+const MemberDirectory = lazy(() => import('./pages/MemberDirectory'))
 const Careers = lazy(() => import('./pages/Careers'))
 const Contact = lazy(() => import('./pages/Contact'))
 const FAQs = lazy(() => import('./pages/FAQs'))
@@ -84,6 +86,7 @@ export default function App() {
           <Route path="/reading-room/book-reviews/:slug" element={<BookReviewDetail />} />
           <Route path="/reading-room/articles" element={<Articles />} />
           <Route path="/reading-room/articles/:slug" element={<ArticleDetail />} />
+          <Route path="/reading-room/rybczynski-prize" element={<RybczynskiTimeline />} />
           <Route path="/reading-room/rybczynski-essays" element={<RybEssays />} />
           <Route path="/reading-room/rybczynski-essays/:slug" element={<RybEssayDetail />} />
           <Route path="/reading-room/salary-surveys" element={<SalarySurveys />} />
@@ -106,6 +109,7 @@ export default function App() {
 
           {/* Membership section */}
           <Route path="/membership" element={<Membership />} />
+          <Route path="/membership/directory" element={<MemberDirectory />} />
           <Route path="/membership/*" element={<GenericPage />} />
 
           {/* Careers / Professional development */}

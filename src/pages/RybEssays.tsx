@@ -1,3 +1,4 @@
+import { Link } from 'react-router-dom'
 import ContentCard from '../components/ContentCard'
 import FilterBar from '../components/FilterBar'
 import { useSEO } from '../hooks/useSEO'
@@ -18,7 +19,7 @@ export default function RybEssays() {
     <div>
       <div className="bg-gradient-to-br from-spe-deep2 to-spe-deep text-white">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-16 sm:py-20">
-          <p className="editorial-subheading text-spe-light mb-3">Rybczynski Prize</p>
+          <div className="inline-flex items-center gap-2 mb-3"><span className="w-6 h-[2px] bg-spe-gold rounded-full" /><span className="text-spe-gold text-[10px] font-semibold uppercase tracking-[0.15em]">Rybczynski Prize</span></div>
           <h1 className="editorial-heading text-4xl sm:text-5xl mb-4">Prize Essays</h1>
           <p className="text-lg text-white/70 max-w-2xl font-light">
             Winning and shortlisted essays from the annual Rybczynski Prize essay competition.
@@ -35,6 +36,15 @@ export default function RybEssays() {
             </svg>
             <span className="hover:underline">Download Entry Form (PDF)</span>
           </a>
+          <Link
+            to="/reading-room/rybczynski-prize"
+            className="inline-flex items-center gap-2 mt-4 ml-6 text-sm text-white/80 hover:text-white transition-colors group"
+          >
+            <svg className="w-5 h-5 flex-shrink-0 text-spe-gold/70" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+              <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z" />
+            </svg>
+            <span className="hover:underline">Prize Timeline & Winners</span>
+          </Link>
         </div>
       </div>
       <FilterBar
@@ -60,7 +70,7 @@ export default function RybEssays() {
                     title={item.title}
                     category="article"
                     excerpt={item.body}
-                    image={item.images?.[0]}
+                    image={(item as any).images?.[0]}
                   />
                 </div>
               ))}
@@ -68,7 +78,7 @@ export default function RybEssays() {
           </section>
         ) : (
           <div className="text-center py-20">
-            <svg className="mx-auto h-16 w-16 text-spe-border/60 mb-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+            <svg className="mx-auto h-16 w-16 text-spe-divider/60 mb-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
               <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M19.428 15.428a2 2 0 00-1.022-.547l-2.387-.477a6 6 0 00-3.86.517l-.318.158a6 6 0 01-3.86.517L6.05 15.21a2 2 0 00-1.806.547M8 4h8l-1 1v5.172a2 2 0 00.586 1.414l5 5c1.26 1.26.367 3.414-1.415 3.414H4.828c-1.782 0-2.674-2.154-1.414-3.414l5-5A2 2 0 009 10.172V5L8 4z" />
             </svg>
             <p className="text-spe-grey text-lg font-medium mb-1">No essays found</p>
