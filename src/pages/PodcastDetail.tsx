@@ -1,14 +1,15 @@
 import { useParams, Link } from 'react-router-dom'
 import { useSEO } from '../hooks/useSEO'
 import podcastsData from '../data/podcasts.json'
-import { formatDate, sanitiseBodyHtml } from '../utils/helpers'
+import { formatDate, sanitiseBodyHtml, resolveImageUrl } from '../utils/helpers'
 import MediaEmbed from '../components/MediaEmbed'
 import ContentCard from '../components/ContentCard'
 import ShareButtons from '../components/ShareButtons'
 import Breadcrumbs from '../components/Breadcrumbs'
-import { detectMediaType } from '../utils/media'
 import PdfDownloads from '../components/PdfDownloads'
+import PrevNextNav from '../components/PrevNextNav'
 import NotFound from './NotFound'
+import { getDinnerReviewForPodcast, getEventForPodcast, eventDetailPath } from '../utils/crossLinks'
 
 export default function PodcastDetail() {
   const { slug } = useParams()
@@ -47,24 +48,10 @@ export default function PodcastDetail() {
     ],
   })
 
-  // Extract media embeds from mediaUrls
+  // Media embeds (data already cleaned — one primary embed per item)
   const mediaEmbeds = (podcast.mediaUrls || [])
     .map(m => ({ type: m.type as 'vimeo' | 'youtube' | 'soundcloud', id: m.id, url: m.url }))
     .filter(m => m.type && (m.id || m.url))
-
-  // Also try to detect embeds from HTML body
-  const bodyMediaMatches = podcast.body.match(/(?:player\.vimeo\.com\/video\/|youtube\.com\/embed\/|soundcloud\.com\/)[^\s"'<]+/g) || []
-  const additionalEmbeds = bodyMediaMatches
-    .map(url => detectMediaType(url.startsWith('http') ? url : `https://${url}`))
-    .filter((m): m is NonNullable<typeof m> => m !== null)
-    .filter(m => !mediaEmbeds.some(e => e.id === m.id))
-
-  const allEmbeds = [...mediaEmbeds, ...additionalEmbeds]
-
-  // Strip media iframes from body for cleaner rendering
-  const cleanBody = podcast.body
-    .replace(/<div[^>]*class=['"]vimeo_wrap['"][^>]*>[\s\S]*?<\/div>/gi, '')
-    .replace(/<iframe[^>]*(?:vimeo|youtube|soundcloud)[^>]*><\/iframe>/gi, '')
 
   const categoryLabel = podcast.category
     ?.replace(/-/g, ' ')
@@ -80,8 +67,9 @@ export default function PodcastDetail() {
   return (
     <div>
       {/* Header */}
-      <div className="bg-gradient-to-br from-spe-deep2 via-spe-deep to-spe-blue text-white">
-        <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 py-16 sm:py-20">
+      <div className="bg-gradient-to-br from-spe-ink via-spe-deep2 to-spe-deep text-white relative overflow-hidden grain-overlay">
+        <div className="absolute inset-0 opacity-[0.03] hero-pattern" />
+        <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 py-16 sm:py-20 relative z-10">
           <Breadcrumbs
             variant="light"
             className="mb-6"
@@ -92,7 +80,7 @@ export default function PodcastDetail() {
             ]}
           />
           {categoryLabel && (
-            <p className="editorial-subheading text-spe-light mb-3">{categoryLabel}</p>
+            <div className="inline-flex items-center gap-2 mb-3"><span className="w-6 h-[2px] bg-spe-gold rounded-full" /><span className="text-spe-gold text-[10px] font-semibold uppercase tracking-[0.15em]">{categoryLabel}</span></div>
           )}
           <h1 className="editorial-heading text-3xl sm:text-4xl lg:text-5xl mb-4">{podcast.title}</h1>
           {podcast.date && (
@@ -108,10 +96,10 @@ export default function PodcastDetail() {
       </div>
 
       {/* Media embeds */}
-      {allEmbeds.length > 0 && (
+      {mediaEmbeds.length > 0 && (
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 -mt-8 relative z-10">
           <div className="space-y-6">
-            {allEmbeds.map((media, i) => (
+            {mediaEmbeds.map((media, i) => (
               <MediaEmbed key={`${media.type}-${media.id || i}`} media={media} />
             ))}
           </div>
@@ -125,7 +113,7 @@ export default function PodcastDetail() {
             {podcast.images.map((img, i) => (
               <img
                 key={i}
-                src={img}
+                src={resolveImageUrl(img)}
                 alt=""
                 className="rounded-lg max-h-64 object-cover"
                 loading="lazy"
@@ -134,24 +122,72 @@ export default function PodcastDetail() {
           </div>
         )}
         <div
-          className="prose prose-lg max-w-none prose-headings:font-serif prose-headings:text-spe-dark prose-a:text-spe-blue prose-a:no-underline hover:prose-a:underline prose-img:rounded-lg prose-p:leading-relaxed"
-          dangerouslySetInnerHTML={{ __html: sanitiseBodyHtml(cleanBody) }}
+          className="prose prose-lg max-w-none prose-headings:font-serif prose-headings:text-spe-ink prose-a:text-spe-blue prose-a:no-underline hover:prose-a:underline prose-img:rounded-lg prose-p:leading-relaxed"
+          dangerouslySetInnerHTML={{ __html: sanitiseBodyHtml(podcast.body) }}
         />
 
         <PdfDownloads pdfs={podcast.pdfLinks} />
 
+        {/* Cross-links for dinner podcasts */}
+        {podcast.date && (() => {
+          const review = getDinnerReviewForPodcast(podcast.category, podcast.date)
+          const event = getEventForPodcast(podcast.category, podcast.date)
+          if (!review && !event) return null
+          return (
+            <div className="my-10 rounded-xl border border-spe-divider/15 bg-spe-paper/30 p-6">
+              <p className="text-[10px] font-semibold uppercase tracking-[0.15em] text-spe-copper mb-4">Related content</p>
+              <div className="space-y-3">
+                {review && (
+                  <Link
+                    to={`/speakers/dinner-reviews/${review.slug}`}
+                    className="flex items-start gap-3 group"
+                  >
+                    <span className="mt-0.5 flex-shrink-0 w-8 h-8 rounded-lg bg-spe-burgundy/10 flex items-center justify-center">
+                      <svg className="w-4 h-4 text-spe-burgundy" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 12h6m-6 4h6m2 5H7a2 2 0 01-2-2V5a2 2 0 012-2h5.586a1 1 0 01.707.293l5.414 5.414a1 1 0 01.293.707V19a2 2 0 01-2 2z" /></svg>
+                    </span>
+                    <div>
+                      <span className="text-sm font-medium text-spe-blue group-hover:text-spe-deep transition-colors">Read the dinner review</span>
+                      <span className="block text-xs text-spe-ink/50 mt-0.5">{review.title}</span>
+                    </div>
+                  </Link>
+                )}
+                {event && (
+                  <Link
+                    to={eventDetailPath(event.slug)}
+                    className="flex items-start gap-3 group"
+                  >
+                    <span className="mt-0.5 flex-shrink-0 w-8 h-8 rounded-lg bg-spe-copper/10 flex items-center justify-center">
+                      <svg className="w-4 h-4 text-spe-copper" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M8 7V3m8 4V3m-9 8h10M5 21h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v12a2 2 0 002 2z" /></svg>
+                    </span>
+                    <div>
+                      <span className="text-sm font-medium text-spe-blue group-hover:text-spe-deep transition-colors">View the event listing</span>
+                      <span className="block text-xs text-spe-ink/50 mt-0.5">{event.title}</span>
+                    </div>
+                  </Link>
+                )}
+              </div>
+            </div>
+          )
+        })()}
+
         {/* Share */}
         <ShareButtons title={podcast.title} />
+
+        <PrevNextNav
+          items={podcastsData}
+          currentSlug={podcast.slug}
+          slugToPath={slug => `/${slug}`}
+        />
       </article>
 
       {/* Related Podcasts */}
       {relatedPodcasts.length > 0 && (
-        <section className="bg-spe-bg/50 border-t border-spe-border/10">
+        <section className="bg-spe-paper/50 border-t border-spe-divider/10">
           <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-16">
             <div className="flex items-end justify-between mb-8">
               <div>
-                <p className="editorial-subheading text-spe-blue mb-2">Keep Listening</p>
-                <h2 className="editorial-heading text-2xl text-spe-dark">More Podcasts & Talks</h2>
+                <p className="section-label">Keep Listening</p>
+                <h2 className="editorial-heading text-2xl text-spe-ink">More Podcasts & Talks</h2>
               </div>
               <Link
                 to="/podcasts"
@@ -159,7 +195,7 @@ export default function PodcastDetail() {
               >
                 View all podcasts
                 <svg className="w-4 h-4 transition-transform group-hover:translate-x-0.5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 5l7 7-7 7" />
+                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M17 8l4 4m0 0l-4 4m4-4H3" />
                 </svg>
               </Link>
             </div>

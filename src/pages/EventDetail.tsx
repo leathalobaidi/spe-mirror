@@ -1,7 +1,7 @@
 import { useParams, Link } from 'react-router-dom'
 import { useSEO } from '../hooks/useSEO'
 import eventsData from '../data/events.json'
-import { formatDate, sanitiseBodyHtml } from '../utils/helpers'
+import { formatDate, sanitiseBodyHtml, resolveImageUrl } from '../utils/helpers'
 import ContentCard from '../components/ContentCard'
 import ShareButtons from '../components/ShareButtons'
 import Breadcrumbs from '../components/Breadcrumbs'
@@ -9,6 +9,8 @@ import MediaEmbed from '../components/MediaEmbed'
 import type { MediaEmbed as MediaEmbedType } from '../utils/media'
 import PdfDownloads from '../components/PdfDownloads'
 import NotFound from './NotFound'
+import PrevNextNav from '../components/PrevNextNav'
+import { getDinnerReviewForEvent, getPodcastForEvent, getNewsForEvent, podcastLinkSlug, eventDetailPath } from '../utils/crossLinks'
 
 export default function EventDetail() {
   const { slug } = useParams()
@@ -61,8 +63,9 @@ export default function EventDetail() {
   return (
     <div>
       {/* Header */}
-      <div className="bg-gradient-to-br from-spe-deep2 via-spe-deep to-spe-blue text-white">
-        <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 py-16 sm:py-20">
+      <div className="bg-gradient-to-br from-spe-ink via-spe-deep2 to-spe-deep text-white relative overflow-hidden grain-overlay">
+        <div className="absolute inset-0 opacity-[0.03] hero-pattern" />
+        <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 py-16 sm:py-20 relative z-10">
           <Breadcrumbs
             variant="light"
             className="mb-6"
@@ -121,7 +124,7 @@ export default function EventDetail() {
       <article className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
         {event.images && event.images.length > 0 && (
           <img
-            src={event.images[0]}
+            src={resolveImageUrl(event.images[0])}
             alt={event.title}
             className="w-full rounded-xl mb-8 shadow-sm"
           />
@@ -136,24 +139,88 @@ export default function EventDetail() {
           </div>
         )}
         <div
-          className="prose prose-lg max-w-none prose-headings:font-serif prose-headings:text-spe-dark prose-a:text-spe-blue prose-a:no-underline hover:prose-a:underline prose-img:rounded-lg prose-p:leading-relaxed"
+          className="prose prose-lg max-w-none prose-headings:font-serif prose-headings:text-spe-ink prose-a:text-spe-blue prose-a:no-underline hover:prose-a:underline prose-img:rounded-lg prose-p:leading-relaxed"
           dangerouslySetInnerHTML={{ __html: sanitiseBodyHtml(event.body) }}
         />
 
         <PdfDownloads pdfs={event.pdfLinks} />
 
+        {/* Cross-links for dinner events (review, podcast, news) */}
+        {event.date && (() => {
+          const review = getDinnerReviewForEvent(event.title, event.date)
+          const podcast = getPodcastForEvent(event.title, event.date)
+          const newsItems = getNewsForEvent(event.title, event.date) ?? []
+          if (!review && !podcast && newsItems.length === 0) return null
+          return (
+            <div className="my-10 rounded-xl border border-spe-divider/15 bg-spe-paper/30 p-6">
+              <p className="text-[10px] font-semibold uppercase tracking-[0.15em] text-spe-copper mb-4">Related content</p>
+              <div className="space-y-3">
+                {review && (
+                  <Link
+                    to={`/speakers/dinner-reviews/${review.slug}`}
+                    className="flex items-start gap-3 group"
+                  >
+                    <span className="mt-0.5 flex-shrink-0 w-8 h-8 rounded-lg bg-spe-burgundy/10 flex items-center justify-center">
+                      <svg className="w-4 h-4 text-spe-burgundy" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 12h6m-6 4h6m2 5H7a2 2 0 01-2-2V5a2 2 0 012-2h5.586a1 1 0 01.707.293l5.414 5.414a1 1 0 01.293.707V19a2 2 0 01-2 2z" /></svg>
+                    </span>
+                    <div>
+                      <span className="text-sm font-medium text-spe-blue group-hover:text-spe-deep transition-colors">Read the dinner review</span>
+                      <span className="block text-xs text-spe-ink/50 mt-0.5">{review.title}</span>
+                    </div>
+                  </Link>
+                )}
+                {podcast && (
+                  <Link
+                    to={`/podcasts/${podcastLinkSlug(podcast.slug)}`}
+                    className="flex items-start gap-3 group"
+                  >
+                    <span className="mt-0.5 flex-shrink-0 w-8 h-8 rounded-lg bg-spe-blue/10 flex items-center justify-center">
+                      <svg className="w-4 h-4 text-spe-blue" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M15.536 8.464a5 5 0 010 7.072M12 12h.01M18.364 5.636a9 9 0 010 12.728M5.636 18.364a9 9 0 010-12.728M8.464 15.536a5 5 0 010-7.072" /></svg>
+                    </span>
+                    <div>
+                      <span className="text-sm font-medium text-spe-blue group-hover:text-spe-deep transition-colors">Listen to the speech recording</span>
+                      <span className="block text-xs text-spe-ink/50 mt-0.5">{podcast.title}</span>
+                    </div>
+                  </Link>
+                )}
+                {newsItems.map(({ news }) => (
+                  <Link
+                    key={news.slug}
+                    to={`/news/${news.slug}`}
+                    className="flex items-start gap-3 group"
+                  >
+                    <span className="mt-0.5 flex-shrink-0 w-8 h-8 rounded-lg bg-spe-copper/10 flex items-center justify-center">
+                      <svg className="w-4 h-4 text-spe-copper" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M19 20H5a2 2 0 01-2-2V6a2 2 0 012-2h10a2 2 0 012 2v1m2 13a2 2 0 01-2-2V7m2 13a2 2 0 002-2V9a2 2 0 00-2-2h-2m-4-3H9M7 16h6M7 8h6v4H7V8z" /></svg>
+                    </span>
+                    <div>
+                      <span className="text-sm font-medium text-spe-blue group-hover:text-spe-deep transition-colors">News coverage</span>
+                      <span className="block text-xs text-spe-ink/50 mt-0.5">{news.title}</span>
+                    </div>
+                  </Link>
+                ))}
+              </div>
+            </div>
+          )
+        })()}
+
         {/* Share */}
         <ShareButtons title={event.title} />
+
+        <PrevNextNav
+          items={eventsData}
+          currentSlug={event.slug}
+          slugToPath={slug => `/${slug}`}
+        />
       </article>
 
       {/* Related Events */}
       {relatedEvents.length > 0 && (
-        <section className="bg-spe-bg/50 border-t border-spe-border/10">
+        <section className="bg-spe-paper/50 border-t border-spe-divider/10">
           <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-16">
             <div className="flex items-end justify-between mb-8">
               <div>
-                <p className="editorial-subheading text-spe-blue mb-2">What's On</p>
-                <h2 className="editorial-heading text-2xl text-spe-dark">More Events</h2>
+                <p className="section-label">What's On</p>
+                <h2 className="editorial-heading text-2xl text-spe-ink">More Events</h2>
               </div>
               <Link
                 to="/events"
@@ -161,7 +228,7 @@ export default function EventDetail() {
               >
                 View all events
                 <svg className="w-4 h-4 transition-transform group-hover:translate-x-0.5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 5l7 7-7 7" />
+                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M17 8l4 4m0 0l-4 4m4-4H3" />
                 </svg>
               </Link>
             </div>
