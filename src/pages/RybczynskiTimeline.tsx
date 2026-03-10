@@ -2,7 +2,7 @@ import { Link } from 'react-router-dom'
 import { useSEO } from '../hooks/useSEO'
 import essaysData from '../data/ryb-essays.json'
 import Breadcrumbs from '../components/Breadcrumbs'
-import { getEventForEssay, getDinnerForEssay, getNewsForEssay, eventDetailPath } from '../utils/crossLinks'
+import { getEventForEssay, getDinnerForEssay, getNewsForEssay, getPodcastForEssay, eventDetailPath, podcastLinkSlug } from '../utils/crossLinks'
 
 /** Extract subtitle from body HTML: <h2 class='page-subhead'>...</h2> */
 function extractSubtitle(body: string): string | null {
@@ -152,6 +152,7 @@ export default function RybczynskiTimeline() {
               const event = getEventForEssay(firstEssay.title)
               const dinner = getDinnerForEssay(firstEssay.title)
               const newsItems = getNewsForEssay(firstEssay.title)
+              const podcast = getPodcastForEssay(firstEssay.title)
 
               return (
                 <div key={yearLabel} className="relative pl-12 sm:pl-16">
@@ -194,7 +195,7 @@ export default function RybczynskiTimeline() {
                   </div>
 
                   {/* Cross-link pills */}
-                  {(event || dinner || newsItems.length > 0) && (
+                  {(event || dinner || podcast || newsItems.length > 0) && (
                     <div className="flex flex-wrap gap-2 mt-3">
                       {event && (
                         <Link
@@ -212,6 +213,15 @@ export default function RybczynskiTimeline() {
                         >
                           <svg className="w-3 h-3" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 12h6m-6 4h6m2 5H7a2 2 0 01-2-2V5a2 2 0 012-2h5.586a1 1 0 01.707.293l5.414 5.414a1 1 0 01.293.707V19a2 2 0 01-2 2z" /></svg>
                           Dinner Review
+                        </Link>
+                      )}
+                      {podcast && (
+                        <Link
+                          to={`/podcasts/${podcastLinkSlug(podcast.slug)}`}
+                          className="inline-flex items-center gap-1.5 text-xs font-medium text-spe-blue hover:text-spe-deep bg-spe-blue/5 hover:bg-spe-blue/10 px-3 py-1.5 rounded-full transition-colors"
+                        >
+                          <svg className="w-3 h-3" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M15.536 8.464a5 5 0 010 7.072M12 12h.01M18.364 5.636a9 9 0 010 12.728M5.636 18.364a9 9 0 010-12.728M8.464 15.536a5 5 0 010-7.072" /></svg>
+                          Dinner Speech
                         </Link>
                       )}
                       {newsItems.map(({ news }) => (
