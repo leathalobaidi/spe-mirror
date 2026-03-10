@@ -3,6 +3,7 @@ import { useSEO } from '../hooks/useSEO'
 import bookReviewsData from '../data/book-reviews.json'
 import { formatDate, sanitiseBodyHtml, resolveImageUrl } from '../utils/helpers'
 import { getSpeakerByName } from '../utils/speakerDirectory'
+import { getEventsForTopics, getPodcastsForTopics, eventDetailPath, podcastLinkSlug } from '../utils/crossLinks'
 import BookCover from '../components/BookCover'
 import ShareButtons from '../components/ShareButtons'
 import Breadcrumbs from '../components/Breadcrumbs'
@@ -120,6 +121,50 @@ export default function BookReviewDetail() {
             />
           </div>
         </div>
+
+        {/* Topic cross-links: related events & podcasts */}
+        {review.topics && review.topics.length > 0 && (() => {
+          const relatedEvents = getEventsForTopics(review.topics)
+          const relatedPodcasts = getPodcastsForTopics(review.topics)
+          if (relatedEvents.length === 0 && relatedPodcasts.length === 0) return null
+          return (
+            <div className="my-10 rounded-xl border border-spe-divider/15 bg-spe-paper/30 p-6">
+              <p className="text-[10px] font-semibold uppercase tracking-[0.15em] text-spe-copper mb-4">Related events & talks</p>
+              <div className="space-y-3">
+                {relatedEvents.map(event => (
+                  <Link
+                    key={event.slug}
+                    to={eventDetailPath(event.slug)}
+                    className="flex items-start gap-3 group"
+                  >
+                    <span className="mt-0.5 flex-shrink-0 w-8 h-8 rounded-lg bg-spe-copper/10 flex items-center justify-center">
+                      <svg className="w-4 h-4 text-spe-copper" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M8 7V3m8 4V3m-9 8h10M5 21h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v12a2 2 0 002 2z" /></svg>
+                    </span>
+                    <div>
+                      <span className="text-sm font-medium text-spe-blue group-hover:text-spe-deep transition-colors">{event.title}</span>
+                      {event.date && <span className="block text-xs text-spe-ink/50 mt-0.5">{formatDate(event.date)}</span>}
+                    </div>
+                  </Link>
+                ))}
+                {relatedPodcasts.map(podcast => (
+                  <Link
+                    key={podcast.slug}
+                    to={`/podcasts/${podcastLinkSlug(podcast.slug)}`}
+                    className="flex items-start gap-3 group"
+                  >
+                    <span className="mt-0.5 flex-shrink-0 w-8 h-8 rounded-lg bg-spe-blue/10 flex items-center justify-center">
+                      <svg className="w-4 h-4 text-spe-blue" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M15.536 8.464a5 5 0 010 7.072M12 12h.01M18.364 5.636a9 9 0 010 12.728M5.636 18.364a9 9 0 010-12.728M8.464 15.536a5 5 0 010-7.072" /></svg>
+                    </span>
+                    <div>
+                      <span className="text-sm font-medium text-spe-blue group-hover:text-spe-deep transition-colors">{podcast.title}</span>
+                      {podcast.date && <span className="block text-xs text-spe-ink/50 mt-0.5">{formatDate(podcast.date)}</span>}
+                    </div>
+                  </Link>
+                ))}
+              </div>
+            </div>
+          )
+        })()}
 
         {/* Share */}
         <ShareButtons title={review.title} />

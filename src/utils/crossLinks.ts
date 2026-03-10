@@ -7,6 +7,9 @@
  *
  * Key relationship: the Rybczynski Prize is announced at the Annual Dinner,
  * so a "2021/22" essay corresponds to the 2022 dinner.
+ *
+ * Topic-based cross-links connect book reviews ↔ events ↔ podcasts via the
+ * shared topic taxonomy (e.g. "Monetary Policy", "Trade & Globalisation").
  */
 
 import podcastsData from '../data/podcasts.json'
@@ -14,6 +17,7 @@ import essaysData from '../data/ryb-essays.json'
 import dinnerReviewsData from '../data/dinner-reviews.json'
 import eventsData from '../data/events.json'
 import newsData from '../data/news.json'
+import bookReviewsIndexData from '../data/book-reviews-index.json'
 import { getYear } from './helpers'
 
 // ── Type aliases ─────────────────────────────────────────────────────────
@@ -23,6 +27,7 @@ type EssayEntry = (typeof essaysData)[0]
 type DinnerReviewEntry = (typeof dinnerReviewsData)[0]
 type EventEntry = (typeof eventsData)[0]
 type NewsEntry = (typeof newsData)[0]
+type BookReviewIndexEntry = (typeof bookReviewsIndexData)[0]
 
 // ── Podcast lookup (dinner-review category, keyed by year) ──────────────
 
@@ -275,4 +280,70 @@ export function eventDetailPath(eventSlug: string) {
   // The route is /events/:slug where :slug is the last segment
   const parts = eventSlug.split('/')
   return `/events/${parts[parts.length - 1]}`
+}
+
+// ── Topic-based cross-links (book reviews ↔ events ↔ podcasts) ──────────
+
+function buildTopicIndex<T extends { topics?: string[] }>(data: T[]) {
+  const map = new Map<string, T[]>()
+  for (const item of data) {
+    for (const topic of item.topics ?? []) {
+      const existing = map.get(topic) ?? []
+      existing.push(item)
+      map.set(topic, existing)
+    }
+  }
+  return map
+}
+
+const bookReviewsByTopic = buildTopicIndex(bookReviewsIndexData)
+const eventsByTopic = buildTopicIndex(eventsData)
+const podcastsByTopic = buildTopicIndex(podcastsData)
+
+/** Find book reviews that share topics with a given set of topics */
+export function getBookReviewsForTopics(topics: string[], excludeSlug?: string, limit = 3) {
+  const seen = new Set<string>()
+  const results: BookReviewIndexEntry[] = []
+  for (const topic of topics) {
+    for (const review of bookReviewsByTopic.get(topic) ?? []) {
+      if (review.slug === excludeSlug || seen.has(review.slug)) continue
+      seen.add(review.slug)
+      results.push(review)
+    }
+  }
+  // Prefer reviews with cover images for visual display
+  results.sort((a, b) => (b.coverImage ? 1 : 0) - (a.coverImage ? 1 : 0))
+  return results.slice(0, limit)
+}
+
+/** Find events that share topics with a book review's topics */
+export function getEventsForTopics(topics: string[], limit = 3) {
+  const seen = new Set<string>()
+  const results: EventEntry[] = []
+  for (const topic of topics) {
+    for (const event of eventsByTopic.get(topic) ?? []) {
+      if (seen.has(event.slug)) continue
+      seen.add(event.slug)
+      results.push(event)
+    }
+  }
+  // Most recent first
+  results.sort((a, b) => (b.date ?? '').localeCompare(a.date ?? ''))
+  return results.slice(0, limit)
+}
+
+/** Find podcasts that share topics with a book review's topics */
+export function getPodcastsForTopics(topics: string[], limit = 3) {
+  const seen = new Set<string>()
+  const results: PodcastEntry[] = []
+  for (const topic of topics) {
+    for (const podcast of podcastsByTopic.get(topic) ?? []) {
+      if (seen.has(podcast.slug)) continue
+      seen.add(podcast.slug)
+      results.push(podcast)
+    }
+  }
+  // Most recent first
+  results.sort((a, b) => (b.date ?? '').localeCompare(a.date ?? ''))
+  return results.slice(0, limit)
 }

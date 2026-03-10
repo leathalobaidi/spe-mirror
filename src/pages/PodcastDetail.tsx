@@ -9,7 +9,8 @@ import Breadcrumbs from '../components/Breadcrumbs'
 import PdfDownloads from '../components/PdfDownloads'
 import PrevNextNav from '../components/PrevNextNav'
 import NotFound from './NotFound'
-import { getDinnerReviewForPodcast, getEventForPodcast, getEssaysForPodcast, getNewsForPodcast, eventDetailPath } from '../utils/crossLinks'
+import { getDinnerReviewForPodcast, getEventForPodcast, getEssaysForPodcast, getNewsForPodcast, getBookReviewsForTopics, eventDetailPath } from '../utils/crossLinks'
+import BookCover from '../components/BookCover'
 import { getSpeakerByName } from '../utils/speakerDirectory'
 
 export default function PodcastDetail() {
@@ -208,6 +209,30 @@ export default function PodcastDetail() {
                       <span className="block text-xs text-spe-ink/50 mt-0.5">{news.title}</span>
                     </div>
                   </Link>
+                ))}
+              </div>
+            </div>
+          )
+        })()}
+
+        {/* Topic cross-links: suggested book reviews */}
+        {podcast.topics && podcast.topics.length > 0 && (() => {
+          const suggestedBooks = getBookReviewsForTopics(podcast.topics)
+          if (suggestedBooks.length === 0) return null
+          return (
+            <div className="my-10">
+              <p className="text-[10px] font-semibold uppercase tracking-[0.15em] text-spe-copper mb-4">Suggested reading</p>
+              <div className="grid grid-cols-2 sm:grid-cols-3 gap-4">
+                {suggestedBooks.map(b => (
+                  <BookCover
+                    key={b.slug}
+                    to={`/reading-room/book-reviews/${b.slug}`}
+                    title={b.title}
+                    coverImage={b.coverImage}
+                    author={b.author}
+                    reviewer={b.reviewer}
+                    date={b.date}
+                  />
                 ))}
               </div>
             </div>
