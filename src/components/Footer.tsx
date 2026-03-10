@@ -115,6 +115,7 @@ export default function Footer() {
             <h4 className="text-[10px] font-semibold uppercase tracking-[0.15em] text-white/40 mb-5">Explore</h4>
             <ul className="space-y-1">
               {[
+                { to: '/explore', label: 'Explore All Content' },
                 { to: '/events', label: 'Events' },
                 { to: '/speakers', label: 'Speakers' },
                 { to: '/podcasts', label: 'Podcasts' },

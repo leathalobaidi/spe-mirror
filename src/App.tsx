@@ -43,6 +43,7 @@ const Contact = lazy(() => import('./pages/Contact'))
 const FAQs = lazy(() => import('./pages/FAQs'))
 const Advertise = lazy(() => import('./pages/Advertise'))
 const GenericPage = lazy(() => import('./pages/GenericPage'))
+const Explore = lazy(() => import('./pages/Explore'))
 const NotFound = lazy(() => import('./pages/NotFound'))
 
 function PageLoader() {
@@ -121,6 +122,9 @@ export default function App() {
           {/* Careers / Professional development */}
           <Route path="/careers" element={<Careers />} />
           <Route path="/careers/*" element={<GenericPage />} />
+
+          {/* Explore — unified content search */}
+          <Route path="/explore" element={<Explore />} />
 
           {/* Standalone pages */}
           <Route path="/faqs" element={<FAQs />} />
