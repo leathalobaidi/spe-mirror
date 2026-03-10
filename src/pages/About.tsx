@@ -4,7 +4,7 @@ import pagesData from '../data/pages.json'
 import presidentsData from '../data/presidents.json'
 import MediaEmbed from '../components/MediaEmbed'
 import { detectMediaType } from '../utils/media'
-import { sanitiseBodyHtml } from '../utils/helpers'
+import { sanitiseBodyHtml, resolveImageUrl } from '../utils/helpers'
 
 export default function About() {
   useSEO({
@@ -21,6 +21,7 @@ export default function About() {
     { path: '/about/society-activities/conference', title: 'Annual Conference', description: 'Our flagship event bringing together economists from across sectors.', icon: 'mic', dataSlug: 'about/society-activities/conference' },
     { path: '/about/society-activities/dinner', title: 'Annual Dinner', description: 'The SPE\'s premier networking event for members and guests.', icon: 'users', dataSlug: 'about/society-activities/dinner' },
     { path: '/about/society-activities/rybczynski-prize', title: 'Rybczynski Prize', description: 'An annual essay prize for the best work on an economic policy topic.', icon: 'award', dataSlug: 'about/society-activities/rybczynski-prize' },
+    { path: '/about/society-activities/statistics-community', title: 'Statistics Community', description: 'The SPE\'s work on the quality and use of economic statistics.', icon: 'chart', dataSlug: 'about/society-activities/statistics-community' },
   ]
 
   // George Buckley intro video
@@ -29,9 +30,10 @@ export default function About() {
   return (
     <div>
       {/* Page header */}
-      <div className="bg-gradient-to-br from-spe-deep2 via-spe-deep to-spe-blue text-white">
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-16 sm:py-20">
-          <p className="editorial-subheading text-spe-light mb-3">Who We Are</p>
+      <div className="bg-gradient-to-br from-spe-ink via-spe-deep2 to-spe-deep text-white relative overflow-hidden grain-overlay">
+        <div className="absolute inset-0 opacity-[0.03] hero-pattern" />
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-16 sm:py-20 relative z-10">
+          <div className="inline-flex items-center gap-2 mb-3"><span className="w-6 h-[2px] bg-spe-gold rounded-full" /><span className="text-spe-gold text-[10px] font-semibold uppercase tracking-[0.15em]">Who We Are</span></div>
           <h1 className="editorial-heading text-4xl sm:text-5xl mb-4">About the SPE</h1>
           <p className="text-lg text-white/70 max-w-2xl font-light">
             The Society of Professional Economists is the UK's leading network for economists working in business, government, and academia.
@@ -54,7 +56,7 @@ export default function About() {
         {aboutPage && (
           <div className="max-w-3xl mx-auto mb-16">
             <div
-              className="prose prose-lg max-w-none prose-headings:font-serif prose-headings:text-spe-dark prose-a:text-spe-blue prose-a:no-underline hover:prose-a:underline prose-p:leading-relaxed"
+              className="prose prose-lg max-w-none prose-headings:font-serif prose-headings:text-spe-ink prose-a:text-spe-blue prose-a:no-underline hover:prose-a:underline prose-p:leading-relaxed"
               dangerouslySetInnerHTML={{ __html: sanitiseBodyHtml(
                 // Strip the intro Vimeo embed from body – already rendered by MediaEmbed above
                 aboutPage.body.replace(/<div[^>]*style="[^"]*position:\s*relative[^"]*"[^>]*>[\s\S]*?<iframe[^>]*vimeo[^>]*>[\s\S]*?<\/div>/gi, '')
@@ -65,10 +67,10 @@ export default function About() {
         )}
 
         {/* Sub-section cards */}
-        <div className="border-t border-spe-border/20 pt-12">
+        <div className="border-t border-spe-divider/20 pt-12">
           <div className="text-center mb-10">
-            <p className="editorial-subheading text-spe-blue mb-2">Explore</p>
-            <h2 className="editorial-heading text-2xl sm:text-3xl text-spe-dark">Our Activities</h2>
+            <p className="section-label">Explore</p>
+            <h2 className="editorial-heading text-2xl sm:text-3xl text-spe-ink">Our Activities</h2>
           </div>
 
           <div className="grid grid-cols-1 md:grid-cols-2 gap-6 max-w-4xl mx-auto">
@@ -78,7 +80,7 @@ export default function About() {
                 <Link
                   key={page.path}
                   to={page.path}
-                  className="group rounded-2xl border border-spe-border/30 bg-white p-8 hover:shadow-md transition-shadow"
+                  className="group rounded-2xl border border-spe-divider/30 bg-white p-8 hover:shadow-md transition-shadow"
                 >
                   <div className="flex items-start gap-4">
                     <div className="w-10 h-10 rounded-lg bg-spe-blue/10 flex items-center justify-center flex-shrink-0 group-hover:bg-spe-blue/20 transition-colors">
@@ -107,9 +109,14 @@ export default function About() {
                           <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 3v4M3 5h4M6 17v4m-2-2h4m5-16l2.286 6.857L21 12l-5.714 2.143L13 21l-2.286-6.857L5 12l5.714-2.143L13 3z" />
                         </svg>
                       )}
+                      {page.icon === 'chart' && (
+                        <svg className="w-5 h-5 text-spe-blue" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                          <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 19v-6a2 2 0 00-2-2H5a2 2 0 00-2 2v6a2 2 0 002 2h2a2 2 0 002-2zm0 0V9a2 2 0 012-2h2a2 2 0 012 2v10m-6 0a2 2 0 002 2h2a2 2 0 002-2m0 0V5a2 2 0 012-2h2a2 2 0 012 2v14a2 2 0 01-2 2h-2a2 2 0 01-2-2z" />
+                        </svg>
+                      )}
                     </div>
                     <div>
-                      <h3 className="text-lg font-serif font-bold text-spe-dark group-hover:text-spe-blue transition-colors mb-1">{page.title}</h3>
+                      <h3 className="text-lg font-serif font-bold text-spe-ink group-hover:text-spe-blue transition-colors mb-1">{page.title}</h3>
                       <p className="text-sm text-spe-muted leading-relaxed mb-3">{page.description}</p>
                       {pageData && pageData.body && (
                         <div
@@ -126,10 +133,10 @@ export default function About() {
         </div>
 
         {/* President & Vice Presidents */}
-        <div className="border-t border-spe-border/20 pt-12 mt-16">
+        <div className="border-t border-spe-divider/20 pt-12 mt-16">
           <div className="text-center mb-10">
-            <p className="editorial-subheading text-spe-blue mb-2">Leadership</p>
-            <h2 className="editorial-heading text-2xl sm:text-3xl text-spe-dark">
+            <p className="section-label">Leadership</p>
+            <h2 className="editorial-heading text-2xl sm:text-3xl text-spe-ink">
               President &amp; Vice Presidents
             </h2>
           </div>
@@ -141,10 +148,10 @@ export default function About() {
                 to={`/about/council/${person.slug}`}
                 className="group text-center"
               >
-                <div className="relative w-32 h-32 mx-auto mb-4 rounded-full overflow-hidden ring-4 ring-spe-border/20 group-hover:ring-spe-blue/30 transition-all">
+                <div className="relative w-32 h-32 mx-auto mb-4 rounded-full overflow-hidden ring-4 ring-spe-divider/20 group-hover:ring-spe-blue/30 transition-all">
                   {person.images?.[0] ? (
                     <img
-                      src={person.images[0]}
+                      src={resolveImageUrl(person.images[0])}
                       alt={person.name}
                       className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300"
                     />
@@ -156,7 +163,7 @@ export default function About() {
                     </div>
                   )}
                 </div>
-                <h3 className="font-serif font-bold text-spe-dark group-hover:text-spe-blue transition-colors text-sm leading-tight">
+                <h3 className="font-serif font-bold text-spe-ink group-hover:text-spe-blue transition-colors text-sm leading-tight">
                   {person.name}
                 </h3>
                 <p className="text-xs text-spe-muted mt-1">{person.role}</p>
@@ -166,7 +173,7 @@ export default function About() {
         </div>
 
         {/* Membership CTA */}
-        <div className="mt-16 text-center bg-gradient-to-br from-spe-deep2 to-spe-blue rounded-2xl p-12 text-white">
+        <div className="mt-16 text-center bg-gradient-to-br from-spe-ink via-spe-deep2 to-spe-deep rounded-2xl p-12 text-white relative overflow-hidden grain-overlay">
           <h2 className="editorial-heading text-2xl sm:text-3xl mb-4">Become a Member</h2>
           <p className="text-white/70 max-w-xl mx-auto mb-6 font-light">
             Join the UK's leading community of professional economists. Access exclusive events,
@@ -174,11 +181,11 @@ export default function About() {
           </p>
           <Link
             to="/membership"
-            className="inline-flex items-center gap-2 bg-white text-spe-deep font-semibold px-6 py-3 rounded-lg hover:bg-spe-light transition-colors"
+            className="inline-flex items-center gap-2 bg-white text-spe-deep font-semibold px-6 py-3 rounded-lg hover:bg-spe-cream transition-colors"
           >
             Learn About Membership
             <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-              <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 5l7 7-7 7" />
+              <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M17 8l4 4m0 0l-4 4m4-4H3" />
             </svg>
           </Link>
         </div>

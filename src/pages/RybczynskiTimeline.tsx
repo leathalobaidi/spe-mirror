@@ -107,15 +107,35 @@ export default function RybczynskiTimeline() {
           <p className="text-white/70 text-lg max-w-2xl leading-relaxed">
             The annual essay prize for economists under 30, announced each year at the SPE Annual Dinner.
           </p>
-          <Link
-            to="/reading-room/rybczynski-essays"
-            className="inline-flex items-center gap-1.5 mt-6 text-sm font-medium text-spe-gold hover:text-white transition-colors group"
-          >
-            Browse all essays
-            <svg className="w-4 h-4 transition-transform group-hover:translate-x-0.5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-              <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M17 8l4 4m0 0l-4 4m4-4H3" />
-            </svg>
-          </Link>
+          <div className="flex flex-wrap gap-4 mt-6">
+            <Link
+              to="/reading-room/rybczynski-essays"
+              className="inline-flex items-center gap-1.5 text-sm font-medium text-spe-gold hover:text-white transition-colors group"
+            >
+              Browse all essays
+              <svg className="w-4 h-4 transition-transform group-hover:translate-x-0.5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M17 8l4 4m0 0l-4 4m4-4H3" />
+              </svg>
+            </Link>
+            <Link
+              to="/about/society-activities/rybczynski-prize/winners"
+              className="inline-flex items-center gap-1.5 text-sm font-medium text-white/60 hover:text-white transition-colors group"
+            >
+              Past winners
+              <svg className="w-4 h-4 transition-transform group-hover:translate-x-0.5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M17 8l4 4m0 0l-4 4m4-4H3" />
+              </svg>
+            </Link>
+            <Link
+              to="/about/society-activities/rybczynski-prize/rybczynski-prize-terms"
+              className="inline-flex items-center gap-1.5 text-sm font-medium text-white/60 hover:text-white transition-colors group"
+            >
+              Entry terms
+              <svg className="w-4 h-4 transition-transform group-hover:translate-x-0.5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M17 8l4 4m0 0l-4 4m4-4H3" />
+              </svg>
+            </Link>
+          </div>
         </div>
       </div>
 
