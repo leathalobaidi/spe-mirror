@@ -2,8 +2,8 @@ import { useState, useMemo } from 'react'
 import { useSEO } from '../hooks/useSEO'
 import BookCover from '../components/BookCover'
 import { useReveal } from '../hooks/useReveal'
-import bookReviewsData from '../data/book-reviews.json'
-import { getYear, getUniqueYears, stripHtml } from '../utils/helpers'
+import bookReviewsData from '../data/book-reviews-index.json'
+import { getYear, getUniqueYears } from '../utils/helpers'
 
 export default function BookReviews() {
   useSEO({
@@ -31,8 +31,7 @@ export default function BookReviews() {
       result = result.filter(b =>
         b.title.toLowerCase().includes(q) ||
         (b.author && b.author.toLowerCase().includes(q)) ||
-        (b.reviewer && b.reviewer.toLowerCase().includes(q)) ||
-        (b.body && stripHtml(b.body).toLowerCase().includes(q))
+        (b.reviewer && b.reviewer.toLowerCase().includes(q))
       )
     }
 

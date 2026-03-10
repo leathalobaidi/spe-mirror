@@ -9,7 +9,7 @@
  */
 import eventsData from '../data/events.json'
 import podcastsData from '../data/podcasts.json'
-import bookReviewsData from '../data/book-reviews.json'
+import bookReviewsData from '../data/book-reviews-index.json'
 import blogsData from '../data/blogs.json'
 import rybEssaysData from '../data/ryb-essays.json'
 import eveningTalksData from '../data/evening-talks.json'

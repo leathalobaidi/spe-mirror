@@ -119,7 +119,7 @@ export default function Home() {
     Promise.all([
       import('../data/podcasts.json'),
       import('../data/events.json'),
-      import('../data/book-reviews.json'),
+      import('../data/book-reviews-index.json'),
       import('../data/news.json'),
       import('../data/evening-talks.json'),
       import('../data/conference-reports.json'),

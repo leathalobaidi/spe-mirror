@@ -2,7 +2,7 @@ import { Link } from 'react-router-dom'
 import { useSEO } from '../hooks/useSEO'
 import BookCover from '../components/BookCover'
 import ContentCard from '../components/ContentCard'
-import bookReviewsData from '../data/book-reviews.json'
+import bookReviewsData from '../data/book-reviews-index.json'
 import articlesData from '../data/articles.json'
 import rybEssaysData from '../data/ryb-essays.json'
 
