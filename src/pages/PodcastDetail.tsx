@@ -127,7 +127,7 @@ export default function PodcastDetail() {
               <img
                 key={i}
                 src={resolveImageUrl(img)}
-                alt=""
+                alt={`Image ${i + 1} from ${podcast.title}`}
                 className="rounded-lg max-h-64 object-cover"
                 loading="lazy"
               />
