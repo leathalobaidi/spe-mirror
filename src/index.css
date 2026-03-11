@@ -696,3 +696,44 @@ iframe {
     animation: none;
   }
 }
+
+/* ── Related-content sections (Stage 2C cross-links) ─────── */
+.related-content {
+  margin-top: 2rem;
+  padding: 1rem 1.25rem;
+  border: 1px solid var(--color-spe-border);
+  border-radius: 0.375rem;
+  background-color: #f8fafc;
+}
+
+.related-content-heading {
+  font-family: var(--font-family-heading);
+  font-weight: 600;
+  font-size: 0.875rem;
+  color: var(--color-spe-gold);
+  margin: 0 0 0.5rem;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+}
+
+.related-content ul {
+  margin: 0;
+  padding-left: 1.25rem;
+  list-style-type: disc;
+}
+
+.related-content li {
+  margin-bottom: 0.25rem;
+  font-size: 0.9rem;
+}
+
+.related-content a {
+  color: var(--color-spe-gold);
+  text-decoration: underline;
+  text-decoration-thickness: 1px;
+  text-underline-offset: 2px;
+}
+
+.related-content a:hover {
+  color: var(--color-spe-gold-dark, #8b6914);
+}
