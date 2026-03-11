@@ -1,0 +1,33 @@
+const e=[{slug:"kate-barker",name:"Dame Kate Barker DBE",role:"Vice President",body:`<img alt='' class='' style='width:125px; float:left;margin:0 25px 8px 0;' src="https://spe.org.uk/site/assets/files/3770/kate_barker_2025.500x666.webp">
+		<div>
+			<div style='height:auto;overflow-y:auto;'>
+				<p>Dame Kate Barker is presently an NED of Taylor Wimpey plc. She is also Chair of Trustees for the British Coal Staff Superannuation Scheme and Chairman of the Jersey Fiscal Policy Panel, member of the Industrial Strategy Council and Chair of Trustees for the Universities Superannuation Scheme. Previously, Kate was a member of the Bank of England&#8217;s Monetary Policy Committee (MPC) from 2001 until May 2010. During this period, she also led two major policy reviews for Government, on housing supply and on land use planning. Before joining the MPC she was Chief Economic Adviser at the CBI.</p>
+<p>Kate was Chair of the Society from 2013-2016.</p>
+
+				
+			</div>
+		</div>`,images:["https://spe.org.uk/site/assets/files/3770/kate_barker_2025.500x666.webp"]},{slug:"prof-sir-charlie-bean",name:"Prof Sir Charlie Bean",role:"Vice President",body:`<img alt='' class='' style='width:125px; float:left;margin:0 25px 8px 0;' src="https://spe.org.uk/site/assets/files/4864/rsz_charlie_bean_photo_2.500x666.webp">
+		<div>
+			<div style='height:auto;overflow-y:auto;'>
+				<p>Sir Charles Bean is a Professor of Economics at the London School of Economics and a member of the Budget Responsibility Committee at the Office for Budget Responsibility. From 2000 to 2014, he served at the Bank of England as Executive Director and Chief Economist, and then Deputy Governor for Monetary Policy, and was a member of the Monetary Policy and Financial Policy Committees. Before joining the Bank of England, he was a member of faculty at LSE and was Managing Editor of the Review of Economic Studies; he has also worked at HM Treasury. He was President of the Royal Economic Society from 2013 to 2015 and was knighted in 2014 for services to monetary policy and central banking. He holds a PhD from MIT.</p>
+
+				
+			</div>
+		</div>`,images:["https://spe.org.uk/site/assets/files/4864/rsz_charlie_bean_photo_2.500x666.webp"]},{slug:"sir-dave-ramsden-cbe",name:"Sir Dave Ramsden CBE",role:"President",body:`<img alt='' class='' style='width:125px; float:left;margin:0 25px 8px 0;' src="https://spe.org.uk/site/assets/files/3768/dave_ramsden_picture_2025.500x666.webp">
+		<div>
+			<div style='height:auto;overflow-y:auto;'>
+				<p>Dave Ramsden joined the Bank to become Deputy Governor for Markets and Banking on 4 September 2017. He is responsible for oversight of Markets and Banking directorates. Dave is a member of the Monetary Policy Committee, the Financial Policy Committee and the Prudential Regulation Committee. He is also the Chair of the RTGS/CHAPS Board.</p>
+<p>Before joining the Bank, Dave was Chief Economic Adviser to the Treasury and Head of the Government Economic Service from 2007 – 2017. He was responsible for advising on UK macroeconomic policy and was the Government&#8217;s representative of the meetings of the Bank&#8217;s Monetary Policy Committee. Previous to that he held a number of civil service roles including leading the Treasury work advising on whether the UK should join the Euro.</p>
+<p>Dave was awarded a CBE in the New Year Honours 2004 and made a Knight Bachelor in the New Year Honours 2015. He graduated with an MA in Politics, Philosophy and Economics from Oxford University in 1986 and received an MSC in Economics from the London School of Economics in 1990.</p>
+<p>As well as President of the Society of Professional Economists, Dave is a Trustee of Pro Bono Economics and a visiting Professor at Kings College London.</p>
+
+				
+			</div>
+		</div>`,images:["https://spe.org.uk/site/assets/files/3768/dave_ramsden_picture_2025.500x666.webp"]},{slug:"sir-john-vickers",name:"Sir John Vickers",role:"Vice President",body:`<img alt='' class='' style='width:125px; float:left;margin:0 25px 8px 0;' src="https://spe.org.uk/site/assets/files/4993/2989-19461-johnvickers.500x666.webp">
+		<div>
+			<div style='height:auto;overflow-y:auto;'>
+				<p>Sir John Vickers has been Warden of All Souls College since October 2008. He studied PPE at Oxford University, where, after a period working in the oil industry, he taught economics and was Drummond Professor of Political Economy from 1991 to 2008. He was Chief Economist at the Bank of England and a member of the Monetary Policy Committee 1998-2000; Director General/Chairman of the Office of Fair Trading 2000-05; President of the Royal Economic Society 2007-10; and Chair of the Independent Commission on Banking 2010-11. His research interests, which combine theory and policy, mainly concern competition and regulation.</p>
+
+				
+			</div>
+		</div>`,images:["https://spe.org.uk/site/assets/files/4993/2989-19461-johnvickers.500x666.webp"]}];export{e as default};
