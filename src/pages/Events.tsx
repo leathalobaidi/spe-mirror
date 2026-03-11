@@ -7,6 +7,7 @@ import { useFilteredData } from '../hooks/useFilteredData'
 import { useReveal } from '../hooks/useReveal'
 import eventsData from '../data/events.json'
 import { getAllDinnerYears } from '../utils/annualDinnerData'
+import { getOutlookYearsList } from '../utils/outlookData'
 
 export default function Events() {
   useSEO({
@@ -58,6 +59,36 @@ export default function Events() {
                   <span className="text-[10px] text-amber-600 mt-0.5">Cancelled</span>
                 ) : (
                   <span className="text-[10px] text-spe-ink/30 mt-0.5">Upcoming</span>
+                )}
+              </Link>
+            ))}
+          </div>
+        </div>
+      </section>
+
+      {/* UK Economic Outlook strip */}
+      <section className="bg-spe-paper/50 border-b border-spe-divider/10">
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-8">
+          <div className="flex items-end justify-between mb-4">
+            <div>
+              <p className="text-[10px] font-semibold uppercase tracking-[0.15em] text-spe-gold mb-1">Annual Series</p>
+              <h2 className="editorial-heading text-xl text-spe-ink">UK Economic Outlook</h2>
+            </div>
+          </div>
+          <div className="grid grid-cols-2 sm:grid-cols-4 lg:grid-cols-6 gap-3">
+            {getOutlookYearsList().map(d => (
+              <Link
+                key={d.year}
+                to={`/events/uk-outlook/${d.year}`}
+                className="group flex flex-col items-center rounded-xl border border-spe-divider/15 bg-white p-3 hover:border-spe-blue/30 hover:shadow-sm transition-all"
+              >
+                <span className="text-lg font-semibold text-spe-ink group-hover:text-spe-blue transition-colors">{d.year}</span>
+                {d.virtual ? (
+                  <span className="text-[10px] text-cyan-600 mt-0.5">Virtual</span>
+                ) : d.speakers.length > 0 ? (
+                  <span className="text-[10px] text-spe-ink/50 text-center mt-0.5 leading-tight">{d.speakers.length} panellists</span>
+                ) : (
+                  <span className="text-[10px] text-spe-ink/30 mt-0.5">Panel</span>
                 )}
               </Link>
             ))}
