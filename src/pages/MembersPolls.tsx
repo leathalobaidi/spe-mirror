@@ -1,6 +1,7 @@
 import { Link } from 'react-router-dom'
 import { useSEO } from '../hooks/useSEO'
 import { collectionPageSchema, breadcrumbSchema } from '../utils/seoSchemas'
+import { assetUrl } from '../utils/assetUrl'
 import Breadcrumbs from '../components/Breadcrumbs'
 
 const polls = [
@@ -76,7 +77,7 @@ export default function MembersPolls() {
                   </span>
                 </div>
                 <a
-                  href={poll.pdf}
+                  href={assetUrl(poll.pdf)}
                   target="_blank"
                   rel="noopener noreferrer"
                   className="inline-flex items-center gap-1.5 text-xs text-spe-blue hover:text-spe-deep transition-colors"

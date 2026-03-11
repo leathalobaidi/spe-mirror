@@ -1,6 +1,7 @@
 import { Link } from 'react-router-dom'
 import { useSEO } from '../hooks/useSEO'
 import { collectionPageSchema, breadcrumbSchema } from '../utils/seoSchemas'
+import { assetUrl } from '../utils/assetUrl'
 import Breadcrumbs from '../components/Breadcrumbs'
 
 const surveys = [
@@ -81,7 +82,7 @@ export default function SalarySurveys() {
                 </div>
               </div>
               <a
-                href={pdf}
+                href={assetUrl(pdf)}
                 target="_blank"
                 rel="noopener noreferrer"
                 className="inline-flex items-center gap-2 text-sm text-spe-blue hover:text-spe-deep transition-colors"

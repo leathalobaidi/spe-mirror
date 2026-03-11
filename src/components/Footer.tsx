@@ -1,5 +1,6 @@
 import { useState } from 'react'
 import { Link } from 'react-router-dom'
+import { assetUrl } from '../utils/assetUrl'
 
 export default function Footer() {
   const [email, setEmail] = useState('')
@@ -83,7 +84,7 @@ export default function Footer() {
           {/* Brand */}
           <div className="min-[480px]:col-span-2 md:col-span-1">
             <Link to="/" className="flex items-center gap-2 mb-5">
-              <img src="/images/logo.webp" alt="SPE" width={215} height={32} className="h-8 w-auto brightness-0 invert" />
+              <img src={assetUrl('/images/logo.webp')} alt="SPE" width={215} height={32} className="h-8 w-auto brightness-0 invert" />
               <span className="font-serif text-lg font-bold text-white">SPE</span>
             </Link>
             <p className="text-sm text-white/50 leading-relaxed mb-6">

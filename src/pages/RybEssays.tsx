@@ -3,6 +3,7 @@ import ContentCard from '../components/ContentCard'
 import FilterBar from '../components/FilterBar'
 import { useSEO } from '../hooks/useSEO'
 import { breadcrumbSchema, collectionPageSchema } from '../utils/seoSchemas'
+import { assetUrl } from '../utils/assetUrl'
 import { useFilteredData } from '../hooks/useFilteredData'
 import { useReveal } from '../hooks/useReveal'
 import essaysData from '../data/ryb-essays.json'
@@ -30,7 +31,7 @@ export default function RybEssays() {
             Winning and shortlisted essays from the annual Rybczynski Prize essay competition.
           </p>
           <a
-            href="/images/2167/rybentryform.pdf"
+            href={assetUrl('/images/2167/rybentryform.pdf')}
             target="_blank"
             rel="noopener noreferrer"
             className="inline-flex items-center gap-2 mt-4 text-sm text-white/80 hover:text-white transition-colors"

@@ -1,6 +1,7 @@
 import { Link } from 'react-router-dom'
 import { useSEO } from '../hooks/useSEO'
 import { webPageSchema, breadcrumbSchema } from '../utils/seoSchemas'
+import { assetUrl } from '../utils/assetUrl'
 
 const benefits = [
   {
@@ -405,7 +406,7 @@ export default function Membership() {
               </svg>
             </Link>
             <a
-              href="/images/1029/digital_-spe_membership_brochure_2026-27.pdf"
+              href={assetUrl('/images/1029/digital_-spe_membership_brochure_2026-27.pdf')}
               target="_blank"
               rel="noopener noreferrer"
               className="inline-flex items-center gap-2 text-white/80 hover:text-white font-medium transition-colors"
