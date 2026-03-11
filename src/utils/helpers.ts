@@ -1,3 +1,5 @@
+import { assetUrl } from './assetUrl'
+
 export function formatDate(dateStr: string): string {
   if (!dateStr) return ''
   try {
@@ -91,9 +93,13 @@ export function resolveImageUrl(src: string | undefined): string | undefined {
   if (!src) return undefined
   // Already an absolute URL — leave as-is
   if (src.startsWith('http://') || src.startsWith('https://')) return src
-  // Local CMS asset path → resolve to live site
   if (src.startsWith('/images/')) {
-    return SPE_ASSET_BASE + src.replace(/^\/images/, '')
+    // CMS asset paths follow /images/{numericId}/filename — resolve to live site
+    if (/^\/images\/\d+\//.test(src)) {
+      return SPE_ASSET_BASE + src.replace(/^\/images/, '')
+    }
+    // Local-only asset in public/images/ — prefix with Vite base URL
+    return assetUrl(src)
   }
   return src
 }
