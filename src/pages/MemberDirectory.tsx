@@ -214,6 +214,7 @@ export default function MemberDirectory() {
               <input
                 type="text"
                 placeholder="Search organisations…"
+                aria-label="Search organisations"
                 value={search}
                 onChange={e => { setSearch(e.target.value); setActiveLetter(null) }}
                 className="w-full pl-10 pr-4 py-2 rounded-lg border border-spe-divider/40 bg-spe-bg-alt text-sm text-spe-ink placeholder:text-spe-grey/60 focus:outline-none focus:ring-2 focus:ring-spe-blue/30 focus:border-spe-blue/50 transition-all"

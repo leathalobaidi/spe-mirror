@@ -73,6 +73,7 @@ export default function BookReviews() {
                 value={searchQuery}
                 onChange={(e) => setSearchQuery(e.target.value)}
                 placeholder="Search by title, author, or reviewer..."
+                aria-label="Search book reviews"
                 className="w-full pl-10 pr-4 py-2.5 text-sm border border-spe-divider/50 rounded-lg bg-spe-paper/50 focus:outline-none focus:bg-white focus:border-spe-blue/30 transition-colors"
               />
             </div>
@@ -81,6 +82,7 @@ export default function BookReviews() {
               <select
                 value={selectedYear || ''}
                 onChange={(e) => setSelectedYear(e.target.value ? Number(e.target.value) : null)}
+                aria-label="Filter by year"
                 className="px-3 py-2.5 text-sm border border-spe-divider/50 rounded-lg bg-white focus:outline-none focus:border-spe-blue/30 cursor-pointer"
               >
                 <option value="">All years</option>

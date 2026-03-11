@@ -81,6 +81,7 @@ export default function NewsDetail() {
             <img
               src={resolveImageUrl(article.bannerImage)}
               alt={article.title}
+              fetchPriority="high"
               className="w-full h-full object-cover"
             />
           </div>

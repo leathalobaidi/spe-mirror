@@ -158,6 +158,7 @@ export default function EventDetail() {
           <img
             src={resolveImageUrl(event.images[0])}
             alt={event.title}
+            fetchPriority="high"
             className="w-full rounded-xl mb-8 shadow-sm"
           />
         )}
