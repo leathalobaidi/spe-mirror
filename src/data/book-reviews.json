@@ -86,7 +86,11 @@
     "images": [
       "/images/14983/how_countries_go_broke.500x0.jpg"
     ],
-    "topics": []
+    "topics": [
+      "Monetary Policy",
+      "Fiscal Policy",
+      "Housing"
+    ]
   },
   {
     "slug": "how-progress-ends-technology-innovation-and-the-fate-of-nations",
@@ -114,7 +118,11 @@
     "images": [
       "/images/14978/money-_a_story_of_humanity.500x0.jpg"
     ],
-    "topics": []
+    "topics": [
+      "Economic History",
+      "Technology",
+      "Economic Measurement"
+    ]
   },
   {
     "slug": "multicurrency-mercantilism",
@@ -308,7 +316,11 @@
     "images": [
       "/images/14422/equality.0x420.webp"
     ],
-    "topics": []
+    "topics": [
+      "Inequality",
+      "Economic Measurement",
+      "Trade & Globalisation"
+    ]
   },
   {
     "slug": "one-dollar",
@@ -413,7 +425,11 @@
     "images": [
       "/images/14419/the_real_economy.0x420.webp"
     ],
-    "topics": []
+    "topics": [
+      "Economic Measurement",
+      "Economic History",
+      "Labour Markets"
+    ]
   },
   {
     "slug": "the-world-under-capitalism",
@@ -473,7 +489,11 @@
     "images": [
       "/images/14316/kaput.500x0.jpeg"
     ],
-    "topics": []
+    "topics": [
+      "Geopolitics",
+      "Economic Measurement",
+      "Labour Markets"
+    ]
   },
   {
     "slug": "king-dollar",
@@ -561,7 +581,11 @@
     "images": [
       "/images/14315/uncertainty.500x0.jpeg"
     ],
-    "topics": []
+    "topics": [
+      "Economic Measurement",
+      "Housing",
+      "Economic History"
+    ]
   },
   {
     "slug": "the-corporation-in-the-21st-century",
@@ -574,7 +598,11 @@
     "images": [
       "/images/14305/the_corporation_pic.500x0.jpeg"
     ],
-    "topics": []
+    "topics": [
+      "Housing",
+      "Economic Measurement",
+      "Careers & Profession"
+    ]
   },
   {
     "slug": "the-data-economy",
@@ -602,7 +630,11 @@
     "images": [
       "/images/14311/laissez_faire.500x0.jpeg"
     ],
-    "topics": []
+    "topics": [
+      "Public Policy",
+      "Economic History",
+      "Health"
+    ]
   },
   {
     "slug": "the-measure-of-progress",
@@ -630,7 +662,11 @@
     "images": [
       "/images/14303/the_paradox_of_debt_pic.500x0.jpeg"
     ],
-    "topics": []
+    "topics": [
+      "Macroeconomics",
+      "Economic Measurement",
+      "Financial Markets"
+    ]
   },
   {
     "slug": "what",
@@ -658,7 +694,11 @@
     "images": [
       "/images/12839/the_world_in_17_dishes.500x0.jpeg"
     ],
-    "topics": []
+    "topics": [
+      "Economic Measurement",
+      "Economic History",
+      "Public Policy"
+    ]
   },
   {
     "slug": "goodbye-globalisation",
@@ -702,7 +742,11 @@
     "images": [
       "/images/12844/how_to_think_like_an_economist.500x0.jpeg"
     ],
-    "topics": []
+    "topics": [
+      "Geopolitics",
+      "Careers & Profession",
+      "Economic History"
+    ]
   },
   {
     "slug": "industrial-policy-for-the-united-states",
@@ -715,7 +759,11 @@
     "images": [
       "/images/12845/industrial_policy_for_the_united_states.500x0.jpeg"
     ],
-    "topics": []
+    "topics": [
+      "Trade & Globalisation",
+      "Geopolitics",
+      "Labour Markets"
+    ]
   },
   {
     "slug": "inside-thatcherss-monetarism-experiment",
@@ -852,7 +900,11 @@
     "images": [
       "/images/12303/economist_goes_to_game.500x0.jpeg"
     ],
-    "topics": []
+    "topics": [
+      "Careers & Profession",
+      "Geopolitics",
+      "Economic Measurement"
+    ]
   },
   {
     "slug": "breaking-the-mold",
@@ -865,7 +917,11 @@
     "images": [
       "/images/12299/breaking_the_mold.500x0.jpeg"
     ],
-    "topics": []
+    "topics": [
+      "Geopolitics",
+      "Trade & Globalisation",
+      "Economic Measurement"
+    ]
   },
   {
     "slug": "growth-a-reckoning",
@@ -908,7 +964,11 @@
     "images": [
       "/images/12301/the_market_mind.500x0.jpeg"
     ],
-    "topics": []
+    "topics": [
+      "Financial Markets",
+      "Economic Measurement",
+      "Trade & Globalisation"
+    ]
   },
   {
     "slug": "the-road-to-freedom",
@@ -966,7 +1026,11 @@
     "images": [
       "/images/12300/vassal_state.500x0.jpeg"
     ],
-    "topics": []
+    "topics": [
+      "Economic Measurement",
+      "Public Policy",
+      "Technology"
+    ]
   },
   {
     "slug": "any-happy-returns",
@@ -1024,7 +1088,11 @@
     "images": [
       "/images/12220/influence_empire.500x0.jpg"
     ],
-    "topics": []
+    "topics": [
+      "Geopolitics",
+      "Economic Measurement",
+      "Technology"
+    ]
   },
   {
     "slug": "legacy",
@@ -1130,7 +1198,11 @@
     "images": [
       "/images/12222/womeneconomics.500x0.jpg"
     ],
-    "topics": []
+    "topics": [
+      "Careers & Profession",
+      "Monetary Policy",
+      "Geopolitics"
+    ]
   },
   {
     "slug": "a-crash-course-on-crises",
@@ -1189,7 +1261,11 @@
     "images": [
       "/images/12122/economics_in_america_image_24112023.500x0.jpeg"
     ],
-    "topics": []
+    "topics": [
+      "Inequality",
+      "Trade & Globalisation",
+      "Careers & Profession"
+    ]
   },
   {
     "slug": "the-economic-government-of-the-world-1933-2003",
@@ -1263,7 +1339,11 @@
     "images": [
       "/images/12130/image_understanding_economics.500x0.jpeg"
     ],
-    "topics": []
+    "topics": [
+      "Economic Measurement",
+      "Careers & Profession",
+      "Geopolitics"
+    ]
   },
   {
     "slug": "zero-interest-policy-and-the-new-abnormal",
@@ -1325,7 +1405,11 @@
     "images": [
       "/images/11469/how_economics_can_save_us.500x0.jpg"
     ],
-    "topics": []
+    "topics": [
+      "Careers & Profession",
+      "Economic Measurement",
+      "Public Policy"
+    ]
   },
   {
     "slug": "power-and-progress",
@@ -1431,7 +1515,11 @@
     "images": [
       "/images/11371/tyranny.500x0.jpg"
     ],
-    "topics": []
+    "topics": [
+      "Macroeconomics",
+      "Economic Measurement",
+      "Labour Markets"
+    ]
   },
   {
     "slug": "follow-the-money",
@@ -1520,7 +1608,11 @@
     "images": [
       "/images/11366/power_influence.500x0.jpg"
     ],
-    "topics": []
+    "topics": [
+      "Careers & Profession",
+      "Monetary Policy",
+      "Economic Measurement"
+    ]
   },
   {
     "slug": "the-gender-of-capital",
@@ -1731,7 +1823,11 @@
     "images": [
       "/images/11251/why_the_west.500x0.jpg"
     ],
-    "topics": []
+    "topics": [
+      "Geopolitics",
+      "Macroeconomics",
+      "Trade & Globalisation"
+    ]
   },
   {
     "slug": "a-brief-history-of-equality",
@@ -1790,7 +1886,11 @@
     "images": [
       "/images/10697/good_for_growth.500x0.jpg"
     ],
-    "topics": []
+    "topics": [
+      "Climate & Energy",
+      "Careers & Profession",
+      "Economic Measurement"
+    ]
   },
   {
     "slug": "raising-keynes",
@@ -1910,7 +2010,11 @@
     "images": [
       "/images/10581/remembering.500x0.jpg"
     ],
-    "topics": []
+    "topics": [
+      "Banking",
+      "Economic History",
+      "Economic Measurement"
+    ]
   },
   {
     "slug": "six-faces-of-globalization",
@@ -2015,7 +2119,11 @@
     "images": [
       "/images/10579/manifesto.500x0.jpg"
     ],
-    "topics": []
+    "topics": [
+      "Economic Measurement",
+      "Banking",
+      "Financial Markets"
+    ]
   },
   {
     "slug": "the-resilient-society",
@@ -2028,7 +2136,11 @@
     "images": [
       "/images/10580/resilient.500x0.jpg"
     ],
-    "topics": []
+    "topics": [
+      "Health",
+      "Trade & Globalisation",
+      "Economic Measurement"
+    ]
   },
   {
     "slug": "the-voltage-effect",
@@ -2086,7 +2198,11 @@
     "images": [
       "/images/10482/cogs_and_monsters.500x0.jpg"
     ],
-    "topics": []
+    "topics": [
+      "Economic Measurement",
+      "Technology",
+      "Health"
+    ]
   },
   {
     "slug": "if-then-how-one-data-company-invented-the-future",
@@ -2114,7 +2230,11 @@
     "images": [
       "/images/10480/kochland.500x0.jpg"
     ],
-    "topics": []
+    "topics": [
+      "Economic Measurement",
+      "Technology",
+      "Geopolitics"
+    ]
   },
   {
     "slug": "nudge-the-final-edition",
@@ -2142,7 +2262,11 @@
     "images": [
       "/images/10481/future_of_money.500x0.jpg"
     ],
-    "topics": []
+    "topics": [
+      "Banking",
+      "Monetary Policy",
+      "Trade & Globalisation"
+    ]
   },
   {
     "slug": "the-magic-money-tree",
@@ -2264,7 +2388,11 @@
     "images": [
       "/images/8699/how_boards_work.500x0.jpg"
     ],
-    "topics": []
+    "topics": [
+      "Economic Measurement",
+      "Trade & Globalisation",
+      "Housing"
+    ]
   },
   {
     "slug": "profit-and-prejudice",
@@ -2277,7 +2405,11 @@
     "images": [
       "/images/8702/profit_and_prejudice.500x0.jpg"
     ],
-    "topics": []
+    "topics": [
+      "Economic Measurement",
+      "Labour Markets",
+      "Careers & Profession"
+    ]
   },
   {
     "slug": "prosperity",
@@ -2290,7 +2422,11 @@
     "images": [
       "/images/8703/prosperity.500x0.jpg"
     ],
-    "topics": []
+    "topics": [
+      "Economic Measurement",
+      "Housing",
+      "Labour Markets"
+    ]
   },
   {
     "slug": "stolen-heritage",
@@ -2365,7 +2501,11 @@
     "images": [
       "/images/8560/angry.500x0.jpg"
     ],
-    "topics": []
+    "topics": [
+      "Geopolitics",
+      "Health",
+      "Economic Measurement"
+    ]
   },
   {
     "slug": "capital-wars",
@@ -2596,7 +2736,11 @@
     "images": [
       "/images/7819/greed.500x0.jpg"
     ],
-    "topics": []
+    "topics": [
+      "Careers & Profession",
+      "Economic Measurement",
+      "Housing"
+    ]
   },
   {
     "slug": "how-to-make-the-world-add-up",
@@ -2762,7 +2906,11 @@
     "images": [
       "/images/7610/slowdown.500x0.jpg"
     ],
-    "topics": []
+    "topics": [
+      "Macroeconomics",
+      "Economic Measurement",
+      "Technology"
+    ]
   },
   {
     "slug": "the-deficit-myth",
@@ -2836,7 +2984,11 @@
     "images": [
       "/images/7452/bloomberg.500x0.jpg"
     ],
-    "topics": []
+    "topics": [
+      "Financial Markets",
+      "Trade & Globalisation",
+      "Geopolitics"
+    ]
   },
   {
     "slug": "central-banking-in-turbulent-times",
@@ -2865,7 +3017,11 @@
     "images": [
       "/images/7447/extreme_economies.500x0.jpg"
     ],
-    "topics": []
+    "topics": [
+      "Economic Measurement",
+      "Public Policy",
+      "Trade & Globalisation"
+    ]
   },
   {
     "slug": "gaming-trade",
@@ -3061,7 +3217,11 @@
     "images": [
       "/images/7318/financial_models.500x0.jpg"
     ],
-    "topics": []
+    "topics": [
+      "Economic Measurement",
+      "Geopolitics",
+      "Careers & Profession"
+    ]
   },
   {
     "slug": "forecasting-an-essential-introduction",
@@ -3090,7 +3250,11 @@
     "images": [
       "/images/7317/61q1agmtxxl.500x0.jpg"
     ],
-    "topics": []
+    "topics": [
+      "Fiscal Policy",
+      "Economic History",
+      "Careers & Profession"
+    ]
   },
   {
     "slug": "nine-crises",
@@ -3413,7 +3577,11 @@
     "images": [
       "/images/5373/uncertain.500x0.jpg"
     ],
-    "topics": []
+    "topics": [
+      "Monetary Policy",
+      "Economic History",
+      "Careers & Profession"
+    ]
   },
   {
     "slug": "unelected-power",
@@ -3486,7 +3654,11 @@
     "images": [
       "/images/5268/econ_profs.500x0.jpg"
     ],
-    "topics": []
+    "topics": [
+      "Economic Measurement",
+      "Trade & Globalisation",
+      "Careers & Profession"
+    ]
   },
   {
     "slug": "populism-and-economics",
@@ -3533,7 +3705,11 @@
     "images": [
       "/images/5267/reputation.500x0.jpg"
     ],
-    "topics": []
+    "topics": [
+      "Economic Measurement",
+      "Trade & Globalisation",
+      "Careers & Profession"
+    ]
   },
   {
     "slug": "the-growth-delusion",
@@ -3576,7 +3752,11 @@
     "images": [
       "/images/5263/9780141980768.500x0.jpg"
     ],
-    "topics": []
+    "topics": [
+      "Financial Markets",
+      "Economic History",
+      "Economic Measurement"
+    ]
   },
   {
     "slug": "after-the-flood",
@@ -3649,7 +3829,11 @@
     "images": [
       "/images/5079/global_currencies.500x0.jpg"
     ],
-    "topics": []
+    "topics": [
+      "Geopolitics",
+      "Banking",
+      "Trade & Globalisation"
+    ]
   },
   {
     "slug": "the-myth-of-independence",
@@ -3678,7 +3862,11 @@
     "images": [
       "/images/5078/pp.500x0.jpg"
     ],
-    "topics": []
+    "topics": [
+      "Trade & Globalisation",
+      "Geopolitics",
+      "Labour Markets"
+    ]
   },
   {
     "slug": "the-weaponization-of-trade",
@@ -3800,7 +3988,11 @@
     "images": [
       "/images/4846/cents.500x0.jpg"
     ],
-    "topics": []
+    "topics": [
+      "Economic Measurement",
+      "Monetary Policy",
+      "Careers & Profession"
+    ]
   },
   {
     "slug": "inside-job",
@@ -3858,7 +4050,11 @@
     "images": [
       "/images/4841/contradictions.500x0.jpg"
     ],
-    "topics": []
+    "topics": [
+      "Inequality",
+      "Economic Measurement",
+      "Housing"
+    ]
   },
   {
     "slug": "the-wisdom-of-finance",
@@ -3871,7 +4067,11 @@
     "images": [
       "/images/4840/wisdom.500x0.jpg"
     ],
-    "topics": []
+    "topics": [
+      "Geopolitics",
+      "Financial Markets",
+      "Economic Measurement"
+    ]
   },
   {
     "slug": "virtual-competition",
@@ -4124,7 +4324,11 @@
     "images": [
       "/images/4630/99_essential.500x0.jpg"
     ],
-    "topics": []
+    "topics": [
+      "Economic Measurement",
+      "Careers & Profession",
+      "Fiscal Policy"
+    ]
   },
   {
     "slug": "the-curse-of-cash",
@@ -4228,7 +4432,11 @@
     "images": [
       "/images/4533/capital_without_borders.500x0.jpg"
     ],
-    "topics": []
+    "topics": [
+      "Inequality",
+      "Economic Measurement",
+      "Geopolitics"
+    ]
   },
   {
     "slug": "legislating-instability",
@@ -4271,7 +4479,11 @@
     "images": [
       "/images/4539/progress_10_reasons.500x0.jpg"
     ],
-    "topics": []
+    "topics": [
+      "Geopolitics",
+      "Health",
+      "Public Policy"
+    ]
   },
   {
     "slug": "strained-relations",
@@ -4344,7 +4556,11 @@
     "images": [
       "/images/4534/market_as_god.500x0.jpg"
     ],
-    "topics": []
+    "topics": [
+      "Economic Measurement",
+      "Trade & Globalisation",
+      "Geopolitics"
+    ]
   },
   {
     "slug": "the-political-origins-of-inequality",
@@ -4372,7 +4588,11 @@
     "images": [
       "/images/4538/the_price_of_prosperity.500x0.jpg"
     ],
-    "topics": []
+    "topics": [
+      "Economic Measurement",
+      "Trade & Globalisation",
+      "Labour Markets"
+    ]
   },
   {
     "slug": "the-wealth-of-humans",
@@ -4385,7 +4605,11 @@
     "images": [
       "/images/4541/the_wealth_of_humans.500x0.jpg"
     ],
-    "topics": []
+    "topics": [
+      "Technology",
+      "Labour Markets",
+      "Trade & Globalisation"
+    ]
   },
   {
     "slug": "welcome-to-the-poisoned-chalice",
@@ -4398,7 +4622,11 @@
     "images": [
       "/images/4537/poisoned_chalice.500x0.jpg"
     ],
-    "topics": []
+    "topics": [
+      "Fiscal Policy",
+      "Economic Measurement",
+      "Financial Markets"
+    ]
   },
   {
     "slug": "what-they-do-with-your-money",
@@ -4411,7 +4639,11 @@
     "images": [
       "/images/4542/what_they_do_with_your_money.500x0.jpg"
     ],
-    "topics": []
+    "topics": [
+      "Economic Measurement",
+      "Climate & Energy",
+      "Housing"
+    ]
   },
   {
     "slug": "chinas-next-strategic-advantage",
@@ -4456,7 +4688,11 @@
     "images": [
       "/images/4382/lehman_brothers.500x0.jpg"
     ],
-    "topics": []
+    "topics": [
+      "Economic Measurement",
+      "Banking",
+      "Financial Markets"
+    ]
   },
   {
     "slug": "policy-stability-and-economic-growth",
@@ -4725,7 +4961,11 @@
     "images": [
       "/images/4167/the_silo_effect.500x0.jpg"
     ],
-    "topics": []
+    "topics": [
+      "Economic Measurement",
+      "Financial Markets",
+      "Housing"
+    ]
   },
   {
     "slug": "classical-liberalism-a-primer",
@@ -4828,7 +5068,11 @@
     "images": [
       "/images/4017/something_will_turn_up.500x0.jpg"
     ],
-    "topics": []
+    "topics": [
+      "Labour Markets",
+      "Monetary Policy",
+      "Economic Measurement"
+    ]
   },
   {
     "slug": "the-lion-wakes",
@@ -5103,7 +5347,11 @@
     "images": [
       "/images/3772/how_to_speak_money.500x0.jpg"
     ],
-    "topics": []
+    "topics": [
+      "Economic Measurement",
+      "Inequality",
+      "Careers & Profession"
+    ]
   },
   {
     "slug": "money-blood-and-revolution",
@@ -5223,7 +5471,11 @@
     "images": [
       "/images/3119/wrong.500x0.jpg"
     ],
-    "topics": []
+    "topics": [
+      "Banking",
+      "Monetary Policy",
+      "Trade & Globalisation"
+    ]
   },
   {
     "slug": "double-entry",
@@ -5312,7 +5564,11 @@
     "images": [
       "/images/3023/dollar-trap.500x0.jpg"
     ],
-    "topics": []
+    "topics": [
+      "Economic Measurement",
+      "Financial Markets",
+      "Fiscal Policy"
+    ]
   },
   {
     "slug": "affluence-influence",
@@ -5325,7 +5581,11 @@
     "images": [
       "/images/2247/affluence_and_influence.500x0.jpg"
     ],
-    "topics": []
+    "topics": [
+      "Economic Measurement",
+      "Careers & Profession",
+      "Housing"
+    ]
   },
   {
     "slug": "first-principles-five-keys-to-restoring",
@@ -5398,7 +5658,11 @@
     "images": [
       "/images/3149/goodstrategybadstrategy.500x0.jpg"
     ],
-    "topics": []
+    "topics": [
+      "Economic Measurement",
+      "Geopolitics",
+      "Economic History"
+    ]
   },
   {
     "slug": "how-do-we-fix-this-mess",
@@ -5563,7 +5827,11 @@
     "images": [
       "/images/3160/paper_promises.500x0.jpg"
     ],
-    "topics": []
+    "topics": [
+      "Economic Measurement",
+      "Housing",
+      "Economic History"
+    ]
   },
   {
     "slug": "keynes-hayek",
@@ -5636,7 +5904,11 @@
     "images": [
       "/images/3165/the_fish_rots.500x0.jpg"
     ],
-    "topics": []
+    "topics": [
+      "Economic Measurement",
+      "Macroeconomics",
+      "Trade & Globalisation"
+    ]
   },
   {
     "slug": "the-bank-of-england-1950s-to-1979",
@@ -5665,7 +5937,11 @@
     "images": [
       "/images/3168/a_call_for_judgement.500x0.jpg"
     ],
-    "topics": []
+    "topics": [
+      "Banking",
+      "Financial Markets",
+      "Economic Measurement"
+    ]
   },
   {
     "slug": "global-challenges",

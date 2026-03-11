@@ -11,6 +11,7 @@ import PrevNextNav from '../components/PrevNextNav'
 import NotFound from './NotFound'
 import type { MediaEmbed as MediaEmbedType } from '../utils/media'
 import { getPodcastForDinner, getEssaysForDinner, getEventForDinnerReview, getNewsForDinnerReview, podcastLinkSlug, eventDetailPath } from '../utils/crossLinks'
+import RelatedByTopic from '../components/RelatedByTopic'
 import { getYear } from '../utils/helpers'
 
 export default function DinnerReviewDetail() {
@@ -106,6 +107,8 @@ export default function DinnerReviewDetail() {
         />
 
         <PdfDownloads pdfs={item.pdfLinks} />
+
+        <RelatedByTopic topics={(item as any).topics} currentSlug={item.slug} currentType="dinner-review" />
 
         {/* Cross-links to related content */}
         {item.date && (() => {

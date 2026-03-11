@@ -8,6 +8,7 @@ import Breadcrumbs from '../components/Breadcrumbs'
 import PrevNextNav from '../components/PrevNextNav'
 import NotFound from './NotFound'
 import { getSpeakerByName } from '../utils/speakerDirectory'
+import RelatedByTopic from '../components/RelatedByTopic'
 
 export default function BlogDetail() {
   const { slug } = useParams()
@@ -87,6 +88,8 @@ export default function BlogDetail() {
           className="prose prose-lg max-w-none prose-headings:font-serif prose-headings:text-spe-ink prose-a:text-spe-blue prose-a:no-underline hover:prose-a:underline prose-img:rounded-lg prose-p:leading-relaxed"
           dangerouslySetInnerHTML={{ __html: sanitiseBodyHtml(bodyHtml) }}
         />
+
+        <RelatedByTopic topics={(post as any).topics} currentSlug={post.slug} currentType="blog" />
 
         {/* Share */}
         <ShareButtons title={post.title} />

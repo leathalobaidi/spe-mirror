@@ -10,6 +10,7 @@ import PrevNextNav from '../components/PrevNextNav'
 import NotFound from './NotFound'
 import type { MediaEmbed as MediaEmbedType } from '../utils/media'
 import { getDinnerForEssay, getEventForEssay, getNewsForEssay, getPodcastForEssay, podcastLinkSlug, eventDetailPath } from '../utils/crossLinks'
+import RelatedByTopic from '../components/RelatedByTopic'
 
 export default function RybEssayDetail() {
   const { slug } = useParams()
@@ -89,6 +90,8 @@ export default function RybEssayDetail() {
           className="prose prose-lg max-w-none prose-headings:font-serif prose-headings:text-spe-ink prose-a:text-spe-blue prose-a:no-underline hover:prose-a:underline prose-img:rounded-lg prose-p:leading-relaxed"
           dangerouslySetInnerHTML={{ __html: sanitiseBodyHtml(bodyHtml) }}
         />
+
+        <RelatedByTopic topics={(item as any).topics} currentSlug={item.slug} currentType="ryb-essay" />
 
         {/* Cross-links to dinner, event, and news */}
         {(() => {

@@ -18,6 +18,10 @@ import dinnerReviewsData from '../data/dinner-reviews.json'
 import eventsData from '../data/events.json'
 import newsData from '../data/news.json'
 import bookReviewsIndexData from '../data/book-reviews-index.json'
+import articlesData from '../data/articles.json'
+import eveningTalksData from '../data/evening-talks.json'
+import conferenceReportsData from '../data/conference-reports.json'
+import blogsData from '../data/blogs.json'
 import { getYear } from './helpers'
 
 // ── Type aliases ─────────────────────────────────────────────────────────
@@ -28,6 +32,9 @@ type DinnerReviewEntry = (typeof dinnerReviewsData)[0]
 type EventEntry = (typeof eventsData)[0]
 type NewsEntry = (typeof newsData)[0]
 type BookReviewIndexEntry = (typeof bookReviewsIndexData)[0]
+type ArticleEntry = (typeof articlesData)[0]
+type EveningTalkEntry = (typeof eveningTalksData)[0]
+type ConferenceReportEntry = (typeof conferenceReportsData)[0]
 
 // ── Podcast lookup (dinner-review category, keyed by year) ──────────────
 
@@ -268,6 +275,51 @@ export function getNewsForPodcast(podcastCategory: string | undefined, podcastDa
   return dinnerNewsByYear.get(year)?.filter(m => m.type === 'dinner-recap') ?? []
 }
 
+// ── Content type enum for universal topic cross-links ────────────────────
+
+export type ContentType =
+  | 'article' | 'blog' | 'book-review' | 'conference-report' | 'dinner-review'
+  | 'evening-talk' | 'event' | 'news' | 'podcast' | 'ryb-essay'
+
+export type RelatedContentItem = {
+  title: string
+  slug: string
+  date?: string
+  contentType: ContentType
+}
+
+/** Path builder for each content type */
+export function contentTypePath(slug: string, type: ContentType): string {
+  switch (type) {
+    case 'article': return `/reading-room/articles/${slug}`
+    case 'blog': return `/blogs/${slug}`
+    case 'book-review': return `/reading-room/book-reviews/${slug}`
+    case 'conference-report': return `/reading-room/conference-reports/${slug}`
+    case 'dinner-review': return `/annual-dinner/${slug}`
+    case 'evening-talk': return `/events/evening-talks/${slug}`
+    case 'event': return `/events/${slug}`
+    case 'news': return `/news/${slug}`
+    case 'podcast': return `/podcasts/${slug}`
+    case 'ryb-essay': return `/reading-room/rybczynski-prize/${slug}`
+  }
+}
+
+/** Human-readable label for each content type */
+export function contentTypeLabel(type: ContentType): string {
+  switch (type) {
+    case 'article': return 'Article'
+    case 'blog': return 'Blog'
+    case 'book-review': return 'Book Review'
+    case 'conference-report': return 'Conference Report'
+    case 'dinner-review': return 'Dinner Review'
+    case 'evening-talk': return 'Evening Talk'
+    case 'event': return 'Event'
+    case 'news': return 'News'
+    case 'podcast': return 'Podcast'
+    case 'ryb-essay': return 'Rybczynski Essay'
+  }
+}
+
 /** Extract the route-friendly slug for podcast links */
 export function podcastLinkSlug(fullSlug: string) {
   return fullSlug
@@ -278,7 +330,7 @@ export function eventDetailPath(eventSlug: string) {
   return `/events/${eventSlug}`
 }
 
-// ── Topic-based cross-links (book reviews ↔ events ↔ podcasts) ──────────
+// ── Topic-based cross-links (universal, all content types) ──────────────
 
 function buildTopicIndex<T extends { topics?: string[] }>(data: T[]) {
   const map = new Map<string, T[]>()
@@ -342,4 +394,88 @@ export function getPodcastsForTopics(topics: string[], limit = 3) {
   // Most recent first
   results.sort((a, b) => (b.date ?? '').localeCompare(a.date ?? ''))
   return results.slice(0, limit)
+}
+
+// ── Universal topic index (all content types in one map) ────────────────
+
+type IndexedItem = { slug: string; title: string; date?: string; contentType: ContentType }
+
+function toIndexed<T extends { slug: string; title: string; date?: string; topics?: string[] }>(
+  data: T[], contentType: ContentType
+): (T & { contentType: ContentType })[] {
+  return data.map(d => ({ ...d, contentType }))
+}
+
+type BlogEntry = { slug: string; title: string; date?: string; topics?: string[] }
+
+const allIndexedContent: IndexedItem[][] = [
+  toIndexed(articlesData as (ArticleEntry & { topics?: string[] })[], 'article'),
+  toIndexed(blogsData as BlogEntry[], 'blog'),
+  toIndexed(bookReviewsIndexData, 'book-review'),
+  toIndexed(conferenceReportsData as (ConferenceReportEntry & { topics?: string[] })[], 'conference-report'),
+  toIndexed(dinnerReviewsData as (DinnerReviewEntry & { topics?: string[] })[], 'dinner-review'),
+  toIndexed(eveningTalksData as (EveningTalkEntry & { topics?: string[] })[], 'evening-talk'),
+  toIndexed(eventsData, 'event'),
+  toIndexed(newsData as (NewsEntry & { topics?: string[] })[], 'news'),
+  toIndexed(podcastsData, 'podcast'),
+  toIndexed(essaysData as (EssayEntry & { topics?: string[] })[], 'ryb-essay'),
+]
+
+const universalTopicIndex = new Map<string, IndexedItem[]>()
+for (const items of allIndexedContent) {
+  for (const item of items) {
+    const typedItem = item as unknown as { topics?: string[] } & IndexedItem
+    for (const topic of typedItem.topics ?? []) {
+      const existing = universalTopicIndex.get(topic) ?? []
+      existing.push({ slug: item.slug, title: item.title, date: item.date, contentType: item.contentType })
+      universalTopicIndex.set(topic, existing)
+    }
+  }
+}
+
+/**
+ * Find related content from ANY content type that shares topics.
+ * Excludes the current item and favours diversity across content types.
+ */
+export function getRelatedContentByTopic(
+  topics: string[],
+  currentSlug: string,
+  currentType: ContentType,
+  limit = 3
+): RelatedContentItem[] {
+  const seen = new Set<string>()
+  const results: RelatedContentItem[] = []
+
+  for (const topic of topics) {
+    for (const item of universalTopicIndex.get(topic) ?? []) {
+      const key = `${item.contentType}:${item.slug}`
+      if (item.slug === currentSlug && item.contentType === currentType) continue
+      if (seen.has(key)) continue
+      seen.add(key)
+      results.push(item)
+    }
+  }
+
+  // Sort: prefer different content types for diversity, then most recent
+  const typeCounts = new Map<ContentType, number>()
+  results.sort((a, b) => {
+    // Different content type from current gets priority
+    const aOther = a.contentType !== currentType ? 1 : 0
+    const bOther = b.contentType !== currentType ? 1 : 0
+    if (aOther !== bOther) return bOther - aOther
+    // Then by date (most recent first)
+    return (b.date ?? '').localeCompare(a.date ?? '')
+  })
+
+  // Pick with type diversity: max 2 from any single type
+  const picked: RelatedContentItem[] = []
+  for (const item of results) {
+    const count = typeCounts.get(item.contentType) ?? 0
+    if (count >= 2) continue
+    typeCounts.set(item.contentType, count + 1)
+    picked.push(item)
+    if (picked.length >= limit) break
+  }
+
+  return picked
 }

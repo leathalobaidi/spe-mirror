@@ -10,6 +10,7 @@ import PdfDownloads from '../components/PdfDownloads'
 import PrevNextNav from '../components/PrevNextNav'
 import NotFound from './NotFound'
 import type { MediaEmbed as MediaEmbedType } from '../utils/media'
+import RelatedByTopic from '../components/RelatedByTopic'
 
 export default function ConferenceReportDetail() {
   const { slug } = useParams()
@@ -95,6 +96,8 @@ export default function ConferenceReportDetail() {
         />
 
         <PdfDownloads pdfs={(item as any).pdfLinks} />
+
+        <RelatedByTopic topics={(item as any).topics} currentSlug={item.slug} currentType="conference-report" />
 
         <ShareButtons title={item.title} />
 

@@ -185,7 +185,11 @@
     "speakers": [
       "Speaker: César Hidalgo"
     ],
-    "topics": []
+    "topics": [
+      "Geopolitics",
+      "Economic Measurement",
+      "Technology"
+    ]
   },
   {
     "slug": "interview-with-tyler-cowen",
@@ -671,7 +675,11 @@
     "speakers": [
       "Speaker: Amity Shlaes"
     ],
-    "topics": []
+    "topics": [
+      "Economic History",
+      "Economic Measurement",
+      "Housing"
+    ]
   },
   {
     "slug": "why-britain-has-stagnated-and-what-can-we-do-about-it",
@@ -916,7 +924,9 @@
     "date": "2024-11-19",
     "category": "speaker-series",
     "body": "<div class=\"body_image_container image format_landscape \">\n\n<img class=\"body_image\" src=\"/site/assets/files/12883/us_panel_1.1200x0.jpg\" alt=\"\">\n\n\n<!-- Type: image  Size: nocrop  Sizeclass format_landscape -->\n\n\n</div>\n\n<p>On 19 November the SPE held a joint panel with Chatham House, discussing the outlook for US economic policy and implications for the global economy in a Trump 2.0 presidency.</p>\n\n<p><a href=\"https://www.chathamhouse.org/events/all/research-event/what-are-top-economic-priorities-new-us-president\">Click here</a> to watch recording.</p>\n\n<p>Thank you Chatham House for hosting this lively debate.</p>",
-    "topics": []
+    "topics": [
+      "Economic Measurement"
+    ]
   },
   {
     "slug": "2024-annual-conference-report",
@@ -1155,7 +1165,9 @@
     "speakers": [
       "Speaker: Matt Dillon, Arup"
     ],
-    "topics": []
+    "topics": [
+      "Careers & Profession"
+    ]
   },
   {
     "slug": "interview-with-jonathan-haskel",
@@ -1310,7 +1322,11 @@
       "/images/14344/239338_051.0x420.jpg",
       "/images/14344/239338_042.1200x0.jpg"
     ],
-    "topics": []
+    "topics": [
+      "Economic Measurement",
+      "Geopolitics",
+      "Monetary Policy"
+    ]
   },
   {
     "slug": "futureproofing-the-world-economy",
@@ -1428,7 +1444,9 @@
     "speakers": [
       "Speaker: Jon Danielsson about his book 'The Illusion of Control'"
     ],
-    "topics": []
+    "topics": [
+      "Careers & Profession"
+    ]
   },
   {
     "slug": "estimates-of-the-effects-of-quantitative-easing",
@@ -1507,7 +1525,9 @@
     "speakers": [
       "Speaker: David Owen, Saltmarsh Economics"
     ],
-    "topics": []
+    "topics": [
+      "Technology"
+    ]
   },
   {
     "slug": "we-need-to-talk-about-inflation",
@@ -1630,7 +1650,11 @@
         "url": "https://player.vimeo.com/video/791915398"
       }
     ],
-    "topics": [],
+    "topics": [
+      "Careers & Profession",
+      "Trade & Globalisation",
+      "Geopolitics"
+    ],
     "speakers": [
       "James Nixon",
       "Felicity Hannon",
@@ -1705,7 +1729,9 @@
     "speakers": [
       "Speaker: Jonathan Cribb"
     ],
-    "topics": []
+    "topics": [
+      "Technology"
+    ]
   },
   {
     "slug": "spe-annual-dinner-2022",
@@ -1766,7 +1792,11 @@
     "speakers": [
       "Speaker: Mark Cliffe"
     ],
-    "topics": []
+    "topics": [
+      "Climate & Energy",
+      "Banking",
+      "Careers & Profession"
+    ]
   },
   {
     "slug": "in-conversation-with-diane-coyle",
@@ -1786,7 +1816,10 @@
         "url": "https://www.youtube.com/watch?v=qPryMNnm9UM"
       }
     ],
-    "topics": []
+    "topics": [
+      "Macroeconomics",
+      "Careers & Profession"
+    ]
   },
   {
     "slug": "evening-meeting-fiscal-policy-lessons-from-the-pandemic",
@@ -1882,7 +1915,9 @@
       "Speaker: Kevin Daly",
       "Interviewer: Andrew Milligan"
     ],
-    "topics": []
+    "topics": [
+      "Technology"
+    ]
   },
   {
     "slug": "webinar-uk-outlook-for-2022",
@@ -1910,7 +1945,9 @@
     "date": "2022-01-07",
     "category": "speaker-series",
     "body": "<p>Interview with some of the shortlisted contenders of our Essay Competition.</p>\n<p><em>The original video content for this event is no longer available online.</em></p>",
-    "topics": []
+    "topics": [
+      "Technology"
+    ]
   },
   {
     "slug": "watch-prof-amelia-fletcher-in-conversation-with-ulrike-hotopp",
@@ -1929,7 +1966,10 @@
       "Speaker: Amelia Fletcher",
       "Interviewer: Ulrike Hotopp"
     ],
-    "topics": []
+    "topics": [
+      "Technology",
+      "Economic Measurement"
+    ]
   },
   {
     "slug": "webinar-has-covid-changed-the-labour-market-forever-and-how-should-policy-respon",
@@ -1959,7 +1999,9 @@
       "Speaker: Vicky Pryce",
       "Interviewer: Andrew Milligan"
     ],
-    "topics": []
+    "topics": [
+      "Technology"
+    ]
   },
   {
     "slug": "watch-fabio-natalucci-from-the-imf-in-conversation-with-andrew-milligan",
@@ -2047,7 +2089,9 @@
       "Speaker: Tim Congdon",
       "Interviewer: George Buckley"
     ],
-    "topics": []
+    "topics": [
+      "Technology"
+    ]
   },
   {
     "slug": "webinar-wellbeing-in-public-policy-decisions",
@@ -2100,7 +2144,9 @@
       "Speaker: Diane Coyle",
       "Interviewer: Andrew Milligan"
     ],
-    "topics": []
+    "topics": [
+      "Technology"
+    ]
   },
   {
     "slug": "webinar-the-impact-of-brexit-what-have-we-learned-so-far",
@@ -2176,7 +2222,9 @@
       "Speaker: Jim O'Neill",
       "Interviewer: Andrew Milligan"
     ],
-    "topics": []
+    "topics": [
+      "Technology"
+    ]
   },
   {
     "slug": "watch-jens-ulbrich-in-conversation-with-ulrike-hotopp",
@@ -2188,7 +2236,9 @@
       "Speaker: Jens Ulbrich",
       "Interviewer: Ulrike Hotopp"
     ],
-    "topics": []
+    "topics": [
+      "Technology"
+    ]
   },
   {
     "slug": "webinar-rethinking-the-economics-of-biodiversity",
@@ -2220,7 +2270,9 @@
       "Speaker: Elroy Dimson",
       "Interviewer: Andrew Milligan"
     ],
-    "topics": []
+    "topics": [
+      "Technology"
+    ]
   },
   {
     "slug": "watch-richard-hughes-in-conversation-with-andrew-milligan",
@@ -2255,7 +2307,9 @@
       "Speaker: Tim Ng",
       "Interviewer: Catherine Connolly"
     ],
-    "topics": []
+    "topics": [
+      "Technology"
+    ]
   },
   {
     "slug": "watch-prof-dalia-marin-in-conversation-with-andrew-milligan",
@@ -2267,7 +2321,9 @@
       "Speaker: Dalia Marin",
       "Interviewer: Andrew Milligan"
     ],
-    "topics": []
+    "topics": [
+      "Technology"
+    ]
   },
   {
     "slug": "webinar-how-should-governments-deal-with-the-postcovid-debt",
@@ -2343,7 +2399,9 @@
       "Speaker: Lionel Barber",
       "Interviewer: Kevin Daly"
     ],
-    "topics": []
+    "topics": [
+      "Technology"
+    ]
   },
   {
     "slug": "watch-fabio-natalucci-talk-to-andrew-milligan",
@@ -2355,7 +2413,9 @@
       "Speaker: Fabio Natalucci",
       "Interviewer: Andrew Milligan"
     ],
-    "topics": []
+    "topics": [
+      "Technology"
+    ]
   },
   {
     "slug": "watch-sarah-hewin-talk-to-andrew-milligan",
@@ -2489,7 +2549,9 @@
       "Speaker: Alan Winters",
       "Interviewer: Andrew Milligan"
     ],
-    "topics": []
+    "topics": [
+      "Technology"
+    ]
   },
   {
     "slug": "joint-spe-and-wen-webinar-behaviour-post-covid",
@@ -2559,7 +2621,9 @@
       "Speaker: Karen Horn",
       "Interviewer: Ulrike Hotopp"
     ],
-    "topics": []
+    "topics": [
+      "Technology"
+    ]
   },
   {
     "slug": "watch-prof-sir-richard-blundell-interview-with-andrew-milligan",
@@ -2664,7 +2728,9 @@
       "Speaker: Minouche Shafik",
       "Interviewer: Kevin Daly"
     ],
-    "topics": []
+    "topics": [
+      "Technology"
+    ]
   },
   {
     "slug": "watch-andy-haldane-interview-with-andrew-milligan",
@@ -2676,7 +2742,9 @@
       "Speaker: Andy Haldane",
       "Interviewer: Andrew Milligan"
     ],
-    "topics": []
+    "topics": [
+      "Technology"
+    ]
   },
   {
     "slug": "watch-brian-pearce-interview-with-andrew-milligan",
@@ -2774,7 +2842,9 @@
       "Speaker: Matthew Swindells",
       "Interviewer: Andrew Milligan"
     ],
-    "topics": []
+    "topics": [
+      "Technology"
+    ]
   },
   {
     "slug": "spe-webinar-levelling-up-is-hard-to-do",
@@ -2801,7 +2871,9 @@
       "Speaker: Ed Balls",
       "Interviewer: Kevin Daly"
     ],
-    "topics": []
+    "topics": [
+      "Technology"
+    ]
   },
   {
     "slug": "watch-interview-with-isabell-koske",
@@ -2809,7 +2881,9 @@
     "date": "2020-06-24",
     "category": "speaker-series",
     "body": "<p>Interview with <a href=\"/speakers/directory/isabell-koske\">Isabell Koske</a>.</p>\n<p><em>The original video content for this event is no longer available online.</em></p>",
-    "topics": [],
+    "topics": [
+      "Technology"
+    ],
     "speakers": [
       "Isabell Koske"
     ]
@@ -2873,7 +2947,9 @@
       "Speaker: Ece Özdemiroğlu",
       "Interviewer: Ulrike Hotopp"
     ],
-    "topics": []
+    "topics": [
+      "Technology"
+    ]
   },
   {
     "slug": "watch-sonja-gibbs-interview-with-andrew-milligan",
@@ -2929,7 +3005,9 @@
       "Speaker: Spencer Dale",
       "Interviewer: Andrew Milligan"
     ],
-    "topics": []
+    "topics": [
+      "Technology"
+    ]
   },
   {
     "slug": "watch-adam-posen-interview-with-andrew-milligan",
@@ -2963,7 +3041,9 @@
       "Speaker: Roman Frydman",
       "Interviewer: Andrew Milligan"
     ],
-    "topics": []
+    "topics": [
+      "Technology"
+    ]
   },
   {
     "slug": "hear-paul-ormerod-in-conversation-with-andrew-milligan",
@@ -3017,7 +3097,9 @@
       "Speaker: Alistair Darling",
       "Interviewer: SPE Chairman, Kevin Daly"
     ],
-    "topics": []
+    "topics": [
+      "Technology"
+    ]
   },
   {
     "slug": "sunil-krishnan-interviews-martin-wolf",
@@ -3025,7 +3107,9 @@
     "date": "2020-05-08",
     "category": "speaker-series",
     "body": "<p><a href=\"/speakers/directory/martin-wolf\">Martin Wolf</a> in conversation with <a href=\"/speakers/directory/sunil-krishnan\">Sunil Krishnan</a>.</p>\n<p><em>The original video content for this event is no longer available online.</em></p>",
-    "topics": [],
+    "topics": [
+      "Technology"
+    ],
     "speakers": [
       "Martin Wolf",
       "Sunil Krishnan"
@@ -3125,7 +3209,10 @@
     "speakers": [
       "Speaker: Bronwyn Curtis"
     ],
-    "topics": []
+    "topics": [
+      "Macroeconomics",
+      "Careers & Profession"
+    ]
   },
   {
     "slug": "podcast-ian-harwood-on-the-economic-impact-of-covid19",
@@ -3309,7 +3396,9 @@
     "speakers": [
       "Speaker: Yael Selfin"
     ],
-    "topics": []
+    "topics": [
+      "Careers & Profession"
+    ]
   },
   {
     "slug": "speaker-series-interview-with-sir-ivan-rogers",
@@ -3320,7 +3409,9 @@
     "speakers": [
       "Speaker: Ivan Rogers"
     ],
-    "topics": []
+    "topics": [
+      "Careers & Profession"
+    ]
   },
   {
     "slug": "speaker-series-interview-with-professor-rachel-griffith",
@@ -3338,7 +3429,9 @@
     "speakers": [
       "Speaker: Rachel Griffith"
     ],
-    "topics": []
+    "topics": [
+      "Careers & Profession"
+    ]
   },
   {
     "slug": "speaker-series-interview-with-randall-kroszner",
@@ -3356,7 +3449,11 @@
         "url": "https://soundcloud.com/sbe-audio-feed/randall-kroszner"
       }
     ],
-    "topics": []
+    "topics": [
+      "Careers & Profession",
+      "Macroeconomics",
+      "Geopolitics"
+    ]
   },
   {
     "slug": "careers-in-economics",
@@ -3377,7 +3474,9 @@
     "speakers": [
       "Speaker: Janet Henry and Osama Rahman"
     ],
-    "topics": []
+    "topics": [
+      "Careers & Profession"
+    ]
   },
   {
     "slug": "speaker-series-interview-with-jonathan-athow-and-jill-leyland",
@@ -3423,7 +3522,9 @@
         "url": "https://api.soundcloud.com/tracks/652513310?secret_token=s-DWIJJ"
       }
     ],
-    "topics": []
+    "topics": [
+      "Careers & Profession"
+    ]
   },
   {
     "slug": "spe-annual-dinner-2019",
@@ -3440,7 +3541,11 @@
       "/images/5436/199292_236.1200x720.jpg",
       "/images/5436/199292_351.1200x720.jpg"
     ],
-    "topics": []
+    "topics": [
+      "Economic Measurement",
+      "Geopolitics",
+      "Technology"
+    ]
   },
   {
     "slug": "brexit-countdown-scenarios-and-consequences",
@@ -3523,7 +3628,9 @@
       "Speaker: Prof David Vines",
       "Speaker: Prof Simon Wren-Lewis"
     ],
-    "topics": []
+    "topics": [
+      "Macroeconomics"
+    ]
   },
   {
     "slug": "machine-learning-and-economics",
@@ -3630,7 +3737,11 @@
     "speakers": [
       "Speaker: Stephanie Flanders, Head of Bloomberg Economics"
     ],
-    "topics": []
+    "topics": [
+      "Financial Markets",
+      "Geopolitics",
+      "Careers & Profession"
+    ]
   },
   {
     "slug": "rebecca-harding-talks-to-rain-newtonsmith",
@@ -3670,7 +3781,9 @@
     ],
     "category": "speaker-series",
     "body": "<div class='heading'>\n<h5 >19 June 2018 6.00pm</h5>\n<h1>Integenerational Fairness</h1>\n<h4 ><strong>Speaker: </strong><a href='/speakers/directory/torsten-bell'>Torsten Bell</a>, <span class='nobreak'>Director</span>, <span class='nobreak'>Resolution Foundation</span><br /><strong>Speaker: </strong>Sean O&#039;Grady, <span class='nobreak'>Deputy Managing Editor</span>, <span class='nobreak'>The Independent</span></h4 >\n</div>",
-    "topics": []
+    "topics": [
+      "Banking"
+    ]
   },
   {
     "slug": "spe-annual-dinner-2018",
@@ -3721,7 +3834,9 @@
     "speakers": [
       "Chair: Adrian Majumdar"
     ],
-    "topics": []
+    "topics": [
+      "Technology"
+    ]
   },
   {
     "slug": "shaping-monetary-policy-at-bank-of-england",
@@ -3810,7 +3925,11 @@
     "date": "2017-09-22",
     "category": "podcast",
     "body": "<p><a href=\"/speakers/directory/ashley-seager\">Ashley Seager</a> is the managing director of Sun4net Ltd, a company that develops solar energy projects and sells electricity back into the grid.</p>\n\n<p>Prior to setting up his solar business Ashley was an economics journalist for 20 years, spending 14 years at Reuters covering the energy markets (oil and solar) as well as economics, following which he was the Guardian’s economics correspondent until 2010. Between leaving journalism for solar, Ashley worked with Deutsche Bank using his expertise to redraft research reports into more digestible formats.</p>\n\n<p>We touch on a range of fascinating issues in this podcast, from the future of (economics) journalism, the development of solar projects in the UK, Germany and Africa, and the British government’s approach to solar power.</p>\n\n<div class=\"full\" style=\"margin:2em 0;\">\n\t\n\t</div>",
-    "topics": [],
+    "topics": [
+      "Climate & Energy",
+      "Geopolitics",
+      "Banking"
+    ],
     "speakers": [
       "Ashley Seager",
       "George Buckley"
@@ -3885,7 +4004,9 @@
         "url": "https://api.soundcloud.com/tracks/333023838?secret_token=s-DWIJJ"
       }
     ],
-    "topics": []
+    "topics": [
+      "Geopolitics"
+    ]
   },
   {
     "slug": "replay-britains-longterm-growth",
@@ -3954,7 +4075,9 @@
     "date": "2016-11-18",
     "category": "podcast",
     "body": "<p><a href=\"/speakers/directory/george-matlock\">George Matlock</a> chats to delegates to the 2016 SBE conference, including Dame <a href=\"/speakers/directory/deanne-julius\">DeAnne Julius</a>, <a href=\"/speakers/directory/speaker-andrew-milligan-obe-standard-life-investments\">Andrew Milligan</a> and Sir <a href=\"/speakers/directory/charles-bean\">Charles Bean</a>.</p>\n\n<div class=\"full\" style=\"margin:2em 0;\">\n\t\n\t</div>",
-    "topics": [],
+    "topics": [
+      "Careers & Profession"
+    ],
     "speakers": [
       "George Matlock",
       "DeAnne Julius",
@@ -3979,7 +4102,9 @@
         "url": "https://api.soundcloud.com/tracks/294261439?secret_token=s-DWIJJ"
       }
     ],
-    "topics": []
+    "topics": [
+      "Economic Measurement"
+    ]
   },
   {
     "slug": "spe-annual-dinner-2016",
@@ -3996,7 +4121,11 @@
       "/images/4404/169217_244.1200x720.jpg",
       "/images/4404/169217_046.1200x720.webp"
     ],
-    "topics": []
+    "topics": [
+      "Economic Measurement",
+      "Macroeconomics",
+      "Labour Markets"
+    ]
   },
   {
     "slug": "whats-the-british-productivity-problem",
@@ -4085,7 +4214,11 @@
       "/images/4192/159193_102.1200x720.webp",
       "/images/4192/159193_157.1200x720.jpg"
     ],
-    "topics": []
+    "topics": [
+      "Macroeconomics",
+      "Geopolitics",
+      "Labour Markets"
+    ]
   },
   {
     "slug": "2015-annual-conference-report",
@@ -4156,7 +4289,10 @@
     "speakers": [
       "Speaker: Lord Myners"
     ],
-    "topics": []
+    "topics": [
+      "Economic Measurement",
+      "Financial Markets"
+    ]
   },
   {
     "slug": "the-fiscal-outlook",
@@ -4305,7 +4441,9 @@
     ],
     "category": "speaker-series",
     "body": "<div class='heading'>\n<h5 >14 January 2014 </h5>\n<h1>Prospects for the UK economy</h1>\n<h4 ><strong>Michael Saunders</strong>, <span class='nobreak'>Citigroup</span><br /><strong><a href='/speakers/directory/jonathan-portes'>Jonathan Portes</a></strong>, <span class='nobreak'>NIESR</span></h4 >\n</div>",
-    "topics": []
+    "topics": [
+      "Macroeconomics"
+    ]
   },
   {
     "slug": "the-2013-sbe-annual-conference-report",
@@ -4338,6 +4476,10 @@
     ],
     "category": "speaker-series",
     "body": "<div class='heading'>\n<h5 >23 September 2013 </h5>\n<h1>SBE joint meeting with NABE</h1>\n<h4 ><strong>George Kahn</strong>, <span class='nobreak'>Vice President and Economist</span>, <span class=''>Federal Reserve Bank of Kansas City</span><br /><strong><a href='/speakers/directory/ian-shepherdson'>Ian Shepherdson</a></strong>, <span class='nobreak'>Chief Economist</span>, <span class='nobreak'>Pantheon Macroeconomics</span></h4 >\n</div>",
-    "topics": []
+    "topics": [
+      "Careers & Profession",
+      "Monetary Policy",
+      "Macroeconomics"
+    ]
   }
 ]

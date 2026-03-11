@@ -28,7 +28,11 @@
       "https://spe.org.uk/site/assets/files/14344/239338_051.0x420.jpg",
       "https://spe.org.uk/site/assets/files/14344/239338_042.1200x0.jpg"
     ],
-    "topics": []
+    "topics": [
+      "Economic Measurement",
+      "Geopolitics",
+      "Monetary Policy"
+    ]
   },
   {
     "slug": "annual-dinner-2022",
@@ -64,7 +68,11 @@
       "https://spe.org.uk/site/assets/files/5436/199292_236.1200x720.jpg",
       "https://spe.org.uk/site/assets/files/5436/199292_351.1200x720.jpg"
     ],
-    "topics": []
+    "topics": [
+      "Economic Measurement",
+      "Geopolitics",
+      "Technology"
+    ]
   },
   {
     "slug": "annual-dinner-2018",
@@ -113,7 +121,11 @@
         "text": "2016 Dinner booking form"
       }
     ],
-    "topics": []
+    "topics": [
+      "Economic Measurement",
+      "Macroeconomics",
+      "Labour Markets"
+    ]
   },
   {
     "slug": "the-sbe-annual-dinner-2015",
@@ -125,7 +137,11 @@
       "https://spe.org.uk/site/assets/files/4192/159193_102.1200x720.webp",
       "https://spe.org.uk/site/assets/files/4192/159193_157.1200x720.jpg"
     ],
-    "topics": []
+    "topics": [
+      "Macroeconomics",
+      "Geopolitics",
+      "Labour Markets"
+    ]
   },
   {
     "slug": "the-sbe-annual-dinner-2014",

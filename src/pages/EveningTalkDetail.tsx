@@ -11,6 +11,7 @@ import PrevNextNav from '../components/PrevNextNav'
 import NotFound from './NotFound'
 import type { MediaEmbed as MediaEmbedType } from '../utils/media'
 import { extractPeopleFromBody, getSpeakerByName } from '../utils/speakerDirectory'
+import RelatedByTopic from '../components/RelatedByTopic'
 
 export default function EveningTalkDetail() {
   const { slug } = useParams()
@@ -145,6 +146,8 @@ export default function EveningTalkDetail() {
         />
 
         <PdfDownloads pdfs={item.pdfLinks} />
+
+        <RelatedByTopic topics={(item as any).topics} currentSlug={item.slug} currentType="evening-talk" />
 
         {/* Share */}
         <ShareButtons title={item.title} />

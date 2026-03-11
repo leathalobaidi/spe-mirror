@@ -9,6 +9,7 @@ import PdfDownloads from '../components/PdfDownloads'
 import PrevNextNav from '../components/PrevNextNav'
 import NotFound from './NotFound'
 import { getDinnerContentForNews, getPodcastForDinner, podcastLinkSlug, eventDetailPath } from '../utils/crossLinks'
+import RelatedByTopic from '../components/RelatedByTopic'
 
 export default function NewsDetail() {
   const { slug } = useParams()
@@ -111,6 +112,8 @@ export default function NewsDetail() {
         )}
 
         <PdfDownloads pdfs={article.pdfLinks} />
+
+        <RelatedByTopic topics={(article as any).topics} currentSlug={article.slug} currentType="news" />
 
         {/* Cross-links for dinner/Rybczynski news */}
         {article.title && article.date && (() => {

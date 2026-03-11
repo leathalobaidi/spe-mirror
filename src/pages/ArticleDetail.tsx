@@ -10,6 +10,7 @@ import PrevNextNav from '../components/PrevNextNav'
 import NotFound from './NotFound'
 import type { MediaEmbed as MediaEmbedType } from '../utils/media'
 import { extractPeopleFromBody, getSpeakerByName } from '../utils/speakerDirectory'
+import RelatedByTopic from '../components/RelatedByTopic'
 
 export default function ArticleDetail() {
   const { slug } = useParams()
@@ -102,6 +103,8 @@ export default function ArticleDetail() {
         )}
         <div className="prose prose-lg max-w-none prose-headings:font-serif prose-headings:text-spe-ink prose-a:text-spe-blue prose-a:no-underline hover:prose-a:underline prose-img:rounded-lg prose-p:leading-relaxed"
           dangerouslySetInnerHTML={{ __html: sanitiseBodyHtml(bodyHtml) }} />
+
+        <RelatedByTopic topics={(item as any).topics} currentSlug={item.slug} currentType="article" />
 
         {/* Share */}
         <ShareButtons title={item.title} />
