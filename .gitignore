@@ -1,4 +1,11 @@
-.firecrawl/
-
+# Build output
 dist/
 node_modules/
+
+# Tool directories
+.firecrawl/
+.claude/
+
+# Local files
+cookies.txt
+tsconfig.tsbuildinfo
